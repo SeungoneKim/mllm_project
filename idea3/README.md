@@ -1,9 +1,4 @@
-# idea3 — splitting a document's evidence into complementary pieces
-
-Takes a MMLongBench-Doc question whose evidence sits on one page, finds where that
-evidence naturally comes apart, and re-expresses one half in the other modality.
-The result is a pair of pieces, written to disk separately, where neither piece is
-meant to answer the question on its own.
+# Analysis 3: synthetic complementary cases (Ideas 2 + 3)
 
 ```
 seed ─▶ inventory ─▶ split ─▶ render
