@@ -1,0 +1,15 @@
+# Page images, embeddings and the form images (regenerate with scan.py and build_form.py)
+cache/
+annotation/img/
+annotation.zip
+*.zip
+
+# Logs
+out/log_*.txt
+
+# Synthetic test outputs (random values, not results)
+tests/out_SYNTHETIC*/
+tests/exports_SYNTHETIC/
+
+__pycache__/
+*.pyc
