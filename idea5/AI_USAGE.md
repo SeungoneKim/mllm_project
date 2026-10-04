@@ -1,13 +1,16 @@
 DRAFT, to be edited by Seungone before it goes into the report.
 
-I used Claude Code (Claude Opus 5.5) for this analysis. It read our proposal and André's Idea 4 outputs, checked prior
-work (SimpleDoc, MLDocRAG, REAL-MM-RAG, RegionRAG) and helped me reframe Idea 5 so that it no longer overlaps Ideas 2
-and 3. A first look at André's 22 ColQwen misses, which Claude ran, showed that most were not look-alike pages, so we
-designed this analysis to test that premise on the full benchmark.
+I used Claude Code (Claude Opus 5.5) for Idea 5 and this analysis.
 
-Claude wrote the code in this folder (scan.py, attribute.py, cues.py, build_form.py, form_template.html, describe.py,
-score_desc.py, analyze_human.py), the synthetic tests, and this folder's README, following André's idea4 code for
-rendering, retrieval and the annotation form. I [describe what you reviewed, changed, ran and decided].
+- **Idea development.** After the proposal feedback (overlap with Ideas 2 and 3, no training, multimodality not
+  explained), I discussed several revisions with Claude Code. I rejected a look-alike-page describer (overlap with
+  the retrieval ideas), a learned zoom policy, and a page-level image-or-text router (too naive). I asked for the idea
+  to be grounded in the fusion lecture (redundancy, dominance, emergence, modulation, gated and residual fusion) and
+  checked, with example questions from the benchmark, whether the text layer alone already holds the answer. The
+  final idea (text layer plus text-conditioned residual visual tokens) and the hypotheses came out of that discussion.
+- **Code.** Claude Code wrote the code in this folder (common.py, coverage.py, sample.py, reader.py, score.py,
+  analyze.py, job_abci.sh) and this README, and I set up the Python environment and downloads on my gpu cluster, and submitted the
+  GPU jobs.
+- **Report.** I wrote the report in Korean and asked Claude Code to translate into English.
 
-The human annotations were written by [names] without AI assistance. Qwen2.5-VL-7B-Instruct wrote the machine baseline
-descriptions as part of the experiment.
+Qwen2.5-VL-7B-Instruct is part of the experiment: it answers the questions and writes the page transcriptions.

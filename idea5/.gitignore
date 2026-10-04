@@ -1,15 +1,9 @@
-# Page images, embeddings and the form images (regenerate with scan.py and build_form.py)
+# Page images (regenerate with sample.py)
 cache/
-annotation/img/
-annotation.zip
-*.zip
 
-# Logs
-out/log_*.txt
-
-# Synthetic test outputs (random values, not results)
-tests/out_SYNTHETIC*/
-tests/exports_SYNTHETIC/
+# Smoke-test outputs and job logs
+out/reader_smoke/
+*.o[0-9]*
 
 __pycache__/
 *.pyc

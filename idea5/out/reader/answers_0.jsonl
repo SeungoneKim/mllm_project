@@ -1,0 +1,81 @@
+{"qid": 912, "cond": "Q", "pred": "['John Doe', 'Jane Smith']", "lp_mean": -1.1966674327850342, "lp_sum": -29.91668701171875, "n_answer_tokens": 25, "aligned": true, "input_tokens": 84, "image_tokens": 0}
+{"qid": 915, "cond": "Q", "pred": "['Finance', 'Risk Management', 'Supply Chain', 'Technology']", "lp_mean": -3.0851383209228516, "lp_sum": -58.61762619018555, "n_answer_tokens": 19, "aligned": true, "input_tokens": 81, "image_tokens": 0}
+{"qid": 1046, "cond": "Q", "pred": "1.45", "lp_mean": -4.05450963973999, "lp_sum": -20.272546768188477, "n_answer_tokens": 5, "aligned": true, "input_tokens": 80, "image_tokens": 0}
+{"qid": 720, "cond": "Q", "pred": "25mm Sheeting", "lp_mean": -0.22533650696277618, "lp_sum": -1.1266825199127197, "n_answer_tokens": 5, "aligned": true, "input_tokens": 81, "image_tokens": 0}
+{"qid": 925, "cond": "Q", "pred": "18-29", "lp_mean": -0.7740607857704163, "lp_sum": -3.8703038692474365, "n_answer_tokens": 5, "aligned": true, "input_tokens": 79, "image_tokens": 0}
+{"qid": 930, "cond": "Q", "pred": "10", "lp_mean": -5.484866142272949, "lp_sum": -16.45459747314453, "n_answer_tokens": 3, "aligned": true, "input_tokens": 118, "image_tokens": 0}
+{"qid": 560, "cond": "Q", "pred": "3", "lp_mean": -4.747579097747803, "lp_sum": -4.747579097747803, "n_answer_tokens": 1, "aligned": true, "input_tokens": 68, "image_tokens": 0}
+{"qid": 194, "cond": "Q", "pred": "2", "lp_mean": -1.156125783920288, "lp_sum": -1.156125783920288, "n_answer_tokens": 1, "aligned": true, "input_tokens": 80, "image_tokens": 0}
+{"qid": 992, "cond": "Q", "pred": "Nanyang Technological University", "lp_mean": -2.529125213623047, "lp_sum": -10.116500854492188, "n_answer_tokens": 4, "aligned": true, "input_tokens": 70, "image_tokens": 0}
+{"qid": 912, "cond": "T", "pred": "['TANDON', 'OTHMER']", "lp_mean": -1.4354581832885742, "lp_sum": -35.88645553588867, "n_answer_tokens": 25, "aligned": true, "input_tokens": 394, "image_tokens": 0}
+{"qid": 915, "cond": "T", "pred": "['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']", "lp_mean": -0.0009967675432562828, "lp_sum": -0.0189385823905468, "n_answer_tokens": 19, "aligned": true, "input_tokens": 388, "image_tokens": 0}
+{"qid": 1046, "cond": "T", "pred": "1.32", "lp_mean": -3.4833035469055176, "lp_sum": -17.41651725769043, "n_answer_tokens": 5, "aligned": true, "input_tokens": 818, "image_tokens": 0}
+{"qid": 720, "cond": "T", "pred": "25mm Sheeting", "lp_mean": -0.243729829788208, "lp_sum": -1.21864914894104, "n_answer_tokens": 5, "aligned": true, "input_tokens": 88, "image_tokens": 0}
+{"qid": 925, "cond": "T", "pred": "Younger Republicans", "lp_mean": -1.2995824813842773, "lp_sum": -6.497912406921387, "n_answer_tokens": 5, "aligned": true, "input_tokens": 523, "image_tokens": 0}
+{"qid": 930, "cond": "T", "pred": "20", "lp_mean": -4.620700359344482, "lp_sum": -13.862100601196289, "n_answer_tokens": 3, "aligned": true, "input_tokens": 412, "image_tokens": 0}
+{"qid": 560, "cond": "T", "pred": "7", "lp_mean": -1.7464933395385742, "lp_sum": -1.7464933395385742, "n_answer_tokens": 1, "aligned": true, "input_tokens": 490, "image_tokens": 0}
+{"qid": 194, "cond": "T", "pred": "0", "lp_mean": -2.9830546379089355, "lp_sum": -2.9830546379089355, "n_answer_tokens": 1, "aligned": true, "input_tokens": 495, "image_tokens": 0}
+{"qid": 992, "cond": "T", "pred": "Nottingham Trent University", "lp_mean": -0.0008022292167879641, "lp_sum": -0.0032089168671518564, "n_answer_tokens": 4, "aligned": true, "input_tokens": 85, "image_tokens": 0}
+{"qid": 912, "cond": "X", "pred": "['Not provided']", "lp_mean": -1.2894058227539062, "lp_sum": -32.235145568847656, "n_answer_tokens": 25, "aligned": true, "input_tokens": 337, "image_tokens": 0}
+{"qid": 915, "cond": "X", "pred": "['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']", "lp_mean": -0.0006330161122605205, "lp_sum": -0.012027306482195854, "n_answer_tokens": 19, "aligned": true, "input_tokens": 452, "image_tokens": 0}
+{"qid": 1046, "cond": "X", "pred": "1.69", "lp_mean": -2.9996821880340576, "lp_sum": -14.998411178588867, "n_answer_tokens": 5, "aligned": true, "input_tokens": 885, "image_tokens": 0}
+{"qid": 720, "cond": "X", "pred": "25mm Sheeting", "lp_mean": -0.10993800312280655, "lp_sum": -0.5496900081634521, "n_answer_tokens": 5, "aligned": true, "input_tokens": 293, "image_tokens": 0}
+{"qid": 925, "cond": "X", "pred": "Ages 18-34", "lp_mean": -0.4944753348827362, "lp_sum": -2.472376585006714, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1171, "image_tokens": 0}
+{"qid": 930, "cond": "X", "pred": "29", "lp_mean": -3.911771774291992, "lp_sum": -11.735315322875977, "n_answer_tokens": 3, "aligned": true, "input_tokens": 678, "image_tokens": 0}
+{"qid": 560, "cond": "X", "pred": "8", "lp_mean": -0.1695617288351059, "lp_sum": -0.1695617288351059, "n_answer_tokens": 1, "aligned": true, "input_tokens": 930, "image_tokens": 0}
+{"qid": 194, "cond": "X", "pred": "1", "lp_mean": -0.5844270586967468, "lp_sum": -0.5844270586967468, "n_answer_tokens": 1, "aligned": true, "input_tokens": 546, "image_tokens": 0}
+{"qid": 992, "cond": "X", "pred": "Nottingham Trent University", "lp_mean": -0.0018074269173666835, "lp_sum": -0.007229707669466734, "n_answer_tokens": 4, "aligned": true, "input_tokens": 88, "image_tokens": 0}
+{"qid": 912, "cond": "I_hi", "pred": "['Not provided']", "lp_mean": -1.3036794662475586, "lp_sum": -32.59198760986328, "n_answer_tokens": 25, "aligned": true, "input_tokens": 1326, "image_tokens": 1247}
+{"qid": 915, "cond": "I_hi", "pred": "['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']", "lp_mean": -0.0033708333503454924, "lp_sum": -0.06404583156108856, "n_answer_tokens": 19, "aligned": true, "input_tokens": 1336, "image_tokens": 1260}
+{"qid": 1046, "cond": "I_hi", "pred": "3.00", "lp_mean": -3.44281268119812, "lp_sum": -17.21406364440918, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1315, "image_tokens": 1240}
+{"qid": 720, "cond": "I_hi", "pred": "No", "lp_mean": -0.16423745453357697, "lp_sum": -0.8211872577667236, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1298, "image_tokens": 1222}
+{"qid": 925, "cond": "I_hi", "pred": "Ages 18-34", "lp_mean": -0.19752714037895203, "lp_sum": -0.9876356720924377, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1314, "image_tokens": 1240}
+{"qid": 930, "cond": "I_hi", "pred": "63", "lp_mean": -4.608356952667236, "lp_sum": -13.82507038116455, "n_answer_tokens": 3, "aligned": true, "input_tokens": 1353, "image_tokens": 1240}
+{"qid": 560, "cond": "I_hi", "pred": "7", "lp_mean": -2.471125602722168, "lp_sum": -2.471125602722168, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1303, "image_tokens": 1240}
+{"qid": 194, "cond": "I_hi", "pred": "1", "lp_mean": -0.013958803378045559, "lp_sum": -0.013958803378045559, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1305, "image_tokens": 1230}
+{"qid": 992, "cond": "I_hi", "pred": "Nottingham Trent University", "lp_mean": -0.00048436972429044545, "lp_sum": -0.0019374788971617818, "n_answer_tokens": 4, "aligned": true, "input_tokens": 857, "image_tokens": 792}
+{"qid": 912, "cond": "I_lo", "pred": "['Not provided in the image']", "lp_mean": -1.3028446435928345, "lp_sum": -32.57111740112305, "n_answer_tokens": 25, "aligned": true, "input_tokens": 326, "image_tokens": 247}
+{"qid": 915, "cond": "I_lo", "pred": "['IA Co-source', 'IA outsourcing', 'IA Tech Audit', 'IA Advisory']", "lp_mean": -0.10815702378749847, "lp_sum": -2.054983377456665, "n_answer_tokens": 19, "aligned": true, "input_tokens": 323, "image_tokens": 247}
+{"qid": 1046, "cond": "I_lo", "pred": "1.37", "lp_mean": -3.6954591274261475, "lp_sum": -18.477294921875, "n_answer_tokens": 5, "aligned": true, "input_tokens": 327, "image_tokens": 252}
+{"qid": 720, "cond": "I_lo", "pred": "25mm Sheeting", "lp_mean": -0.11704564094543457, "lp_sum": -0.5852282047271729, "n_answer_tokens": 5, "aligned": true, "input_tokens": 328, "image_tokens": 252}
+{"qid": 925, "cond": "I_lo", "pred": "65+", "lp_mean": -1.0728057622909546, "lp_sum": -5.364028453826904, "n_answer_tokens": 5, "aligned": true, "input_tokens": 326, "image_tokens": 252}
+{"qid": 930, "cond": "I_lo", "pred": "35", "lp_mean": -3.071192502975464, "lp_sum": -9.213577270507812, "n_answer_tokens": 3, "aligned": true, "input_tokens": 365, "image_tokens": 252}
+{"qid": 560, "cond": "I_lo", "pred": "7", "lp_mean": -1.7868727445602417, "lp_sum": -1.7868727445602417, "n_answer_tokens": 1, "aligned": true, "input_tokens": 315, "image_tokens": 252}
+{"qid": 194, "cond": "I_lo", "pred": "1", "lp_mean": -0.34523823857307434, "lp_sum": -0.34523823857307434, "n_answer_tokens": 1, "aligned": true, "input_tokens": 309, "image_tokens": 234}
+{"qid": 992, "cond": "I_lo", "pred": "Nottingham Trent University", "lp_mean": -0.0006028877687640488, "lp_sum": -0.0024115510750561953, "n_answer_tokens": 4, "aligned": true, "input_tokens": 299, "image_tokens": 234}
+{"qid": 912, "cond": "TI_hi", "pred": "['unknown']", "lp_mean": -1.370732069015503, "lp_sum": -34.26830291748047, "n_answer_tokens": 25, "aligned": true, "input_tokens": 1650, "image_tokens": 1247}
+{"qid": 915, "cond": "TI_hi", "pred": "['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']", "lp_mean": -0.0008498748647980392, "lp_sum": -0.01614762283861637, "n_answer_tokens": 19, "aligned": true, "input_tokens": 1657, "image_tokens": 1260}
+{"qid": 1046, "cond": "TI_hi", "pred": "1.33", "lp_mean": -3.8548779487609863, "lp_sum": -19.274389266967773, "n_answer_tokens": 5, "aligned": true, "input_tokens": 2067, "image_tokens": 1240}
+{"qid": 720, "cond": "TI_hi", "pred": "25mm Sheeting is appropriate.", "lp_mean": -0.18464036285877228, "lp_sum": -0.9232017993927002, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1319, "image_tokens": 1222}
+{"qid": 925, "cond": "TI_hi", "pred": "Ages 18-34", "lp_mean": -0.21565964818000793, "lp_sum": -1.0782982110977173, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1772, "image_tokens": 1240}
+{"qid": 930, "cond": "TI_hi", "pred": "63", "lp_mean": -4.725688934326172, "lp_sum": -14.1770658493042, "n_answer_tokens": 3, "aligned": true, "input_tokens": 1661, "image_tokens": 1240}
+{"qid": 560, "cond": "TI_hi", "pred": "7", "lp_mean": -1.7423698902130127, "lp_sum": -1.7423698902130127, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1739, "image_tokens": 1240}
+{"qid": 194, "cond": "TI_hi", "pred": "1", "lp_mean": -0.022286903113126755, "lp_sum": -0.022286903113126755, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1734, "image_tokens": 1230}
+{"qid": 992, "cond": "TI_hi", "pred": "Nottingham Trent University", "lp_mean": -0.000727216072846204, "lp_sum": -0.002908864291384816, "n_answer_tokens": 4, "aligned": true, "input_tokens": 886, "image_tokens": 792}
+{"qid": 912, "cond": "TI_lo", "pred": "['TANDON', 'OTHMER']", "lp_mean": -1.4011510610580444, "lp_sum": -35.028778076171875, "n_answer_tokens": 25, "aligned": true, "input_tokens": 650, "image_tokens": 247}
+{"qid": 915, "cond": "TI_lo", "pred": "['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']", "lp_mean": -0.0009644748060964048, "lp_sum": -0.018325021490454674, "n_answer_tokens": 19, "aligned": true, "input_tokens": 644, "image_tokens": 247}
+{"qid": 1046, "cond": "TI_lo", "pred": "1.04", "lp_mean": -4.360074996948242, "lp_sum": -21.80037498474121, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1079, "image_tokens": 252}
+{"qid": 720, "cond": "TI_lo", "pred": "25mm Sheeting is appropriate.", "lp_mean": -0.1418517827987671, "lp_sum": -0.7092589139938354, "n_answer_tokens": 5, "aligned": true, "input_tokens": 349, "image_tokens": 252}
+{"qid": 925, "cond": "TI_lo", "pred": "Younger Republicans", "lp_mean": -0.5812509059906006, "lp_sum": -2.906254529953003, "n_answer_tokens": 5, "aligned": true, "input_tokens": 784, "image_tokens": 252}
+{"qid": 930, "cond": "TI_lo", "pred": "25", "lp_mean": -3.192753791809082, "lp_sum": -9.578261375427246, "n_answer_tokens": 3, "aligned": true, "input_tokens": 673, "image_tokens": 252}
+{"qid": 560, "cond": "TI_lo", "pred": "7", "lp_mean": -2.539186477661133, "lp_sum": -2.539186477661133, "n_answer_tokens": 1, "aligned": true, "input_tokens": 751, "image_tokens": 252}
+{"qid": 194, "cond": "TI_lo", "pred": "0", "lp_mean": -1.4383010864257812, "lp_sum": -1.4383010864257812, "n_answer_tokens": 1, "aligned": true, "input_tokens": 738, "image_tokens": 234}
+{"qid": 992, "cond": "TI_lo", "pred": "Nottingham Trent University", "lp_mean": -0.0009141702903434634, "lp_sum": -0.0036566811613738537, "n_answer_tokens": 4, "aligned": true, "input_tokens": 328, "image_tokens": 234}
+{"qid": 912, "cond": "M_lo", "pred": "['Janice', 'Michael']", "lp_mean": -1.3472825288772583, "lp_sum": -33.682064056396484, "n_answer_tokens": 25, "aligned": true, "input_tokens": 332, "image_tokens": 247}
+{"qid": 915, "cond": "M_lo", "pred": "['Financial Services', 'Healthcare', 'Manufacturing', 'Technology']", "lp_mean": -2.9206249713897705, "lp_sum": -55.49187469482422, "n_answer_tokens": 19, "aligned": true, "input_tokens": 329, "image_tokens": 247}
+{"qid": 1046, "cond": "M_lo", "pred": "3.50", "lp_mean": -4.173203945159912, "lp_sum": -20.866018295288086, "n_answer_tokens": 5, "aligned": true, "input_tokens": 333, "image_tokens": 252}
+{"qid": 720, "cond": "M_lo", "pred": "25mm Sheeting", "lp_mean": -0.11890659481287003, "lp_sum": -0.5945329666137695, "n_answer_tokens": 5, "aligned": true, "input_tokens": 334, "image_tokens": 252}
+{"qid": 925, "cond": "M_lo", "pred": "Ages 18-34", "lp_mean": -0.5048109889030457, "lp_sum": -2.524054765701294, "n_answer_tokens": 5, "aligned": true, "input_tokens": 332, "image_tokens": 252}
+{"qid": 930, "cond": "M_lo", "pred": "35", "lp_mean": -3.142732620239258, "lp_sum": -9.428197860717773, "n_answer_tokens": 3, "aligned": true, "input_tokens": 371, "image_tokens": 252}
+{"qid": 560, "cond": "M_lo", "pred": "5", "lp_mean": -2.865830898284912, "lp_sum": -2.865830898284912, "n_answer_tokens": 1, "aligned": true, "input_tokens": 321, "image_tokens": 252}
+{"qid": 194, "cond": "M_lo", "pred": "1", "lp_mean": -0.21643680334091187, "lp_sum": -0.21643680334091187, "n_answer_tokens": 1, "aligned": true, "input_tokens": 315, "image_tokens": 234}
+{"qid": 992, "cond": "M_lo", "pred": "Nottingham Trent University", "lp_mean": -0.0015884414315223694, "lp_sum": -0.0063537657260894775, "n_answer_tokens": 4, "aligned": true, "input_tokens": 305, "image_tokens": 234}
+{"qid": 912, "cond": "TM_lo", "pred": "['unknown']", "lp_mean": -1.3599467277526855, "lp_sum": -33.9986686706543, "n_answer_tokens": 25, "aligned": true, "input_tokens": 657, "image_tokens": 247}
+{"qid": 915, "cond": "TM_lo", "pred": "['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']", "lp_mean": -0.001108586206100881, "lp_sum": -0.02106313779950142, "n_answer_tokens": 19, "aligned": true, "input_tokens": 651, "image_tokens": 247}
+{"qid": 1046, "cond": "TM_lo", "pred": "1.33", "lp_mean": -3.083179235458374, "lp_sum": -15.41589641571045, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1086, "image_tokens": 252}
+{"qid": 720, "cond": "TM_lo", "pred": "25mm Sheeting is appropriate.", "lp_mean": -0.15850730240345, "lp_sum": -0.7925364971160889, "n_answer_tokens": 5, "aligned": true, "input_tokens": 356, "image_tokens": 252}
+{"qid": 925, "cond": "TM_lo", "pred": "Ages 18-34", "lp_mean": -0.3851110339164734, "lp_sum": -1.9255551099777222, "n_answer_tokens": 5, "aligned": true, "input_tokens": 791, "image_tokens": 252}
+{"qid": 930, "cond": "TM_lo", "pred": "15", "lp_mean": -3.454385757446289, "lp_sum": -10.363157272338867, "n_answer_tokens": 3, "aligned": true, "input_tokens": 680, "image_tokens": 252}
+{"qid": 560, "cond": "TM_lo", "pred": "7", "lp_mean": -1.854783535003662, "lp_sum": -1.854783535003662, "n_answer_tokens": 1, "aligned": true, "input_tokens": 758, "image_tokens": 252}
+{"qid": 194, "cond": "TM_lo", "pred": "1", "lp_mean": -0.16161604225635529, "lp_sum": -0.16161604225635529, "n_answer_tokens": 1, "aligned": true, "input_tokens": 745, "image_tokens": 234}
+{"qid": 992, "cond": "TM_lo", "pred": "Nottingham Trent University", "lp_mean": -0.0015603372594341636, "lp_sum": -0.006241349037736654, "n_answer_tokens": 4, "aligned": true, "input_tokens": 335, "image_tokens": 234}

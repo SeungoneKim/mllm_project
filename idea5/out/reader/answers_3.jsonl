@@ -1,0 +1,81 @@
+{"qid": 576, "cond": "Q", "pred": "2015", "lp_mean": -2.850775718688965, "lp_sum": -11.40310287475586, "n_answer_tokens": 4, "aligned": true, "input_tokens": 73, "image_tokens": 0}
+{"qid": 961, "cond": "Q", "pred": "Freezing", "lp_mean": -3.615619659423828, "lp_sum": -28.924957275390625, "n_answer_tokens": 8, "aligned": true, "input_tokens": 67, "image_tokens": 0}
+{"qid": 186, "cond": "Q", "pred": "65", "lp_mean": -1.9015991687774658, "lp_sum": -9.50799560546875, "n_answer_tokens": 5, "aligned": true, "input_tokens": 86, "image_tokens": 0}
+{"qid": 461, "cond": "Q", "pred": "4", "lp_mean": -2.0742833614349365, "lp_sum": -2.0742833614349365, "n_answer_tokens": 1, "aligned": true, "input_tokens": 72, "image_tokens": 0}
+{"qid": 171, "cond": "Q", "pred": "3", "lp_mean": -3.8649508953094482, "lp_sum": -11.594852447509766, "n_answer_tokens": 3, "aligned": true, "input_tokens": 86, "image_tokens": 0}
+{"qid": 44, "cond": "Q", "pred": "Analysis", "lp_mean": -1.0261061191558838, "lp_sum": -1.0261061191558838, "n_answer_tokens": 1, "aligned": true, "input_tokens": 76, "image_tokens": 0}
+{"qid": 20, "cond": "Q", "pred": "Population distribution.", "lp_mean": -7.957056999206543, "lp_sum": -47.742340087890625, "n_answer_tokens": 6, "aligned": true, "input_tokens": 68, "image_tokens": 0}
+{"qid": 556, "cond": "Q", "pred": "['Bank of America', 'Wells Fargo']", "lp_mean": -1.551889419555664, "lp_sum": -20.174562454223633, "n_answer_tokens": 13, "aligned": true, "input_tokens": 83, "image_tokens": 0}
+{"qid": 27, "cond": "Q", "pred": "Module 1 Title", "lp_mean": -10.816519737243652, "lp_sum": -54.08259582519531, "n_answer_tokens": 5, "aligned": true, "input_tokens": 68, "image_tokens": 0}
+{"qid": 576, "cond": "T", "pred": "1954", "lp_mean": -0.0017533147474750876, "lp_sum": -0.007013258989900351, "n_answer_tokens": 4, "aligned": true, "input_tokens": 1084, "image_tokens": 0}
+{"qid": 961, "cond": "T", "pred": "Freezing water to ice.", "lp_mean": -3.591766595840454, "lp_sum": -28.734132766723633, "n_answer_tokens": 8, "aligned": true, "input_tokens": 74, "image_tokens": 0}
+{"qid": 186, "cond": "T", "pred": "70.8", "lp_mean": -2.7728843688964844, "lp_sum": -13.864421844482422, "n_answer_tokens": 5, "aligned": true, "input_tokens": 2397, "image_tokens": 0}
+{"qid": 461, "cond": "T", "pred": "7", "lp_mean": -6.260798454284668, "lp_sum": -6.260798454284668, "n_answer_tokens": 1, "aligned": true, "input_tokens": 545, "image_tokens": 0}
+{"qid": 171, "cond": "T", "pred": "3", "lp_mean": -4.041374206542969, "lp_sum": -12.124122619628906, "n_answer_tokens": 3, "aligned": true, "input_tokens": 93, "image_tokens": 0}
+{"qid": 44, "cond": "T", "pred": "Analysis", "lp_mean": -1.5350334644317627, "lp_sum": -1.5350334644317627, "n_answer_tokens": 1, "aligned": true, "input_tokens": 83, "image_tokens": 0}
+{"qid": 20, "cond": "T", "pred": "Population density.", "lp_mean": -7.770380973815918, "lp_sum": -46.622283935546875, "n_answer_tokens": 6, "aligned": true, "input_tokens": 69, "image_tokens": 0}
+{"qid": 556, "cond": "T", "pred": "['NTU']", "lp_mean": -1.8512566089630127, "lp_sum": -24.066335678100586, "n_answer_tokens": 13, "aligned": true, "input_tokens": 214, "image_tokens": 0}
+{"qid": 27, "cond": "T", "pred": "Basic flat & layered maps", "lp_mean": -0.001675229868851602, "lp_sum": -0.008376149460673332, "n_answer_tokens": 5, "aligned": true, "input_tokens": 105, "image_tokens": 0}
+{"qid": 576, "cond": "X", "pred": "1954", "lp_mean": -0.0013487088726833463, "lp_sum": -0.005394835490733385, "n_answer_tokens": 4, "aligned": true, "input_tokens": 856, "image_tokens": 0}
+{"qid": 961, "cond": "X", "pred": "CFCs", "lp_mean": -1.115649938583374, "lp_sum": -8.925199508666992, "n_answer_tokens": 8, "aligned": true, "input_tokens": 498, "image_tokens": 0}
+{"qid": 186, "cond": "X", "pred": "None", "lp_mean": -2.5332977771759033, "lp_sum": -12.666488647460938, "n_answer_tokens": 5, "aligned": true, "input_tokens": 2129, "image_tokens": 0}
+{"qid": 461, "cond": "X", "pred": "7", "lp_mean": -8.460783004760742, "lp_sum": -8.460783004760742, "n_answer_tokens": 1, "aligned": true, "input_tokens": 586, "image_tokens": 0}
+{"qid": 171, "cond": "X", "pred": "29", "lp_mean": -2.797067165374756, "lp_sum": -8.39120101928711, "n_answer_tokens": 3, "aligned": true, "input_tokens": 370, "image_tokens": 0}
+{"qid": 44, "cond": "X", "pred": "Analysis", "lp_mean": -0.0007543102256022394, "lp_sum": -0.0007543102256022394, "n_answer_tokens": 1, "aligned": true, "input_tokens": 228, "image_tokens": 0}
+{"qid": 20, "cond": "X", "pred": "Centers of Indian Space Programme", "lp_mean": -1.202763319015503, "lp_sum": -7.216579437255859, "n_answer_tokens": 6, "aligned": true, "input_tokens": 478, "image_tokens": 0}
+{"qid": 556, "cond": "X", "pred": "['NTU']", "lp_mean": -1.657577633857727, "lp_sum": -21.548507690429688, "n_answer_tokens": 13, "aligned": true, "input_tokens": 250, "image_tokens": 0}
+{"qid": 27, "cond": "X", "pred": "Basic flat & layered maps", "lp_mean": -0.0019329646602272987, "lp_sum": -0.009664823301136494, "n_answer_tokens": 5, "aligned": true, "input_tokens": 348, "image_tokens": 0}
+{"qid": 576, "cond": "I_hi", "pred": "1954", "lp_mean": -0.003592504421249032, "lp_sum": -0.014370017684996128, "n_answer_tokens": 4, "aligned": true, "input_tokens": 1308, "image_tokens": 1240}
+{"qid": 961, "cond": "I_hi", "pred": "Ozone thinning", "lp_mean": -1.0808261632919312, "lp_sum": -8.64660930633545, "n_answer_tokens": 8, "aligned": true, "input_tokens": 1284, "image_tokens": 1222}
+{"qid": 186, "cond": "I_hi", "pred": "74.9", "lp_mean": -2.859238386154175, "lp_sum": -14.296192169189453, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1341, "image_tokens": 1260}
+{"qid": 461, "cond": "I_hi", "pred": "7", "lp_mean": -2.249140739440918, "lp_sum": -2.249140739440918, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1307, "image_tokens": 1240}
+{"qid": 171, "cond": "I_hi", "pred": "29", "lp_mean": -3.0259780883789062, "lp_sum": -9.077934265136719, "n_answer_tokens": 3, "aligned": true, "input_tokens": 1311, "image_tokens": 1230}
+{"qid": 44, "cond": "I_hi", "pred": "Analysis", "lp_mean": -0.0006299418746493757, "lp_sum": -0.0006299418746493757, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1301, "image_tokens": 1230}
+{"qid": 20, "cond": "I_hi", "pred": "The Centres of Indian Space Programme", "lp_mean": -0.5671466588973999, "lp_sum": -3.4028797149658203, "n_answer_tokens": 6, "aligned": true, "input_tokens": 1323, "image_tokens": 1260}
+{"qid": 556, "cond": "I_hi", "pred": "['OCBC Bank', 'DBS']", "lp_mean": -0.9725731611251831, "lp_sum": -12.643450736999512, "n_answer_tokens": 13, "aligned": true, "input_tokens": 1318, "image_tokens": 1240}
+{"qid": 27, "cond": "I_hi", "pred": "Basic flat & layered maps", "lp_mean": -0.0028169334400445223, "lp_sum": -0.014084666967391968, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1293, "image_tokens": 1230}
+{"qid": 576, "cond": "I_lo", "pred": "27", "lp_mean": -1.8923537731170654, "lp_sum": -7.569415092468262, "n_answer_tokens": 4, "aligned": true, "input_tokens": 320, "image_tokens": 252}
+{"qid": 961, "cond": "I_lo", "pred": "Ozone thinning", "lp_mean": -1.0035223960876465, "lp_sum": -8.028179168701172, "n_answer_tokens": 8, "aligned": true, "input_tokens": 314, "image_tokens": 252}
+{"qid": 186, "cond": "I_lo", "pred": "63.2%", "lp_mean": -1.4816263914108276, "lp_sum": -7.4081315994262695, "n_answer_tokens": 5, "aligned": true, "input_tokens": 328, "image_tokens": 247}
+{"qid": 461, "cond": "I_lo", "pred": "7", "lp_mean": -2.086836814880371, "lp_sum": -2.086836814880371, "n_answer_tokens": 1, "aligned": true, "input_tokens": 319, "image_tokens": 252}
+{"qid": 171, "cond": "I_lo", "pred": "29", "lp_mean": -3.0454955101013184, "lp_sum": -9.136486053466797, "n_answer_tokens": 3, "aligned": true, "input_tokens": 315, "image_tokens": 234}
+{"qid": 44, "cond": "I_lo", "pred": "Analysis", "lp_mean": -0.0006576997111551464, "lp_sum": -0.0006576997111551464, "n_answer_tokens": 1, "aligned": true, "input_tokens": 305, "image_tokens": 234}
+{"qid": 20, "cond": "I_lo", "pred": "The locations of centers of Indian Space Programme.", "lp_mean": -0.5758985280990601, "lp_sum": -3.4553911685943604, "n_answer_tokens": 6, "aligned": true, "input_tokens": 310, "image_tokens": 247}
+{"qid": 556, "cond": "I_lo", "pred": "['DBS']", "lp_mean": -1.2521142959594727, "lp_sum": -16.277484893798828, "n_answer_tokens": 13, "aligned": true, "input_tokens": 316, "image_tokens": 238}
+{"qid": 27, "cond": "I_lo", "pred": "Basic flat & layered maps", "lp_mean": -0.002579194027930498, "lp_sum": -0.012895969673991203, "n_answer_tokens": 5, "aligned": true, "input_tokens": 297, "image_tokens": 234}
+{"qid": 576, "cond": "TI_hi", "pred": "1954", "lp_mean": -0.0009571253322064877, "lp_sum": -0.0038285013288259506, "n_answer_tokens": 4, "aligned": true, "input_tokens": 2333, "image_tokens": 1240}
+{"qid": 961, "cond": "TI_hi", "pred": "Ozone thinning", "lp_mean": -0.9685200452804565, "lp_sum": -7.748160362243652, "n_answer_tokens": 8, "aligned": true, "input_tokens": 1305, "image_tokens": 1222}
+{"qid": 186, "cond": "TI_hi", "pred": "74.9", "lp_mean": -2.734394073486328, "lp_sum": -13.67197036743164, "n_answer_tokens": 5, "aligned": true, "input_tokens": 3666, "image_tokens": 1260}
+{"qid": 461, "cond": "TI_hi", "pred": "7", "lp_mean": -3.6766860485076904, "lp_sum": -3.6766860485076904, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1794, "image_tokens": 1240}
+{"qid": 171, "cond": "TI_hi", "pred": "29", "lp_mean": -2.8635387420654297, "lp_sum": -8.590616226196289, "n_answer_tokens": 3, "aligned": true, "input_tokens": 1332, "image_tokens": 1230}
+{"qid": 44, "cond": "TI_hi", "pred": "Analysis", "lp_mean": -0.0010451575508341193, "lp_sum": -0.0010451575508341193, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1322, "image_tokens": 1230}
+{"qid": 20, "cond": "TI_hi", "pred": "The Centres of Indian Space Programme", "lp_mean": -0.4074472188949585, "lp_sum": -2.444683313369751, "n_answer_tokens": 6, "aligned": true, "input_tokens": 1338, "image_tokens": 1260}
+{"qid": 556, "cond": "TI_hi", "pred": "['OCBC Bank', 'DBS']", "lp_mean": -1.010310173034668, "lp_sum": -13.134032249450684, "n_answer_tokens": 13, "aligned": true, "input_tokens": 1463, "image_tokens": 1240}
+{"qid": 27, "cond": "TI_hi", "pred": "Basic flat & layered maps", "lp_mean": -0.002365072723478079, "lp_sum": -0.011825363151729107, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1344, "image_tokens": 1230}
+{"qid": 576, "cond": "TI_lo", "pred": "1954", "lp_mean": -0.0015237426850944757, "lp_sum": -0.006094970740377903, "n_answer_tokens": 4, "aligned": true, "input_tokens": 1345, "image_tokens": 252}
+{"qid": 961, "cond": "TI_lo", "pred": "Ozone thinning", "lp_mean": -0.8763689994812012, "lp_sum": -7.010951995849609, "n_answer_tokens": 8, "aligned": true, "input_tokens": 335, "image_tokens": 252}
+{"qid": 186, "cond": "TI_lo", "pred": "74.8", "lp_mean": -2.4221835136413574, "lp_sum": -12.110917091369629, "n_answer_tokens": 5, "aligned": true, "input_tokens": 2653, "image_tokens": 247}
+{"qid": 461, "cond": "TI_lo", "pred": "7", "lp_mean": -4.551446437835693, "lp_sum": -4.551446437835693, "n_answer_tokens": 1, "aligned": true, "input_tokens": 806, "image_tokens": 252}
+{"qid": 171, "cond": "TI_lo", "pred": "29", "lp_mean": -3.076561689376831, "lp_sum": -9.229684829711914, "n_answer_tokens": 3, "aligned": true, "input_tokens": 336, "image_tokens": 234}
+{"qid": 44, "cond": "TI_lo", "pred": "Analysis", "lp_mean": -0.000730128725990653, "lp_sum": -0.000730128725990653, "n_answer_tokens": 1, "aligned": true, "input_tokens": 326, "image_tokens": 234}
+{"qid": 20, "cond": "TI_lo", "pred": "The Centres of Indian Space Programme", "lp_mean": -0.5160882472991943, "lp_sum": -3.096529245376587, "n_answer_tokens": 6, "aligned": true, "input_tokens": 325, "image_tokens": 247}
+{"qid": 556, "cond": "TI_lo", "pred": "['DBS']", "lp_mean": -1.3884013891220093, "lp_sum": -18.049217224121094, "n_answer_tokens": 13, "aligned": true, "input_tokens": 461, "image_tokens": 238}
+{"qid": 27, "cond": "TI_lo", "pred": "Basic flat & layered maps", "lp_mean": -0.0015512531390413642, "lp_sum": -0.0077562653459608555, "n_answer_tokens": 5, "aligned": true, "input_tokens": 348, "image_tokens": 234}
+{"qid": 576, "cond": "M_lo", "pred": "2015", "lp_mean": -2.2818520069122314, "lp_sum": -9.127408027648926, "n_answer_tokens": 4, "aligned": true, "input_tokens": 326, "image_tokens": 252}
+{"qid": 961, "cond": "M_lo", "pred": "Ozone thinning", "lp_mean": -1.0177668333053589, "lp_sum": -8.142134666442871, "n_answer_tokens": 8, "aligned": true, "input_tokens": 320, "image_tokens": 252}
+{"qid": 186, "cond": "M_lo", "pred": "60", "lp_mean": -2.107067108154297, "lp_sum": -10.535335540771484, "n_answer_tokens": 5, "aligned": true, "input_tokens": 334, "image_tokens": 247}
+{"qid": 461, "cond": "M_lo", "pred": "7", "lp_mean": -2.048659324645996, "lp_sum": -2.048659324645996, "n_answer_tokens": 1, "aligned": true, "input_tokens": 325, "image_tokens": 252}
+{"qid": 171, "cond": "M_lo", "pred": "29", "lp_mean": -2.9459102153778076, "lp_sum": -8.837730407714844, "n_answer_tokens": 3, "aligned": true, "input_tokens": 321, "image_tokens": 234}
+{"qid": 44, "cond": "M_lo", "pred": "Analysis", "lp_mean": -0.0006104036583565176, "lp_sum": -0.0006104036583565176, "n_answer_tokens": 1, "aligned": true, "input_tokens": 311, "image_tokens": 234}
+{"qid": 20, "cond": "M_lo", "pred": "The locations of Indian Space Programme centers.", "lp_mean": -0.7304198145866394, "lp_sum": -4.382518768310547, "n_answer_tokens": 6, "aligned": true, "input_tokens": 316, "image_tokens": 247}
+{"qid": 556, "cond": "M_lo", "pred": "['OCBC Bank']", "lp_mean": -1.2667685747146606, "lp_sum": -16.46799087524414, "n_answer_tokens": 13, "aligned": true, "input_tokens": 322, "image_tokens": 238}
+{"qid": 27, "cond": "M_lo", "pred": "Schoort public library", "lp_mean": -9.56035327911377, "lp_sum": -47.80176544189453, "n_answer_tokens": 5, "aligned": true, "input_tokens": 303, "image_tokens": 234}
+{"qid": 576, "cond": "TM_lo", "pred": "1954", "lp_mean": -0.0025565498508512974, "lp_sum": -0.01022619940340519, "n_answer_tokens": 4, "aligned": true, "input_tokens": 1352, "image_tokens": 252}
+{"qid": 961, "cond": "TM_lo", "pred": "Ozone thinning", "lp_mean": -0.8303424715995789, "lp_sum": -6.642739772796631, "n_answer_tokens": 8, "aligned": true, "input_tokens": 342, "image_tokens": 252}
+{"qid": 186, "cond": "TM_lo", "pred": "70.8", "lp_mean": -2.604680299758911, "lp_sum": -13.023401260375977, "n_answer_tokens": 5, "aligned": true, "input_tokens": 2660, "image_tokens": 247}
+{"qid": 461, "cond": "TM_lo", "pred": "7", "lp_mean": -6.763922691345215, "lp_sum": -6.763922691345215, "n_answer_tokens": 1, "aligned": true, "input_tokens": 813, "image_tokens": 252}
+{"qid": 171, "cond": "TM_lo", "pred": "29", "lp_mean": -3.0644662380218506, "lp_sum": -9.193398475646973, "n_answer_tokens": 3, "aligned": true, "input_tokens": 343, "image_tokens": 234}
+{"qid": 44, "cond": "TM_lo", "pred": "Analysis", "lp_mean": -0.0006337541271932423, "lp_sum": -0.0006337541271932423, "n_answer_tokens": 1, "aligned": true, "input_tokens": 333, "image_tokens": 234}
+{"qid": 20, "cond": "TM_lo", "pred": "The Centres of Indian Space Programme", "lp_mean": -0.6074542999267578, "lp_sum": -3.644725799560547, "n_answer_tokens": 6, "aligned": true, "input_tokens": 332, "image_tokens": 247}
+{"qid": 556, "cond": "TM_lo", "pred": "['OCBC Bank']", "lp_mean": -1.385571002960205, "lp_sum": -18.012422561645508, "n_answer_tokens": 13, "aligned": true, "input_tokens": 468, "image_tokens": 238}
+{"qid": 27, "cond": "TM_lo", "pred": "Basic flat & layered maps", "lp_mean": -0.005852516740560532, "lp_sum": -0.029262583702802658, "n_answer_tokens": 5, "aligned": true, "input_tokens": 355, "image_tokens": 234}

@@ -1,0 +1,81 @@
+{"qid": 902, "cond": "Q", "pred": "The headset may not charge properly.", "lp_mean": -3.81561279296875, "lp_sum": -80.12786865234375, "n_answer_tokens": 21, "aligned": true, "input_tokens": 79, "image_tokens": 0}
+{"qid": 434, "cond": "Q", "pred": "MNIST dataset", "lp_mean": -4.147536277770996, "lp_sum": -16.590145111083984, "n_answer_tokens": 4, "aligned": true, "input_tokens": 77, "image_tokens": 0}
+{"qid": 1089, "cond": "Q", "pred": "-45", "lp_mean": -3.171746253967285, "lp_sum": -6.34349250793457, "n_answer_tokens": 2, "aligned": true, "input_tokens": 82, "image_tokens": 0}
+{"qid": 973, "cond": "Q", "pred": "Baseline 1", "lp_mean": -7.299132347106934, "lp_sum": -51.09392547607422, "n_answer_tokens": 7, "aligned": true, "input_tokens": 79, "image_tokens": 0}
+{"qid": 869, "cond": "Q", "pred": "I'm unsure without seeing the document.", "lp_mean": -7.683640480041504, "lp_sum": -30.734561920166016, "n_answer_tokens": 4, "aligned": true, "input_tokens": 83, "image_tokens": 0}
+{"qid": 178, "cond": "Q", "pred": "India", "lp_mean": -6.508054733276367, "lp_sum": -6.508054733276367, "n_answer_tokens": 1, "aligned": true, "input_tokens": 76, "image_tokens": 0}
+{"qid": 444, "cond": "Q", "pred": "Bacteria", "lp_mean": -3.4509665966033936, "lp_sum": -10.352899551391602, "n_answer_tokens": 3, "aligned": true, "input_tokens": 80, "image_tokens": 0}
+{"qid": 553, "cond": "Q", "pred": "123", "lp_mean": -3.2029361724853516, "lp_sum": -9.608808517456055, "n_answer_tokens": 3, "aligned": true, "input_tokens": 73, "image_tokens": 0}
+{"qid": 158, "cond": "Q", "pred": "Microsoft", "lp_mean": -8.01087760925293, "lp_sum": -40.054386138916016, "n_answer_tokens": 5, "aligned": true, "input_tokens": 71, "image_tokens": 0}
+{"qid": 902, "cond": "T", "pred": "Charging time increases.", "lp_mean": -0.741879403591156, "lp_sum": -15.5794677734375, "n_answer_tokens": 21, "aligned": true, "input_tokens": 461, "image_tokens": 0}
+{"qid": 434, "cond": "T", "pred": "No dataset mentioned.", "lp_mean": -4.326128005981445, "lp_sum": -17.30451202392578, "n_answer_tokens": 4, "aligned": true, "input_tokens": 84, "image_tokens": 0}
+{"qid": 1089, "cond": "T", "pred": "93", "lp_mean": -0.06283468008041382, "lp_sum": -0.12566936016082764, "n_answer_tokens": 2, "aligned": true, "input_tokens": 917, "image_tokens": 0}
+{"qid": 973, "cond": "T", "pred": "vanilla ICL", "lp_mean": -1.9116722345352173, "lp_sum": -13.381705284118652, "n_answer_tokens": 7, "aligned": true, "input_tokens": 1830, "image_tokens": 0}
+{"qid": 869, "cond": "T", "pred": "MMMU", "lp_mean": -3.332470178604126, "lp_sum": -13.329880714416504, "n_answer_tokens": 4, "aligned": true, "input_tokens": 1405, "image_tokens": 0}
+{"qid": 178, "cond": "T", "pred": "Unspecified", "lp_mean": -7.601787090301514, "lp_sum": -7.601787090301514, "n_answer_tokens": 1, "aligned": true, "input_tokens": 83, "image_tokens": 0}
+{"qid": 444, "cond": "T", "pred": "Monarch butterfly", "lp_mean": -0.49812567234039307, "lp_sum": -1.4943770170211792, "n_answer_tokens": 3, "aligned": true, "input_tokens": 684, "image_tokens": 0}
+{"qid": 553, "cond": "T", "pred": "179", "lp_mean": -0.09348081052303314, "lp_sum": -0.28044241666793823, "n_answer_tokens": 3, "aligned": true, "input_tokens": 566, "image_tokens": 0}
+{"qid": 158, "cond": "T", "pred": "Unknown Company", "lp_mean": -7.951334476470947, "lp_sum": -39.75667190551758, "n_answer_tokens": 5, "aligned": true, "input_tokens": 78, "image_tokens": 0}
+{"qid": 902, "cond": "X", "pred": "Charging time increases.", "lp_mean": -0.6709764003753662, "lp_sum": -14.090503692626953, "n_answer_tokens": 21, "aligned": true, "input_tokens": 512, "image_tokens": 0}
+{"qid": 434, "cond": "X", "pred": "Kaggle's Cat vs Dog dataset", "lp_mean": -0.9960468411445618, "lp_sum": -3.984187364578247, "n_answer_tokens": 4, "aligned": true, "input_tokens": 322, "image_tokens": 0}
+{"qid": 1089, "cond": "X", "pred": "-93", "lp_mean": -0.8474448323249817, "lp_sum": -1.6948896646499634, "n_answer_tokens": 2, "aligned": true, "input_tokens": 870, "image_tokens": 0}
+{"qid": 973, "cond": "X", "pred": "vanilla ICL", "lp_mean": -2.1018166542053223, "lp_sum": -14.712715148925781, "n_answer_tokens": 7, "aligned": true, "input_tokens": 1887, "image_tokens": 0}
+{"qid": 869, "cond": "X", "pred": "MMMU Benchmark", "lp_mean": -3.0528430938720703, "lp_sum": -12.211372375488281, "n_answer_tokens": 4, "aligned": true, "input_tokens": 990, "image_tokens": 0}
+{"qid": 178, "cond": "X", "pred": "Egypt", "lp_mean": -0.4322366714477539, "lp_sum": -0.4322366714477539, "n_answer_tokens": 1, "aligned": true, "input_tokens": 316, "image_tokens": 0}
+{"qid": 444, "cond": "X", "pred": "Image or text", "lp_mean": -4.3346967697143555, "lp_sum": -13.004090309143066, "n_answer_tokens": 3, "aligned": true, "input_tokens": 527, "image_tokens": 0}
+{"qid": 553, "cond": "X", "pred": "179", "lp_mean": -0.21636280417442322, "lp_sum": -0.6490883827209473, "n_answer_tokens": 3, "aligned": true, "input_tokens": 517, "image_tokens": 0}
+{"qid": 158, "cond": "X", "pred": "Avalaunch Media", "lp_mean": -1.6418933868408203, "lp_sum": -8.209466934204102, "n_answer_tokens": 5, "aligned": true, "input_tokens": 103, "image_tokens": 0}
+{"qid": 902, "cond": "I_hi", "pred": "Charging time will increase.", "lp_mean": -0.6375102400779724, "lp_sum": -13.387714385986328, "n_answer_tokens": 21, "aligned": true, "input_tokens": 1334, "image_tokens": 1260}
+{"qid": 434, "cond": "I_hi", "pred": "Kaggle's Cat vs Dog dataset", "lp_mean": -0.9684761762619019, "lp_sum": -3.8739047050476074, "n_answer_tokens": 4, "aligned": true, "input_tokens": 1302, "image_tokens": 1230}
+{"qid": 1089, "cond": "I_hi", "pred": "79", "lp_mean": -2.05078125, "lp_sum": -4.1015625, "n_answer_tokens": 2, "aligned": true, "input_tokens": 1317, "image_tokens": 1240}
+{"qid": 973, "cond": "I_hi", "pred": "vanilla ICL w. CoT", "lp_mean": -1.8793413639068604, "lp_sum": -13.155388832092285, "n_answer_tokens": 7, "aligned": true, "input_tokens": 1314, "image_tokens": 1240}
+{"qid": 869, "cond": "I_hi", "pred": "MMMU", "lp_mean": -3.0626626014709473, "lp_sum": -12.250650405883789, "n_answer_tokens": 4, "aligned": true, "input_tokens": 1318, "image_tokens": 1240}
+{"qid": 178, "cond": "I_hi", "pred": "Palestine", "lp_mean": -1.0918573141098022, "lp_sum": -1.0918573141098022, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1301, "image_tokens": 1230}
+{"qid": 444, "cond": "I_hi", "pred": "Monarch butterfly", "lp_mean": -0.2857816815376282, "lp_sum": -0.8573449850082397, "n_answer_tokens": 3, "aligned": true, "input_tokens": 1315, "image_tokens": 1240}
+{"qid": 553, "cond": "I_hi", "pred": "179", "lp_mean": -0.00016051356215029955, "lp_sum": -0.00048154068645089865, "n_answer_tokens": 3, "aligned": true, "input_tokens": 1308, "image_tokens": 1240}
+{"qid": 158, "cond": "I_hi", "pred": "Avalaunch Media", "lp_mean": -0.35354265570640564, "lp_sum": -1.767713189125061, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1288, "image_tokens": 1222}
+{"qid": 902, "cond": "I_lo", "pred": "The charging time will increase.", "lp_mean": -0.4399433732032776, "lp_sum": -9.238810539245605, "n_answer_tokens": 21, "aligned": true, "input_tokens": 321, "image_tokens": 247}
+{"qid": 434, "cond": "I_lo", "pred": "Kaggle's Cat vs Dog dataset", "lp_mean": -1.014060378074646, "lp_sum": -4.056241512298584, "n_answer_tokens": 4, "aligned": true, "input_tokens": 306, "image_tokens": 234}
+{"qid": 1089, "cond": "I_lo", "pred": "-47", "lp_mean": -3.173915386199951, "lp_sum": -6.347830772399902, "n_answer_tokens": 2, "aligned": true, "input_tokens": 329, "image_tokens": 252}
+{"qid": 973, "cond": "I_lo", "pred": "Vicuna-13B", "lp_mean": -2.4812793731689453, "lp_sum": -17.368955612182617, "n_answer_tokens": 7, "aligned": true, "input_tokens": 326, "image_tokens": 252}
+{"qid": 869, "cond": "I_lo", "pred": "MMU", "lp_mean": -3.250812530517578, "lp_sum": -13.003250122070312, "n_answer_tokens": 4, "aligned": true, "input_tokens": 330, "image_tokens": 252}
+{"qid": 178, "cond": "I_lo", "pred": "Egypt", "lp_mean": -0.9268863797187805, "lp_sum": -0.9268863797187805, "n_answer_tokens": 1, "aligned": true, "input_tokens": 305, "image_tokens": 234}
+{"qid": 444, "cond": "I_lo", "pred": "Human", "lp_mean": -3.1633787155151367, "lp_sum": -9.49013614654541, "n_answer_tokens": 3, "aligned": true, "input_tokens": 327, "image_tokens": 252}
+{"qid": 553, "cond": "I_lo", "pred": "177", "lp_mean": -0.5570366382598877, "lp_sum": -1.671109914779663, "n_answer_tokens": 3, "aligned": true, "input_tokens": 306, "image_tokens": 238}
+{"qid": 158, "cond": "I_lo", "pred": "Avalaunch Media", "lp_mean": -0.37915077805519104, "lp_sum": -1.8957538604736328, "n_answer_tokens": 5, "aligned": true, "input_tokens": 318, "image_tokens": 252}
+{"qid": 902, "cond": "TI_hi", "pred": "Charging time increases.", "lp_mean": -0.5705251693725586, "lp_sum": -11.98102855682373, "n_answer_tokens": 21, "aligned": true, "input_tokens": 1730, "image_tokens": 1260}
+{"qid": 434, "cond": "TI_hi", "pred": "Kaggle's Cat vs Dog dataset", "lp_mean": -0.9944804906845093, "lp_sum": -3.977921962738037, "n_answer_tokens": 4, "aligned": true, "input_tokens": 1323, "image_tokens": 1230}
+{"qid": 1089, "cond": "TI_hi", "pred": "93", "lp_mean": -0.30038076639175415, "lp_sum": -0.6007615327835083, "n_answer_tokens": 2, "aligned": true, "input_tokens": 2166, "image_tokens": 1240}
+{"qid": 973, "cond": "TI_hi", "pred": "CoT w. logical constraints", "lp_mean": -1.7728736400604248, "lp_sum": -12.410115242004395, "n_answer_tokens": 7, "aligned": true, "input_tokens": 3079, "image_tokens": 1240}
+{"qid": 869, "cond": "TI_hi", "pred": "MMMU", "lp_mean": -3.153716564178467, "lp_sum": -12.614866256713867, "n_answer_tokens": 4, "aligned": true, "input_tokens": 2654, "image_tokens": 1240}
+{"qid": 178, "cond": "TI_hi", "pred": "Palestine", "lp_mean": -0.8519147634506226, "lp_sum": -0.8519147634506226, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1322, "image_tokens": 1230}
+{"qid": 444, "cond": "TI_hi", "pred": "Butterfly", "lp_mean": -0.17493657767772675, "lp_sum": -0.524809718132019, "n_answer_tokens": 3, "aligned": true, "input_tokens": 1933, "image_tokens": 1240}
+{"qid": 553, "cond": "TI_hi", "pred": "179", "lp_mean": -0.00016024030628614128, "lp_sum": -0.00048072091885842383, "n_answer_tokens": 3, "aligned": true, "input_tokens": 1815, "image_tokens": 1240}
+{"qid": 158, "cond": "TI_hi", "pred": "Avalaunch Media", "lp_mean": -0.2959119975566864, "lp_sum": -1.4795600175857544, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1309, "image_tokens": 1222}
+{"qid": 902, "cond": "TI_lo", "pred": "Charging time increases.", "lp_mean": -0.5723329186439514, "lp_sum": -12.018991470336914, "n_answer_tokens": 21, "aligned": true, "input_tokens": 717, "image_tokens": 247}
+{"qid": 434, "cond": "TI_lo", "pred": "Kaggle's Cat vs Dog dataset", "lp_mean": -0.9791120290756226, "lp_sum": -3.9164481163024902, "n_answer_tokens": 4, "aligned": true, "input_tokens": 327, "image_tokens": 234}
+{"qid": 1089, "cond": "TI_lo", "pred": "93", "lp_mean": -0.6282801628112793, "lp_sum": -1.2565603256225586, "n_answer_tokens": 2, "aligned": true, "input_tokens": 1178, "image_tokens": 252}
+{"qid": 973, "cond": "TI_lo", "pred": "vanilla ICL", "lp_mean": -1.8080581426620483, "lp_sum": -12.65640640258789, "n_answer_tokens": 7, "aligned": true, "input_tokens": 2091, "image_tokens": 252}
+{"qid": 869, "cond": "TI_lo", "pred": "MMMU", "lp_mean": -3.1791632175445557, "lp_sum": -12.716652870178223, "n_answer_tokens": 4, "aligned": true, "input_tokens": 1666, "image_tokens": 252}
+{"qid": 178, "cond": "TI_lo", "pred": "Egypt", "lp_mean": -0.8833023309707642, "lp_sum": -0.8833023309707642, "n_answer_tokens": 1, "aligned": true, "input_tokens": 326, "image_tokens": 234}
+{"qid": 444, "cond": "TI_lo", "pred": "Butterfly", "lp_mean": -0.3792223632335663, "lp_sum": -1.1376670598983765, "n_answer_tokens": 3, "aligned": true, "input_tokens": 945, "image_tokens": 252}
+{"qid": 553, "cond": "TI_lo", "pred": "179", "lp_mean": -0.03466318920254707, "lp_sum": -0.10398956388235092, "n_answer_tokens": 3, "aligned": true, "input_tokens": 813, "image_tokens": 238}
+{"qid": 158, "cond": "TI_lo", "pred": "Avalaunch Media", "lp_mean": -0.35555383563041687, "lp_sum": -1.7777690887451172, "n_answer_tokens": 5, "aligned": true, "input_tokens": 339, "image_tokens": 252}
+{"qid": 902, "cond": "M_lo", "pred": "The headset may not charge properly.", "lp_mean": -3.2184226512908936, "lp_sum": -67.58687591552734, "n_answer_tokens": 21, "aligned": true, "input_tokens": 327, "image_tokens": 247}
+{"qid": 434, "cond": "M_lo", "pred": "Kaggle's Cat vs Dog dataset", "lp_mean": -0.978556752204895, "lp_sum": -3.91422700881958, "n_answer_tokens": 4, "aligned": true, "input_tokens": 312, "image_tokens": 234}
+{"qid": 1089, "cond": "M_lo", "pred": "-45", "lp_mean": -3.173884868621826, "lp_sum": -6.347769737243652, "n_answer_tokens": 2, "aligned": true, "input_tokens": 335, "image_tokens": 252}
+{"qid": 973, "cond": "M_lo", "pred": "Baseline 2", "lp_mean": -7.057702541351318, "lp_sum": -49.40391540527344, "n_answer_tokens": 7, "aligned": true, "input_tokens": 332, "image_tokens": 252}
+{"qid": 869, "cond": "M_lo", "pred": "Insufficient information provided.", "lp_mean": -7.636486053466797, "lp_sum": -30.545944213867188, "n_answer_tokens": 4, "aligned": true, "input_tokens": 336, "image_tokens": 252}
+{"qid": 178, "cond": "M_lo", "pred": "Egypt", "lp_mean": -0.7751850485801697, "lp_sum": -0.7751850485801697, "n_answer_tokens": 1, "aligned": true, "input_tokens": 311, "image_tokens": 234}
+{"qid": 444, "cond": "M_lo", "pred": "Butterfly", "lp_mean": -0.2963568866252899, "lp_sum": -0.8890706300735474, "n_answer_tokens": 3, "aligned": true, "input_tokens": 333, "image_tokens": 252}
+{"qid": 553, "cond": "M_lo", "pred": "179", "lp_mean": -0.42541617155075073, "lp_sum": -1.2762484550476074, "n_answer_tokens": 3, "aligned": true, "input_tokens": 312, "image_tokens": 238}
+{"qid": 158, "cond": "M_lo", "pred": "Avalaunch Media", "lp_mean": -0.35986754298210144, "lp_sum": -1.79933762550354, "n_answer_tokens": 5, "aligned": true, "input_tokens": 324, "image_tokens": 252}
+{"qid": 902, "cond": "TM_lo", "pred": "Charging time increases.", "lp_mean": -0.6620007753372192, "lp_sum": -13.902016639709473, "n_answer_tokens": 21, "aligned": true, "input_tokens": 724, "image_tokens": 247}
+{"qid": 434, "cond": "TM_lo", "pred": "Kaggle's Cat vs Dog dataset", "lp_mean": -1.0918080806732178, "lp_sum": -4.367232322692871, "n_answer_tokens": 4, "aligned": true, "input_tokens": 334, "image_tokens": 234}
+{"qid": 1089, "cond": "TM_lo", "pred": "93", "lp_mean": -0.06916219741106033, "lp_sum": -0.13832439482212067, "n_answer_tokens": 2, "aligned": true, "input_tokens": 1185, "image_tokens": 252}
+{"qid": 973, "cond": "TM_lo", "pred": "vanilla ICL", "lp_mean": -1.9274260997772217, "lp_sum": -13.491982460021973, "n_answer_tokens": 7, "aligned": true, "input_tokens": 2098, "image_tokens": 252}
+{"qid": 869, "cond": "TM_lo", "pred": "MMMU", "lp_mean": -3.14253306388855, "lp_sum": -12.5701322555542, "n_answer_tokens": 4, "aligned": true, "input_tokens": 1673, "image_tokens": 252}
+{"qid": 178, "cond": "TM_lo", "pred": "Egypt", "lp_mean": -0.76823490858078, "lp_sum": -0.76823490858078, "n_answer_tokens": 1, "aligned": true, "input_tokens": 333, "image_tokens": 234}
+{"qid": 444, "cond": "TM_lo", "pred": "Butterfly", "lp_mean": -0.38520345091819763, "lp_sum": -1.1556103229522705, "n_answer_tokens": 3, "aligned": true, "input_tokens": 952, "image_tokens": 252}
+{"qid": 553, "cond": "TM_lo", "pred": "179", "lp_mean": -0.0041797892190515995, "lp_sum": -0.012539367191493511, "n_answer_tokens": 3, "aligned": true, "input_tokens": 820, "image_tokens": 238}
+{"qid": 158, "cond": "TM_lo", "pred": "Avalaunch Media", "lp_mean": -0.2901499569416046, "lp_sum": -1.4507497549057007, "n_answer_tokens": 5, "aligned": true, "input_tokens": 346, "image_tokens": 252}
