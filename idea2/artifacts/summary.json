@@ -1,0 +1,151 @@
+{
+ "figure2": {
+  "n_same_modality": 227,
+  "n_cross_modality": 234,
+  "n_cross_two": 208,
+  "cross_same_page": 107,
+  "cross_same_page_pct": 45.7,
+  "figure_text_same_page": "32/45",
+  "same_page_pct_by_combo": {
+   "Figure + Text": 71.1,
+   "Chart + Text": 38.5,
+   "Table + Text": 48.6,
+   "Figure + Layout": 47.1
+  },
+  "text_plus_fig_chart_table_share_of_two": 57.2,
+  "chart_table": 5,
+  "chart_figure": 3,
+  "same_mod_by_modality": {
+   "Figure": 68,
+   "Table": 64,
+   "Text": 50,
+   "Chart": 33,
+   "Layout": 12
+  },
+  "same_mod_2_pages_pct": 64.8,
+  "table_2_pages": "58/64"
+ },
+ "retrieval": {
+  "pool": {
+   "same_mod": 222,
+   "cross_same": 101,
+   "cross_multi": 121
+  },
+  "single_page": {
+   "n": 352,
+   "all@1": 69.3,
+   "some_not_all@1": 0.0,
+   "none@1": 30.7,
+   "all@3": 81.8,
+   "some_not_all@3": 0.0,
+   "none@3": 18.2,
+   "all@5": 87.2,
+   "some_not_all@5": 0.0,
+   "none@5": 12.8,
+   "median_worst_rank": 1.0
+  },
+  "same_mod": {
+   "n": 201,
+   "all@1": 0.0,
+   "some_not_all@1": 58.7,
+   "none@1": 41.3,
+   "all@3": 35.8,
+   "some_not_all@3": 42.3,
+   "none@3": 21.9,
+   "all@5": 47.8,
+   "some_not_all@5": 34.8,
+   "none@5": 17.4,
+   "median_worst_rank": 6.0
+  },
+  "cross_same": {
+   "n": 101,
+   "all@1": 72.3,
+   "some_not_all@1": 0.0,
+   "none@1": 27.7,
+   "all@3": 85.1,
+   "some_not_all@3": 0.0,
+   "none@3": 14.9,
+   "all@5": 90.1,
+   "some_not_all@5": 0.0,
+   "none@5": 9.9,
+   "median_worst_rank": 1.0
+  },
+  "cross_multi": {
+   "n": 109,
+   "all@1": 0.0,
+   "some_not_all@1": 75.2,
+   "none@1": 24.8,
+   "all@3": 46.8,
+   "some_not_all@3": 42.2,
+   "none@3": 11.0,
+   "all@5": 59.6,
+   "some_not_all@5": 36.7,
+   "none@5": 3.7,
+   "median_worst_rank": 4.0
+  },
+  "same_mod_2p": {
+   "n": 144,
+   "all@1": 0.0,
+   "some_not_all@1": 64.6,
+   "none@1": 35.4,
+   "all@3": 46.5,
+   "some_not_all@3": 36.8,
+   "none@3": 16.7,
+   "all@5": 58.3,
+   "some_not_all@5": 27.8,
+   "none@5": 13.9,
+   "median_worst_rank": 4.0
+  },
+  "cross_multi_2p": {
+   "n": 91,
+   "all@1": 0.0,
+   "some_not_all@1": 76.9,
+   "none@1": 23.1,
+   "all@3": 52.7,
+   "some_not_all@3": 36.3,
+   "none@3": 11.0,
+   "all@5": 65.9,
+   "some_not_all@5": 30.8,
+   "none@5": 3.3,
+   "median_worst_rank": 3.0
+  },
+  "multi_page_all_adjacent_pct": 44.3,
+  "multi_page_gap_ge5_pct": 30.3,
+  "missed_pages": 146,
+  "missed_next_to_found_pct": 37.7
+ },
+ "annotations": {
+  "table": {
+   "same_mod": {
+    "partition": 5,
+    "composition": 4,
+    "redundant": 1,
+    "locator": 0
+   },
+   "cross_same": {
+    "partition": 1,
+    "composition": 1,
+    "redundant": 1,
+    "locator": 7
+   },
+   "cross_multi": {
+    "partition": 5,
+    "composition": 4,
+    "redundant": 1,
+    "locator": 0
+   }
+  },
+  "complementary_by_stratum": {
+   "cross_multi": 9,
+   "cross_same": 2,
+   "same_mod": 9
+  },
+  "multi_page_complementary": 18,
+  "one_page_suffices": 5,
+  "label_issues": [
+   229
+  ],
+  "strict_multi_page": 13,
+  "strict_all_in_top5": 6
+ }
+}
