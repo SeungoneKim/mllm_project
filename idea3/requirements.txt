@@ -1,0 +1,6 @@
+pandas
+pymupdf
+matplotlib
+numpy
+requests
+pillow
