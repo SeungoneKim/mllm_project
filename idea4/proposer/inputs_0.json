@@ -1,0 +1,338 @@
+[
+ {
+  "id": "Q001",
+  "question": "list the top-3 models in Figure 3",
+  "document_type": "Academic paper",
+  "pages": 77,
+  "inventory": "Contains charts on 13 pages (bar 9, line 7, scatter 2), tables on 41 pages, figures on 19 pages (other 17, screenshot 4, diagram or flowchart 1), and text on 64 pages. Style: white, black, blue, serif, monospace."
+ },
+ {
+  "id": "Q002",
+  "question": "How many districts were sampled during Wave III?",
+  "document_type": "Research report / Introduction",
+  "pages": 44,
+  "inventory": "Contains charts on 25 pages (bar 23, pie or donut 8), tables on 10 pages, figures on 8 pages (photo 6, diagram or flowchart 3, illustration or icon 2, map 1), and text on 19 pages. Style: white, simple, blue, design, dark."
+ },
+ {
+  "id": "Q003",
+  "question": "Who is the defendant of this case?",
+  "document_type": "Administration/Industry file",
+  "pages": 15,
+  "inventory": "Contains no charts, no tables, no figures, and text on 8 pages. Style: white, black, serif."
+ },
+ {
+  "id": "Q004",
+  "question": "What animal is on the cover of each chapter?",
+  "document_type": "Tutorial/Workshop",
+  "pages": 78,
+  "inventory": "Contains no charts, tables on 21 pages, figures on 33 pages (diagram or flowchart 32, photo 7, illustration or icon 4), and text on 57 pages. Style: white, black, blue, simple, green."
+ },
+ {
+  "id": "Q005",
+  "question": "Among all interviewees in the survey, what percentage of people are 18-29 years old and think possible for computers to make decisions without human bias? ",
+  "document_type": "Research report / Introduction",
+  "pages": 30,
+  "inventory": "Contains charts on 7 pages (bar 6, pie or donut 1), tables on 11 pages, no figures, and text on 26 pages. Style: white, black, simple, blue, bars."
+ },
+ {
+  "id": "Q006",
+  "question": "What percentage of the shareholder was held by foreign companies and institutional investors as of March 31, 2007?",
+  "document_type": "Financial report",
+  "pages": 20,
+  "inventory": "Contains charts on 3 pages (line 2, pie or donut 1, bar 1), tables on 13 pages, no figures, and text on 19 pages. Style: white, black, blue, header, logo."
+ },
+ {
+  "id": "Q007",
+  "question": "How many geographic markers in Greater Houston, Texas?",
+  "document_type": "Guidebook",
+  "pages": 18,
+  "inventory": "Contains no charts, tables on 9 pages, figures on 8 pages (map 7, screenshot 4, photo 1), and text on 15 pages. Style: white, header, black, serif, gold."
+ },
+ {
+  "id": "Q008",
+  "question": "How many slides include more than one figure? Here don't consider the charts.  ",
+  "document_type": "Tutorial/Workshop",
+  "pages": 20,
+  "inventory": "Contains charts on 11 pages (bar 10, line 1), tables on 5 pages, figures on 3 pages (diagram or flowchart 2, photo 1, screenshot 1), and text on 13 pages. Style: white, red, blue, black, bars."
+ },
+ {
+  "id": "Q009",
+  "question": "Describe the significant changes of the Risk Management Plan since last year.",
+  "document_type": "Administration/Industry file",
+  "pages": 15,
+  "inventory": "Contains no charts, tables on 13 pages, no figures, and text on 14 pages. Style: white, black, serif."
+ },
+ {
+  "id": "Q010",
+  "question": "what is the change of  Best Buy's gross margins change from FY2022 to FY2021? Answer in percentage terms, round to 2 decimal places.",
+  "document_type": "Financial report",
+  "pages": 75,
+  "inventory": "Contains no charts, tables on 36 pages, figures on 1 page (other 1), and text on 66 pages. Style: white, black, serif, formal, document."
+ },
+ {
+  "id": "Q011",
+  "question": "In Figure 1's demonstration, what are the color of the nodes that appear in more than one clusters?",
+  "document_type": "Academic paper",
+  "pages": 23,
+  "inventory": "Contains charts on 1 page (bar 1), tables on 9 pages, figures on 6 pages (diagram or flowchart 3, other 3), and text on 20 pages. Style: white, black, serif, simple."
+ },
+ {
+  "id": "Q012",
+  "question": "According to this report, from 2014 to 2015, one group has the most significant drop of percentage of households claiming their income was falling behind cost of living.\nWhich group is this, and what is the percentage droped?",
+  "document_type": "Research report / Introduction",
+  "pages": 23,
+  "inventory": "Contains charts on 7 pages (bar 7, pie or donut 1, line 1), tables on 6 pages, no figures, and text on 21 pages. Style: white, black, serif, simple, header."
+ },
+ {
+  "id": "Q013",
+  "question": "How many dogs and cats are there in page 17? Please write the answer in list format, e.g., [\"1\",\"2\"]",
+  "document_type": "Brochure",
+  "pages": 17,
+  "inventory": "Contains no charts, tables on 9 pages, figures on 13 pages (photo 21, illustration or icon 4), and text on 16 pages. Style: white, black, blue, red, light."
+ },
+ {
+  "id": "Q014",
+  "question": "How many Republicans are not confident at all that Trump keeps his own business interests separate from the decisions he makes as president?",
+  "document_type": "Research report / Introduction",
+  "pages": 28,
+  "inventory": "Contains charts on 11 pages (line 10, bar 5), tables on 13 pages, no figures, and text on 23 pages. Style: white, black, simple, charts, serif."
+ },
+ {
+  "id": "Q015",
+  "question": "Who produced the document that was revised on May 2016?",
+  "document_type": "Administration/Industry file",
+  "pages": 17,
+  "inventory": "Contains no charts, tables on 12 pages, figures on 2 pages (photo 6, diagram or flowchart 1), and text on 14 pages. Style: black, white, blue, header, simple."
+ },
+ {
+  "id": "Q016",
+  "question": "who is the presenter of this slide?",
+  "document_type": "Tutorial/Workshop",
+  "pages": 20,
+  "inventory": "Contains charts on 11 pages (bar 10, line 1), tables on 5 pages, figures on 3 pages (diagram or flowchart 2, photo 1, screenshot 1), and text on 13 pages. Style: white, red, blue, black, bars."
+ },
+ {
+  "id": "Q017",
+  "question": "what method did netflix use to pay the dividend to shareholders in FY2015.",
+  "document_type": "Financial report",
+  "pages": 72,
+  "inventory": "Contains charts on 1 page (line 1), tables on 36 pages, figures on 1 page (other 1), and text on 59 pages. Style: white, black, blue, links, simple."
+ },
+ {
+  "id": "Q018",
+  "question": "What three tabs can be seen on Garmin Connect's interface in the image?",
+  "document_type": "Tutorial/Workshop",
+  "pages": 53,
+  "inventory": "Contains charts on 14 pages (line 9, bar 5), tables on 10 pages, figures on 16 pages (photo 10, map 5, diagram or flowchart 3, screenshot 3, illustration or icon 1), and text on 40 pages. Style: white, black, blue, simple, dark."
+ },
+ {
+  "id": "Q019",
+  "question": "What is total dividend of Erstwhile ITC Hotels Limited (in Rupee) between 1999 to 2000 year?",
+  "document_type": "Financial report",
+  "pages": 20,
+  "inventory": "Contains charts on 3 pages (line 2, pie or donut 1, bar 1), tables on 13 pages, no figures, and text on 19 pages. Style: white, black, blue, header, logo."
+ },
+ {
+  "id": "Q020",
+  "question": "When did the number of tweets referencing Germanwings exceed 200,000? Your report time should be in CET time, like '17:05 CET'.",
+  "document_type": "Research report / Introduction",
+  "pages": 23,
+  "inventory": "Contains charts on 3 pages (line 6), tables on 9 pages, figures on 19 pages (screenshot 31, photo 8, map 1), and text on 23 pages. Style: white, black, red, logo, blue."
+ },
+ {
+  "id": "Q021",
+  "question": "what percentage did Global streaming memberships increase from 2014 to 2015?Answer in percentage term, round to one decimal places.",
+  "document_type": "Financial report",
+  "pages": 72,
+  "inventory": "Contains charts on 1 page (line 1), tables on 36 pages, figures on 1 page (other 1), and text on 59 pages. Style: white, black, blue, links, simple."
+ },
+ {
+  "id": "Q022",
+  "question": "Among the US adults who think it's acceptable for companies to use automatic peronsal finance scores, what proportion of these people thinks because it would be effective? ",
+  "document_type": "Research report / Introduction",
+  "pages": 30,
+  "inventory": "Contains charts on 7 pages (bar 6, pie or donut 1), tables on 11 pages, no figures, and text on 26 pages. Style: white, black, simple, blue, bars."
+ },
+ {
+  "id": "Q023",
+  "question": "According to this report, among the Hispanics shaped by four current personal financial situation, which situation involves the highest percentage that expects their future financial situation to get a lot worse?",
+  "document_type": "Research report / Introduction",
+  "pages": 23,
+  "inventory": "Contains charts on 7 pages (bar 7, pie or donut 1, line 1), tables on 6 pages, no figures, and text on 21 pages. Style: white, black, serif, simple, header."
+ },
+ {
+  "id": "Q024",
+  "question": "Between Java and WP, how large is the difference in percentage of their global developers mindshare?",
+  "document_type": "Research report / Introduction",
+  "pages": 34,
+  "inventory": "Contains charts on 17 pages (bar 10, pie or donut 5, line 2, horizontal bar 1), tables on 11 pages, figures on 6 pages (screenshot 16, illustration or icon 6), and text on 29 pages. Style: blue, white, black, header, clean."
+ },
+ {
+  "id": "Q025",
+  "question": "what profit  did Memberships contribute to in Domestic Streaming Segment in FY2015? Answer in thousands.",
+  "document_type": "Financial report",
+  "pages": 72,
+  "inventory": "Contains charts on 1 page (line 1), tables on 36 pages, figures on 1 page (other 1), and text on 59 pages. Style: white, black, blue, links, simple."
+ },
+ {
+  "id": "Q026",
+  "question": "According to the survey on April 25 - May 1, 2018, what are the domains with the highest percentage that adults are very confident and not at all confident of Donald Trump's govenment? Please write the answer in the list format and with alphabetical order, e.g., [\"A\",\"B\"]",
+  "document_type": "Research report / Introduction",
+  "pages": 17,
+  "inventory": "Contains charts on 7 pages (bar 6, line 1), tables on 7 pages, no figures, and text on 16 pages. Style: white, black, serif, simple, text-based."
+ },
+ {
+  "id": "Q027",
+  "question": "What is the zip code of the address to which the attached consumer complaint form send?",
+  "document_type": "Administration/Industry file",
+  "pages": 20,
+  "inventory": "Contains no charts, tables on 13 pages, no figures, and text on 15 pages. Style: white, black, highlights, red, handwritten."
+ },
+ {
+  "id": "Q028",
+  "question": "What is the Email address in this document on the second cover page?",
+  "document_type": "Research report / Introduction",
+  "pages": 20,
+  "inventory": "Contains no charts, tables on 7 pages, figures on 8 pages (photo 11, map 2, illustration or icon 1), and text on 19 pages. Style: white, black, simple, serif, listing."
+ },
+ {
+  "id": "Q029",
+  "question": "How many all vendors have big data revenues over $250M?",
+  "document_type": "Tutorial/Workshop",
+  "pages": 53,
+  "inventory": "Contains charts on 14 pages (line 9, bar 5), tables on 10 pages, figures on 16 pages (photo 10, map 5, diagram or flowchart 3, screenshot 3, illustration or icon 1), and text on 40 pages. Style: white, black, blue, simple, dark."
+ },
+ {
+  "id": "Q030",
+  "question": "What kind of albums are reducing the share of their business due to streaming?",
+  "document_type": "Research report / Introduction",
+  "pages": 36,
+  "inventory": "Contains charts on 10 pages (bar 9, stacked bar 1, line 1, area 1), tables on 11 pages, figures on 12 pages (photo 6, diagram or flowchart 3, other 2, screenshot 1), and text on 27 pages. Style: blue, white, dark, bars, lines."
+ },
+ {
+  "id": "Q031",
+  "question": "Where are the two plants of GODFREY PHILLIPS INDIA LIMITED located?",
+  "document_type": "Financial report",
+  "pages": 20,
+  "inventory": "Contains charts on 2 pages (bar 1, line 1), tables on 10 pages, no figures, and text on 15 pages. Style: white, black, serif, pink, header."
+ },
+ {
+  "id": "Q032",
+  "question": "How does this document define the law of good gestalt?",
+  "document_type": "Tutorial/Workshop",
+  "pages": 15,
+  "inventory": "Contains charts on 7 pages (line 4, bar 2, pie or donut 2), tables on 6 pages, figures on 7 pages (diagram or flowchart 6, other 6, map 2), and text on 9 pages. Style: black, white, red, header, blue."
+ },
+ {
+  "id": "Q033",
+  "question": "What does a point mutation of the codon TTT or thymine-thymine define?",
+  "document_type": "Academic paper",
+  "pages": 20,
+  "inventory": "Contains no charts, tables on 3 pages, figures on 11 pages (diagram or flowchart 14, other 1), and text on 18 pages. Style: white, black, structured, serif, simple."
+ },
+ {
+  "id": "Q034",
+  "question": "what is total current assets in FY2023 for Bestbuy? Answer in million.",
+  "document_type": "Financial report",
+  "pages": 75,
+  "inventory": "Contains no charts, tables on 36 pages, figures on 1 page (other 1), and text on 66 pages. Style: white, black, serif, formal, document."
+ },
+ {
+  "id": "Q035",
+  "question": "What is the genotype corresponding to attached earlobes?",
+  "document_type": "Tutorial/Workshop",
+  "pages": 78,
+  "inventory": "Contains no charts, tables on 21 pages, figures on 33 pages (diagram or flowchart 32, photo 7, illustration or icon 4), and text on 57 pages. Style: white, black, blue, simple, green."
+ },
+ {
+  "id": "Q036",
+  "question": "How many square miles did the Hamilton country covers on year 1882? Return me a rounded integer.",
+  "document_type": "Research report / Introduction",
+  "pages": 20,
+  "inventory": "Contains no charts, tables on 7 pages, figures on 8 pages (photo 11, map 2, illustration or icon 1), and text on 19 pages. Style: white, black, simple, serif, listing."
+ },
+ {
+  "id": "Q037",
+  "question": "Compared to ViQuAE, how many more QA pairs does SnapNtell have?",
+  "document_type": "Academic paper",
+  "pages": 20,
+  "inventory": "Contains charts on 1 page (pie or donut 2, bar 1), tables on 10 pages, figures on 9 pages (other 4, photo 3, diagram or flowchart 3, screenshot 1), and text on 17 pages. Style: white, black, blue, highlights, sans-serif."
+ },
+ {
+  "id": "Q038",
+  "question": "Among 4021 respondents,  what is the percentage of them having a smart phone?",
+  "document_type": "Research report / Introduction",
+  "pages": 44,
+  "inventory": "Contains charts on 25 pages (bar 23, pie or donut 8), tables on 10 pages, figures on 8 pages (photo 6, diagram or flowchart 3, illustration or icon 2, map 1), and text on 19 pages. Style: white, simple, blue, design, dark."
+ },
+ {
+  "id": "Q039",
+  "question": "WHAT IS THE LAST YEAR PRESENT IN THE TABULUAR COLUMN?",
+  "document_type": "Administration/Industry file",
+  "pages": 15,
+  "inventory": "Contains no charts, tables on 13 pages, no figures, and text on 14 pages. Style: white, black, serif."
+ },
+ {
+  "id": "Q040",
+  "question": "Which continent has the most number of registered participant for advanced science course in CTBTO?",
+  "document_type": "Tutorial/Workshop",
+  "pages": 15,
+  "inventory": "Contains charts on 7 pages (line 4, bar 2, pie or donut 2), tables on 6 pages, figures on 7 pages (diagram or flowchart 6, other 6, map 2), and text on 9 pages. Style: black, white, red, header, blue."
+ },
+ {
+  "id": "Q041",
+  "question": "What is the name of the governor as mentioned on the first page of the document?",
+  "document_type": "Administration/Industry file",
+  "pages": 17,
+  "inventory": "Contains no charts, tables on 12 pages, figures on 2 pages (photo 6, diagram or flowchart 1), and text on 14 pages. Style: black, white, blue, header, simple."
+ },
+ {
+  "id": "Q042",
+  "question": "Format the date mentioned on page 14 as YYYY-MM-DD.",
+  "document_type": "Administration/Industry file",
+  "pages": 15,
+  "inventory": "Contains no charts, tables on 3 pages, no figures, and text on 15 pages. Style: white, black, serif."
+ },
+ {
+  "id": "Q043",
+  "question": "Regarding the global iOS breakdown, what percentage of the pie chart was iOS 9?",
+  "document_type": "Research report / Introduction",
+  "pages": 34,
+  "inventory": "Contains charts on 17 pages (bar 10, pie or donut 5, line 2, horizontal bar 1), tables on 11 pages, figures on 6 pages (screenshot 16, illustration or icon 6), and text on 29 pages. Style: blue, white, black, header, clean."
+ },
+ {
+  "id": "Q044",
+  "question": "What is the web link to this paper?",
+  "document_type": "Academic paper",
+  "pages": 20,
+  "inventory": "Contains no charts, tables on 3 pages, figures on 11 pages (diagram or flowchart 14, other 1), and text on 18 pages. Style: white, black, structured, serif, simple."
+ },
+ {
+  "id": "Q045",
+  "question": "How many more Tweets are attributed to Germanwings than Lufthansa?",
+  "document_type": "Research report / Introduction",
+  "pages": 23,
+  "inventory": "Contains charts on 3 pages (line 6), tables on 9 pages, figures on 19 pages (screenshot 31, photo 8, map 1), and text on 23 pages. Style: white, black, red, logo, blue."
+ },
+ {
+  "id": "Q046",
+  "question": "According to the chart on page 14 how much time was spent with family and friends in 2010?",
+  "document_type": "Tutorial/Workshop",
+  "pages": 15,
+  "inventory": "Contains charts on 7 pages (line 4, bar 2, pie or donut 2), tables on 6 pages, figures on 7 pages (diagram or flowchart 6, other 6, map 2), and text on 9 pages. Style: black, white, red, header, blue."
+ },
+ {
+  "id": "Q047",
+  "question": "What is the title of case study given under unit-8 in table?",
+  "document_type": "Administration/Industry file",
+  "pages": 17,
+  "inventory": "Contains no charts, tables on 2 pages, no figures, and text on 15 pages. Style: white, black, serif, simple."
+ },
+ {
+  "id": "Q048",
+  "question": "How many blogs mentioned Germanwings?",
+  "document_type": "Research report / Introduction",
+  "pages": 23,
+  "inventory": "Contains charts on 3 pages (line 6), tables on 9 pages, figures on 19 pages (screenshot 31, photo 8, map 1), and text on 23 pages. Style: white, black, red, logo, blue."
+ }
+]

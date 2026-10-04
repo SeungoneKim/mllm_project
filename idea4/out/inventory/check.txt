@@ -1,0 +1,13 @@
+model: Qwen/Qwen2.5-VL-7B-Instruct
+pages: 1165, parse failures after retry: 40 (3.4%)
+OCR method per page: {'text_layer': 756, 'vlm': 119, 'tesseract': 290}
+
+Gold type listed on gold page, pool questions in sampled docs (144 questions):
+type     n  found  recall
+chart    34     18  0.53
+figure   31     24  0.77
+layout    5      5  1.00
+table    37     35  0.95
+text     37     31  0.84
+all     144    113  0.78
+(layout counts as found when text or other is listed; failed parses count as not found)

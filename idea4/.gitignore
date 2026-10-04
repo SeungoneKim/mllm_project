@@ -1,0 +1,21 @@
+# Page images and anything rebuilt from them (regenerate with sample.py, build_form.py, render.py, gen_images.py)
+cache/
+renders/
+annotation/img/
+annotation.zip
+
+# Inventory shards and logs (merged into out/inventory/pages.jsonl by inventory.py aggregate)
+out/inventory/pages.shard*.jsonl
+out/**/log_*.txt
+out/log_*.txt
+
+# Synthetic test outputs
+tests/out_SYNTHETIC/
+tests/renders_SYNTHETIC/
+
+__pycache__/
+*.pyc
+
+# Local files
+.agent_log_backup.md
+*.zip

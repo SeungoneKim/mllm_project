@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Evidence prediction study</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; margin: 0; background: #f4f4f4; color: #222; }
+  header { background: #2b3a4a; color: #fff; padding: 8px 16px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  header .grow { flex: 1; }
+  header button { font-size: 13px; }
+  #progress { width: 220px; height: 10px; background: #556; border-radius: 5px; overflow: hidden; display: inline-block; vertical-align: middle; }
+  #progress div { height: 100%; background: #8fd18f; width: 0; }
+  main { max-width: 980px; margin: 16px auto; background: #fff; padding: 16px 24px 24px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+  h2 { margin-top: 0; }
+  .practice-tag { background: #f0ad4e; color: #fff; padding: 2px 8px; border-radius: 4px; font-size: 13px; margin-left: 8px; }
+  .question { font-size: 18px; background: #eef3f8; padding: 12px; border-left: 4px solid #2b6cb0; margin: 8px 0 12px; }
+  .meta { color: #555; margin-bottom: 8px; }
+  .steps { display: flex; gap: 6px; margin: 8px 0 16px; }
+  .steps span { padding: 4px 10px; border-radius: 4px; background: #ddd; font-size: 13px; }
+  .steps span.on { background: #2b6cb0; color: #fff; }
+  .steps span.done { background: #9bb; color: #fff; }
+  fieldset { border: 1px solid #ccc; border-radius: 4px; margin: 10px 0; padding: 8px 12px; }
+  legend { font-weight: 600; }
+  label.row { display: block; margin: 6px 0; }
+  label.row > span { display: inline-block; width: 190px; vertical-align: top; }
+  input[type=text], textarea, select { width: 60%; font: inherit; padding: 3px 5px; }
+  textarea { height: 60px; }
+  .radios label { margin-right: 14px; white-space: nowrap; }
+  .req::after { content: " *"; color: #c00; }
+  .hint { color: #666; font-size: 13px; }
+  .readonly { background: #f7f7f7; border: 1px dashed #bbb; padding: 8px 12px; border-radius: 4px; margin: 8px 0; }
+  .readonly dt { font-weight: 600; float: left; width: 150px; clear: left; }
+  .readonly dd { margin-left: 160px; margin-bottom: 2px; }
+  .inventory { background: #fff8e1; border-left: 4px solid #f0ad4e; padding: 10px 12px; margin: 8px 0 12px; }
+  .gold { background: #e8f5e9; border-left: 4px solid #43a047; padding: 10px 12px; margin: 8px 0; }
+  .nav { margin-top: 18px; display: flex; gap: 10px; align-items: center; }
+  .nav .grow { flex: 1; }
+  button.primary { background: #2b6cb0; color: #fff; border: 0; padding: 7px 16px; border-radius: 4px; font-size: 15px; cursor: pointer; }
+  button.primary:disabled { background: #9ab; cursor: default; }
+  #errors { color: #c00; margin-top: 8px; }
+  #pagewrap { position: relative; display: inline-block; cursor: crosshair; user-select: none; -webkit-user-select: none; touch-action: none; border: 1px solid #999; }
+  #pagewrap img { display: block; max-width: 900px; max-height: 1100px; -webkit-user-drag: none; }
+  #box { position: absolute; border: 3px solid #e53935; background: rgba(229,57,53,.12); pointer-events: none; display: none; }
+  .instructions li { margin-bottom: 6px; }
+  .locked input, .locked textarea, .locked select { pointer-events: none; background: #f0f0f0; }
+</style>
+</head>
+<body>
+<header>
+  <strong>Evidence prediction study</strong>
+  <span id="who"></span>
+  <span class="grow"></span>
+  <span id="progtext"></span><span id="progress"><div></div></span>
+  <button id="btn-first">Go to first unfinished</button>
+  <button id="btn-export">Export</button>
+  <label style="font-size:13px">Import <input type="file" id="btn-import" accept=".json,application/json" style="width:180px"></label>
+</header>
+<main id="app"></main>
+
+<script src="items.js"></script>
+<script>
+"use strict";
+var FORM_VERSION = "1";
+var TYPE_NAMES = { text: "Pure text", table: "Table", chart: "Chart", figure: "Figure", layout: "Layout" };
+var TYPE_ORDER = ["text", "table", "chart", "figure", "layout"];
+var CHART_SUBTYPES = ["bar", "horizontal bar", "grouped bar", "stacked bar", "line", "pie or donut", "scatter", "area", "other"];
+var LIST_KEYS = ["categories", "series", "columns", "rows"];
+var SPEC_KEYS = ["element", "subtype", "title", "x_label", "y_label", "categories", "series", "values", "style",
+                 "caption", "columns", "rows", "heading", "passage", "description"];
+// Fields shown per type: [key, label, required, multiline]
+var FIELDS = {
+  chart: [["subtype", "Chart subtype", true, false], ["title", "Title", true, false], ["x_label", "X-axis label", false, false],
+          ["y_label", "Y-axis label", false, false], ["categories", "Categories (comma-separated)", false, false],
+          ["series", "Legend series (comma-separated)", false, false], ["values", "Values (optional)", false, true],
+          ["style", "Style notes (optional)", false, false]],
+  table: [["caption", "Caption", true, false], ["columns", "Column headers (comma-separated)", false, false],
+          ["rows", "Row labels (comma-separated)", false, false], ["values", "Values (optional)", false, true]],
+  text: [["heading", "Heading (optional)", false, false], ["passage", "Passage (1 to 3 sentences)", true, true]],
+  figure: [["description", "Description (1 or 2 sentences)", true, true], ["caption", "Caption (optional)", false, false]],
+  layout: [["description", "Description", true, true]]
+};
+// At least one of these must be filled, per type.
+var MAIN_FIELDS = { chart: ["title"], table: ["caption"], text: ["passage"], figure: ["description", "caption"], layout: ["description"] };
+
+var ITEMS = window.ITEMS || [];
+var S = null;          // state for the current annotator
+var cur = 0;           // index into ITEMS
+var app = document.getElementById("app");
+
+function now() { return Date.now(); }
+function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+function safeName(n) { return n.trim().replace(/[^A-Za-z0-9_-]+/g, "_").slice(0, 40); }
+function storeKey(name) { return "idea4_partA_v" + FORM_VERSION + "_" + safeName(name); }
+function decodeGold(b) {
+  var bin = atob(b), bytes = new Uint8Array(bin.length);
+  for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return JSON.parse(new TextDecoder("utf-8").decode(bytes));
+}
+function blankItem() { return { stage: 1, draft1: { _type: "", _render: "", cues: "", confidence: "" }, draft2: null, draft3: {}, step1: null, step2: null, step3: null }; }
+function itemState(id) { if (!S.items[id]) S.items[id] = blankItem(); return S.items[id]; }
+function save() { if (S) { try { localStorage.setItem(storeKey(S.annotator), JSON.stringify(S)); } catch (e) { alert("Autosave failed. Please export now. " + e); } } }
+function isDone(id) { return S.items[id] && S.items[id].stage === 4; }
+function firstUnfinished() { for (var i = 0; i < ITEMS.length; i++) if (!isDone(ITEMS[i].item_id)) return i; return ITEMS.length; }
+
+// ---------- spec helpers ----------
+function splitList(s) { return String(s || "").split(",").map(function (x) { return x.trim(); }).filter(function (x) { return x.length > 0; }); }
+function specFromDraft(d) {
+  var t = d._type, spec = {};
+  SPEC_KEYS.forEach(function (k) { spec[k] = LIST_KEYS.indexOf(k) >= 0 ? [] : ""; });
+  spec.element = t || "";
+  (FIELDS[t] || []).forEach(function (f) {
+    var k = f[0];
+    spec[k] = LIST_KEYS.indexOf(k) >= 0 ? splitList(d[k]) : String(d[k] || "").trim();
+  });
+  return spec;
+}
+function draftFromSpec(spec, type, render) {
+  var d = { _type: type, _render: render === true ? "yes" : render === false ? "no" : "" };
+  SPEC_KEYS.forEach(function (k) { if (k !== "element") d[k] = Array.isArray(spec[k]) ? spec[k].join(", ") : (spec[k] || ""); });
+  return d;
+}
+function sameSpec(a, b) { return JSON.stringify(a) === JSON.stringify(b); }
+
+// ---------- rendering of field groups ----------
+function radios(name, options, value, disabled) {
+  return '<span class="radios">' + options.map(function (o) {
+    return '<label><input type="radio" name="' + name + '" value="' + esc(o[0]) + '"' + (String(value) === String(o[0]) ? " checked" : "") +
+      (disabled ? " disabled" : "") + "> " + esc(o[1]) + "</label>";
+  }).join("") + "</span>";
+}
+function specFields(prefix, d, disabled) {
+  var t = d._type;
+  if (!t) return '<p class="hint">Choose an evidence type to see the specification fields.</p>';
+  return FIELDS[t].map(function (f) {
+    var k = f[0], id = prefix + "_" + k, v = d[k] || "", dis = disabled ? " disabled" : "", input;
+    if (k === "subtype") {
+      input = '<select id="' + id + '" data-k="' + k + '"' + dis + '><option value=""></option>' +
+        CHART_SUBTYPES.map(function (s) { return "<option" + (v === s ? " selected" : "") + ">" + s + "</option>"; }).join("") + "</select>";
+    } else if (f[3]) {
+      input = '<textarea id="' + id + '" data-k="' + k + '"' + dis + ">" + esc(v) + "</textarea>";
+    } else {
+      input = '<input type="text" id="' + id + '" data-k="' + k + '" value="' + esc(v) + '"' + dis + ">";
+    }
+    return '<label class="row"><span' + (f[2] ? ' class="req"' : "") + ">" + esc(f[1]) + "</span>" + input + "</label>";
+  }).join("");
+}
+function typeRenderBlock(prefix, d, disabled) {
+  return '<label class="row"><span class="req">Evidence type</span>' +
+    radios(prefix + "_type", TYPE_ORDER.map(function (t) { return [t, TYPE_NAMES[t]]; }), d._type, disabled) + "</label>" +
+    '<label class="row"><span class="req">Render?</span>' + radios(prefix + "_render", [["yes", "yes"], ["no", "no"]], d._render, disabled) +
+    ' <span class="hint">yes = a drawn picture of the evidence would help a retriever find the page</span></label>' +
+    '<fieldset><legend>Specification</legend><div id="' + prefix + '_spec">' + specFields(prefix, d, disabled) + "</div></fieldset>";
+}
+function bindDraft(prefix, d, onChange) {
+  // type and render radios
+  app.querySelectorAll('input[name="' + prefix + '_type"]').forEach(function (el) {
+    el.addEventListener("change", function () {
+      d._type = el.value; save();
+      document.getElementById(prefix + "_spec").innerHTML = specFields(prefix, d, false);
+      bindSpecInputs(prefix, d); if (onChange) onChange();
+    });
+  });
+  app.querySelectorAll('input[name="' + prefix + '_render"]').forEach(function (el) {
+    el.addEventListener("change", function () { d._render = el.value; save(); if (onChange) onChange(); });
+  });
+  bindSpecInputs(prefix, d, onChange);
+}
+function bindSpecInputs(prefix, d, onChange) {
+  document.getElementById(prefix + "_spec").querySelectorAll("[data-k]").forEach(function (el) {
+    var h = function () { d[el.getAttribute("data-k")] = el.value; save(); if (onChange) onChange(); };
+    el.addEventListener("input", h); el.addEventListener("change", h);
+  });
+}
+function specSummary(spec) {
+  var rows = [];
+  SPEC_KEYS.forEach(function (k) {
+    if (k === "element") return;
+    var v = spec[k]; if (Array.isArray(v)) v = v.join(", ");
+    if (v) rows.push("<dt>" + esc(k) + "</dt><dd>" + esc(v) + "</dd>");
+  });
+  return rows.join("");
+}
+function stepSummary(st, withCues) {
+  var h = "<dl>" + "<dt>Type</dt><dd>" + esc(TYPE_NAMES[st.type] || st.type) + "</dd>" + "<dt>Render</dt><dd>" + (st.render ? "yes" : "no") + "</dd>" + specSummary(st.spec);
+  if (withCues) h += "<dt>Cues</dt><dd>" + esc(st.cues) + "</dd><dt>Confidence</dt><dd>" + esc(st.confidence) + "</dd>";
+  return h + '</dl><div style="clear:both"></div>';
+}
+
+// ---------- validation ----------
+function draftErrors(d) {
+  var e = [];
+  if (!d._type) e.push("Choose an evidence type.");
+  if (!d._render) e.push("Choose render yes or no.");
+  if (d._type) {
+    var main = MAIN_FIELDS[d._type];
+    if (!main.some(function (k) { return String(d[k] || "").trim(); })) e.push("Fill in the " + main.join(" or ") + ".");
+    if (d._type === "chart" && !d.subtype) e.push("Choose a chart subtype.");
+  }
+  return e;
+}
+
+// ---------- screens ----------
+function startScreen() {
+  document.getElementById("who").textContent = "";
+  app.innerHTML =
+    "<h2>Welcome</h2>" +
+    "<p>You will see questions about long PDF documents. For each question, you play a system that must guess what the page holding the answer looks like, before seeing the document.</p>" +
+    '<ol class="instructions">' +
+    "<li><b>Step 1, question only.</b> Read the question. Choose the evidence type you expect (pure text, table, chart, figure, layout). Decide whether to render. Then describe the evidence you expect in the specification fields. Say which words in the question led to your choice, and how confident you are.</li>" +
+    "<li><b>Step 2, inventory shown.</b> You see a short summary of what the document contains. You may revise the type, the render decision and the specification. Step 1 is then locked.</li>" +
+    "<li><b>Step 3, page shown.</b> You see the page that holds the answer, its labelled evidence type and the answer. Drag one box around the evidence on the page (you can redraw it). If there is no clear region, tick the box for that. Then say whether the subtype matched and whether the label looks right.</li>" +
+    "</ol>" +
+    "<p><b>Render</b> means: a drawn picture of the evidence would help a retriever find the page. Choose <i>no</i> if the answer is in a paragraph.</p>" +
+    "<p><b>Specification.</b> Values may be invented. Titles, labels, headers and passages should use the words you expect to see on the page.</p>" +
+    "<p>Moving forward locks the earlier steps. Your work is saved in this browser after every change. Use <b>Export</b> at the end (and now and then as a backup) to download your answers as a file.</p>" +
+    "<p>The first 3 items are practice items.</p>" +
+    '<label class="row"><span class="req">Your name</span><input type="text" id="name" style="width:240px"></label>' +
+    '<div class="nav"><button class="primary" id="go">Start or resume</button></div><div id="errors"></div>';
+  document.getElementById("go").onclick = function () {
+    var n = document.getElementById("name").value;
+    if (!safeName(n)) { document.getElementById("errors").textContent = "Please type your name."; return; }
+    var raw = null;
+    try { raw = localStorage.getItem(storeKey(n)); } catch (e) { alert("This browser blocks saving for local files. Your work will not be autosaved: use Export often, or try Chrome or Firefox."); }
+    S = raw ? JSON.parse(raw) : { annotator: n.trim(), form_version: FORM_VERSION, inventory_source: window.INVENTORY_SOURCE || "", items: {} };
+    cur = Math.min(firstUnfinished(), ITEMS.length);
+    save(); show();
+  };
+}
+
+function header(item) {
+  var st = itemState(item.item_id), stages = ["Step 1: question", "Step 2: inventory", "Step 3: page"];
+  var pos = ITEMS.indexOf(item) + 1;
+  return "<h2>Item " + esc(item.item_id) + (item.practice ? '<span class="practice-tag">practice</span>' : "") +
+    ' <span class="hint">(' + pos + " of " + ITEMS.length + ")</span></h2>" +
+    '<div class="steps">' + stages.map(function (s, i) { var c = st.stage === i + 1 ? "on" : st.stage > i + 1 ? "done" : ""; return '<span class="' + c + '">' + s + "</span>"; }).join("") + "</div>" +
+    '<div class="question">' + esc(item.question) + "</div>" +
+    '<div class="meta">Document type: <b>' + esc(item.doc_type) + "</b> &middot; " + esc(item.n_pages) + " pages</div>";
+}
+
+function navBar(nextLabel, canPrev) {
+  return '<div class="nav">' + (canPrev ? '<button id="prev">Previous item</button>' : "") +
+    '<span class="grow"></span><div id="errors"></div><button class="primary" id="next">' + nextLabel + "</button></div>";
+}
+function bindPrev() { var p = document.getElementById("prev"); if (p) p.onclick = function () { cur = Math.max(0, cur - 1); show(); }; }
+function showErrors(e) { document.getElementById("errors").innerHTML = e.map(esc).join("<br>"); }
+
+function show() {
+  updateHeader();
+  if (cur >= ITEMS.length) { finishedScreen(); return; }
+  var item = ITEMS[cur], st = itemState(item.item_id);
+  if (st.stage === 4) return reviewScreen(item, st);
+  if (st.stage === 1) return step1(item, st);
+  if (st.stage === 2) return step2(item, st);
+  return step3(item, st);
+}
+
+function step1(item, st) {
+  if (!st.t1_open) { st.t1_open = now(); save(); }
+  var d = st.draft1;
+  app.innerHTML = header(item) + typeRenderBlock("s1", d, false) +
+    '<label class="row"><span class="req">Cues</span><textarea id="cues">' + esc(d.cues) + '</textarea><br><span class="hint" style="margin-left:194px">Which words in the question led to your choice?</span></label>' +
+    '<label class="row"><span class="req">Confidence</span>' + radios("conf", [[1, "1 (guess)"], [2, "2"], [3, "3"], [4, "4"], [5, "5 (sure)"]], d.confidence, false) + "</label>" +
+    navBar("Lock step 1 and continue", cur > 0);
+  bindDraft("s1", d);
+  document.getElementById("cues").addEventListener("input", function (ev) { d.cues = ev.target.value; save(); });
+  app.querySelectorAll('input[name="conf"]').forEach(function (el) { el.addEventListener("change", function () { d.confidence = el.value; save(); }); });
+  bindPrev();
+  document.getElementById("next").onclick = function () {
+    var e = draftErrors(d);
+    if (!String(d.cues || "").trim()) e.push("Fill in the cues.");
+    if (!d.confidence) e.push("Choose a confidence.");
+    if (e.length) return showErrors(e);
+    st.step1 = { type: d._type, render: d._render === "yes", spec: specFromDraft(d), cues: d.cues.trim(), confidence: parseInt(d.confidence, 10), t_open: st.t1_open, t_close: now() };
+    st.draft2 = draftFromSpec(st.step1.spec, st.step1.type, st.step1.render);
+    st.stage = 2; save(); show(); window.scrollTo(0, 0);
+  };
+}
+
+function step2(item, st) {
+  if (!st.t2_open) { st.t2_open = now(); save(); }
+  var d = st.draft2;
+  app.innerHTML = header(item) +
+    '<div class="inventory"><b>Document inventory.</b> ' + esc(item.inventory) + "</div>" +
+    '<div class="readonly"><b>Your step 1 answers (locked)</b>' + stepSummary(st.step1, true) + "</div>" +
+    "<p><b>Revise if you want</b> (pre-filled from step 1):</p>" + typeRenderBlock("s2", d, false) +
+    navBar("Lock step 2 and see the page", cur > 0);
+  bindDraft("s2", d);
+  bindPrev();
+  document.getElementById("next").onclick = function () {
+    var e = draftErrors(d);
+    if (e.length) return showErrors(e);
+    var spec = specFromDraft(d), render = d._render === "yes";
+    var changed = d._type !== st.step1.type || render !== st.step1.render || !sameSpec(spec, st.step1.spec);
+    st.step2 = { type: d._type, render: render, spec: spec, changed: changed, t_open: st.t2_open, t_close: now() };
+    st.stage = 3; save(); show(); window.scrollTo(0, 0);
+  };
+}
+
+function step3(item, st) {
+  if (!st.t3_open) { st.t3_open = now(); save(); }
+  var d = st.draft3, gold = decodeGold(item.gold);
+  app.innerHTML = header(item) +
+    '<div class="readonly"><b>Your final prediction (step 2)</b>' + stepSummary(st.step2, false) + "</div>" +
+    '<div class="gold"><b>Labelled evidence type:</b> ' + esc(TYPE_NAMES[gold.gold_type] || gold.gold_type) + " (" + esc(gold.gold_source) + ")<br>" +
+    "<b>Answer:</b> " + esc(gold.answer) + "<br><b>Page:</b> " + esc(gold.gold_page) + " of " + esc(item.n_pages) + "</div>" +
+    '<p>Drag a box around the evidence. Drag again to redraw. <label><input type="checkbox" id="noreg"' + (d.no_clear_region ? " checked" : "") + "> No clear region</label></p>" +
+    '<div id="pagewrap"><img id="pageimg" alt="evidence page" draggable="false"><div id="box"></div></div>' +
+    '<label class="row"><span class="req">Subtype match</span>' + radios("smatch", [["yes", "yes"], ["partly", "partly"], ["no", "no"], ["not applicable", "not applicable"]], d.subtype_match, false) +
+    '<br><span class="hint" style="margin-left:194px">Does the subtype of your prediction (for example bar chart) match the page?</span></label>' +
+    '<label class="row"><span class="req">Label OK</span>' + radios("lok", [["yes", "yes"], ["no", "no"], ["unsure", "unsure"]], d.label_ok, false) +
+    '<br><span class="hint" style="margin-left:194px">Is the evidence really on this page, with this type?</span></label>' +
+    '<label class="row"><span>Notes</span><textarea id="notes">' + esc(d.notes) + "</textarea></label>" +
+    navBar("Finish item", cur > 0);
+  var img = document.getElementById("pageimg");
+  img.src = "img/" + item.item_id + ".jpg";
+  img.onload = function () { drawBox(d.bbox); };
+  setupBox(d);
+  document.getElementById("noreg").onchange = function (ev) { d.no_clear_region = ev.target.checked; save(); };
+  app.querySelectorAll('input[name="smatch"]').forEach(function (el) { el.onchange = function () { d.subtype_match = el.value; save(); }; });
+  app.querySelectorAll('input[name="lok"]').forEach(function (el) { el.onchange = function () { d.label_ok = el.value; save(); }; });
+  document.getElementById("notes").addEventListener("input", function (ev) { d.notes = ev.target.value; save(); });
+  bindPrev();
+  document.getElementById("next").onclick = function () {
+    var e = [];
+    if (!d.bbox && !d.no_clear_region) e.push("Draw a box or tick 'No clear region'.");
+    if (!d.subtype_match) e.push("Choose a subtype match.");
+    if (!d.label_ok) e.push("Choose label OK.");
+    if (e.length) return showErrors(e);
+    st.step3 = { bbox: d.no_clear_region ? null : d.bbox, no_clear_region: !!d.no_clear_region, subtype_match: d.subtype_match,
+                 label_ok: d.label_ok, notes: (d.notes || "").trim(), t_open: st.t3_open, t_close: now() };
+    st.stage = 4; save();
+    cur = firstUnfinished(); show(); window.scrollTo(0, 0);
+  };
+}
+
+function drawBox(b) {
+  var box = document.getElementById("box"), img = document.getElementById("pageimg");
+  if (!box || !img) return;
+  if (!b) { box.style.display = "none"; return; }
+  var w = img.clientWidth, h = img.clientHeight;
+  box.style.display = "block";
+  box.style.left = b[0] * w + "px"; box.style.top = b[1] * h + "px";
+  box.style.width = (b[2] - b[0]) * w + "px"; box.style.height = (b[3] - b[1]) * h + "px";
+}
+function setupBox(d) {
+  var wrap = document.getElementById("pagewrap"), img = document.getElementById("pageimg"), start = null;
+  function pos(ev) {
+    var r = img.getBoundingClientRect();
+    return [Math.min(Math.max((ev.clientX - r.left) / r.width, 0), 1), Math.min(Math.max((ev.clientY - r.top) / r.height, 0), 1)];
+  }
+  function rect(a, b) { return [Math.min(a[0], b[0]), Math.min(a[1], b[1]), Math.max(a[0], b[0]), Math.max(a[1], b[1])].map(function (v) { return Math.round(v * 10000) / 10000; }); }
+  wrap.addEventListener("pointerdown", function (ev) { ev.preventDefault(); start = pos(ev); if (wrap.setPointerCapture) wrap.setPointerCapture(ev.pointerId); });
+  wrap.addEventListener("pointermove", function (ev) { if (start) drawBox(rect(start, pos(ev))); });
+  wrap.addEventListener("pointerup", function (ev) {
+    if (!start) return;
+    var b = rect(start, pos(ev)); start = null;
+    if (b[2] - b[0] < 0.01 || b[3] - b[1] < 0.01) { drawBox(d.bbox); return; }  // ignore clicks
+    d.bbox = b; save(); drawBox(b);
+  });
+}
+
+function reviewScreen(item, st) {
+  var gold = decodeGold(item.gold), s3 = st.step3;
+  app.innerHTML = header(item) + '<p class="hint">This item is finished and read-only.</p>' +
+    '<div class="readonly"><b>Step 1</b>' + stepSummary(st.step1, true) + "</div>" +
+    '<div class="readonly"><b>Step 2</b> ' + (st.step2.changed ? "(changed)" : "(unchanged)") + stepSummary(st.step2, false) + "</div>" +
+    '<div class="gold"><b>Labelled evidence type:</b> ' + esc(TYPE_NAMES[gold.gold_type] || gold.gold_type) + "<br><b>Answer:</b> " + esc(gold.answer) + "</div>" +
+    '<div class="readonly"><b>Step 3</b><dl><dt>Box</dt><dd>' + (s3.no_clear_region ? "no clear region" : esc(JSON.stringify(s3.bbox))) + "</dd>" +
+    "<dt>Subtype match</dt><dd>" + esc(s3.subtype_match) + "</dd><dt>Label OK</dt><dd>" + esc(s3.label_ok) + "</dd><dt>Notes</dt><dd>" + esc(s3.notes) + '</dd></dl><div style="clear:both"></div></div>' +
+    '<div id="pagewrap" style="cursor:default"><img id="pageimg" alt="evidence page"><div id="box"></div></div>' +
+    '<div class="nav">' + (cur > 0 ? '<button id="prev">Previous item</button>' : "") + '<span class="grow"></span><button class="primary" id="next">Next item</button></div>';
+  var img = document.getElementById("pageimg");
+  img.src = "img/" + item.item_id + ".jpg";
+  img.onload = function () { drawBox(s3.bbox); };
+  bindPrev();
+  document.getElementById("next").onclick = function () {
+    var nxt = cur + 1;
+    cur = nxt < ITEMS.length && (isDone(ITEMS[nxt].item_id) || nxt === firstUnfinished()) ? nxt : firstUnfinished();
+    show();
+  };
+}
+
+function finishedScreen() {
+  app.innerHTML = "<h2>All items are finished</h2><p>Thank you. Please click <b>Export</b> and send the downloaded file.</p>" +
+    '<div class="nav"><button id="prev">Previous item</button><span class="grow"></span><button class="primary" id="exp2">Export</button></div>';
+  bindPrev();
+  document.getElementById("exp2").onclick = exportJSON;
+}
+
+function updateHeader() {
+  if (!S) return;
+  document.getElementById("who").textContent = "Annotator: " + S.annotator;
+  var n = ITEMS.filter(function (it) { return isDone(it.item_id); }).length;
+  document.getElementById("progtext").textContent = n + " / " + ITEMS.length + " done";
+  document.querySelector("#progress div").style.width = (100 * n / Math.max(ITEMS.length, 1)) + "%";
+}
+
+// ---------- export and import ----------
+function pad(n) { return (n < 10 ? "0" : "") + n; }
+function exportJSON() {
+  if (!S) { alert("Start first."); return; }
+  var out = { annotator: S.annotator, form_version: FORM_VERSION, exported_at: new Date().toISOString(), inventory_source: S.inventory_source || window.INVENTORY_SOURCE || "",
+    items: ITEMS.map(function (it) {
+      var st = S.items[it.item_id] || blankItem();
+      return { item_id: it.item_id, practice: !!it.practice, step1: st.step1, step2: st.step2, step3: st.step3 };
+    }) };
+  var d = new Date(), stamp = d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()) + "-" + pad(d.getHours()) + pad(d.getMinutes());
+  var blob = new Blob([JSON.stringify(out, null, 1)], { type: "application/json" });
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "annotations_" + safeName(S.annotator) + "_" + stamp + ".json";
+  document.body.appendChild(a); a.click();
+  setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+}
+function importJSON(file) {
+  var r = new FileReader();
+  r.onload = function () {
+    var data;
+    try { data = JSON.parse(r.result); } catch (e) { alert("Not a valid JSON file."); return; }
+    if (!data.annotator || !Array.isArray(data.items)) { alert("This file is not an annotation export."); return; }
+    if (!confirm("Replace the saved work of '" + data.annotator + "' in this browser with this file?")) return;
+    S = { annotator: data.annotator, form_version: FORM_VERSION, inventory_source: data.inventory_source || window.INVENTORY_SOURCE || "", items: {} };
+    data.items.forEach(function (x) {
+      var st = blankItem();
+      if (x.step1) { st.step1 = x.step1; st.t1_open = x.step1.t_open; st.stage = 2; st.draft1 = draftFromSpec(x.step1.spec, x.step1.type, x.step1.render); st.draft1.cues = x.step1.cues; st.draft1.confidence = String(x.step1.confidence); st.draft2 = draftFromSpec(x.step1.spec, x.step1.type, x.step1.render); }
+      if (x.step2) { st.step2 = x.step2; st.t2_open = x.step2.t_open; st.stage = 3; st.draft2 = draftFromSpec(x.step2.spec, x.step2.type, x.step2.render); }
+      if (x.step3) { st.step3 = x.step3; st.t3_open = x.step3.t_open; st.stage = 4; st.draft3 = { bbox: x.step3.bbox, no_clear_region: x.step3.no_clear_region, subtype_match: x.step3.subtype_match, label_ok: x.step3.label_ok, notes: x.step3.notes }; }
+      S.items[x.item_id] = st;
+    });
+    save(); cur = Math.min(firstUnfinished(), ITEMS.length); show();
+  };
+  r.readAsText(file);
+}
+
+document.getElementById("btn-export").onclick = exportJSON;
+document.getElementById("btn-import").onchange = function (ev) { if (ev.target.files[0]) importJSON(ev.target.files[0]); ev.target.value = ""; };
+document.getElementById("btn-first").onclick = function () { if (S) { cur = firstUnfinished(); show(); } };
+window.addEventListener("resize", function () { var it = ITEMS[cur]; if (S && it && S.items[it.item_id]) { var st = S.items[it.item_id]; drawBox(st.stage === 4 ? (st.step3 && st.step3.bbox) : st.draft3 && st.draft3.bbox); } });
+if (!ITEMS.length) app.innerHTML = "<p>items.js is missing or empty.</p>"; else startScreen();
+</script>
+</body>
+</html>

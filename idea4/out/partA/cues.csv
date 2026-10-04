@@ -1,0 +1,21 @@
+annotator,item_id,gold_type,step1_type,step1_correct,confidence,cues,question
+André,A01,chart,figure,False,3,"""range""",What range does red color represents in approximate distance from the Mississippi River in the chart that tracks the West NIle Virus in Europe?
+André,A02,figure,figure,True,5,man with the red shirt in the figure,"What position is the man with the red shirt in the figure on the last page, directly answer 'bottom', 'middle' or 'top'?"
+André,A03,table,text,False,4,telephone number implies text.,What is thed dental telephone number for fullerton healthcare at NTU?
+André,A04,table,figure,False,5,seems too specific question to be answered by pure text.,Does llama-1 apply qknorm? Directly answer 'yse' or 'no'
+André,A05,figure,figure,True,5,"""in the figure""","In the figure at Page at the second last, howm many people are standing? "
+André,A06,chart,chart,True,3,"""percentage of germany""","According to this report,  what percentage of Germany respondent view China or Japan as the top economic power? Give me a percantage value."
+André,A07,chart,chart,True,4,"""2010"" date",According to the chart on page 14 how much time was spent with family and friends in 2010?
+André,A08,text,table,False,5,"""unit-8 in table""",What is the title of case study given under unit-8 in table?
+André,A09,figure,chart,False,3,sales over time,What kind of albums are reducing the share of their business due to streaming?
+André,A10,chart,chart,True,4,"""4th most popular emotion""","Among all the emotions that social media makes users feel, what was the 4th most popular emotion?"
+André,A11,table,figure,False,4,"""in-context examples for multi-lingual query"" looks like a diagram type of style text.",How many languages are shown in the in-context examples for multi-lingual translation query?
+André,A12,table,chart,False,3,the date leads me to believe this could be a line chart,What is Netflix working capital in FY2015?Answer in thousands.
+André,A13,figure,text,False,3,seems like a percentage that could be hardcoded in the picture.,"On the left or right side of the screen, can you immediately find information about the percentage of the total available students represented by your chosen search criteria? Answer 'left' or 'right'."
+André,A14,chart,chart,True,4,seems like a time based quantity so line is appropriate,"When did the number of tweets referencing Germanwings exceed 200,000? Your report time should be in CET time, like '17:05 CET'."
+André,A15,text,text,True,3,"""location"" is a bit unusual to specify like in a plot, or in a table",Where are the two plants of GODFREY PHILLIPS INDIA LIMITED located?
+André,A16,table,table,True,3,total number of a quantity can be table or plot,"How many Tweets are attributed to Germanwings, Lufthansa, and Airbus in total?"
+André,A17,chart,table,False,3,Seems like too complex data for plot.,"According to the survey on April 25 - May 1, 2018, what are the domains with the highest percentage that adults are very confident and not at all confident of Donald Trump's govenment? Please write the answer in the list format and with alphabetical order, e.g., [""A"",""B""]"
+André,A18,table,chart,False,4,quantities over a set of attributes that doesn't seem to be very broad.,How many districts were sampled during Wave III?
+André,A24,text,figure,False,4,"""cover page"" seems more like ""this is an image""",What type of court is noted on the cover page?
+André,A28,text,text,True,4,seems a too textual question,What is the web link to this paper?

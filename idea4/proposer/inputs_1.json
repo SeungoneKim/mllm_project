@@ -1,0 +1,338 @@
+[
+ {
+  "id": "Q049",
+  "question": "Which shapes does the slide use to illustrate the closure aspect of Gestalt Principle of Visual Perception?",
+  "document_type": "Tutorial/Workshop",
+  "pages": 15,
+  "inventory": "Contains charts on 7 pages (line 4, bar 2, pie or donut 2), tables on 6 pages, figures on 7 pages (diagram or flowchart 6, other 6, map 2), and text on 9 pages. Style: black, white, red, header, blue."
+ },
+ {
+  "id": "Q050",
+  "question": "how does Best Buy record Merchandise inventories?",
+  "document_type": "Financial report",
+  "pages": 75,
+  "inventory": "Contains no charts, tables on 36 pages, figures on 1 page (other 1), and text on 66 pages. Style: white, black, serif, formal, document."
+ },
+ {
+  "id": "Q051",
+  "question": "In figure 5, what is the color of the line that has no intersection with any other line?",
+  "document_type": "Academic paper",
+  "pages": 24,
+  "inventory": "Contains charts on 1 page (line 2), tables on 13 pages, figures on 2 pages (diagram or flowchart 3), and text on 16 pages. Style: black, white, serif, blue, brown."
+ },
+ {
+  "id": "Q052",
+  "question": "How many \"Redacted\" signals in Page 0286 in all?",
+  "document_type": "Administration/Industry file",
+  "pages": 20,
+  "inventory": "Contains no charts, tables on 13 pages, no figures, and text on 15 pages. Style: white, black, highlights, red, handwritten."
+ },
+ {
+  "id": "Q053",
+  "question": "what is Cash and cash equivalents for Best Buy for the fiscal year ending January 28, 2023? Answer in million",
+  "document_type": "Financial report",
+  "pages": 75,
+  "inventory": "Contains no charts, tables on 36 pages, figures on 1 page (other 1), and text on 66 pages. Style: white, black, serif, formal, document."
+ },
+ {
+  "id": "Q054",
+  "question": "How many Tweets are attributed to Germanwings, Lufthansa, and Airbus in total?",
+  "document_type": "Research report / Introduction",
+  "pages": 23,
+  "inventory": "Contains charts on 3 pages (line 6), tables on 9 pages, figures on 19 pages (screenshot 31, photo 8, map 1), and text on 23 pages. Style: white, black, red, logo, blue."
+ },
+ {
+  "id": "Q055",
+  "question": "what is interest coverage ratio for AMCOR'FY 2020? round your answer to three decimal?",
+  "document_type": "Financial report",
+  "pages": 75,
+  "inventory": "Contains no charts, tables on 36 pages, figures on 1 page (other 1), and text on 66 pages. Style: white, black, serif, formal, document."
+ },
+ {
+  "id": "Q056",
+  "question": "At NTU, how many types of Field Sports can students participate in?",
+  "document_type": "Guidebook",
+  "pages": 44,
+  "inventory": "Contains no charts, tables on 21 pages, figures on 24 pages (photo 51, map 1, illustration or icon 1), and text on 41 pages. Style: white, blue, header, black, modern."
+ },
+ {
+  "id": "Q057",
+  "question": "What's the averaged percentage of Latinos (Foreign born, Second generation, Third or higher generation) say all or most of their friends are Latinos?",
+  "document_type": "Research report / Introduction",
+  "pages": 32,
+  "inventory": "Contains charts on 6 pages (bar 7), tables on 14 pages, no figures, and text on 30 pages. Style: white, black, simple, serif, modern."
+ },
+ {
+  "id": "Q058",
+  "question": "In how many hours Airbus incorporated a pop-up notification acknowledging the incident?",
+  "document_type": "Research report / Introduction",
+  "pages": 23,
+  "inventory": "Contains charts on 3 pages (line 6), tables on 9 pages, figures on 19 pages (screenshot 31, photo 8, map 1), and text on 23 pages. Style: white, black, red, logo, blue."
+ },
+ {
+  "id": "Q059",
+  "question": "How many square miles does the Hamilton country covers according to the document? Give me an appropriate integer.",
+  "document_type": "Research report / Introduction",
+  "pages": 20,
+  "inventory": "Contains no charts, tables on 7 pages, figures on 8 pages (photo 11, map 2, illustration or icon 1), and text on 19 pages. Style: white, black, simple, serif, listing."
+ },
+ {
+  "id": "Q060",
+  "question": "What is INF SERCRL LLP FAX No on page fourteen?",
+  "document_type": "Administration/Industry file",
+  "pages": 15,
+  "inventory": "Contains no charts, tables on 3 pages, no figures, and text on 15 pages. Style: white, black, serif."
+ },
+ {
+  "id": "Q061",
+  "question": "What's the color of the Third of higher generation bar in the chart about Immigrant generations and U.S. Latinos?",
+  "document_type": "Research report / Introduction",
+  "pages": 32,
+  "inventory": "Contains charts on 6 pages (bar 7), tables on 14 pages, no figures, and text on 30 pages. Style: white, black, simple, serif, modern."
+ },
+ {
+  "id": "Q062",
+  "question": "From this report, which subgroup among Hispanics has gained most confidence from 2008 to 2015? ",
+  "document_type": "Research report / Introduction",
+  "pages": 23,
+  "inventory": "Contains charts on 7 pages (bar 7, pie or donut 1, line 1), tables on 6 pages, no figures, and text on 21 pages. Style: white, black, serif, simple, header."
+ },
+ {
+  "id": "Q063",
+  "question": "What is Netflix working capital in FY2015?Answer in thousands.",
+  "document_type": "Financial report",
+  "pages": 72,
+  "inventory": "Contains charts on 1 page (line 1), tables on 36 pages, figures on 1 page (other 1), and text on 59 pages. Style: white, black, blue, links, simple."
+ },
+ {
+  "id": "Q064",
+  "question": "What score did PaLM-2L + Step-Back achieve in MMLU Physics?",
+  "document_type": "Academic paper",
+  "pages": 36,
+  "inventory": "Contains no charts, tables on 28 pages, figures on 6 pages (other 8, diagram or flowchart 1), and text on 29 pages. Style: white, black, serif, simple, blue."
+ },
+ {
+  "id": "Q065",
+  "question": "How many fieldwork personnel in all for Wave I and Wave II?",
+  "document_type": "Research report / Introduction",
+  "pages": 44,
+  "inventory": "Contains charts on 25 pages (bar 23, pie or donut 8), tables on 10 pages, figures on 8 pages (photo 6, diagram or flowchart 3, illustration or icon 2, map 1), and text on 19 pages. Style: white, simple, blue, design, dark."
+ },
+ {
+  "id": "Q066",
+  "question": "How to prepare for Tomorrow's Workplace Skills for QUARTER 3? ",
+  "document_type": "Administration/Industry file",
+  "pages": 17,
+  "inventory": "Contains no charts, tables on 2 pages, no figures, and text on 15 pages. Style: white, black, serif, simple."
+ },
+ {
+  "id": "Q067",
+  "question": "What is effective tax ratio of Best Buy for for the fiscal year ending January 28, 2023?Answer in percentage term, round to one decimal places.",
+  "document_type": "Financial report",
+  "pages": 75,
+  "inventory": "Contains no charts, tables on 36 pages, figures on 1 page (other 1), and text on 66 pages. Style: white, black, serif, formal, document."
+ },
+ {
+  "id": "Q068",
+  "question": "What is the difference of listening time in Avg. weekly hours between 2013 and 2014?",
+  "document_type": "Research report / Introduction",
+  "pages": 36,
+  "inventory": "Contains charts on 10 pages (bar 9, stacked bar 1, line 1, area 1), tables on 11 pages, figures on 12 pages (photo 6, diagram or flowchart 3, other 2, screenshot 1), and text on 27 pages. Style: blue, white, dark, bars, lines."
+ },
+ {
+  "id": "Q069",
+  "question": "When the complainant applied for return? Format your answer as YYYY-MM-DD.",
+  "document_type": "Administration/Industry file",
+  "pages": 20,
+  "inventory": "Contains no charts, tables on 13 pages, no figures, and text on 15 pages. Style: white, black, highlights, red, handwritten."
+ },
+ {
+  "id": "Q070",
+  "question": "Excepted for the public holidays, when is the counter closed on Tuesday according to the provided operating hours?",
+  "document_type": "Guidebook",
+  "pages": 44,
+  "inventory": "Contains no charts, tables on 21 pages, figures on 24 pages (photo 51, map 1, illustration or icon 1), and text on 41 pages. Style: white, blue, header, black, modern."
+ },
+ {
+  "id": "Q071",
+  "question": "what proportion does Best Buy have female employees in new, salaried field positions  for the fiscal year ending January 28, 2023?",
+  "document_type": "Financial report",
+  "pages": 75,
+  "inventory": "Contains no charts, tables on 36 pages, figures on 1 page (other 1), and text on 66 pages. Style: white, black, serif, formal, document."
+ },
+ {
+  "id": "Q072",
+  "question": "How many steps are involved in the binary fission of prokaryotic cells?",
+  "document_type": "Tutorial/Workshop",
+  "pages": 78,
+  "inventory": "Contains no charts, tables on 21 pages, figures on 33 pages (diagram or flowchart 32, photo 7, illustration or icon 4), and text on 57 pages. Style: white, black, blue, simple, green."
+ },
+ {
+  "id": "Q073",
+  "question": "What date is mentioned on the second page? Format the date as YYYY-MM",
+  "document_type": "Research report / Introduction",
+  "pages": 20,
+  "inventory": "Contains no charts, tables on 7 pages, figures on 8 pages (photo 11, map 2, illustration or icon 1), and text on 19 pages. Style: white, black, simple, serif, listing."
+ },
+ {
+  "id": "Q074",
+  "question": "what is invested capital  of Best Buy for for the fiscal year ending January 28, 2023? Answer in million.",
+  "document_type": "Financial report",
+  "pages": 75,
+  "inventory": "Contains no charts, tables on 36 pages, figures on 1 page (other 1), and text on 66 pages. Style: white, black, serif, formal, document."
+ },
+ {
+  "id": "Q075",
+  "question": "How many green bars appear in Figure 1?",
+  "document_type": "Academic paper",
+  "pages": 36,
+  "inventory": "Contains no charts, tables on 28 pages, figures on 6 pages (other 8, diagram or flowchart 1), and text on 29 pages. Style: white, black, serif, simple, blue."
+ },
+ {
+  "id": "Q076",
+  "question": "WHAT IS THE 2nd OBJECTIVE OF REGULATORY EFFICIENCY?",
+  "document_type": "Administration/Industry file",
+  "pages": 17,
+  "inventory": "Contains no charts, tables on 12 pages, figures on 2 pages (photo 6, diagram or flowchart 1), and text on 14 pages. Style: black, white, blue, header, simple."
+ },
+ {
+  "id": "Q077",
+  "question": "At which step, the loss spikes when without QK-norm?",
+  "document_type": "Academic paper",
+  "pages": 27,
+  "inventory": "Contains charts on 4 pages (line 6, bar 3), tables on 11 pages, figures on 8 pages (photo 11, other 5, diagram or flowchart 2), and text on 23 pages. Style: white, black, serif, blue, modern."
+ },
+ {
+  "id": "Q078",
+  "question": "Does llama-1 apply qknorm? Directly answer 'yse' or 'no'",
+  "document_type": "Academic paper",
+  "pages": 27,
+  "inventory": "Contains charts on 4 pages (line 6, bar 3), tables on 11 pages, figures on 8 pages (photo 11, other 5, diagram or flowchart 2), and text on 23 pages. Style: white, black, serif, blue, modern."
+ },
+ {
+  "id": "Q079",
+  "question": "What are the horizontal and vertical axis of Figure 3 respectively?",
+  "document_type": "Academic paper",
+  "pages": 23,
+  "inventory": "Contains charts on 1 page (bar 1), tables on 9 pages, figures on 6 pages (diagram or flowchart 3, other 3), and text on 20 pages. Style: white, black, serif, simple."
+ },
+ {
+  "id": "Q080",
+  "question": "In figure 1, which relation arrows do not point to specific leaf nodes?",
+  "document_type": "Academic paper",
+  "pages": 24,
+  "inventory": "Contains charts on 1 page (line 2), tables on 13 pages, figures on 2 pages (diagram or flowchart 3), and text on 16 pages. Style: black, white, serif, blue, brown."
+ },
+ {
+  "id": "Q081",
+  "question": "What DNA repair mechanisms does Figure 11 demonstrate?",
+  "document_type": "Academic paper",
+  "pages": 20,
+  "inventory": "Contains no charts, tables on 3 pages, figures on 11 pages (diagram or flowchart 14, other 1), and text on 18 pages. Style: white, black, structured, serif, simple."
+ },
+ {
+  "id": "Q082",
+  "question": "According to the figure, what is the first step of cold start?",
+  "document_type": "Academic paper",
+  "pages": 22,
+  "inventory": "Contains charts on 1 page (bar 3), tables on 12 pages, figures on 5 pages (other 4, diagram or flowchart 2, photo 1, screenshot 1), and text on 16 pages. Style: white, black, blue, simple, header."
+ },
+ {
+  "id": "Q083",
+  "question": "what goodwill does Best Buy have for for the fiscal year ending January 28, 2023?",
+  "document_type": "Financial report",
+  "pages": 75,
+  "inventory": "Contains no charts, tables on 36 pages, figures on 1 page (other 1), and text on 66 pages. Style: white, black, serif, formal, document."
+ },
+ {
+  "id": "Q084",
+  "question": "what's the topic of UNIT 14?",
+  "document_type": "Administration/Industry file",
+  "pages": 17,
+  "inventory": "Contains no charts, tables on 2 pages, no figures, and text on 15 pages. Style: white, black, serif, simple."
+ },
+ {
+  "id": "Q085",
+  "question": "What type of court is noted on the cover page?",
+  "document_type": "Administration/Industry file",
+  "pages": 15,
+  "inventory": "Contains no charts, tables on 3 pages, no figures, and text on 15 pages. Style: white, black, serif."
+ },
+ {
+  "id": "Q086",
+  "question": "In figure 4, which nodes are retrieved by RAPTOR for both questions?",
+  "document_type": "Academic paper",
+  "pages": 23,
+  "inventory": "Contains charts on 1 page (bar 1), tables on 9 pages, figures on 6 pages (diagram or flowchart 3, other 3), and text on 20 pages. Style: white, black, serif, simple."
+ },
+ {
+  "id": "Q087",
+  "question": "Which executive directors have attended Board Meetings more than 6 times?",
+  "document_type": "Financial report",
+  "pages": 20,
+  "inventory": "Contains charts on 2 pages (bar 1, line 1), tables on 10 pages, no figures, and text on 15 pages. Style: white, black, serif, pink, header."
+ },
+ {
+  "id": "Q088",
+  "question": "how many Domestic store does Best Buy have in fiscal 2023?",
+  "document_type": "Financial report",
+  "pages": 75,
+  "inventory": "Contains no charts, tables on 36 pages, figures on 1 page (other 1), and text on 66 pages. Style: white, black, serif, formal, document."
+ },
+ {
+  "id": "Q089",
+  "question": "Where was Gestalt psychology concieved?",
+  "document_type": "Tutorial/Workshop",
+  "pages": 15,
+  "inventory": "Contains charts on 7 pages (line 4, bar 2, pie or donut 2), tables on 6 pages, figures on 7 pages (diagram or flowchart 6, other 6, map 2), and text on 9 pages. Style: black, white, red, header, blue."
+ },
+ {
+  "id": "Q090",
+  "question": "What are the HIT applications?",
+  "document_type": "Tutorial/Workshop",
+  "pages": 20,
+  "inventory": "Contains charts on 11 pages (bar 10, line 1), tables on 5 pages, figures on 3 pages (diagram or flowchart 2, photo 1, screenshot 1), and text on 13 pages. Style: white, red, blue, black, bars."
+ },
+ {
+  "id": "Q091",
+  "question": "On the left or right side of the screen, can you immediately find information about the percentage of the total available students represented by your chosen search criteria? Answer 'left' or 'right'.",
+  "document_type": "Guidebook",
+  "pages": 18,
+  "inventory": "Contains no charts, tables on 9 pages, figures on 8 pages (map 7, screenshot 4, photo 1), and text on 15 pages. Style: white, header, black, serif, gold."
+ },
+ {
+  "id": "Q092",
+  "question": "what is the email id of the mtre laurent nahmiash ?",
+  "document_type": "Administration/Industry file",
+  "pages": 15,
+  "inventory": "Contains no charts, tables on 3 pages, no figures, and text on 15 pages. Style: white, black, serif."
+ },
+ {
+  "id": "Q093",
+  "question": "What are the two companies that offer both of business intelligence in its app and structured DB in its infrastructure? ",
+  "document_type": "Tutorial/Workshop",
+  "pages": 53,
+  "inventory": "Contains charts on 14 pages (line 9, bar 5), tables on 10 pages, figures on 16 pages (photo 10, map 5, diagram or flowchart 3, screenshot 3, illustration or icon 1), and text on 40 pages. Style: white, black, blue, simple, dark."
+ },
+ {
+  "id": "Q094",
+  "question": "What was the value of absolute percentage shortfall in India's GDP growth from 2002 to 2003 compared to the forecast?",
+  "document_type": "Financial report",
+  "pages": 20,
+  "inventory": "Contains charts on 2 pages (bar 1, line 1), tables on 10 pages, no figures, and text on 15 pages. Style: white, black, serif, pink, header."
+ },
+ {
+  "id": "Q095",
+  "question": "What are the top2 texts of the red words in the document?",
+  "document_type": "Administration/Industry file",
+  "pages": 17,
+  "inventory": "Contains no charts, tables on 12 pages, figures on 2 pages (photo 6, diagram or flowchart 1), and text on 14 pages. Style: black, white, blue, header, simple."
+ },
+ {
+  "id": "Q096",
+  "question": "What is the color of Kailali in the map of Page 12?",
+  "document_type": "Research report / Introduction",
+  "pages": 44,
+  "inventory": "Contains charts on 25 pages (bar 23, pie or donut 8), tables on 10 pages, figures on 8 pages (photo 6, diagram or flowchart 3, illustration or icon 2, map 1), and text on 19 pages. Style: white, simple, blue, design, dark."
+ }
+]

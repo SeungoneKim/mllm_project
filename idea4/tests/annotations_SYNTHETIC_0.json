@@ -1,0 +1,3115 @@
+{
+ "annotator": "SYNTHETIC_0",
+ "form_version": "1",
+ "exported_at": "2026-10-03T00:00:00Z",
+ "inventory_source": "labels",
+ "items": [
+  {
+   "item_id": "P1",
+   "practice": true,
+   "step1": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "office being nodes increased what entry conducting employed executive fair"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 0,
+    "t_close": 25091
+   },
+   "step2": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "office being nodes increased what entry conducting employed executive fair"
+    },
+    "changed": false,
+    "t_open": 25091,
+    "t_close": 53786
+   },
+   "step3": {
+    "bbox": [
+     0.029,
+     0.083,
+     0.329,
+     0.383
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 53786,
+    "t_close": 89462
+   }
+  },
+  {
+   "item_id": "P2",
+   "practice": true,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "bilateral amazon animal grey ultraconnect nice held immediately also demographics"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 89462,
+    "t_close": 129557
+   },
+   "step2": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "dealing italic signatures error",
+     "x_label": "only",
+     "y_label": "best",
+     "categories": [
+      "terry",
+      "situation",
+      "papers"
+     ],
+     "series": [
+      "capitalization",
+      "accounts"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 129557,
+    "t_close": 175185
+   },
+   "step3": {
+    "bbox": [
+     0.389,
+     0.037,
+     0.689,
+     0.337
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 175185,
+    "t_close": 187450
+   }
+  },
+  {
+   "item_id": "P3",
+   "practice": true,
+   "step1": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "written cartoons float city said analystics belongs female students blue views chosen blue reporting chapters course colors influence born postive",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 187450,
+    "t_close": 292762
+   },
+   "step2": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "written cartoons float city said analystics belongs female students blue views chosen blue reporting chapters course colors influence born postive",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 292762,
+    "t_close": 335865
+   },
+   "step3": {
+    "bbox": [
+     0.16,
+     0.452,
+     0.46,
+     0.752
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 335865,
+    "t_close": 349414
+   }
+  },
+  {
+   "item_id": "A01",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "pie or donut",
+     "title": "then dividend provided sentence",
+     "x_label": "represent",
+     "y_label": "solver",
+     "categories": [
+      "situation",
+      "advertise",
+      "recognize"
+     ],
+     "series": [
+      "neural",
+      "page"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 349414,
+    "t_close": 375048
+   },
+   "step2": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "sectors included needed setting page included string field nodes given"
+    },
+    "changed": true,
+    "t_open": 375048,
+    "t_close": 428846
+   },
+   "step3": {
+    "bbox": [
+     0.031,
+     0.108,
+     0.331,
+     0.408
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 428846,
+    "t_close": 464989
+   }
+  },
+  {
+   "item_id": "A02",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "course retrieval stratified white district analystics quote related return coast"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 464989,
+    "t_close": 582360
+   },
+   "step2": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "course retrieval stratified white district analystics quote related return coast"
+    },
+    "changed": false,
+    "t_open": 582360,
+    "t_close": 622358
+   },
+   "step3": {
+    "bbox": [
+     0.236,
+     0.489,
+     0.536,
+     0.789
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 622358,
+    "t_close": 636732
+   }
+  },
+  {
+   "item_id": "A03",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "before interviewed become ebitda logic advertising focused immigrant pipeline degree retrieved retrieval find ratio affairs author operate label isep ipad",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 636732,
+    "t_close": 719811
+   },
+   "step2": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "before interviewed become ebitda logic advertising focused immigrant pipeline degree retrieved retrieval find ratio affairs author operate label isep ipad",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 719811,
+    "t_close": 733566
+   },
+   "step3": {
+    "bbox": [
+     0.086,
+     0.047,
+     0.386,
+     0.347
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 733566,
+    "t_close": 744955
+   }
+  },
+  {
+   "item_id": "A04",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "alphabetical depict week sourced statement model structured third appeared inventory march float influence religious siginificant vehicles tweet generation ecosystem lebour",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 744955,
+    "t_close": 777672
+   },
+   "step2": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "alphabetical depict week sourced statement model structured third appeared inventory march float influence religious siginificant vehicles tweet generation ecosystem lebour",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 777672,
+    "t_close": 798459
+   },
+   "step3": {
+    "bbox": [
+     0.279,
+     0.45,
+     0.579,
+     0.75
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 798459,
+    "t_close": 813924
+   }
+  },
+  {
+   "item_id": "A05",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": false,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "many naval papers your",
+     "columns": [
+      "appears",
+      "related",
+      "human"
+     ],
+     "rows": [
+      "appear",
+      "apply",
+      "section"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 813924,
+    "t_close": 841353
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "many naval papers your",
+     "columns": [
+      "appears",
+      "related",
+      "human"
+     ],
+     "rows": [
+      "appear",
+      "apply",
+      "section"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 841353,
+    "t_close": 892412
+   },
+   "step3": {
+    "bbox": [
+     0.134,
+     0.029,
+     0.434,
+     0.329
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 892412,
+    "t_close": 904248
+   }
+  },
+  {
+   "item_id": "A06",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "strengths longest numbers field",
+     "x_label": "third",
+     "y_label": "whose",
+     "categories": [
+      "conversion",
+      "institutional",
+      "congressional"
+     ],
+     "series": [
+      "item",
+      "label"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 904248,
+    "t_close": 989318
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "strengths longest numbers field",
+     "x_label": "third",
+     "y_label": "whose",
+     "categories": [
+      "conversion",
+      "institutional",
+      "congressional"
+     ],
+     "series": [
+      "item",
+      "label"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 989318,
+    "t_close": 1003486
+   },
+   "step3": {
+    "bbox": [
+     0.229,
+     0.198,
+     0.529,
+     0.498
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 1003486,
+    "t_close": 1058787
+   }
+  },
+  {
+   "item_id": "A07",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": false,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "years latest road software",
+     "columns": [
+      "killed",
+      "inference",
+      "speak"
+     ],
+     "rows": [
+      "list",
+      "color",
+      "devices"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 1058787,
+    "t_close": 1153363
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "years latest road software",
+     "columns": [
+      "killed",
+      "inference",
+      "speak"
+     ],
+     "rows": [
+      "list",
+      "color",
+      "devices"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 1153363,
+    "t_close": 1183016
+   },
+   "step3": {
+    "bbox": [
+     0.384,
+     0.087,
+     0.684,
+     0.387
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 1183016,
+    "t_close": 1200887
+   }
+  },
+  {
+   "item_id": "A08",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "center devices concrect active example research options second fiscal slides"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 1200887,
+    "t_close": 1260760
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "center devices concrect active example research options second fiscal slides"
+    },
+    "changed": true,
+    "t_open": 1260760,
+    "t_close": 1302209
+   },
+   "step3": {
+    "bbox": [
+     0.282,
+     0.117,
+     0.582,
+     0.417
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 1302209,
+    "t_close": 1360015
+   }
+  },
+  {
+   "item_id": "A09",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "color nodes ultraconnect belongs operating difference organisations usca largest americen produces congressional results policy life above eligible audience dataset between",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 1360015,
+    "t_close": 1387960
+   },
+   "step2": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "color nodes ultraconnect belongs operating difference organisations usca largest americen produces congressional results policy life above eligible audience dataset between",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 1387960,
+    "t_close": 1398528
+   },
+   "step3": {
+    "bbox": [
+     0.11,
+     0.423,
+     0.41,
+     0.723
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 1398528,
+    "t_close": 1449027
+   }
+  },
+  {
+   "item_id": "A10",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "integer float depict contains",
+     "x_label": "cover",
+     "y_label": "blue",
+     "categories": [
+      "mutation",
+      "increasing",
+      "users"
+     ],
+     "series": [
+      "phone",
+      "pages"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 1449027,
+    "t_close": 1501351
+   },
+   "step2": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "requirements conversion companies snapntell before system picture purple descriptions least capitalization accidents format party shall prokaryotic assistant handwritten naval float",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 1501351,
+    "t_close": 1548730
+   },
+   "step3": {
+    "bbox": [
+     0.151,
+     0.445,
+     0.451,
+     0.745
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 1548730,
+    "t_close": 1583821
+   }
+  },
+  {
+   "item_id": "A11",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "daily integer tables department share ecosystem logic stage them financial"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 1583821,
+    "t_close": 1638575
+   },
+   "step2": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "daily integer tables department share ecosystem logic stage them financial"
+    },
+    "changed": true,
+    "t_open": 1638575,
+    "t_close": 1677376
+   },
+   "step3": {
+    "bbox": [
+     0.247,
+     0.426,
+     0.547,
+     0.726
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 1677376,
+    "t_close": 1734781
+   }
+  },
+  {
+   "item_id": "A12",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "nice coast symbolic options",
+     "x_label": "with",
+     "y_label": "passed",
+     "categories": [
+      "active",
+      "elections",
+      "retrieval"
+     ],
+     "series": [
+      "every",
+      "facts"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 1734781,
+    "t_close": 1808480
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "nice coast symbolic options",
+     "x_label": "with",
+     "y_label": "passed",
+     "categories": [
+      "active",
+      "elections",
+      "retrieval"
+     ],
+     "series": [
+      "every",
+      "facts"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1808480,
+    "t_close": 1862610
+   },
+   "step3": {
+    "bbox": [
+     0.214,
+     0.388,
+     0.514,
+     0.688
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 1862610,
+    "t_close": 1922179
+   }
+  },
+  {
+   "item_id": "A13",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "progressed down animal exterior",
+     "x_label": "driverless",
+     "y_label": "proposes",
+     "categories": [
+      "person",
+      "chapters",
+      "greater"
+     ],
+     "series": [
+      "blue",
+      "appendix"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 1922179,
+    "t_close": 1991059
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "progressed down animal exterior",
+     "x_label": "driverless",
+     "y_label": "proposes",
+     "categories": [
+      "person",
+      "chapters",
+      "greater"
+     ],
+     "series": [
+      "blue",
+      "appendix"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 1991059,
+    "t_close": 2045799
+   },
+   "step3": {
+    "bbox": [
+     0.358,
+     0.007,
+     0.658,
+     0.307
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 2045799,
+    "t_close": 2100058
+   }
+  },
+  {
+   "item_id": "A14",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "that incresed chapters cash respondents also high accidents nice letter"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 2100058,
+    "t_close": 2131517
+   },
+   "step2": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "that incresed chapters cash respondents also high accidents nice letter"
+    },
+    "changed": false,
+    "t_open": 2131517,
+    "t_close": 2139735
+   },
+   "step3": {
+    "bbox": [
+     0.104,
+     0.244,
+     0.404,
+     0.544
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 2139735,
+    "t_close": 2193230
+   }
+  },
+  {
+   "item_id": "A15",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "only india human switches merchandising does people compulsory terms apply"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 2193230,
+    "t_close": 2217212
+   },
+   "step2": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "quantitative only lebour they layers battery alphabetical liabilities have title business value tracking themed progressed datasets battery them semantic metioned",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 2217212,
+    "t_close": 2249877
+   },
+   "step3": {
+    "bbox": [
+     0.334,
+     0.034,
+     0.634,
+     0.334
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 2249877,
+    "t_close": 2271538
+   }
+  },
+  {
+   "item_id": "A16",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "weaknesses formatted represented phrase chosen college workers offer perform before stipulated parts them group president contain parts chemical facts logic",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 2271538,
+    "t_close": 2305589
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "method performance audience junction",
+     "columns": [
+      "guidebook",
+      "pages",
+      "business"
+     ],
+     "rows": [
+      "underlined",
+      "tsinghua",
+      "whose"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 2305589,
+    "t_close": 2319692
+   },
+   "step3": {
+    "bbox": [
+     0.058,
+     0.071,
+     0.358,
+     0.371
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 2319692,
+    "t_close": 2336044
+   }
+  },
+  {
+   "item_id": "A17",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "germanwings between online zone focused adult code assume want being"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 2336044,
+    "t_close": 2372322
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "germanwings between online zone focused adult code assume want being"
+    },
+    "changed": false,
+    "t_open": 2372322,
+    "t_close": 2384411
+   },
+   "step3": {
+    "bbox": [
+     0.219,
+     0.05,
+     0.519,
+     0.35
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 2384411,
+    "t_close": 2432195
+   }
+  },
+  {
+   "item_id": "A18",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "table numbers segmenting baseline",
+     "x_label": "metrics",
+     "y_label": "vehicles",
+     "categories": [
+      "guidebook",
+      "incresed",
+      "write"
+     ],
+     "series": [
+      "dataset",
+      "module"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 2432195,
+    "t_close": 2484357
+   },
+   "step2": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "table numbers segmenting baseline",
+     "x_label": "metrics",
+     "y_label": "vehicles",
+     "categories": [
+      "guidebook",
+      "incresed",
+      "write"
+     ],
+     "series": [
+      "dataset",
+      "module"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 2484357,
+    "t_close": 2520883
+   },
+   "step3": {
+    "bbox": [
+     0.042,
+     0.226,
+     0.342,
+     0.526
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 2520883,
+    "t_close": 2564454
+   }
+  },
+  {
+   "item_id": "A19",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "cold conversion than benefit implemented oldest without background injured content"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 2564454,
+    "t_close": 2614309
+   },
+   "step2": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "cold conversion than benefit implemented oldest without background injured content"
+    },
+    "changed": false,
+    "t_open": 2614309,
+    "t_close": 2665648
+   },
+   "step3": {
+    "bbox": [
+     0.045,
+     0.221,
+     0.345,
+     0.521
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 2665648,
+    "t_close": 2685552
+   }
+  },
+  {
+   "item_id": "A20",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "people group please figure outputs same application number much menu"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 2685552,
+    "t_close": 2727869
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "people group please figure outputs same application number much menu"
+    },
+    "changed": false,
+    "t_open": 2727869,
+    "t_close": 2740257
+   },
+   "step3": {
+    "bbox": [
+     0.267,
+     0.196,
+     0.567,
+     0.496
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 2740257,
+    "t_close": 2776183
+   }
+  },
+  {
+   "item_id": "A21",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "closely hispanics residential conducting focused which start favorable number directly"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 2776183,
+    "t_close": 2835306
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "pie or donut",
+     "title": "image decrease exceed many",
+     "x_label": "paid",
+     "y_label": "january",
+     "categories": [
+      "nice",
+      "words",
+      "solutions"
+     ],
+     "series": [
+      "loyalty",
+      "siginificant"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 2835306,
+    "t_close": 2865175
+   },
+   "step3": {
+    "bbox": [
+     0.496,
+     0.377,
+     0.796,
+     0.677
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 2865175,
+    "t_close": 2896380
+   }
+  },
+  {
+   "item_id": "A22",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "conflicts oscarb implemented just automatically compulsory derivative zijing interest exit segment support hospitality decimal title organic showing policy traffic referencing",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 2896380,
+    "t_close": 2955673
+   },
+   "step2": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "conflicts oscarb implemented just automatically compulsory derivative zijing interest exit segment support hospitality decimal title organic showing policy traffic referencing",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 2955673,
+    "t_close": 3011512
+   },
+   "step3": {
+    "bbox": [
+     0.492,
+     0.208,
+     0.792,
+     0.508
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 3011512,
+    "t_close": 3060533
+   }
+  },
+  {
+   "item_id": "A23",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "operate countries referencing items binary justice esophagus city definition focused"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 3060533,
+    "t_close": 3109154
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "operate countries referencing items binary justice esophagus city definition focused"
+    },
+    "changed": true,
+    "t_open": 3109154,
+    "t_close": 3152829
+   },
+   "step3": {
+    "bbox": [
+     0.233,
+     0.133,
+     0.533,
+     0.433
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 3152829,
+    "t_close": 3210262
+   }
+  },
+  {
+   "item_id": "A24",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "warehouses individually postive according descriptions ultraconnect vietnam mentioned attributed neural"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 3210262,
+    "t_close": 3313636
+   },
+   "step2": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "adult district focused name depict countries data ethical driverless excepted hover platform india remove nodes users governor main automatically fever",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 3313636,
+    "t_close": 3358640
+   },
+   "step3": {
+    "bbox": [
+     0.499,
+     0.212,
+     0.799,
+     0.512
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 3358640,
+    "t_close": 3376528
+   }
+  },
+  {
+   "item_id": "A25",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "shares geographic title dataset tsinghua metrics quantitative geographic field capital entry according value debt users achieved format traffic image animal",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 3376528,
+    "t_close": 3414968
+   },
+   "step2": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "shares geographic title dataset tsinghua metrics quantitative geographic field capital entry according value debt users achieved format traffic image animal",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 3414968,
+    "t_close": 3462466
+   },
+   "step3": {
+    "bbox": [
+     0.139,
+     0.184,
+     0.439,
+     0.484
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 3462466,
+    "t_close": 3477494
+   }
+  },
+  {
+   "item_id": "A26",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "closed latinos investors study limit views acceptable another cold solutions"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 3477494,
+    "t_close": 3550214
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "ecosystem population conducting only",
+     "x_label": "good",
+     "y_label": "portfolio",
+     "categories": [
+      "over",
+      "alternative",
+      "apple"
+     ],
+     "series": [
+      "reported",
+      "loyalty"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 3550214,
+    "t_close": 3557834
+   },
+   "step3": {
+    "bbox": [
+     0.09,
+     0.041,
+     0.39,
+     0.341
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 3557834,
+    "t_close": 3609001
+   }
+  },
+  {
+   "item_id": "A27",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "generation headset audit will online antennas customers part descriptions strengths"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 3609001,
+    "t_close": 3694387
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "generation headset audit will online antennas customers part descriptions strengths"
+    },
+    "changed": false,
+    "t_open": 3694387,
+    "t_close": 3711823
+   },
+   "step3": {
+    "bbox": [
+     0.385,
+     0.081,
+     0.685,
+     0.381
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 3711823,
+    "t_close": 3759949
+   }
+  },
+  {
+   "item_id": "A28",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "email assume were columbia",
+     "x_label": "their",
+     "y_label": "increased",
+     "categories": [
+      "done",
+      "handwritten",
+      "elections"
+     ],
+     "series": [
+      "corresponding",
+      "table"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 3759949,
+    "t_close": 3811034
+   },
+   "step2": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "email assume were columbia",
+     "x_label": "their",
+     "y_label": "increased",
+     "categories": [
+      "done",
+      "handwritten",
+      "elections"
+     ],
+     "series": [
+      "corresponding",
+      "table"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 3811034,
+    "t_close": 3839255
+   },
+   "step3": {
+    "bbox": [
+     0.099,
+     0.147,
+     0.399,
+     0.447
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 3839255,
+    "t_close": 3873488
+   }
+  },
+  {
+   "item_id": "A29",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "ascending correct road just",
+     "x_label": "excepted",
+     "y_label": "lebron",
+     "categories": [
+      "learning",
+      "main",
+      "born"
+     ],
+     "series": [
+      "information",
+      "chemical"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 3873488,
+    "t_close": 3906108
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "ascending correct road just",
+     "x_label": "excepted",
+     "y_label": "lebron",
+     "categories": [
+      "learning",
+      "main",
+      "born"
+     ],
+     "series": [
+      "information",
+      "chemical"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 3906108,
+    "t_close": 3929885
+   },
+   "step3": {
+    "bbox": [
+     0.007,
+     0.118,
+     0.307,
+     0.418
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 3929885,
+    "t_close": 3971474
+   }
+  },
+  {
+   "item_id": "A30",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "pie or donut",
+     "title": "income spikes sight method",
+     "x_label": "system",
+     "y_label": "overview",
+     "categories": [
+      "employed",
+      "flip",
+      "android"
+     ],
+     "series": [
+      "universities",
+      "advertise"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 3971474,
+    "t_close": 4067024
+   },
+   "step2": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "appear person inventory operate medical ipad items institutional part being corner capture letter driverless elections college want supplies assets solutions",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 4067024,
+    "t_close": 4092255
+   },
+   "step3": {
+    "bbox": [
+     0.18,
+     0.292,
+     0.48,
+     0.592
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 4092255,
+    "t_close": 4140113
+   }
+  },
+  {
+   "item_id": "A31",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "women supplies dealing with customer first larger underlined cycle pages"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 4140113,
+    "t_close": 4209565
+   },
+   "step2": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "women supplies dealing with customer first larger underlined cycle pages"
+    },
+    "changed": true,
+    "t_open": 4209565,
+    "t_close": 4230753
+   },
+   "step3": {
+    "bbox": [
+     0.148,
+     0.099,
+     0.448,
+     0.399
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 4230753,
+    "t_close": 4251814
+   }
+  },
+  {
+   "item_id": "A32",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "stage mentioned neflix oscarb",
+     "columns": [
+      "this",
+      "esophagus",
+      "adults"
+     ],
+     "rows": [
+      "week",
+      "fever",
+      "themed"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 4251814,
+    "t_close": 4289718
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "stage mentioned neflix oscarb",
+     "columns": [
+      "this",
+      "esophagus",
+      "adults"
+     ],
+     "rows": [
+      "week",
+      "fever",
+      "themed"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 4289718,
+    "t_close": 4324472
+   },
+   "step3": {
+    "bbox": [
+     0.492,
+     0.315,
+     0.792,
+     0.615
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 4324472,
+    "t_close": 4339460
+   }
+  },
+  {
+   "item_id": "A33",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "portfolio left ipad exterior among positive needed share pair outbreak"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 4339460,
+    "t_close": 4422634
+   },
+   "step2": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "lebour focused personal dealing confidence least person week unit written cardioesophageal connecting completion places students themed creators paper foundation department",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 4422634,
+    "t_close": 4431913
+   },
+   "step3": {
+    "bbox": [
+     0.08,
+     0.455,
+     0.38,
+     0.755
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 4431913,
+    "t_close": 4460310
+   }
+  },
+  {
+   "item_id": "A34",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "offer increasing decrease names",
+     "x_label": "prefix",
+     "y_label": "ideas",
+     "categories": [
+      "years",
+      "illustrate",
+      "appeared"
+     ],
+     "series": [
+      "descriptions",
+      "perform"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 4460310,
+    "t_close": 4542856
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "offer increasing decrease names",
+     "x_label": "prefix",
+     "y_label": "ideas",
+     "categories": [
+      "years",
+      "illustrate",
+      "appeared"
+     ],
+     "series": [
+      "descriptions",
+      "perform"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 4542856,
+    "t_close": 4584907
+   },
+   "step3": {
+    "bbox": [
+     0.147,
+     0.132,
+     0.447,
+     0.432
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 4584907,
+    "t_close": 4612995
+   }
+  },
+  {
+   "item_id": "A35",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "pie or donut",
+     "title": "case exterior four toward",
+     "x_label": "ratio",
+     "y_label": "name",
+     "categories": [
+      "oscarb",
+      "respondents",
+      "party"
+     ],
+     "series": [
+      "which",
+      "terms"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 4612995,
+    "t_close": 4693918
+   },
+   "step2": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "pie or donut",
+     "title": "case exterior four toward",
+     "x_label": "ratio",
+     "y_label": "name",
+     "categories": [
+      "oscarb",
+      "respondents",
+      "party"
+     ],
+     "series": [
+      "which",
+      "terms"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 4693918,
+    "t_close": 4748754
+   },
+   "step3": {
+    "bbox": [
+     0.332,
+     0.407,
+     0.632,
+     0.707
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 4748754,
+    "t_close": 4798419
+   }
+  },
+  {
+   "item_id": "A36",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "plots would latest immediately this guidebook spikes driverless studying from"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 4798419,
+    "t_close": 4910439
+   },
+   "step2": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "plots would latest immediately this guidebook spikes driverless studying from"
+    },
+    "changed": false,
+    "t_open": 4910439,
+    "t_close": 4932980
+   },
+   "step3": {
+    "bbox": [
+     0.123,
+     0.38,
+     0.423,
+     0.68
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 4932980,
+    "t_close": 4990790
+   }
+  },
+  {
+   "item_id": "A37",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "degree appendix institutional involves down signed lean costco zijing flip subject cameras highest referral wireless definition centre cold math sciences",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 4990790,
+    "t_close": 5104526
+   },
+   "step2": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "americans bulleted studying companies shirt chart error ascending semester week"
+    },
+    "changed": true,
+    "t_open": 5104526,
+    "t_close": 5114168
+   },
+   "step3": {
+    "bbox": [
+     0.206,
+     0.037,
+     0.506,
+     0.337
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 5114168,
+    "t_close": 5158213
+   }
+  },
+  {
+   "item_id": "A38",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "demographics programme unit comes referral will supplies function brennan format"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 5158213,
+    "t_close": 5268296
+   },
+   "step2": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "demographics programme unit comes referral will supplies function brennan format"
+    },
+    "changed": true,
+    "t_open": 5268296,
+    "t_close": 5303796
+   },
+   "step3": {
+    "bbox": [
+     0.059,
+     0.43,
+     0.359,
+     0.73
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 5303796,
+    "t_close": 5342005
+   }
+  },
+  {
+   "item_id": "A39",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": false,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "learning coast baseline executive",
+     "columns": [
+      "incresed",
+      "lebron",
+      "ground"
+     ],
+     "rows": [
+      "linkedin",
+      "hand",
+      "different"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 5342005,
+    "t_close": 5399036
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "learning coast baseline executive",
+     "columns": [
+      "incresed",
+      "lebron",
+      "ground"
+     ],
+     "rows": [
+      "linkedin",
+      "hand",
+      "different"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 5399036,
+    "t_close": 5424641
+   },
+   "step3": {
+    "bbox": [
+     0.435,
+     0.442,
+     0.735,
+     0.742
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 5424641,
+    "t_close": 5459776
+   }
+  },
+  {
+   "item_id": "A40",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "right vote climate woman assistant determined where yields times conversion"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 5459776,
+    "t_close": 5485446
+   },
+   "step2": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "right vote climate woman assistant determined where yields times conversion"
+    },
+    "changed": true,
+    "t_open": 5485446,
+    "t_close": 5518563
+   },
+   "step3": {
+    "bbox": [
+     0.004,
+     0.079,
+     0.304,
+     0.379
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 5518563,
+    "t_close": 5545175
+   }
+  }
+ ]
+}

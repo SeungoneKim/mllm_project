@@ -1,0 +1,3092 @@
+{
+ "annotator": "SYNTHETIC_1",
+ "form_version": "1",
+ "exported_at": "2026-10-03T00:00:00Z",
+ "inventory_source": "labels",
+ "items": [
+  {
+   "item_id": "P1",
+   "practice": true,
+   "step1": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "conducted tweet ipad besides loyalty housing switches contact structured recommend"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 0,
+    "t_close": 20794
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "numbers semantic source parts",
+     "columns": [
+      "lowest",
+      "conversion",
+      "least"
+     ],
+     "rows": [
+      "after",
+      "drawn",
+      "millions"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 20794,
+    "t_close": 41449
+   },
+   "step3": {
+    "bbox": [
+     0.302,
+     0.083,
+     0.602,
+     0.383
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 41449,
+    "t_close": 70207
+   }
+  },
+  {
+   "item_id": "P2",
+   "practice": true,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "appear life names when signatures fair become adults chapter costco"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 70207,
+    "t_close": 174875
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "appear life names when signatures fair become adults chapter costco"
+    },
+    "changed": false,
+    "t_open": 174875,
+    "t_close": 233491
+   },
+   "step3": {
+    "bbox": [
+     0.189,
+     0.271,
+     0.489,
+     0.571
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 233491,
+    "t_close": 283268
+   }
+  },
+  {
+   "item_id": "P3",
+   "practice": true,
+   "step1": {
+    "type": "table",
+    "render": false,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "germanwings input employers subject",
+     "columns": [
+      "customer",
+      "exit",
+      "referral"
+     ],
+     "rows": [
+      "interviewed",
+      "daily",
+      "active"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 283268,
+    "t_close": 311825
+   },
+   "step2": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "conversion respondents debate trigger strengths shares range adult dividend method"
+    },
+    "changed": true,
+    "t_open": 311825,
+    "t_close": 370771
+   },
+   "step3": {
+    "bbox": [
+     0.05,
+     0.027,
+     0.35,
+     0.327
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 370771,
+    "t_close": 424142
+   }
+  },
+  {
+   "item_id": "A01",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "exceeds least organic float signatures slides risk standards float want"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 424142,
+    "t_close": 474513
+   },
+   "step2": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "exceeds least organic float signatures slides risk standards float want"
+    },
+    "changed": true,
+    "t_open": 474513,
+    "t_close": 489037
+   },
+   "step3": {
+    "bbox": [
+     0.311,
+     0.021,
+     0.611,
+     0.321
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 489037,
+    "t_close": 506585
+   }
+  },
+  {
+   "item_id": "A02",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "tuesday conspirators pair source decrease rung counties corresponding universities green"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 506585,
+    "t_close": 545638
+   },
+   "step2": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "pie or donut",
+     "title": "terms from area tables",
+     "x_label": "public",
+     "y_label": "increased",
+     "categories": [
+      "merchandising",
+      "video",
+      "drawn"
+     ],
+     "series": [
+      "believe",
+      "guidebook"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 545638,
+    "t_close": 590523
+   },
+   "step3": {
+    "bbox": [
+     0.367,
+     0.275,
+     0.667,
+     0.575
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 590523,
+    "t_close": 625362
+   }
+  },
+  {
+   "item_id": "A03",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "figures ideas done loss left march colors would written outputs"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 625362,
+    "t_close": 680873
+   },
+   "step2": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "figures ideas done loss left march colors would written outputs"
+    },
+    "changed": true,
+    "t_open": 680873,
+    "t_close": 695724
+   },
+   "step3": {
+    "bbox": [
+     0.231,
+     0.428,
+     0.531,
+     0.728
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 695724,
+    "t_close": 750631
+   }
+  },
+  {
+   "item_id": "A04",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "elected immigrant appears comes believe quote formatted statement have every numbers trucs depict then color compulsory students elected ideas debate",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 750631,
+    "t_close": 830181
+   },
+   "step2": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "largest shirt shown hover",
+     "x_label": "content",
+     "y_label": "difference",
+     "categories": [
+      "cardioesophageal",
+      "just",
+      "eligible"
+     ],
+     "series": [
+      "showing",
+      "students"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 830181,
+    "t_close": 888080
+   },
+   "step3": {
+    "bbox": [
+     0.311,
+     0.234,
+     0.611,
+     0.534
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 888080,
+    "t_close": 924501
+   }
+  },
+  {
+   "item_id": "A05",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "tweet names totals float never more views photos produces human"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 924501,
+    "t_close": 1030349
+   },
+   "step2": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "tweet names totals float never more views photos produces human"
+    },
+    "changed": true,
+    "t_open": 1030349,
+    "t_close": 1086181
+   },
+   "step3": {
+    "bbox": [
+     0.081,
+     0.203,
+     0.381,
+     0.503
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 1086181,
+    "t_close": 1141514
+   }
+  },
+  {
+   "item_id": "A06",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "demographics degree accounts hover them round have immediately users compensation demographic confidence siginificant stratified optimizers views pier cooperation times inventory",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 1141514,
+    "t_close": 1226818
+   },
+   "step2": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "places decimal change switches divide rate focused believe supplies having"
+    },
+    "changed": true,
+    "t_open": 1226818,
+    "t_close": 1248832
+   },
+   "step3": {
+    "bbox": [
+     0.362,
+     0.001,
+     0.662,
+     0.301
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 1248832,
+    "t_close": 1292507
+   }
+  },
+  {
+   "item_id": "A07",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "texts hispanics excepted retrieval related junction step advertising conducting down"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 1292507,
+    "t_close": 1404862
+   },
+   "step2": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "texts hispanics excepted retrieval related junction step advertising conducting down"
+    },
+    "changed": false,
+    "t_open": 1404862,
+    "t_close": 1429767
+   },
+   "step3": {
+    "bbox": [
+     0.377,
+     0.31,
+     0.677,
+     0.61
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 1429767,
+    "t_close": 1467232
+   }
+  },
+  {
+   "item_id": "A08",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "optimizers retrieval germen white",
+     "columns": [
+      "counties",
+      "ebitda",
+      "oldest"
+     ],
+     "rows": [
+      "appears",
+      "latest",
+      "affairs"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 1467232,
+    "t_close": 1531038
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "optimizers retrieval germen white",
+     "columns": [
+      "counties",
+      "ebitda",
+      "oldest"
+     ],
+     "rows": [
+      "appears",
+      "latest",
+      "affairs"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1531038,
+    "t_close": 1586883
+   },
+   "step3": {
+    "bbox": [
+     0.235,
+     0.332,
+     0.535,
+     0.632
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 1586883,
+    "t_close": 1597930
+   }
+  },
+  {
+   "item_id": "A09",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "world visited less compared view adaptor appear outstanding signed supplies"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 1597930,
+    "t_close": 1711376
+   },
+   "step2": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "world visited less compared view adaptor appear outstanding signed supplies"
+    },
+    "changed": false,
+    "t_open": 1711376,
+    "t_close": 1723932
+   },
+   "step3": {
+    "bbox": [
+     0.188,
+     0.366,
+     0.488,
+     0.666
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 1723932,
+    "t_close": 1766070
+   }
+  },
+  {
+   "item_id": "A10",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "manually fission causal causal apple accounts case tweet zone driverless"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 1766070,
+    "t_close": 1798581
+   },
+   "step2": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "manually fission causal causal apple accounts case tweet zone driverless"
+    },
+    "changed": false,
+    "t_open": 1798581,
+    "t_close": 1810022
+   },
+   "step3": {
+    "bbox": [
+     0.2,
+     0.118,
+     0.5,
+     0.418
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 1810022,
+    "t_close": 1864642
+   }
+  },
+  {
+   "item_id": "A11",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "individually coronavirus automated dividend change optimizers case conversion deep after organisations programme proposes information cash risk woman mechanisms appears internet",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 1864642,
+    "t_close": 1966546
+   },
+   "step2": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "individually coronavirus automated dividend change optimizers case conversion deep after organisations programme proposes information cash risk woman mechanisms appears internet",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 1966546,
+    "t_close": 2022754
+   },
+   "step3": {
+    "bbox": [
+     0.173,
+     0.133,
+     0.473,
+     0.433
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 2022754,
+    "t_close": 2070752
+   }
+  },
+  {
+   "item_id": "A12",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "increases devices reflect terms ended green merchandising slides positive universities"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 2070752,
+    "t_close": 2109240
+   },
+   "step2": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "increases devices reflect terms ended green merchandising slides positive universities"
+    },
+    "changed": false,
+    "t_open": 2109240,
+    "t_close": 2116989
+   },
+   "step3": {
+    "bbox": [
+     0.007,
+     0.042,
+     0.307,
+     0.342
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 2116989,
+    "t_close": 2168879
+   }
+  },
+  {
+   "item_id": "A13",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "definition turnover shares demographic function intelligence billion sales this adopted situation share produced include cost paper determined danger hospitality compulsory",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 2168879,
+    "t_close": 2201177
+   },
+   "step2": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "definition turnover shares demographic function intelligence billion sales this adopted situation share produced include cost paper determined danger hospitality compulsory",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 2201177,
+    "t_close": 2246522
+   },
+   "step3": {
+    "bbox": [
+     0.066,
+     0.304,
+     0.366,
+     0.604
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 2246522,
+    "t_close": 2287436
+   }
+  },
+  {
+   "item_id": "A14",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": false,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "americen committee research just",
+     "columns": [
+      "dataset",
+      "source",
+      "assume"
+     ],
+     "rows": [
+      "standards",
+      "country",
+      "represented"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 2287436,
+    "t_close": 2356767
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "americen committee research just",
+     "columns": [
+      "dataset",
+      "source",
+      "assume"
+     ],
+     "rows": [
+      "standards",
+      "country",
+      "represented"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 2356767,
+    "t_close": 2400528
+   },
+   "step3": {
+    "bbox": [
+     0.258,
+     0.051,
+     0.558,
+     0.351
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 2400528,
+    "t_close": 2431039
+   }
+  },
+  {
+   "item_id": "A15",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "pie or donut",
+     "title": "diagram structured solver rezoned",
+     "x_label": "closely",
+     "y_label": "supplies",
+     "categories": [
+      "capitalization",
+      "exit",
+      "cameras"
+     ],
+     "series": [
+      "injured",
+      "italic"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 2431039,
+    "t_close": 2500540
+   },
+   "step2": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "pie or donut",
+     "title": "diagram structured solver rezoned",
+     "x_label": "closely",
+     "y_label": "supplies",
+     "categories": [
+      "capitalization",
+      "exit",
+      "cameras"
+     ],
+     "series": [
+      "injured",
+      "italic"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 2500540,
+    "t_close": 2543971
+   },
+   "step3": {
+    "bbox": [
+     0.274,
+     0.035,
+     0.574,
+     0.335
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 2543971,
+    "t_close": 2562489
+   }
+  },
+  {
+   "item_id": "A16",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "careers float available online chart white prokaryotic committee errors handwritten"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 2562489,
+    "t_close": 2599405
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "careers float available online chart white prokaryotic committee errors handwritten"
+    },
+    "changed": false,
+    "t_open": 2599405,
+    "t_close": 2609257
+   },
+   "step3": {
+    "bbox": [
+     0.313,
+     0.02,
+     0.613,
+     0.32
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 2609257,
+    "t_close": 2661251
+   }
+  },
+  {
+   "item_id": "A17",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "port office phone different",
+     "x_label": "october",
+     "y_label": "ipad",
+     "categories": [
+      "danger",
+      "give",
+      "determined"
+     ],
+     "series": [
+      "mentioned",
+      "score"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 2661251,
+    "t_close": 2689692
+   },
+   "step2": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "displayed platform media introduced increasing starts mechanisms india speak trigger district metrics daily phrase regarding average proposes referral climate compensation",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 2689692,
+    "t_close": 2708791
+   },
+   "step3": {
+    "bbox": [
+     0.466,
+     0.163,
+     0.766,
+     0.463
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 2708791,
+    "t_close": 2744966
+   }
+  },
+  {
+   "item_id": "A18",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "score raptor allowance inference manually nodes shall courses second overcome"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 2744966,
+    "t_close": 2807593
+   },
+   "step2": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "change advertising exterior supplies analystics lean trucs religious before displayed"
+    },
+    "changed": true,
+    "t_open": 2807593,
+    "t_close": 2853648
+   },
+   "step3": {
+    "bbox": [
+     0.354,
+     0.497,
+     0.654,
+     0.797
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 2853648,
+    "t_close": 2895115
+   }
+  },
+  {
+   "item_id": "A19",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "oscarb danger cameras button does twitter image background showing believe"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 2895115,
+    "t_close": 2969315
+   },
+   "step2": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "oscarb danger cameras button does twitter image background showing believe"
+    },
+    "changed": true,
+    "t_open": 2969315,
+    "t_close": 2996534
+   },
+   "step3": {
+    "bbox": [
+     0.353,
+     0.442,
+     0.653,
+     0.742
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 2996534,
+    "t_close": 3025310
+   }
+  },
+  {
+   "item_id": "A20",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "pie or donut",
+     "title": "logic less days with",
+     "x_label": "passed",
+     "y_label": "road",
+     "categories": [
+      "there",
+      "years",
+      "between"
+     ],
+     "series": [
+      "start",
+      "corresponding"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 3025310,
+    "t_close": 3126865
+   },
+   "step2": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "pie or donut",
+     "title": "logic less days with",
+     "x_label": "passed",
+     "y_label": "road",
+     "categories": [
+      "there",
+      "years",
+      "between"
+     ],
+     "series": [
+      "start",
+      "corresponding"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 3126865,
+    "t_close": 3182729
+   },
+   "step3": {
+    "bbox": [
+     0.285,
+     0.126,
+     0.585,
+     0.426
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 3182729,
+    "t_close": 3215447
+   }
+  },
+  {
+   "item_id": "A21",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": false,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "study student contains model",
+     "columns": [
+      "york",
+      "directly",
+      "perform"
+     ],
+     "rows": [
+      "mutation",
+      "correct",
+      "blue"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 3215447,
+    "t_close": 3260067
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "pie or donut",
+     "title": "traffic high appota segmenting",
+     "x_label": "overlap",
+     "y_label": "germanwings",
+     "categories": [
+      "tuesday",
+      "baseline",
+      "phrase"
+     ],
+     "series": [
+      "left",
+      "rezoned"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 3260067,
+    "t_close": 3293741
+   },
+   "step3": {
+    "bbox": [
+     0.206,
+     0.281,
+     0.506,
+     0.581
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 3293741,
+    "t_close": 3319666
+   }
+  },
+  {
+   "item_id": "A22",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "subskill port conscious related debate payable number analystics symbolic larger"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 3319666,
+    "t_close": 3417436
+   },
+   "step2": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "subskill port conscious related debate payable number analystics symbolic larger"
+    },
+    "changed": true,
+    "t_open": 3417436,
+    "t_close": 3464675
+   },
+   "step3": {
+    "bbox": [
+     0.451,
+     0.176,
+     0.751,
+     0.476
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 3464675,
+    "t_close": 3476093
+   }
+  },
+  {
+   "item_id": "A23",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "manually terry retrieval fever",
+     "columns": [
+      "stage",
+      "austin",
+      "metioned"
+     ],
+     "rows": [
+      "listed",
+      "regarding",
+      "qualified"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 3476093,
+    "t_close": 3578106
+   },
+   "step2": {
+    "type": "table",
+    "render": false,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "manually terry retrieval fever",
+     "columns": [
+      "stage",
+      "austin",
+      "metioned"
+     ],
+     "rows": [
+      "listed",
+      "regarding",
+      "qualified"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 3578106,
+    "t_close": 3638044
+   },
+   "step3": {
+    "bbox": [
+     0.327,
+     0.374,
+     0.627,
+     0.674
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 3638044,
+    "t_close": 3680218
+   }
+  },
+  {
+   "item_id": "A24",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "application toward trigger slides",
+     "columns": [
+      "most",
+      "most",
+      "showing"
+     ],
+     "rows": [
+      "charts",
+      "good",
+      "shaped"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 3680218,
+    "t_close": 3744536
+   },
+   "step2": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "comes studying just liabilities incresed operating steps letter quantitative turnover"
+    },
+    "changed": true,
+    "t_open": 3744536,
+    "t_close": 3770613
+   },
+   "step3": {
+    "bbox": [
+     0.232,
+     0.407,
+     0.532,
+     0.707
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 3770613,
+    "t_close": 3786602
+   }
+  },
+  {
+   "item_id": "A25",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "toward influence correct mentioned",
+     "columns": [
+      "customer",
+      "schools",
+      "steps"
+     ],
+     "rows": [
+      "loss",
+      "examples",
+      "represent"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 3786602,
+    "t_close": 3906112
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "toward influence correct mentioned",
+     "columns": [
+      "customer",
+      "schools",
+      "steps"
+     ],
+     "rows": [
+      "loss",
+      "examples",
+      "represent"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 3906112,
+    "t_close": 3930372
+   },
+   "step3": {
+    "bbox": [
+     0.367,
+     0.378,
+     0.667,
+     0.678
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 3930372,
+    "t_close": 3978711
+   }
+  },
+  {
+   "item_id": "A26",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "port increases shown faces",
+     "x_label": "nodes",
+     "y_label": "internet",
+     "categories": [
+      "longest",
+      "sight",
+      "shirt"
+     ],
+     "series": [
+      "schools",
+      "advising"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 3978711,
+    "t_close": 4077672
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "port increases shown faces",
+     "x_label": "nodes",
+     "y_label": "internet",
+     "categories": [
+      "longest",
+      "sight",
+      "shirt"
+     ],
+     "series": [
+      "schools",
+      "advising"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 4077672,
+    "t_close": 4116784
+   },
+   "step3": {
+    "bbox": [
+     0.002,
+     0.098,
+     0.302,
+     0.398
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 4116784,
+    "t_close": 4127543
+   }
+  },
+  {
+   "item_id": "A27",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": false,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "write schools shall colors before information mmlu objects india neflix"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 4127543,
+    "t_close": 4208464
+   },
+   "step2": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "write schools shall colors before information mmlu objects india neflix"
+    },
+    "changed": true,
+    "t_open": 4208464,
+    "t_close": 4225504
+   },
+   "step3": {
+    "bbox": [
+     0.182,
+     0.384,
+     0.482,
+     0.684
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 4225504,
+    "t_close": 4281204
+   }
+  },
+  {
+   "item_id": "A28",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "llava represent benefit example",
+     "x_label": "performance",
+     "y_label": "interviewed",
+     "categories": [
+      "them",
+      "slides",
+      "project"
+     ],
+     "series": [
+      "highest",
+      "confidence"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 4281204,
+    "t_close": 4314737
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "llava represent benefit example",
+     "x_label": "performance",
+     "y_label": "interviewed",
+     "categories": [
+      "them",
+      "slides",
+      "project"
+     ],
+     "series": [
+      "highest",
+      "confidence"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 4314737,
+    "t_close": 4361826
+   },
+   "step3": {
+    "bbox": [
+     0.175,
+     0.422,
+     0.475,
+     0.722
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 4361826,
+    "t_close": 4412986
+   }
+  },
+  {
+   "item_id": "A29",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "creators before solutions button ranks followed loss retrieved three business"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 5,
+    "t_open": 4412986,
+    "t_close": 4489984
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "creators before solutions button ranks followed loss retrieved three business"
+    },
+    "changed": true,
+    "t_open": 4489984,
+    "t_close": 4538314
+   },
+   "step3": {
+    "bbox": [
+     0.253,
+     0.277,
+     0.553,
+     0.577
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 4538314,
+    "t_close": 4595972
+   }
+  },
+  {
+   "item_id": "A30",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "president paid same websites before names dataset themed advertise metioned"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 4595972,
+    "t_close": 4685766
+   },
+   "step2": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "president paid same websites before names dataset themed advertise metioned"
+    },
+    "changed": false,
+    "t_open": 4685766,
+    "t_close": 4742290
+   },
+   "step3": {
+    "bbox": [
+     0.169,
+     0.172,
+     0.469,
+     0.472
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 4742290,
+    "t_close": 4786049
+   }
+  },
+  {
+   "item_id": "A31",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "inference prefix assistant difference chart justice item implemented offer born americans write cold careers cover zone subject percentages acceptable than",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 4786049,
+    "t_close": 4815777
+   },
+   "step2": {
+    "type": "table",
+    "render": false,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "apple inventory find solver",
+     "columns": [
+      "longest",
+      "source",
+      "side"
+     ],
+     "rows": [
+      "down",
+      "system",
+      "given"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 4815777,
+    "t_close": 4870052
+   },
+   "step3": {
+    "bbox": [
+     0.107,
+     0.48,
+     0.407,
+     0.78
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 4870052,
+    "t_close": 4889128
+   }
+  },
+  {
+   "item_id": "A32",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "office rated countries application predicted every belongs best depict retrieval"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 4889128,
+    "t_close": 4974487
+   },
+   "step2": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "sentence paper recommend amazon costco least findings rezoned adults cartoons cameras students inference driverless worst american future port student example",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 4974487,
+    "t_close": 5022444
+   },
+   "step3": {
+    "bbox": [
+     0.087,
+     0.297,
+     0.387,
+     0.597
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 5022444,
+    "t_close": 5078219
+   }
+  },
+  {
+   "item_id": "A33",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "outstanding qualified closely ethical merchandising percentages retrieved have population exceeds"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 5078219,
+    "t_close": 5188514
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "outstanding qualified closely ethical merchandising percentages retrieved have population exceeds"
+    },
+    "changed": true,
+    "t_open": 5188514,
+    "t_close": 5243614
+   },
+   "step3": {
+    "bbox": [
+     0.197,
+     0.399,
+     0.497,
+     0.699
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 5243614,
+    "t_close": 5271847
+   }
+  },
+  {
+   "item_id": "A34",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "functions contributor needed vote appears that eligible increasing demographic have"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 5271847,
+    "t_close": 5365989
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "functions contributor needed vote appears that eligible increasing demographic have"
+    },
+    "changed": true,
+    "t_open": 5365989,
+    "t_close": 5372034
+   },
+   "step3": {
+    "bbox": [
+     0.104,
+     0.13,
+     0.404,
+     0.43
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 5372034,
+    "t_close": 5406391
+   }
+  },
+  {
+   "item_id": "A35",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": false,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "market january exhibits main",
+     "x_label": "howm",
+     "y_label": "them",
+     "categories": [
+      "three",
+      "performance",
+      "daily"
+     ],
+     "series": [
+      "automatically",
+      "structured"
+     ],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 5406391,
+    "t_close": 5483038
+   },
+   "step2": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "coast payable meetings headset snapntell definition center trucs difference eligible"
+    },
+    "changed": true,
+    "t_open": 5483038,
+    "t_close": 5491388
+   },
+   "step3": {
+    "bbox": [
+     0.378,
+     0.367,
+     0.678,
+     0.667
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 5491388,
+    "t_close": 5518302
+   }
+  },
+  {
+   "item_id": "A36",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": false,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "where decimal acceptable flip give binary more address larger stipulated"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 4,
+    "t_open": 5518302,
+    "t_close": 5553307
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "where decimal acceptable flip give binary more address larger stipulated"
+    },
+    "changed": true,
+    "t_open": 5553307,
+    "t_close": 5566674
+   },
+   "step3": {
+    "bbox": [
+     0.495,
+     0.057,
+     0.795,
+     0.357
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 5566674,
+    "t_close": 5599848
+   }
+  },
+  {
+   "item_id": "A37",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": false,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "item that weaknesses chosen",
+     "columns": [
+      "criminal",
+      "religious",
+      "comes"
+     ],
+     "rows": [
+      "ipad",
+      "become",
+      "services"
+     ],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 5599848,
+    "t_close": 5693876
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "democrats follow rung march less results your positive speak math"
+    },
+    "changed": true,
+    "t_open": 5693876,
+    "t_close": 5719816
+   },
+   "step3": {
+    "bbox": [
+     0.02,
+     0.322,
+     0.32,
+     0.622
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 5719816,
+    "t_close": 5743015
+   }
+  },
+  {
+   "item_id": "A38",
+   "practice": false,
+   "step1": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "achieved output slides contain signed disneyland degree ground visited medical"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 1,
+    "t_open": 5743015,
+    "t_close": 5843859
+   },
+   "step2": {
+    "type": "layout",
+    "render": true,
+    "spec": {
+     "element": "layout",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "achieved output slides contain signed disneyland degree ground visited medical"
+    },
+    "changed": false,
+    "t_open": 5843859,
+    "t_close": 5893883
+   },
+   "step3": {
+    "bbox": [
+     0.122,
+     0.334,
+     0.422,
+     0.634
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "SYNTHETIC",
+    "t_open": 5893883,
+    "t_close": 5947635
+   }
+  },
+  {
+   "item_id": "A39",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "junction yields paper overlap people percent unit howm programfc life"
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 3,
+    "t_open": 5947635,
+    "t_close": 6029298
+   },
+   "step2": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "than above corner flowchart phrase project much must reported cover locating switches exhibits percent contains market descriptions affairs dataset held",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 6029298,
+    "t_close": 6057248
+   },
+   "step3": {
+    "bbox": [
+     0.225,
+     0.295,
+     0.525,
+     0.595
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "unsure",
+    "notes": "SYNTHETIC",
+    "t_open": 6057248,
+    "t_close": 6089079
+   }
+  },
+  {
+   "item_id": "A40",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "including refer housing customers subskill optimizers elected mechanisms address shares years naval largest list careers contain china assets results system",
+     "description": ""
+    },
+    "cues": "SYNTHETIC",
+    "confidence": 2,
+    "t_open": 6089079,
+    "t_close": 6119188
+   },
+   "step2": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "including refer housing customers subskill optimizers elected mechanisms address shares years naval largest list careers contain china assets results system",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 6119188,
+    "t_close": 6175838
+   },
+   "step3": {
+    "bbox": [
+     0.107,
+     0.326,
+     0.407,
+     0.626
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "no",
+    "notes": "SYNTHETIC",
+    "t_open": 6175838,
+    "t_close": 6227753
+   }
+  }
+ ]
+}

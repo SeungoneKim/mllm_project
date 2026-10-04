@@ -1,0 +1,303 @@
+{
+ "n_annotators": 1,
+ "annotators": [
+  "Andr\u00e9"
+ ],
+ "inventory_source": [
+  "vlm"
+ ],
+ "n_rows": 20,
+ "n_step1": 20,
+ "n_step2": 20,
+ "n_step3": 20,
+ "majority_baseline": {
+  "type": "chart",
+  "acc": 0.3
+ },
+ "accuracy_step1": {
+  "chart": {
+   "k": 4,
+   "n": 6,
+   "acc": 0.6666666666666666,
+   "lo": 0.29998832134152864,
+   "hi": 0.9032306674407831
+  },
+  "table": {
+   "k": 1,
+   "n": 6,
+   "acc": 0.16666666666666666,
+   "lo": 0.03005258587173032,
+   "hi": 0.563509436563646
+  },
+  "figure": {
+   "k": 2,
+   "n": 4,
+   "acc": 0.5,
+   "lo": 0.15003570882017148,
+   "hi": 0.8499642911798285
+  },
+  "text": {
+   "k": 2,
+   "n": 4,
+   "acc": 0.5,
+   "lo": 0.15003570882017148,
+   "hi": 0.8499642911798285
+  },
+  "all": {
+   "k": 9,
+   "n": 20,
+   "acc": 0.45,
+   "lo": 0.25819502085709295,
+   "hi": 0.6579179916924003
+  }
+ },
+ "accuracy_step2": {
+  "chart": {
+   "k": 4,
+   "n": 6,
+   "acc": 0.6666666666666666,
+   "lo": 0.29998832134152864,
+   "hi": 0.9032306674407831
+  },
+  "table": {
+   "k": 2,
+   "n": 6,
+   "acc": 0.3333333333333333,
+   "lo": 0.09676933255921683,
+   "hi": 0.7000116786584712
+  },
+  "figure": {
+   "k": 2,
+   "n": 4,
+   "acc": 0.5,
+   "lo": 0.15003570882017148,
+   "hi": 0.8499642911798285
+  },
+  "text": {
+   "k": 3,
+   "n": 4,
+   "acc": 0.75,
+   "lo": 0.3006360524426366,
+   "hi": 0.9544139373553637
+  },
+  "all": {
+   "k": 11,
+   "n": 20,
+   "acc": 0.55,
+   "lo": 0.3420820083075997,
+   "hi": 0.7418049791429071
+  }
+ },
+ "per_annotator": {
+  "Andr\u00e9": {
+   "step1": {
+    "k": 9,
+    "n": 20,
+    "acc": 0.45,
+    "lo": 0.25819502085709295,
+    "hi": 0.6579179916924003
+   },
+   "step2": {
+    "k": 11,
+    "n": 20,
+    "acc": 0.55,
+    "lo": 0.3420820083075997,
+    "hi": 0.7418049791429071
+   },
+   "mcnemar": {
+    "s1_right_s2_wrong": 0,
+    "s1_wrong_s2_right": 2,
+    "p_exact": 0.5
+   }
+  }
+ },
+ "mcnemar_pooled": {
+  "s1_right_s2_wrong": 0,
+  "s1_wrong_s2_right": 2,
+  "p_exact": 0.5
+ },
+ "changes": {
+  "any_change": 3,
+  "type_changed": 2,
+  "render_changed": 0,
+  "fixed": 2,
+  "broke": 0
+ },
+ "confusion_step1": {
+  "chart": {
+   "chart": 4,
+   "table": 1,
+   "figure": 1,
+   "text": 0,
+   "layout": 0
+  },
+  "table": {
+   "chart": 2,
+   "table": 1,
+   "figure": 2,
+   "text": 1,
+   "layout": 0
+  },
+  "figure": {
+   "chart": 1,
+   "table": 0,
+   "figure": 2,
+   "text": 1,
+   "layout": 0
+  },
+  "text": {
+   "chart": 0,
+   "table": 1,
+   "figure": 1,
+   "text": 2,
+   "layout": 0
+  }
+ },
+ "confusion_step2": {
+  "chart": {
+   "chart": 4,
+   "table": 1,
+   "figure": 1,
+   "text": 0,
+   "layout": 0
+  },
+  "table": {
+   "chart": 1,
+   "table": 2,
+   "figure": 2,
+   "text": 1,
+   "layout": 0
+  },
+  "figure": {
+   "chart": 1,
+   "table": 0,
+   "figure": 2,
+   "text": 1,
+   "layout": 0
+  },
+  "text": {
+   "chart": 0,
+   "table": 1,
+   "figure": 0,
+   "text": 3,
+   "layout": 0
+  }
+ },
+ "render_rate": {
+  "step1": {
+   "chart": 1.0,
+   "figure": 1.0,
+   "table": 1.0,
+   "text": 0.5
+  },
+  "step2": {
+   "chart": 1.0,
+   "figure": 1.0,
+   "table": 1.0,
+   "text": 0.5
+  }
+ },
+ "subtype_match_chart": {
+  "counts": {
+   "yes": 3,
+   "partly": 1
+  },
+  "n": 4,
+  "yes_rate": 0.75,
+  "yes_or_partly_rate": 1.0
+ },
+ "label_not_ok": [
+  {
+   "annotator": "Andr\u00e9",
+   "item_id": "A09",
+   "gold_type": "figure",
+   "notes": ""
+  }
+ ],
+ "label_unsure": 2,
+ "no_clear_region": 1,
+ "kappa": {},
+ "accuracy_by_confidence": {
+  "3": {
+   "n": 8,
+   "acc": 0.375
+  },
+  "4": {
+   "n": 8,
+   "acc": 0.5
+  },
+  "5": {
+   "n": 4,
+   "acc": 0.5
+  }
+ },
+ "median_seconds": {
+  "step1": 72.929,
+  "step2": 9.0745,
+  "step3": 23.201500000000003
+ },
+ "word_overlap_step1": {
+  "all": {
+   "n": 20,
+   "gold_hit": 0.34607142857142853,
+   "other_hit": 0.11874154389253208,
+   "wilcoxon_p": 0.02168170376271011,
+   "share_gold_top": 0.25,
+   "share_gold_top_ties": 0.5,
+   "median_words": 4.5
+  },
+  "question": {
+   "n": 15,
+   "gold_hit": 0.6255555555555555,
+   "other_hit": 0.18080405142606862,
+   "wilcoxon_p": 0.0037285953227358883,
+   "share_gold_top": 0.26666666666666666,
+   "share_gold_top_ties": 0.6666666666666666,
+   "median_words": 3.0
+  },
+  "added": {
+   "n": 18,
+   "gold_hit": 0.13888888888888887,
+   "other_hit": 0.08211058910966833,
+   "wilcoxon_p": 0.8338854386599464,
+   "share_gold_top": 0.16666666666666666,
+   "share_gold_top_ties": 0.2222222222222222,
+   "median_words": 3.0
+  }
+ },
+ "word_overlap_step2": {
+  "all": {
+   "n": 20,
+   "gold_hit": 0.3335714285714285,
+   "other_hit": 0.11606297246396066,
+   "wilcoxon_p": 0.038607051842430073,
+   "share_gold_top": 0.2,
+   "share_gold_top_ties": 0.45,
+   "median_words": 4.0
+  },
+  "question": {
+   "n": 14,
+   "gold_hit": 0.6345238095238095,
+   "other_hit": 0.17841250407895107,
+   "wilcoxon_p": 0.006039559048656822,
+   "share_gold_top": 0.2857142857142857,
+   "share_gold_top_ties": 0.6428571428571429,
+   "median_words": 3.0
+  },
+  "added": {
+   "n": 18,
+   "gold_hit": 0.12962962962962962,
+   "other_hit": 0.08211058910966833,
+   "wilcoxon_p": 0.5829195472688132,
+   "share_gold_top": 0.1111111111111111,
+   "share_gold_top_ties": 0.16666666666666666,
+   "median_words": 3.0
+  }
+ },
+ "ocr_coverage": {
+  "thin_pages": 204,
+  "thin_with_ocr": 203,
+  "gold_pages_thin": 8
+ },
+ "synthetic": false
+}

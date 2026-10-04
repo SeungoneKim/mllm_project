@@ -1,0 +1,3 @@
+I worked with Claude Code to help me build the annotation tool I used for the ~20 human annotation cases. The goal of this small study was mainly to understand whether the task I want a model to do, which is understanding what type of data is needed to answer a certain type of question, made sense in practice, and whether conditioning the generation on known document structure would actually help.
+
+Claude also helped me identify which questions from MMLongBench would fit this proof of concept cleanly, and later helped me analyze the results from those annotations.

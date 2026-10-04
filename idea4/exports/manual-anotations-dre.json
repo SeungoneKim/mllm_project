@@ -1,0 +1,1544 @@
+{
+ "annotator": "André",
+ "form_version": "1",
+ "exported_at": "2026-10-03T23:55:47.533Z",
+ "inventory_source": "vlm",
+ "items": [
+  {
+   "item_id": "P1",
+   "practice": true,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "horizontal bar",
+     "title": "Model Accuracy in xxx Benchmark",
+     "x_label": "Model names",
+     "y_label": "Performance",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "Model quality is usually represented in bars.",
+    "confidence": 5,
+    "t_open": 1791060863296,
+    "t_close": 1791061068776
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "horizontal bar",
+     "title": "Model Accuracy in xxx Benchmark",
+     "x_label": "Model names",
+     "y_label": "Performance",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791061068777,
+    "t_close": 1791061097909
+   },
+   "step3": {
+    "bbox": [
+     0.1656,
+     0.0659,
+     0.8476,
+     0.3491
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791061097910,
+    "t_close": 1791061330840
+   }
+  },
+  {
+   "item_id": "P2",
+   "practice": true,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "TimeQA Accuracy Results",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "Again, comparing 2 models. I would just assume bar plot.",
+    "confidence": 4,
+    "t_open": 1791061330840,
+    "t_close": 1791061399356
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "TimeQA accuracy results.",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 1791061399357,
+    "t_close": 1791061455405
+   },
+   "step3": {
+    "bbox": [
+     0.1635,
+     0.0977,
+     0.8488,
+     0.3416
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791061455406,
+    "t_close": 1791061596742
+   }
+  },
+  {
+   "item_id": "P3",
+   "practice": true,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "I imagine a powerpoint slide. Cover slide, with the presenter name highlighted in some way."
+    },
+    "cues": "\"slide\" points to figure",
+    "confidence": 4,
+    "t_open": 1791061596743,
+    "t_close": 1791061721754
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "I imagine a powerpoint slide. Cover slide, with the presenter name highlighted in some way."
+    },
+    "changed": false,
+    "t_open": 1791061721754,
+    "t_close": 1791061731537
+   },
+   "step3": {
+    "bbox": [
+     0.3368,
+     0.5977,
+     0.674,
+     0.7202
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "yes",
+    "notes": "expected a title-slide render; the answer is text, but the useful query is the whole slide",
+    "t_open": 1791061731537,
+    "t_close": 1791061859340
+   }
+  },
+  {
+   "item_id": "A01",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "i expect some bottom right label with different values and colors associated."
+    },
+    "cues": "\"range\"",
+    "confidence": 3,
+    "t_open": 1791061859340,
+    "t_close": 1791061943922
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "i expect some bottom right label with different values and colors associated."
+    },
+    "changed": false,
+    "t_open": 1791061943923,
+    "t_close": 1791061958986
+   },
+   "step3": {
+    "bbox": [
+     0.569,
+     0.562,
+     0.7449,
+     0.8116
+    ],
+    "no_clear_region": false,
+    "subtype_match": "not applicable",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791061958986,
+    "t_close": 1791061978176
+   }
+  },
+  {
+   "item_id": "A02",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "I imagine a photo where there is at least a man with a red shirt."
+    },
+    "cues": "man with the red shirt in the figure",
+    "confidence": 5,
+    "t_open": 1791061978177,
+    "t_close": 1791062032776
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "I imagine a photo where there is at least a man with a red shirt."
+    },
+    "changed": false,
+    "t_open": 1791062032776,
+    "t_close": 1791062042592
+   },
+   "step3": {
+    "bbox": [
+     0.3887,
+     0.5955,
+     0.5917,
+     0.9888
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791062042593,
+    "t_close": 1791062103358
+   }
+  },
+  {
+   "item_id": "A03",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "i'm imagining some panphlet with information about contact.",
+     "description": ""
+    },
+    "cues": "telephone number implies text.",
+    "confidence": 4,
+    "t_open": 1791062103359,
+    "t_close": 1791062581770
+   },
+   "step2": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "i'm imagining some panphlet with information about contact.",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791062581771,
+    "t_close": 1791062591102
+   },
+   "step3": {
+    "bbox": [
+     0.0716,
+     0.7257,
+     0.4801,
+     0.8031
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791062591103,
+    "t_close": 1791062623841
+   }
+  },
+  {
+   "item_id": "A04",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "I'm imagining an architectural diagram"
+    },
+    "cues": "seems too specific question to be answered by pure text.",
+    "confidence": 5,
+    "t_open": 1791062623841,
+    "t_close": 1791062673920
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "I'm imagining an architectural diagram"
+    },
+    "changed": false,
+    "t_open": 1791062673921,
+    "t_close": 1791062678636
+   },
+   "step3": {
+    "bbox": [
+     0.1062,
+     0.121,
+     0.8948,
+     0.2956
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "I thought it would be a diagram but I guess table makes more sense since it's a \"no, it doesn't have Qknorm\".",
+    "t_open": 1791062678637,
+    "t_close": 1791062750940
+   }
+  },
+  {
+   "item_id": "A05",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "I imagine a photo with many people, some seated, some standing."
+    },
+    "cues": "\"in the figure\"",
+    "confidence": 5,
+    "t_open": 1791062750940,
+    "t_close": 1791062827935
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "I imagine a photo with many people, some seated, some standing."
+    },
+    "changed": false,
+    "t_open": 1791062827936,
+    "t_close": 1791062831534
+   },
+   "step3": {
+    "bbox": [
+     0.0055,
+     0.3623,
+     0.9609,
+     0.9639
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791062831535,
+    "t_close": 1791062846768
+   }
+  },
+  {
+   "item_id": "A06",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "pie or donut",
+     "title": "Countries who view China or Japan as the Top Economic Power",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "\"percentage of germany\"",
+    "confidence": 3,
+    "t_open": 1791062846768,
+    "t_close": 1791063177218
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "Countries who view China or Japan as the Top Economic Power",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 1791063177219,
+    "t_close": 1791063257240
+   },
+   "step3": {
+    "bbox": [
+     0.097,
+     0.2501,
+     0.8867,
+     0.5153
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791063257241,
+    "t_close": 1791063286872
+   }
+  },
+  {
+   "item_id": "A07",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "time spend with family and friends over the years",
+     "x_label": "years",
+     "y_label": "time",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "\"2010\" date",
+    "confidence": 4,
+    "t_open": 1791063286872,
+    "t_close": 1791063358931
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "time spend with family and friends over the years",
+     "x_label": "years",
+     "y_label": "time",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791063358932,
+    "t_close": 1791063507216
+   },
+   "step3": {
+    "bbox": [
+     0.4322,
+     0.1827,
+     0.7855,
+     0.8261
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791063507216,
+    "t_close": 1791063531854
+   }
+  },
+  {
+   "item_id": "A08",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "<fake case study name>",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "\"unit-8 in table\"",
+    "confidence": 5,
+    "t_open": 1791063531855,
+    "t_close": 1791063566521
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "<fake case study name>",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791063566521,
+    "t_close": 1791063572470
+   },
+   "step3": {
+    "bbox": [
+     0.0428,
+     0.1684,
+     0.9341,
+     0.2996
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "unsure",
+    "notes": "",
+    "t_open": 1791063572471,
+    "t_close": 1791063624168
+   }
+  },
+  {
+   "item_id": "A09",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "sales over time, with multiple lines",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "sales over time",
+    "confidence": 3,
+    "t_open": 1791063624168,
+    "t_close": 1791063695697
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "sales over time, with multiple lines",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791063695698,
+    "t_close": 1791063708430
+   },
+   "step3": {
+    "bbox": [
+     0.1094,
+     0.0212,
+     0.8412,
+     0.863
+    ],
+    "no_clear_region": false,
+    "subtype_match": "partly",
+    "label_ok": "no",
+    "notes": "",
+    "t_open": 1791063708431,
+    "t_close": 1791063742162
+   }
+  },
+  {
+   "item_id": "A10",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "Social media emotions on users",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "\"4th most popular emotion\"",
+    "confidence": 4,
+    "t_open": 1791063742162,
+    "t_close": 1791063787862
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "Social media emotions on users",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791063787862,
+    "t_close": 1791063796111
+   },
+   "step3": {
+    "bbox": [
+     0.3693,
+     0.1241,
+     0.8822,
+     0.4579
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791063796112,
+    "t_close": 1791063811311
+   }
+  },
+  {
+   "item_id": "A11",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "An image, probably some diagram about multi-lingual translation with a couple examples"
+    },
+    "cues": "\"in-context examples for multi-lingual query\" looks like a diagram type of style text.",
+    "confidence": 4,
+    "t_open": 1791063811312,
+    "t_close": 1791063888480
+   },
+   "step2": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "An image, probably some diagram about multi-lingual translation with a couple examples"
+    },
+    "changed": false,
+    "t_open": 1791063888481,
+    "t_close": 1791063895697
+   },
+   "step3": {
+    "bbox": [
+     0.151,
+     0.1544,
+     0.884,
+     0.8196
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791063895698,
+    "t_close": 1791064647752
+   }
+  },
+  {
+   "item_id": "A12",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "Netflix Working Capital over the Years",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "the date leads me to believe this could be a line chart",
+    "confidence": 3,
+    "t_open": 1791064647753,
+    "t_close": 1791070183432
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "Netflix Working Capital over the Years",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 1791070183433,
+    "t_close": 1791070221541
+   },
+   "step3": {
+    "bbox": [
+     0.0159,
+     0.0443,
+     0.9839,
+     0.7306
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791070221542,
+    "t_close": 1791070240207
+   }
+  },
+  {
+   "item_id": "A13",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "i expect to see that information as text within an image",
+     "description": ""
+    },
+    "cues": "seems like a percentage that could be hardcoded in the picture.",
+    "confidence": 3,
+    "t_open": 1791070240207,
+    "t_close": 1791070322406
+   },
+   "step2": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "i expect to see that information as text within an image",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791070322407,
+    "t_close": 1791070334273
+   },
+   "step3": {
+    "bbox": null,
+    "no_clear_region": true,
+    "subtype_match": "no",
+    "label_ok": "unsure",
+    "notes": "",
+    "t_open": 1791070334274,
+    "t_close": 1791070378680
+   }
+  },
+  {
+   "item_id": "A14",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "Tweets referencing Germanwings",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "seems like a time based quantity so line is appropriate",
+    "confidence": 4,
+    "t_open": 1791070378681,
+    "t_close": 1791070448538
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "line",
+     "title": "Tweets referencing Germanwings",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791070448539,
+    "t_close": 1791070457357
+   },
+   "step3": {
+    "bbox": [
+     0.0348,
+     0.018,
+     0.9996,
+     0.993
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791070457358,
+    "t_close": 1791070474130
+   }
+  },
+  {
+   "item_id": "A15",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "This seems like a question you would see by pure text on a pamphet.",
+     "description": ""
+    },
+    "cues": "\"location\" is a bit unusual to specify like in a plot, or in a table",
+    "confidence": 3,
+    "t_open": 1791071112621,
+    "t_close": 1791071201722
+   },
+   "step2": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "This seems like a question you would see by pure text on a pamphet.",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791071201722,
+    "t_close": 1791071215389
+   },
+   "step3": {
+    "bbox": [
+     0.1145,
+     0.1601,
+     0.9559,
+     0.2727
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791071215389,
+    "t_close": 1791071260121
+   }
+  },
+  {
+   "item_id": "A16",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "number of tweets by airline",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "total number of a quantity can be table or plot",
+    "confidence": 3,
+    "t_open": 1791071260121,
+    "t_close": 1791071306016
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "number of tweets by airline",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791071306016,
+    "t_close": 1791071312387
+   },
+   "step3": {
+    "bbox": [
+     0.5226,
+     0.2277,
+     0.9615,
+     0.4514
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791071312388,
+    "t_close": 1791071333428
+   }
+  },
+  {
+   "item_id": "A17",
+   "practice": false,
+   "step1": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "percentage of adults confident on certain Donal Trump's measures",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "Seems like too complex data for plot.",
+    "confidence": 3,
+    "t_open": 1791071333429,
+    "t_close": 1791071407228
+   },
+   "step2": {
+    "type": "table",
+    "render": true,
+    "spec": {
+     "element": "table",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "percentage of adults confident on certain Donal Trump's measures",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791071407229,
+    "t_close": 1791071411919
+   },
+   "step3": {
+    "bbox": [
+     0.3705,
+     0.2382,
+     0.8988,
+     0.6926
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791071411920,
+    "t_close": 1791071429828
+   }
+  },
+  {
+   "item_id": "A18",
+   "practice": false,
+   "step1": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "Number of Sample Districts per Wave",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "cues": "quantities over a set of attributes that doesn't seem to be very broad.",
+    "confidence": 4,
+    "t_open": 1791071429828,
+    "t_close": 1791071487960
+   },
+   "step2": {
+    "type": "chart",
+    "render": true,
+    "spec": {
+     "element": "chart",
+     "subtype": "bar",
+     "title": "Number of Sample Districts per Wave",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791071487961,
+    "t_close": 1791071494160
+   },
+   "step3": {
+    "bbox": [
+     0.3322,
+     0.2868,
+     0.9604,
+     0.5833
+    ],
+    "no_clear_region": false,
+    "subtype_match": "no",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791071494160,
+    "t_close": 1791071506890
+   }
+  },
+  {
+   "item_id": "A24",
+   "practice": false,
+   "step1": {
+    "type": "figure",
+    "render": true,
+    "spec": {
+     "element": "figure",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "",
+     "description": "I expect a court image showing the type of court, like \"supreme justice court\""
+    },
+    "cues": "\"cover page\" seems more like \"this is an image\"",
+    "confidence": 4,
+    "t_open": 1791071506891,
+    "t_close": 1791071555748
+   },
+   "step2": {
+    "type": "text",
+    "render": true,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "Maybe this is just a text within an image",
+     "description": ""
+    },
+    "changed": true,
+    "t_open": 1791071555748,
+    "t_close": 1791071592135
+   },
+   "step3": {
+    "bbox": [
+     0.568,
+     0.0549,
+     0.8348,
+     0.1054
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791071592136,
+    "t_close": 1791071613476
+   }
+  },
+  {
+   "item_id": "A28",
+   "practice": false,
+   "step1": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "I expect to see some arxiv link or similar on a paper section or subsection",
+     "description": ""
+    },
+    "cues": "seems a too textual question",
+    "confidence": 4,
+    "t_open": 1791071613477,
+    "t_close": 1791071718384
+   },
+   "step2": {
+    "type": "text",
+    "render": false,
+    "spec": {
+     "element": "text",
+     "subtype": "",
+     "title": "",
+     "x_label": "",
+     "y_label": "",
+     "categories": [],
+     "series": [],
+     "values": "",
+     "style": "",
+     "caption": "",
+     "columns": [],
+     "rows": [],
+     "heading": "",
+     "passage": "I expect to see some arxiv link or similar on a paper section or subsection",
+     "description": ""
+    },
+    "changed": false,
+    "t_open": 1791071718385,
+    "t_close": 1791071723509
+   },
+   "step3": {
+    "bbox": [
+     0.0721,
+     0.923,
+     0.3348,
+     0.9403
+    ],
+    "no_clear_region": false,
+    "subtype_match": "yes",
+    "label_ok": "yes",
+    "notes": "",
+    "t_open": 1791071723510,
+    "t_close": 1791071745275
+   }
+  }
+ ]
+}
