@@ -1,4 +1,4 @@
-# Analysis 3: synthetic complementary cases (Ideas 2 + 3)
+# Analysis 2: synthetic complementary cases (Ideas 2 + 3)
 
 ```
 seed ─▶ inventory ─▶ split ─▶ render
