@@ -1,0 +1,649 @@
+qid,cond,pred,lp_mean,lp_sum,n_answer_tokens,aligned,input_tokens,image_tokens,type,answer_format,no_text_layer,doc_type,score,correct
+912,Q,"['John Doe', 'Jane Smith']",-1.1966674327850342,-29.91668701171875,25,True,84,0,text,List,False,Brochure,0.0,0.0
+915,Q,"['Finance', 'Risk Management', 'Supply Chain', 'Technology']",-3.0851383209228516,-58.61762619018555,19,True,81,0,text,List,False,Brochure,0.0,0.0
+1046,Q,1.45,-4.05450963973999,-20.272546768188477,5,True,80,0,table,Float,False,Financial report,0.0,0.0
+720,Q,25mm Sheeting,-0.22533650696277618,-1.1266825199127197,5,True,81,0,table,Str,True,Tutorial/Workshop,1.0,1.0
+925,Q,18-29,-0.7740607857704163,-3.8703038692474365,5,True,79,0,chart,Str,False,Research report / Introduction,0.0,0.0
+930,Q,10,-5.484866142272949,-16.45459747314453,3,True,118,0,chart,Float,False,Research report / Introduction,0.0,0.0
+560,Q,3,-4.747579097747803,-4.747579097747803,1,True,68,0,figure,Int,False,Guidebook,0.0,0.0
+194,Q,2,-1.156125783920288,-1.156125783920288,1,True,80,0,figure,Int,False,Guidebook,0.0,0.0
+992,Q,Nanyang Technological University,-2.529125213623047,-10.116500854492188,4,True,70,0,layout,Str,True,Guidebook,0.0,0.0
+912,T,"['TANDON', 'OTHMER']",-1.4354581832885742,-35.88645553588867,25,True,394,0,text,List,False,Brochure,0.0,0.0
+915,T,"['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']",-0.0009967675432562828,-0.0189385823905468,19,True,388,0,text,List,False,Brochure,1.0,1.0
+1046,T,1.32,-3.4833035469055176,-17.41651725769043,5,True,818,0,table,Float,False,Financial report,0.0,0.0
+720,T,25mm Sheeting,-0.243729829788208,-1.21864914894104,5,True,88,0,table,Str,True,Tutorial/Workshop,1.0,1.0
+925,T,Younger Republicans,-1.2995824813842773,-6.497912406921387,5,True,523,0,chart,Str,False,Research report / Introduction,0.0,0.0
+930,T,20,-4.620700359344482,-13.862100601196289,3,True,412,0,chart,Float,False,Research report / Introduction,0.0,0.0
+560,T,7,-1.7464933395385742,-1.7464933395385742,1,True,490,0,figure,Int,False,Guidebook,0.0,0.0
+194,T,0,-2.9830546379089355,-2.9830546379089355,1,True,495,0,figure,Int,False,Guidebook,0.0,0.0
+992,T,Nottingham Trent University,-0.0008022292167879641,-0.0032089168671518564,4,True,85,0,layout,Str,True,Guidebook,1.0,1.0
+912,X,['Not provided'],-1.2894058227539062,-32.235145568847656,25,True,337,0,text,List,False,Brochure,0.0,0.0
+915,X,"['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']",-0.0006330161122605205,-0.012027306482195854,19,True,452,0,text,List,False,Brochure,1.0,1.0
+1046,X,1.69,-2.9996821880340576,-14.998411178588867,5,True,885,0,table,Float,False,Financial report,0.0,0.0
+720,X,25mm Sheeting,-0.10993800312280655,-0.5496900081634521,5,True,293,0,table,Str,True,Tutorial/Workshop,1.0,1.0
+925,X,Ages 18-34,-0.4944753348827362,-2.472376585006714,5,True,1171,0,chart,Str,False,Research report / Introduction,1.0,1.0
+930,X,29,-3.911771774291992,-11.735315322875977,3,True,678,0,chart,Float,False,Research report / Introduction,1.0,1.0
+560,X,8,-0.1695617288351059,-0.1695617288351059,1,True,930,0,figure,Int,False,Guidebook,1.0,1.0
+194,X,1,-0.5844270586967468,-0.5844270586967468,1,True,546,0,figure,Int,False,Guidebook,1.0,1.0
+992,X,Nottingham Trent University,-0.0018074269173666835,-0.007229707669466734,4,True,88,0,layout,Str,True,Guidebook,1.0,1.0
+912,I_hi,['Not provided'],-1.3036794662475586,-32.59198760986328,25,True,1326,1247,text,List,False,Brochure,0.0,0.0
+915,I_hi,"['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']",-0.0033708333503454924,-0.06404583156108856,19,True,1336,1260,text,List,False,Brochure,1.0,1.0
+1046,I_hi,3.00,-3.44281268119812,-17.21406364440918,5,True,1315,1240,table,Float,False,Financial report,0.0,0.0
+720,I_hi,No,-0.16423745453357697,-0.8211872577667236,5,True,1298,1222,table,Str,True,Tutorial/Workshop,0.0,0.0
+925,I_hi,Ages 18-34,-0.19752714037895203,-0.9876356720924377,5,True,1314,1240,chart,Str,False,Research report / Introduction,1.0,1.0
+930,I_hi,63,-4.608356952667236,-13.82507038116455,3,True,1353,1240,chart,Float,False,Research report / Introduction,0.0,0.0
+560,I_hi,7,-2.471125602722168,-2.471125602722168,1,True,1303,1240,figure,Int,False,Guidebook,0.0,0.0
+194,I_hi,1,-0.013958803378045559,-0.013958803378045559,1,True,1305,1230,figure,Int,False,Guidebook,1.0,1.0
+992,I_hi,Nottingham Trent University,-0.00048436972429044545,-0.0019374788971617818,4,True,857,792,layout,Str,True,Guidebook,1.0,1.0
+912,I_lo,['Not provided in the image'],-1.3028446435928345,-32.57111740112305,25,True,326,247,text,List,False,Brochure,0.0,0.0
+915,I_lo,"['IA Co-source', 'IA outsourcing', 'IA Tech Audit', 'IA Advisory']",-0.10815702378749847,-2.054983377456665,19,True,323,247,text,List,False,Brochure,0.7857142857142857,1.0
+1046,I_lo,1.37,-3.6954591274261475,-18.477294921875,5,True,327,252,table,Float,False,Financial report,0.0,0.0
+720,I_lo,25mm Sheeting,-0.11704564094543457,-0.5852282047271729,5,True,328,252,table,Str,True,Tutorial/Workshop,1.0,1.0
+925,I_lo,65+,-1.0728057622909546,-5.364028453826904,5,True,326,252,chart,Str,False,Research report / Introduction,0.0,0.0
+930,I_lo,35,-3.071192502975464,-9.213577270507812,3,True,365,252,chart,Float,False,Research report / Introduction,0.0,0.0
+560,I_lo,7,-1.7868727445602417,-1.7868727445602417,1,True,315,252,figure,Int,False,Guidebook,0.0,0.0
+194,I_lo,1,-0.34523823857307434,-0.34523823857307434,1,True,309,234,figure,Int,False,Guidebook,1.0,1.0
+992,I_lo,Nottingham Trent University,-0.0006028877687640488,-0.0024115510750561953,4,True,299,234,layout,Str,True,Guidebook,1.0,1.0
+912,TI_hi,['unknown'],-1.370732069015503,-34.26830291748047,25,True,1650,1247,text,List,False,Brochure,0.0,0.0
+915,TI_hi,"['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']",-0.0008498748647980392,-0.01614762283861637,19,True,1657,1260,text,List,False,Brochure,1.0,1.0
+1046,TI_hi,1.33,-3.8548779487609863,-19.274389266967773,5,True,2067,1240,table,Float,False,Financial report,0.0,0.0
+720,TI_hi,25mm Sheeting is appropriate.,-0.18464036285877228,-0.9232017993927002,5,True,1319,1222,table,Str,True,Tutorial/Workshop,1.0,1.0
+925,TI_hi,Ages 18-34,-0.21565964818000793,-1.0782982110977173,5,True,1772,1240,chart,Str,False,Research report / Introduction,1.0,1.0
+930,TI_hi,63,-4.725688934326172,-14.1770658493042,3,True,1661,1240,chart,Float,False,Research report / Introduction,0.0,0.0
+560,TI_hi,7,-1.7423698902130127,-1.7423698902130127,1,True,1739,1240,figure,Int,False,Guidebook,0.0,0.0
+194,TI_hi,1,-0.022286903113126755,-0.022286903113126755,1,True,1734,1230,figure,Int,False,Guidebook,1.0,1.0
+992,TI_hi,Nottingham Trent University,-0.000727216072846204,-0.002908864291384816,4,True,886,792,layout,Str,True,Guidebook,1.0,1.0
+912,TI_lo,"['TANDON', 'OTHMER']",-1.4011510610580444,-35.028778076171875,25,True,650,247,text,List,False,Brochure,0.0,0.0
+915,TI_lo,"['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']",-0.0009644748060964048,-0.018325021490454674,19,True,644,247,text,List,False,Brochure,1.0,1.0
+1046,TI_lo,1.04,-4.360074996948242,-21.80037498474121,5,True,1079,252,table,Float,False,Financial report,0.0,0.0
+720,TI_lo,25mm Sheeting is appropriate.,-0.1418517827987671,-0.7092589139938354,5,True,349,252,table,Str,True,Tutorial/Workshop,1.0,1.0
+925,TI_lo,Younger Republicans,-0.5812509059906006,-2.906254529953003,5,True,784,252,chart,Str,False,Research report / Introduction,0.0,0.0
+930,TI_lo,25,-3.192753791809082,-9.578261375427246,3,True,673,252,chart,Float,False,Research report / Introduction,0.0,0.0
+560,TI_lo,7,-2.539186477661133,-2.539186477661133,1,True,751,252,figure,Int,False,Guidebook,0.0,0.0
+194,TI_lo,0,-1.4383010864257812,-1.4383010864257812,1,True,738,234,figure,Int,False,Guidebook,0.0,0.0
+992,TI_lo,Nottingham Trent University,-0.0009141702903434634,-0.0036566811613738537,4,True,328,234,layout,Str,True,Guidebook,1.0,1.0
+912,M_lo,"['Janice', 'Michael']",-1.3472825288772583,-33.682064056396484,25,True,332,247,text,List,False,Brochure,0.0,0.0
+915,M_lo,"['Financial Services', 'Healthcare', 'Manufacturing', 'Technology']",-2.9206249713897705,-55.49187469482422,19,True,329,247,text,List,False,Brochure,0.0,0.0
+1046,M_lo,3.50,-4.173203945159912,-20.866018295288086,5,True,333,252,table,Float,False,Financial report,0.0,0.0
+720,M_lo,25mm Sheeting,-0.11890659481287003,-0.5945329666137695,5,True,334,252,table,Str,True,Tutorial/Workshop,1.0,1.0
+925,M_lo,Ages 18-34,-0.5048109889030457,-2.524054765701294,5,True,332,252,chart,Str,False,Research report / Introduction,1.0,1.0
+930,M_lo,35,-3.142732620239258,-9.428197860717773,3,True,371,252,chart,Float,False,Research report / Introduction,0.0,0.0
+560,M_lo,5,-2.865830898284912,-2.865830898284912,1,True,321,252,figure,Int,False,Guidebook,0.0,0.0
+194,M_lo,1,-0.21643680334091187,-0.21643680334091187,1,True,315,234,figure,Int,False,Guidebook,1.0,1.0
+992,M_lo,Nottingham Trent University,-0.0015884414315223694,-0.0063537657260894775,4,True,305,234,layout,Str,True,Guidebook,1.0,1.0
+912,TM_lo,['unknown'],-1.3599467277526855,-33.9986686706543,25,True,657,247,text,List,False,Brochure,0.0,0.0
+915,TM_lo,"['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']",-0.001108586206100881,-0.02106313779950142,19,True,651,247,text,List,False,Brochure,1.0,1.0
+1046,TM_lo,1.33,-3.083179235458374,-15.41589641571045,5,True,1086,252,table,Float,False,Financial report,0.0,0.0
+720,TM_lo,25mm Sheeting is appropriate.,-0.15850730240345,-0.7925364971160889,5,True,356,252,table,Str,True,Tutorial/Workshop,1.0,1.0
+925,TM_lo,Ages 18-34,-0.3851110339164734,-1.9255551099777222,5,True,791,252,chart,Str,False,Research report / Introduction,1.0,1.0
+930,TM_lo,15,-3.454385757446289,-10.363157272338867,3,True,680,252,chart,Float,False,Research report / Introduction,0.0,0.0
+560,TM_lo,7,-1.854783535003662,-1.854783535003662,1,True,758,252,figure,Int,False,Guidebook,0.0,0.0
+194,TM_lo,1,-0.16161604225635529,-0.16161604225635529,1,True,745,234,figure,Int,False,Guidebook,1.0,1.0
+992,TM_lo,Nottingham Trent University,-0.0015603372594341636,-0.006241349037736654,4,True,335,234,layout,Str,True,Guidebook,1.0,1.0
+1062,Q,3.5,-1.6515915393829346,-4.954774379730225,3,True,81,0,text,Float,False,Financial report,0.0,0.0
+950,Q,2023-10-05,-0.8207759857177734,-8.207759857177734,10,True,75,0,text,Str,False,Administration/Industry file,0.0,0.0
+151,Q,15,-3.7412116527557373,-11.223634719848633,3,True,89,0,table,Int,True,Brochure,0.0,0.0
+139,Q,5,-3.343606472015381,-3.343606472015381,1,True,66,0,table,Int,False,Research report / Introduction,0.0,0.0
+683,Q,['50%'],-9.684137344360352,-19.368274688720703,2,True,93,0,chart,List,False,Research report / Introduction,0.0,0.0
+953,Q,1,-2.1548452377319336,-4.309690475463867,2,True,77,0,chart,Int,True,Brochure,0.0,0.0
+473,Q,3,-4.573280334472656,-9.146560668945312,2,True,68,0,figure,Int,False,Guidebook,0.0,0.0
+541,Q,$59.99,-1.0082390308380127,-6.049434185028076,6,True,77,0,figure,Float,False,Academic paper,0.0,0.0
+155,Q,Unclear without the document.,-5.365174770355225,-21.4606990814209,4,True,69,0,layout,Str,True,Brochure,0.0,0.0
+1062,T,3.0,-0.07909362018108368,-0.23728084564208984,3,True,1099,0,text,Float,False,Financial report,1.0,1.0
+950,T,2022-01-05,-0.001969714416190982,-0.019697142764925957,10,True,226,0,text,Str,False,Administration/Industry file,1.0,1.0
+151,T,0,-4.369324684143066,-13.107973098754883,3,True,96,0,table,Int,True,Brochure,0.0,0.0
+139,T,9,-0.033145856112241745,-0.033145856112241745,1,True,345,0,table,Int,False,Research report / Introduction,1.0,1.0
+683,T,['92'],-6.456914901733398,-12.913829803466797,2,True,778,0,chart,List,False,Research report / Introduction,1.0,1.0
+953,T,1,-2.4714155197143555,-4.942831039428711,2,True,84,0,chart,Int,True,Brochure,0.0,0.0
+473,T,10,-1.401771903038025,-2.80354380607605,2,True,257,0,figure,Int,False,Guidebook,0.0,0.0
+541,T,Not enough information provided.,-1.4978870153427124,-8.987321853637695,6,True,426,0,figure,Float,False,Academic paper,0.0,0.0
+155,T,Unknown,-5.5186767578125,-22.07470703125,4,True,76,0,layout,Str,True,Brochure,0.0,0.0
+1062,X,3.0,-0.062472980469465256,-0.18741893768310547,3,True,1024,0,text,Float,False,Financial report,1.0,1.0
+950,X,Not specified,-1.049387812614441,-10.493877410888672,10,True,177,0,text,Str,False,Administration/Industry file,0.0,0.0
+151,X,251,-2.0296249389648438,-6.088874340057373,3,True,309,0,table,Int,True,Brochure,0.0,0.0
+139,X,9,-0.014764800667762756,-0.014764800667762756,1,True,414,0,table,Int,False,Research report / Introduction,1.0,1.0
+683,X,['2016'],-6.367921829223633,-12.735843658447266,2,True,753,0,chart,List,False,Research report / Introduction,0.0,0.0
+953,X,21,-2.4104952812194824,-4.820990562438965,2,True,848,0,chart,Int,True,Brochure,0.0,0.0
+473,X,11,-0.3080459535121918,-0.6160919070243835,2,True,331,0,figure,Int,False,Guidebook,1.0,1.0
+541,X,49.99,-0.3197628855705261,-1.9185773134231567,6,True,2122,0,figure,Float,False,Academic paper,1.0,1.0
+155,X,Peter Z.,-0.3836250603199005,-1.534500241279602,4,True,148,0,layout,Str,True,Brochure,0.0,0.0
+1062,I_hi,3.0,-0.043934643268585205,-0.13180392980575562,3,True,1316,1240,text,Float,False,Financial report,1.0,1.0
+950,I_hi,2022-01-05,-0.004787455778568983,-0.04787455499172211,10,True,1310,1240,text,Str,False,Administration/Industry file,1.0,1.0
+151,I_hi,48,-5.321671962738037,-15.965015411376953,3,True,1314,1230,table,Int,True,Brochure,0.0,0.0
+139,I_hi,9,-0.004760123789310455,-0.004760123789310455,1,True,1301,1240,table,Int,False,Research report / Introduction,1.0,1.0
+683,I_hi,['92'],-7.067760467529297,-14.135520935058594,2,True,1328,1240,chart,List,False,Research report / Introduction,1.0,1.0
+953,I_hi,12,-1.1347713470458984,-2.269542694091797,2,True,1294,1222,chart,Int,True,Brochure,0.0,0.0
+473,I_hi,10,-0.6318807005882263,-1.2637614011764526,2,True,1323,1260,figure,Int,False,Guidebook,0.0,0.0
+541,I_hi,49.99,-0.21539530158042908,-1.2923717498779297,6,True,1312,1240,figure,Float,False,Academic paper,1.0,1.0
+155,I_hi,Melinda D.,-0.001825819257646799,-0.007303277030587196,4,True,1294,1230,layout,Str,True,Brochure,1.0,1.0
+1062,I_lo,5.0,-1.6337937116622925,-4.901381015777588,3,True,328,252,text,Float,False,Financial report,0.0,0.0
+950,I_lo,2022-01-05,-0.02953207865357399,-0.2953207790851593,10,True,322,252,text,Str,False,Administration/Industry file,1.0,1.0
+151,I_lo,48,-4.151558876037598,-12.454675674438477,3,True,318,234,table,Int,True,Brochure,0.0,0.0
+139,I_lo,9,-0.039369676262140274,-0.039369676262140274,1,True,313,252,table,Int,False,Research report / Introduction,1.0,1.0
+683,I_lo,['92'],-7.266329288482666,-14.532658576965332,2,True,340,252,chart,List,False,Research report / Introduction,1.0,1.0
+953,I_lo,5,-1.8859835863113403,-3.7719671726226807,2,True,324,252,chart,Int,True,Brochure,0.0,0.0
+473,I_lo,10,-0.6057426929473877,-1.2114853858947754,2,True,310,247,figure,Int,False,Guidebook,0.0,0.0
+541,I_lo,49,-1.1316940784454346,-6.790163993835449,6,True,324,252,figure,Float,False,Academic paper,0.0,0.0
+155,I_lo,Melinda D.,-0.0023696720600128174,-0.00947868824005127,4,True,298,234,layout,Str,True,Brochure,1.0,1.0
+1062,TI_hi,3.0,-0.12014983594417572,-0.36044949293136597,3,True,2348,1240,text,Float,False,Financial report,1.0,1.0
+950,TI_hi,2022-01-05,-0.0022977429907768965,-0.022977430373430252,10,True,1475,1240,text,Str,False,Administration/Industry file,1.0,1.0
+151,TI_hi,48,-4.808703422546387,-14.426109313964844,3,True,1335,1230,table,Int,True,Brochure,0.0,0.0
+139,TI_hi,9,-0.003233563620597124,-0.003233563620597124,1,True,1594,1240,table,Int,False,Research report / Introduction,1.0,1.0
+683,TI_hi,['92'],-6.829441547393799,-13.658883094787598,2,True,2027,1240,chart,List,False,Research report / Introduction,1.0,1.0
+953,TI_hi,12,-1.007590889930725,-2.01518177986145,2,True,1315,1222,chart,Int,True,Brochure,0.0,0.0
+473,TI_hi,10,-0.8376821279525757,-1.6753642559051514,2,True,1526,1260,figure,Int,False,Guidebook,0.0,0.0
+541,TI_hi,$49.99,-0.2322704792022705,-1.393622875213623,6,True,1675,1240,figure,Float,False,Academic paper,1.0,1.0
+155,TI_hi,Melinda D.,-0.0015484672039747238,-0.006193868815898895,4,True,1315,1230,layout,Str,True,Brochure,1.0,1.0
+1062,TI_lo,3.0,-0.07658138871192932,-0.22974415123462677,3,True,1360,252,text,Float,False,Financial report,1.0,1.0
+950,TI_lo,2022-01-05,-0.00242303847335279,-0.024230383336544037,10,True,487,252,text,Str,False,Administration/Industry file,1.0,1.0
+151,TI_lo,48,-4.404427528381348,-13.213281631469727,3,True,339,234,table,Int,True,Brochure,0.0,0.0
+139,TI_lo,9,-0.004863693844527006,-0.004863693844527006,1,True,606,252,table,Int,False,Research report / Introduction,1.0,1.0
+683,TI_lo,['92'],-6.247137546539307,-12.494275093078613,2,True,1039,252,chart,List,False,Research report / Introduction,1.0,1.0
+953,TI_lo,10,-1.717514991760254,-3.435029983520508,2,True,345,252,chart,Int,True,Brochure,0.0,0.0
+473,TI_lo,10,-1.1732451915740967,-2.3464903831481934,2,True,513,247,figure,Int,False,Guidebook,0.0,0.0
+541,TI_lo,149,-0.7062808275222778,-4.237684726715088,6,True,687,252,figure,Float,False,Academic paper,0.0,0.0
+155,TI_lo,Melinda D.,-0.002225944772362709,-0.008903779089450836,4,True,319,234,layout,Str,True,Brochure,1.0,1.0
+1062,M_lo,3.5,-1.7274389266967773,-5.182316780090332,3,True,334,252,text,Float,False,Financial report,0.0,0.0
+950,M_lo,2023-04-15,-0.7017952799797058,-7.0179524421691895,10,True,328,252,text,Str,False,Administration/Industry file,0.0,0.0
+151,M_lo,45,-4.189321517944336,-12.567964553833008,3,True,324,234,table,Int,True,Brochure,0.0,0.0
+139,M_lo,1,-8.028545379638672,-8.028545379638672,1,True,319,252,table,Int,False,Research report / Introduction,0.0,0.0
+683,M_lo,['third'],-11.511962890625,-23.02392578125,2,True,346,252,chart,List,False,Research report / Introduction,0.0,0.0
+953,M_lo,10,-1.8366771936416626,-3.673354387283325,2,True,330,252,chart,Int,True,Brochure,0.0,0.0
+473,M_lo,16,-1.8445333242416382,-3.6890666484832764,2,True,316,247,figure,Int,False,Guidebook,0.0,0.0
+541,M_lo,469,-0.9816473722457886,-5.889883995056152,6,True,330,252,figure,Float,False,Academic paper,0.0,0.0
+155,M_lo,Melinda D.,-0.0031049391254782677,-0.01241975650191307,4,True,304,234,layout,Str,True,Brochure,1.0,1.0
+1062,TM_lo,3.0,-0.09699343889951706,-0.2909803092479706,3,True,1367,252,text,Float,False,Financial report,1.0,1.0
+950,TM_lo,2022-01-05,-0.0013587167486548424,-0.013587167486548424,10,True,494,252,text,Str,False,Administration/Industry file,1.0,1.0
+151,TM_lo,45,-4.284685134887695,-12.854055404663086,3,True,346,234,table,Int,True,Brochure,0.0,0.0
+139,TM_lo,9,-0.09317787736654282,-0.09317787736654282,1,True,613,252,table,Int,False,Research report / Introduction,1.0,1.0
+683,TM_lo,['92'],-6.516546726226807,-13.033093452453613,2,True,1046,252,chart,List,False,Research report / Introduction,1.0,1.0
+953,TM_lo,5,-1.815129280090332,-3.630258560180664,2,True,352,252,chart,Int,True,Brochure,0.0,0.0
+473,TM_lo,6,-2.1425118446350098,-4.2850236892700195,2,True,520,247,figure,Int,False,Guidebook,0.0,0.0
+541,TM_lo,169,-1.0753300189971924,-6.451979637145996,6,True,694,252,figure,Float,False,Academic paper,0.0,0.0
+155,TM_lo,Melinda D.,-0.002513968851417303,-0.010055875405669212,4,True,326,234,layout,Str,True,Brochure,1.0,1.0
+897,Q,3,-2.0200700759887695,-2.0200700759887695,1,True,68,0,text,Int,False,Guidebook,0.0,0.0
+907,Q,5,-1.8771674633026123,-1.8771674633026123,1,True,72,0,text,Int,True,Brochure,0.0,0.0
+181,Q,15,-1.6686618328094482,-1.6686618328094482,1,True,75,0,table,Int,False,Academic paper,0.0,0.0
+130,Q,"I'm sorry, but I cannot provide an answer without knowing the specific document or table you are referring to. Please provide more details or context.",-1.5131484270095825,-25.72352409362793,17,True,108,0,table,Str,False,Academic paper,0.0,0.0
+414,Q,30,-3.2898716926574707,-16.449357986450195,5,True,84,0,chart,Float,True,Research report / Introduction,0.0,0.0
+889,Q,Insufficient data to determine.,-7.609714508056641,-45.658287048339844,6,True,79,0,chart,Str,False,Academic paper,0.0,0.0
+962,Q,2,-0.7160297632217407,-0.7160297632217407,1,True,74,0,figure,Int,True,Tutorial/Workshop,1.0,1.0
+446,Q,SUV,-2.9088244438171387,-23.27059555053711,8,True,75,0,figure,Str,False,Academic paper,0.0,0.0
+21,Q,2023,-1.690717339515686,-15.216456413269043,9,True,66,0,layout,Str,False,Research report / Introduction,0.0,0.0
+897,T,0,-2.5718295574188232,-2.5718295574188232,1,True,115,0,text,Int,False,Guidebook,0.0,0.0
+907,T,0,-2.443310260772705,-2.443310260772705,1,True,79,0,text,Int,True,Brochure,0.0,0.0
+181,T,23,-0.14498135447502136,-0.14498135447502136,1,True,565,0,table,Int,False,Academic paper,0.0,0.0
+130,T,"1883 Dec.7, 2 8 p.m.",-1.1058976650238037,-18.800260543823242,17,True,724,0,table,Str,False,Academic paper,0.0,0.0
+414,T,30,-3.1789817810058594,-15.894908905029297,5,True,91,0,chart,Float,True,Research report / Introduction,0.0,0.0
+889,T,Finetuning with confidence loss,-1.1268328428268433,-6.7609968185424805,6,True,1214,0,chart,Str,False,Academic paper,0.0,0.0
+962,T,0,-1.627948522567749,-1.627948522567749,1,True,81,0,figure,Int,True,Tutorial/Workshop,0.0,0.0
+446,T,Mercedes-Benz E-Class Sedan,-1.2868839502334595,-10.295071601867676,8,True,829,0,figure,Str,False,Academic paper,1.0,1.0
+21,T,2015,-0.49137455224990845,-4.422370910644531,9,True,861,0,layout,Str,False,Research report / Introduction,0.0,0.0
+897,X,0,-2.5638997554779053,-2.5638997554779053,1,True,262,0,text,Int,False,Guidebook,0.0,0.0
+907,X,5,-1.912734866142273,-1.912734866142273,1,True,357,0,text,Int,True,Brochure,0.0,0.0
+181,X,23,-0.11055535823106766,-0.11055535823106766,1,True,813,0,table,Int,False,Academic paper,0.0,0.0
+130,X,"1883 Dec.7, 2:20 PM",-1.4399558305740356,-24.479248046875,17,True,756,0,table,Str,False,Academic paper,0.0,0.0
+414,X,91.77,-0.003972645848989487,-0.019863229244947433,5,True,435,0,chart,Float,True,Research report / Introduction,1.0,1.0
+889,X,Finetuning with confidence loss,-6.78544807434082,-40.71268844604492,6,True,1089,0,chart,Str,False,Academic paper,0.0,0.0
+962,X,0,-1.431499719619751,-1.431499719619751,1,True,129,0,figure,Int,True,Tutorial/Workshop,0.0,0.0
+446,X,Mercedes-Benz,-1.7281230688095093,-13.824984550476074,8,True,713,0,figure,Str,False,Academic paper,0.0,0.0
+21,X,2015,-0.5039445161819458,-4.535500526428223,9,True,776,0,layout,Str,False,Research report / Introduction,0.0,0.0
+897,I_hi,0,-2.1575286388397217,-2.1575286388397217,1,True,1310,1247,text,Int,False,Guidebook,0.0,0.0
+907,I_hi,5,-2.047456741333008,-2.047456741333008,1,True,1314,1247,text,Int,True,Brochure,0.0,0.0
+181,I_hi,23,-0.007300130557268858,-0.007300130557268858,1,True,1310,1240,table,Int,False,Academic paper,0.0,0.0
+130,I_hi,"1883 Dec.7, 2 8 p.m.",-1.2250902652740479,-20.826534271240234,17,True,1363,1260,table,Str,False,Academic paper,0.0,0.0
+414,I_hi,91.78,-0.3977872133255005,-1.9889360666275024,5,True,1301,1222,chart,Float,True,Research report / Introduction,1.0,1.0
+889,I_hi,Finetuning with confidence loss,-1.7626378536224365,-10.575826644897461,6,True,1314,1240,chart,Str,False,Academic paper,0.0,0.0
+962,I_hi,2,-0.03278056159615517,-0.03278056159615517,1,True,1309,1240,figure,Int,True,Tutorial/Workshop,1.0,1.0
+446,I_hi,Mercedes-Benz E-Class Sedan,-1.383713722229004,-11.069709777832031,8,True,1310,1240,figure,Str,False,Academic paper,1.0,1.0
+21,I_hi,2015-2016,-0.00955186691135168,-0.0859668031334877,9,True,1321,1260,layout,Str,False,Research report / Introduction,1.0,1.0
+897,I_lo,3,-2.460024833679199,-2.460024833679199,1,True,310,247,text,Int,False,Guidebook,0.0,0.0
+907,I_lo,4,-1.9947926998138428,-1.9947926998138428,1,True,314,247,text,Int,True,Brochure,0.0,0.0
+181,I_lo,23,-0.04768529161810875,-0.04768529161810875,1,True,322,252,table,Int,False,Academic paper,0.0,0.0
+130,I_lo,"1883 Dec.7, 2 8 p.m.",-1.2669705152511597,-21.538497924804688,17,True,343,240,table,Str,False,Academic paper,0.0,0.0
+414,I_lo,101.78,-1.002825379371643,-5.014126777648926,5,True,331,252,chart,Float,True,Research report / Introduction,0.0,0.0
+889,I_lo,Finetuning with confidence loss,-3.88175106048584,-23.29050636291504,6,True,326,252,chart,Str,False,Academic paper,0.0,0.0
+962,I_lo,2,-0.10931382328271866,-0.10931382328271866,1,True,321,252,figure,Int,True,Tutorial/Workshop,1.0,1.0
+446,I_lo,SUV,-2.197734832763672,-17.581878662109375,8,True,322,252,figure,Str,False,Academic paper,0.0,0.0
+21,I_lo,2015-2016,-0.009541136212646961,-0.08587022125720978,9,True,308,247,layout,Str,False,Research report / Introduction,1.0,1.0
+897,TI_hi,0,-2.5682570934295654,-2.5682570934295654,1,True,1371,1247,text,Int,False,Guidebook,0.0,0.0
+907,TI_hi,3,-1.607818841934204,-1.607818841934204,1,True,1335,1247,text,Int,True,Brochure,1.0,1.0
+181,TI_hi,23,-0.022385643795132637,-0.022385643795132637,1,True,1814,1240,table,Int,False,Academic paper,0.0,0.0
+130,TI_hi,"1883 Dec.7, 2 8 p.m.",-1.1778298616409302,-20.023107528686523,17,True,1993,1260,table,Str,False,Academic paper,0.0,0.0
+414,TI_hi,91.78,-0.5364384651184082,-2.682192325592041,5,True,1322,1222,chart,Float,True,Research report / Introduction,1.0,1.0
+889,TI_hi,Finetuning with confidence loss,-1.3775041103363037,-8.265024185180664,6,True,2463,1240,chart,Str,False,Academic paper,0.0,0.0
+962,TI_hi,2,-0.030871298164129257,-0.030871298164129257,1,True,1330,1240,figure,Int,True,Tutorial/Workshop,1.0,1.0
+446,TI_hi,Mercedes-Benz E-Class Sedan,-1.4488636255264282,-11.590909004211426,8,True,2078,1240,figure,Str,False,Academic paper,1.0,1.0
+21,TI_hi,2015-2016,-0.0202986691147089,-0.18268802762031555,9,True,2130,1260,layout,Str,False,Research report / Introduction,1.0,1.0
+897,TI_lo,3,-2.6002914905548096,-2.6002914905548096,1,True,371,247,text,Int,False,Guidebook,0.0,0.0
+907,TI_lo,5,-1.7575300931930542,-1.7575300931930542,1,True,335,247,text,Int,True,Brochure,0.0,0.0
+181,TI_lo,23,-0.20793060958385468,-0.20793060958385468,1,True,826,252,table,Int,False,Academic paper,0.0,0.0
+130,TI_lo,"1883 Dec. 7, 2 8 p.m.",-1.0609681606292725,-18.03645896911621,17,True,973,240,table,Str,False,Academic paper,0.0,0.0
+414,TI_lo,101.78,-1.084360957145691,-5.421804428100586,5,True,352,252,chart,Float,True,Research report / Introduction,0.0,0.0
+889,TI_lo,Finetuning with the confidence loss,-0.8448659777641296,-5.069195747375488,6,True,1475,252,chart,Str,False,Academic paper,0.0,0.0
+962,TI_lo,2,-0.11817820370197296,-0.11817820370197296,1,True,342,252,figure,Int,True,Tutorial/Workshop,1.0,1.0
+446,TI_lo,Mercedes-Benz E-Class Sedan,-1.2467467784881592,-9.973974227905273,8,True,1090,252,figure,Str,False,Academic paper,1.0,1.0
+21,TI_lo,2015-2016,-0.046617522835731506,-0.41955769062042236,9,True,1117,247,layout,Str,False,Research report / Introduction,1.0,1.0
+897,M_lo,3,-1.5749748945236206,-1.5749748945236206,1,True,316,247,text,Int,False,Guidebook,0.0,0.0
+907,M_lo,4,-1.8328418731689453,-1.8328418731689453,1,True,320,247,text,Int,True,Brochure,0.0,0.0
+181,M_lo,0,-3.457348585128784,-3.457348585128784,1,True,328,252,table,Int,False,Academic paper,0.0,0.0
+130,M_lo,"1906 Mar.18, 5 14 p.m.",-1.3242919445037842,-22.512962341308594,17,True,349,240,table,Str,False,Academic paper,0.0,0.0
+414,M_lo,101.78,-1.0671590566635132,-5.3357954025268555,5,True,337,252,chart,Float,True,Research report / Introduction,0.0,0.0
+889,M_lo,It's ambiguous; more context needed.,-6.379336357116699,-38.27601623535156,6,True,332,252,chart,Str,False,Academic paper,0.0,0.0
+962,M_lo,2,-0.10773514211177826,-0.10773514211177826,1,True,327,252,figure,Int,True,Tutorial/Workshop,1.0,1.0
+446,M_lo,SUV,-3.1277270317077637,-25.02181625366211,8,True,328,252,figure,Str,False,Academic paper,0.0,0.0
+21,M_lo,2015-2016,-0.0028970527928322554,-0.026073474436998367,9,True,314,247,layout,Str,False,Research report / Introduction,1.0,1.0
+897,TM_lo,0,-1.7381558418273926,-1.7381558418273926,1,True,378,247,text,Int,False,Guidebook,0.0,0.0
+907,TM_lo,5,-1.7040796279907227,-1.7040796279907227,1,True,342,247,text,Int,True,Brochure,0.0,0.0
+181,TM_lo,23,-0.03486211597919464,-0.03486211597919464,1,True,833,252,table,Int,False,Academic paper,0.0,0.0
+130,TM_lo,"1883 Dec.7, 2 8 p.m.",-1.094059705734253,-18.599014282226562,17,True,980,240,table,Str,False,Academic paper,0.0,0.0
+414,TM_lo,101.78,-1.10080087184906,-5.50400447845459,5,True,359,252,chart,Float,True,Research report / Introduction,0.0,0.0
+889,TM_lo,Finetuning with confidence loss,-0.7588286399841309,-4.552971839904785,6,True,1482,252,chart,Str,False,Academic paper,0.0,0.0
+962,TM_lo,2,-0.1160394698381424,-0.1160394698381424,1,True,349,252,figure,Int,True,Tutorial/Workshop,1.0,1.0
+446,TM_lo,Mercedes-Benz S-Class Sedan,-1.2824193239212036,-10.259354591369629,8,True,1097,252,figure,Str,False,Academic paper,0.962962962962963,1.0
+21,TM_lo,2015-2016,-0.03204922378063202,-0.288442999124527,9,True,1124,247,layout,Str,False,Research report / Introduction,1.0,1.0
+576,Q,2015,-2.850775718688965,-11.40310287475586,4,True,73,0,text,Int,False,Administration/Industry file,0.0,0.0
+961,Q,Freezing,-3.615619659423828,-28.924957275390625,8,True,67,0,text,Str,True,Tutorial/Workshop,0.0,0.0
+186,Q,65,-1.9015991687774658,-9.50799560546875,5,True,86,0,table,Float,False,Academic paper,0.0,0.0
+461,Q,4,-2.0742833614349365,-2.0742833614349365,1,True,72,0,table,Int,False,Guidebook,0.0,0.0
+171,Q,3,-3.8649508953094482,-11.594852447509766,3,True,86,0,chart,Float,True,Research report / Introduction,0.0,0.0
+44,Q,Analysis,-1.0261061191558838,-1.0261061191558838,1,True,76,0,chart,Str,True,Tutorial/Workshop,1.0,1.0
+20,Q,Population distribution.,-7.957056999206543,-47.742340087890625,6,True,68,0,figure,Str,True,Research report / Introduction,0.0,0.0
+556,Q,"['Bank of America', 'Wells Fargo']",-1.551889419555664,-20.174562454223633,13,True,83,0,figure,List,False,Guidebook,0.0,0.0
+27,Q,Module 1 Title,-10.816519737243652,-54.08259582519531,5,True,68,0,layout,Str,False,Tutorial/Workshop,0.0,0.0
+576,T,1954,-0.0017533147474750876,-0.007013258989900351,4,True,1084,0,text,Int,False,Administration/Industry file,1.0,1.0
+961,T,Freezing water to ice.,-3.591766595840454,-28.734132766723633,8,True,74,0,text,Str,True,Tutorial/Workshop,0.0,0.0
+186,T,70.8,-2.7728843688964844,-13.864421844482422,5,True,2397,0,table,Float,False,Academic paper,0.0,0.0
+461,T,7,-6.260798454284668,-6.260798454284668,1,True,545,0,table,Int,False,Guidebook,0.0,0.0
+171,T,3,-4.041374206542969,-12.124122619628906,3,True,93,0,chart,Float,True,Research report / Introduction,0.0,0.0
+44,T,Analysis,-1.5350334644317627,-1.5350334644317627,1,True,83,0,chart,Str,True,Tutorial/Workshop,1.0,1.0
+20,T,Population density.,-7.770380973815918,-46.622283935546875,6,True,69,0,figure,Str,True,Research report / Introduction,0.0,0.0
+556,T,['NTU'],-1.8512566089630127,-24.066335678100586,13,True,214,0,figure,List,False,Guidebook,0.0,0.0
+27,T,Basic flat & layered maps,-0.001675229868851602,-0.008376149460673332,5,True,105,0,layout,Str,False,Tutorial/Workshop,1.0,1.0
+576,X,1954,-0.0013487088726833463,-0.005394835490733385,4,True,856,0,text,Int,False,Administration/Industry file,1.0,1.0
+961,X,CFCs,-1.115649938583374,-8.925199508666992,8,True,498,0,text,Str,True,Tutorial/Workshop,0.0,0.0
+186,X,None,-2.5332977771759033,-12.666488647460938,5,True,2129,0,table,Float,False,Academic paper,0.0,0.0
+461,X,7,-8.460783004760742,-8.460783004760742,1,True,586,0,table,Int,False,Guidebook,0.0,0.0
+171,X,29,-2.797067165374756,-8.39120101928711,3,True,370,0,chart,Float,True,Research report / Introduction,1.0,1.0
+44,X,Analysis,-0.0007543102256022394,-0.0007543102256022394,1,True,228,0,chart,Str,True,Tutorial/Workshop,1.0,1.0
+20,X,Centers of Indian Space Programme,-1.202763319015503,-7.216579437255859,6,True,478,0,figure,Str,True,Research report / Introduction,0.8378378378378378,1.0
+556,X,['NTU'],-1.657577633857727,-21.548507690429688,13,True,250,0,figure,List,False,Guidebook,0.0,0.0
+27,X,Basic flat & layered maps,-0.0019329646602272987,-0.009664823301136494,5,True,348,0,layout,Str,False,Tutorial/Workshop,1.0,1.0
+576,I_hi,1954,-0.003592504421249032,-0.014370017684996128,4,True,1308,1240,text,Int,False,Administration/Industry file,1.0,1.0
+961,I_hi,Ozone thinning,-1.0808261632919312,-8.64660930633545,8,True,1284,1222,text,Str,True,Tutorial/Workshop,0.0,0.0
+186,I_hi,74.9,-2.859238386154175,-14.296192169189453,5,True,1341,1260,table,Float,False,Academic paper,0.0,0.0
+461,I_hi,7,-2.249140739440918,-2.249140739440918,1,True,1307,1240,table,Int,False,Guidebook,0.0,0.0
+171,I_hi,29,-3.0259780883789062,-9.077934265136719,3,True,1311,1230,chart,Float,True,Research report / Introduction,1.0,1.0
+44,I_hi,Analysis,-0.0006299418746493757,-0.0006299418746493757,1,True,1301,1230,chart,Str,True,Tutorial/Workshop,1.0,1.0
+20,I_hi,The Centres of Indian Space Programme,-0.5671466588973999,-3.4028797149658203,6,True,1323,1260,figure,Str,True,Research report / Introduction,1.0,1.0
+556,I_hi,"['OCBC Bank', 'DBS']",-0.9725731611251831,-12.643450736999512,13,True,1318,1240,figure,List,False,Guidebook,0.0,0.0
+27,I_hi,Basic flat & layered maps,-0.0028169334400445223,-0.014084666967391968,5,True,1293,1230,layout,Str,False,Tutorial/Workshop,1.0,1.0
+576,I_lo,27,-1.8923537731170654,-7.569415092468262,4,True,320,252,text,Int,False,Administration/Industry file,0.0,0.0
+961,I_lo,Ozone thinning,-1.0035223960876465,-8.028179168701172,8,True,314,252,text,Str,True,Tutorial/Workshop,0.0,0.0
+186,I_lo,63.2%,-1.4816263914108276,-7.4081315994262695,5,True,328,247,table,Float,False,Academic paper,0.0,0.0
+461,I_lo,7,-2.086836814880371,-2.086836814880371,1,True,319,252,table,Int,False,Guidebook,0.0,0.0
+171,I_lo,29,-3.0454955101013184,-9.136486053466797,3,True,315,234,chart,Float,True,Research report / Introduction,1.0,1.0
+44,I_lo,Analysis,-0.0006576997111551464,-0.0006576997111551464,1,True,305,234,chart,Str,True,Tutorial/Workshop,1.0,1.0
+20,I_lo,The locations of centers of Indian Space Programme.,-0.5758985280990601,-3.4553911685943604,6,True,310,247,figure,Str,True,Research report / Introduction,0.6862745098039216,1.0
+556,I_lo,['DBS'],-1.2521142959594727,-16.277484893798828,13,True,316,238,figure,List,False,Guidebook,0.0,0.0
+27,I_lo,Basic flat & layered maps,-0.002579194027930498,-0.012895969673991203,5,True,297,234,layout,Str,False,Tutorial/Workshop,1.0,1.0
+576,TI_hi,1954,-0.0009571253322064877,-0.0038285013288259506,4,True,2333,1240,text,Int,False,Administration/Industry file,1.0,1.0
+961,TI_hi,Ozone thinning,-0.9685200452804565,-7.748160362243652,8,True,1305,1222,text,Str,True,Tutorial/Workshop,0.0,0.0
+186,TI_hi,74.9,-2.734394073486328,-13.67197036743164,5,True,3666,1260,table,Float,False,Academic paper,0.0,0.0
+461,TI_hi,7,-3.6766860485076904,-3.6766860485076904,1,True,1794,1240,table,Int,False,Guidebook,0.0,0.0
+171,TI_hi,29,-2.8635387420654297,-8.590616226196289,3,True,1332,1230,chart,Float,True,Research report / Introduction,1.0,1.0
+44,TI_hi,Analysis,-0.0010451575508341193,-0.0010451575508341193,1,True,1322,1230,chart,Str,True,Tutorial/Workshop,1.0,1.0
+20,TI_hi,The Centres of Indian Space Programme,-0.4074472188949585,-2.444683313369751,6,True,1338,1260,figure,Str,True,Research report / Introduction,1.0,1.0
+556,TI_hi,"['OCBC Bank', 'DBS']",-1.010310173034668,-13.134032249450684,13,True,1463,1240,figure,List,False,Guidebook,0.0,0.0
+27,TI_hi,Basic flat & layered maps,-0.002365072723478079,-0.011825363151729107,5,True,1344,1230,layout,Str,False,Tutorial/Workshop,1.0,1.0
+576,TI_lo,1954,-0.0015237426850944757,-0.006094970740377903,4,True,1345,252,text,Int,False,Administration/Industry file,1.0,1.0
+961,TI_lo,Ozone thinning,-0.8763689994812012,-7.010951995849609,8,True,335,252,text,Str,True,Tutorial/Workshop,0.0,0.0
+186,TI_lo,74.8,-2.4221835136413574,-12.110917091369629,5,True,2653,247,table,Float,False,Academic paper,0.0,0.0
+461,TI_lo,7,-4.551446437835693,-4.551446437835693,1,True,806,252,table,Int,False,Guidebook,0.0,0.0
+171,TI_lo,29,-3.076561689376831,-9.229684829711914,3,True,336,234,chart,Float,True,Research report / Introduction,1.0,1.0
+44,TI_lo,Analysis,-0.000730128725990653,-0.000730128725990653,1,True,326,234,chart,Str,True,Tutorial/Workshop,1.0,1.0
+20,TI_lo,The Centres of Indian Space Programme,-0.5160882472991943,-3.096529245376587,6,True,325,247,figure,Str,True,Research report / Introduction,1.0,1.0
+556,TI_lo,['DBS'],-1.3884013891220093,-18.049217224121094,13,True,461,238,figure,List,False,Guidebook,0.0,0.0
+27,TI_lo,Basic flat & layered maps,-0.0015512531390413642,-0.0077562653459608555,5,True,348,234,layout,Str,False,Tutorial/Workshop,1.0,1.0
+576,M_lo,2015,-2.2818520069122314,-9.127408027648926,4,True,326,252,text,Int,False,Administration/Industry file,0.0,0.0
+961,M_lo,Ozone thinning,-1.0177668333053589,-8.142134666442871,8,True,320,252,text,Str,True,Tutorial/Workshop,0.0,0.0
+186,M_lo,60,-2.107067108154297,-10.535335540771484,5,True,334,247,table,Float,False,Academic paper,0.0,0.0
+461,M_lo,7,-2.048659324645996,-2.048659324645996,1,True,325,252,table,Int,False,Guidebook,0.0,0.0
+171,M_lo,29,-2.9459102153778076,-8.837730407714844,3,True,321,234,chart,Float,True,Research report / Introduction,1.0,1.0
+44,M_lo,Analysis,-0.0006104036583565176,-0.0006104036583565176,1,True,311,234,chart,Str,True,Tutorial/Workshop,1.0,1.0
+20,M_lo,The locations of Indian Space Programme centers.,-0.7304198145866394,-4.382518768310547,6,True,316,247,figure,Str,True,Research report / Introduction,0.6666666666666667,1.0
+556,M_lo,['OCBC Bank'],-1.2667685747146606,-16.46799087524414,13,True,322,238,figure,List,False,Guidebook,0.0,0.0
+27,M_lo,Schoort public library,-9.56035327911377,-47.80176544189453,5,True,303,234,layout,Str,False,Tutorial/Workshop,0.0,0.0
+576,TM_lo,1954,-0.0025565498508512974,-0.01022619940340519,4,True,1352,252,text,Int,False,Administration/Industry file,1.0,1.0
+961,TM_lo,Ozone thinning,-0.8303424715995789,-6.642739772796631,8,True,342,252,text,Str,True,Tutorial/Workshop,0.0,0.0
+186,TM_lo,70.8,-2.604680299758911,-13.023401260375977,5,True,2660,247,table,Float,False,Academic paper,0.0,0.0
+461,TM_lo,7,-6.763922691345215,-6.763922691345215,1,True,813,252,table,Int,False,Guidebook,0.0,0.0
+171,TM_lo,29,-3.0644662380218506,-9.193398475646973,3,True,343,234,chart,Float,True,Research report / Introduction,1.0,1.0
+44,TM_lo,Analysis,-0.0006337541271932423,-0.0006337541271932423,1,True,333,234,chart,Str,True,Tutorial/Workshop,1.0,1.0
+20,TM_lo,The Centres of Indian Space Programme,-0.6074542999267578,-3.644725799560547,6,True,332,247,figure,Str,True,Research report / Introduction,1.0,1.0
+556,TM_lo,['OCBC Bank'],-1.385571002960205,-18.012422561645508,13,True,468,238,figure,List,False,Guidebook,0.0,0.0
+27,TM_lo,Basic flat & layered maps,-0.005852516740560532,-0.029262583702802658,5,True,355,234,layout,Str,False,Tutorial/Workshop,1.0,1.0
+902,Q,The headset may not charge properly.,-3.81561279296875,-80.12786865234375,21,True,79,0,text,Str,False,Guidebook,0.0,0.0
+434,Q,MNIST dataset,-4.147536277770996,-16.590145111083984,4,True,77,0,text,Str,True,Tutorial/Workshop,0.0,0.0
+1089,Q,-45,-3.171746253967285,-6.34349250793457,2,True,82,0,table,Float,False,Financial report,0.0,0.0
+973,Q,Baseline 1,-7.299132347106934,-51.09392547607422,7,True,79,0,table,Str,False,Academic paper,0.0,0.0
+869,Q,I'm unsure without seeing the document.,-7.683640480041504,-30.734561920166016,4,True,83,0,chart,Str,False,Academic paper,0.0,0.0
+178,Q,India,-6.508054733276367,-6.508054733276367,1,True,76,0,chart,Str,True,Research report / Introduction,0.0,0.0
+444,Q,Bacteria,-3.4509665966033936,-10.352899551391602,3,True,80,0,figure,Str,False,Academic paper,0.0,0.0
+553,Q,123,-3.2029361724853516,-9.608808517456055,3,True,73,0,figure,Int,False,Guidebook,0.0,0.0
+158,Q,Microsoft,-8.01087760925293,-40.054386138916016,5,True,71,0,layout,Str,True,Tutorial/Workshop,0.0,0.0
+902,T,Charging time increases.,-0.741879403591156,-15.5794677734375,21,True,461,0,text,Str,False,Guidebook,0.0,0.0
+434,T,No dataset mentioned.,-4.326128005981445,-17.30451202392578,4,True,84,0,text,Str,True,Tutorial/Workshop,0.0,0.0
+1089,T,93,-0.06283468008041382,-0.12566936016082764,2,True,917,0,table,Float,False,Financial report,1.0,1.0
+973,T,vanilla ICL,-1.9116722345352173,-13.381705284118652,7,True,1830,0,table,Str,False,Academic paper,0.0,0.0
+869,T,MMMU,-3.332470178604126,-13.329880714416504,4,True,1405,0,chart,Str,False,Academic paper,1.0,1.0
+178,T,Unspecified,-7.601787090301514,-7.601787090301514,1,True,83,0,chart,Str,True,Research report / Introduction,0.0,0.0
+444,T,Monarch butterfly,-0.49812567234039307,-1.4943770170211792,3,True,684,0,figure,Str,False,Academic paper,1.0,1.0
+553,T,179,-0.09348081052303314,-0.28044241666793823,3,True,566,0,figure,Int,False,Guidebook,1.0,1.0
+158,T,Unknown Company,-7.951334476470947,-39.75667190551758,5,True,78,0,layout,Str,True,Tutorial/Workshop,0.0,0.0
+902,X,Charging time increases.,-0.6709764003753662,-14.090503692626953,21,True,512,0,text,Str,False,Guidebook,0.0,0.0
+434,X,Kaggle's Cat vs Dog dataset,-0.9960468411445618,-3.984187364578247,4,True,322,0,text,Str,True,Tutorial/Workshop,1.0,1.0
+1089,X,-93,-0.8474448323249817,-1.6948896646499634,2,True,870,0,table,Float,False,Financial report,0.0,0.0
+973,X,vanilla ICL,-2.1018166542053223,-14.712715148925781,7,True,1887,0,table,Str,False,Academic paper,0.0,0.0
+869,X,MMMU Benchmark,-3.0528430938720703,-12.211372375488281,4,True,990,0,chart,Str,False,Academic paper,1.0,1.0
+178,X,Egypt,-0.4322366714477539,-0.4322366714477539,1,True,316,0,chart,Str,True,Research report / Introduction,1.0,1.0
+444,X,Image or text,-4.3346967697143555,-13.004090309143066,3,True,527,0,figure,Str,False,Academic paper,0.0,0.0
+553,X,179,-0.21636280417442322,-0.6490883827209473,3,True,517,0,figure,Int,False,Guidebook,1.0,1.0
+158,X,Avalaunch Media,-1.6418933868408203,-8.209466934204102,5,True,103,0,layout,Str,True,Tutorial/Workshop,1.0,1.0
+902,I_hi,Charging time will increase.,-0.6375102400779724,-13.387714385986328,21,True,1334,1260,text,Str,False,Guidebook,0.0,0.0
+434,I_hi,Kaggle's Cat vs Dog dataset,-0.9684761762619019,-3.8739047050476074,4,True,1302,1230,text,Str,True,Tutorial/Workshop,1.0,1.0
+1089,I_hi,79,-2.05078125,-4.1015625,2,True,1317,1240,table,Float,False,Financial report,0.0,0.0
+973,I_hi,vanilla ICL w. CoT,-1.8793413639068604,-13.155388832092285,7,True,1314,1240,table,Str,False,Academic paper,0.0,0.0
+869,I_hi,MMMU,-3.0626626014709473,-12.250650405883789,4,True,1318,1240,chart,Str,False,Academic paper,1.0,1.0
+178,I_hi,Palestine,-1.0918573141098022,-1.0918573141098022,1,True,1301,1230,chart,Str,True,Research report / Introduction,0.0,0.0
+444,I_hi,Monarch butterfly,-0.2857816815376282,-0.8573449850082397,3,True,1315,1240,figure,Str,False,Academic paper,1.0,1.0
+553,I_hi,179,-0.00016051356215029955,-0.00048154068645089865,3,True,1308,1240,figure,Int,False,Guidebook,1.0,1.0
+158,I_hi,Avalaunch Media,-0.35354265570640564,-1.767713189125061,5,True,1288,1222,layout,Str,True,Tutorial/Workshop,1.0,1.0
+902,I_lo,The charging time will increase.,-0.4399433732032776,-9.238810539245605,21,True,321,247,text,Str,False,Guidebook,0.0,0.0
+434,I_lo,Kaggle's Cat vs Dog dataset,-1.014060378074646,-4.056241512298584,4,True,306,234,text,Str,True,Tutorial/Workshop,1.0,1.0
+1089,I_lo,-47,-3.173915386199951,-6.347830772399902,2,True,329,252,table,Float,False,Financial report,0.0,0.0
+973,I_lo,Vicuna-13B,-2.4812793731689453,-17.368955612182617,7,True,326,252,table,Str,False,Academic paper,0.0,0.0
+869,I_lo,MMU,-3.250812530517578,-13.003250122070312,4,True,330,252,chart,Str,False,Academic paper,0.75,1.0
+178,I_lo,Egypt,-0.9268863797187805,-0.9268863797187805,1,True,305,234,chart,Str,True,Research report / Introduction,1.0,1.0
+444,I_lo,Human,-3.1633787155151367,-9.49013614654541,3,True,327,252,figure,Str,False,Academic paper,0.0,0.0
+553,I_lo,177,-0.5570366382598877,-1.671109914779663,3,True,306,238,figure,Int,False,Guidebook,0.0,0.0
+158,I_lo,Avalaunch Media,-0.37915077805519104,-1.8957538604736328,5,True,318,252,layout,Str,True,Tutorial/Workshop,1.0,1.0
+902,TI_hi,Charging time increases.,-0.5705251693725586,-11.98102855682373,21,True,1730,1260,text,Str,False,Guidebook,0.0,0.0
+434,TI_hi,Kaggle's Cat vs Dog dataset,-0.9944804906845093,-3.977921962738037,4,True,1323,1230,text,Str,True,Tutorial/Workshop,1.0,1.0
+1089,TI_hi,93,-0.30038076639175415,-0.6007615327835083,2,True,2166,1240,table,Float,False,Financial report,1.0,1.0
+973,TI_hi,CoT w. logical constraints,-1.7728736400604248,-12.410115242004395,7,True,3079,1240,table,Str,False,Academic paper,1.0,1.0
+869,TI_hi,MMMU,-3.153716564178467,-12.614866256713867,4,True,2654,1240,chart,Str,False,Academic paper,1.0,1.0
+178,TI_hi,Palestine,-0.8519147634506226,-0.8519147634506226,1,True,1322,1230,chart,Str,True,Research report / Introduction,0.0,0.0
+444,TI_hi,Butterfly,-0.17493657767772675,-0.524809718132019,3,True,1933,1240,figure,Str,False,Academic paper,1.0,1.0
+553,TI_hi,179,-0.00016024030628614128,-0.00048072091885842383,3,True,1815,1240,figure,Int,False,Guidebook,1.0,1.0
+158,TI_hi,Avalaunch Media,-0.2959119975566864,-1.4795600175857544,5,True,1309,1222,layout,Str,True,Tutorial/Workshop,1.0,1.0
+902,TI_lo,Charging time increases.,-0.5723329186439514,-12.018991470336914,21,True,717,247,text,Str,False,Guidebook,0.0,0.0
+434,TI_lo,Kaggle's Cat vs Dog dataset,-0.9791120290756226,-3.9164481163024902,4,True,327,234,text,Str,True,Tutorial/Workshop,1.0,1.0
+1089,TI_lo,93,-0.6282801628112793,-1.2565603256225586,2,True,1178,252,table,Float,False,Financial report,1.0,1.0
+973,TI_lo,vanilla ICL,-1.8080581426620483,-12.65640640258789,7,True,2091,252,table,Str,False,Academic paper,0.0,0.0
+869,TI_lo,MMMU,-3.1791632175445557,-12.716652870178223,4,True,1666,252,chart,Str,False,Academic paper,1.0,1.0
+178,TI_lo,Egypt,-0.8833023309707642,-0.8833023309707642,1,True,326,234,chart,Str,True,Research report / Introduction,1.0,1.0
+444,TI_lo,Butterfly,-0.3792223632335663,-1.1376670598983765,3,True,945,252,figure,Str,False,Academic paper,1.0,1.0
+553,TI_lo,179,-0.03466318920254707,-0.10398956388235092,3,True,813,238,figure,Int,False,Guidebook,1.0,1.0
+158,TI_lo,Avalaunch Media,-0.35555383563041687,-1.7777690887451172,5,True,339,252,layout,Str,True,Tutorial/Workshop,1.0,1.0
+902,M_lo,The headset may not charge properly.,-3.2184226512908936,-67.58687591552734,21,True,327,247,text,Str,False,Guidebook,0.0,0.0
+434,M_lo,Kaggle's Cat vs Dog dataset,-0.978556752204895,-3.91422700881958,4,True,312,234,text,Str,True,Tutorial/Workshop,1.0,1.0
+1089,M_lo,-45,-3.173884868621826,-6.347769737243652,2,True,335,252,table,Float,False,Financial report,0.0,0.0
+973,M_lo,Baseline 2,-7.057702541351318,-49.40391540527344,7,True,332,252,table,Str,False,Academic paper,0.0,0.0
+869,M_lo,Insufficient information provided.,-7.636486053466797,-30.545944213867188,4,True,336,252,chart,Str,False,Academic paper,0.0,0.0
+178,M_lo,Egypt,-0.7751850485801697,-0.7751850485801697,1,True,311,234,chart,Str,True,Research report / Introduction,1.0,1.0
+444,M_lo,Butterfly,-0.2963568866252899,-0.8890706300735474,3,True,333,252,figure,Str,False,Academic paper,1.0,1.0
+553,M_lo,179,-0.42541617155075073,-1.2762484550476074,3,True,312,238,figure,Int,False,Guidebook,1.0,1.0
+158,M_lo,Avalaunch Media,-0.35986754298210144,-1.79933762550354,5,True,324,252,layout,Str,True,Tutorial/Workshop,1.0,1.0
+902,TM_lo,Charging time increases.,-0.6620007753372192,-13.902016639709473,21,True,724,247,text,Str,False,Guidebook,0.0,0.0
+434,TM_lo,Kaggle's Cat vs Dog dataset,-1.0918080806732178,-4.367232322692871,4,True,334,234,text,Str,True,Tutorial/Workshop,1.0,1.0
+1089,TM_lo,93,-0.06916219741106033,-0.13832439482212067,2,True,1185,252,table,Float,False,Financial report,1.0,1.0
+973,TM_lo,vanilla ICL,-1.9274260997772217,-13.491982460021973,7,True,2098,252,table,Str,False,Academic paper,0.0,0.0
+869,TM_lo,MMMU,-3.14253306388855,-12.5701322555542,4,True,1673,252,chart,Str,False,Academic paper,1.0,1.0
+178,TM_lo,Egypt,-0.76823490858078,-0.76823490858078,1,True,333,234,chart,Str,True,Research report / Introduction,1.0,1.0
+444,TM_lo,Butterfly,-0.38520345091819763,-1.1556103229522705,3,True,952,252,figure,Str,False,Academic paper,1.0,1.0
+553,TM_lo,179,-0.0041797892190515995,-0.012539367191493511,3,True,820,238,figure,Int,False,Guidebook,1.0,1.0
+158,TM_lo,Avalaunch Media,-0.2901499569416046,-1.4507497549057007,5,True,346,252,layout,Str,True,Tutorial/Workshop,1.0,1.0
+668,Q,3.0,-1.2155383825302124,-1.2155383825302124,1,True,75,0,text,Int,False,Guidebook,1.0,1.0
+134,Q,"['What services are offered?', 'How do the services work?', 'Who can use the services?', 'What are the benefits of using the services?', 'Are there any limitations to the services?', 'How much do the services cost?', 'What is the process for signing up for the services?']",-2.963383197784424,-97.79164123535156,33,True,82,0,text,List,False,Research report / Introduction,0.0,0.0
+1014,Q,4500,-2.4767863750457764,-12.383932113647461,5,True,82,0,table,Float,False,Financial report,0.0,0.0
+1044,Q,0.65,-1.3942623138427734,-5.577049255371094,4,True,80,0,table,Float,False,Financial report,0.0,0.0
+488,Q,25,-3.022562026977539,-9.067686080932617,3,True,85,0,chart,Float,False,Financial report,0.0,0.0
+694,Q,40,-1.3276323080062866,-2.6552646160125732,2,True,74,0,chart,Float,False,Research report / Introduction,0.0,0.0
+493,Q,"['elephant', 'giraffe']",-0.8741390705108643,-5.2448344230651855,6,True,84,0,figure,List,False,Financial report,0.0,0.0
+546,Q,Healthcare,-6.7598724365234375,-6.7598724365234375,1,True,79,0,figure,Str,False,Academic paper,0.0,0.0
+28,Q,https://www.example.com/wikiqueryservice,-3.6540744304656982,-29.232595443725586,8,True,81,0,layout,Str,True,Tutorial/Workshop,0.0,0.0
+668,T,3.0,-0.02343539148569107,-0.02343539148569107,1,True,561,0,text,Int,False,Guidebook,1.0,1.0
+134,T,"['Is the service safe?', 'Is the service effective?', 'Is the service caring?', 'Is the service responsive?', 'Is the service well-led?']",-1.5087518692016602,-49.78881072998047,33,True,489,0,text,List,False,Research report / Introduction,0.6666666666666667,1.0
+1014,T,"11,752",-0.6889720559120178,-3.4448602199554443,5,True,907,0,table,Float,False,Financial report,1.0,1.0
+1044,T,0.34,-0.9929040670394897,-3.971616268157959,4,True,818,0,table,Float,False,Financial report,0.0,0.0
+488,T,37,-0.6157703995704651,-1.8473111391067505,3,True,212,0,chart,Float,False,Financial report,1.0,1.0
+694,T,59,-0.7280104160308838,-1.4560208320617676,2,True,727,0,chart,Float,False,Research report / Introduction,0.0,0.0
+493,T,['Pets'],-2.085306406021118,-12.51183795928955,6,True,172,0,figure,List,False,Financial report,0.0,0.0
+546,T,person,-2.2638537883758545,-2.2638537883758545,1,True,411,0,figure,Str,False,Academic paper,1.0,1.0
+28,T,https://w.wiki/6gb,-0.005545238498598337,-0.0443619079887867,8,True,110,0,layout,Str,True,Tutorial/Workshop,1.0,1.0
+668,X,3.0,-0.009064829908311367,-0.009064829908311367,1,True,482,0,text,Int,False,Guidebook,1.0,1.0
+134,X,"['Is the service safe?', 'Is the service effective?', 'Is the service caring?', 'Is the service responsive?', 'Is the service well-led?']",-1.5443264245986938,-50.9627685546875,33,True,466,0,text,List,False,Research report / Introduction,0.6666666666666667,1.0
+1014,X,"11,749",-0.31747496128082275,-1.5873748064041138,5,True,887,0,table,Float,False,Financial report,1.0,1.0
+1044,X,1.00,-0.6983485221862793,-2.793394088745117,4,True,885,0,table,Float,False,Financial report,0.0,0.0
+488,X,37,-0.7855743169784546,-2.356722831726074,3,True,250,0,chart,Float,False,Financial report,1.0,1.0
+694,X,50,-0.06754931807518005,-0.1350986361503601,2,True,712,0,chart,Float,False,Research report / Introduction,1.0,1.0
+493,X,['Cat'],-1.7084559202194214,-10.25073528289795,6,True,337,0,figure,List,False,Financial report,0.0,0.0
+546,X,Apple,-1.8824381828308105,-1.8824381828308105,1,True,442,0,figure,Str,False,Academic paper,0.0,0.0
+28,X,https://w.wiki/6gb,-0.009452066384255886,-0.07561653107404709,8,True,219,0,layout,Str,True,Tutorial/Workshop,1.0,1.0
+668,I_hi,3.0,-0.003990426659584045,-0.003990426659584045,1,True,1291,1221,text,Int,False,Guidebook,1.0,1.0
+134,I_hi,"['Is the service safe?', 'Is the service effective?', 'Is the service caring?', 'Is the service responsive?', 'Is the service well-led?']",-1.2670457363128662,-41.81250762939453,33,True,1337,1260,text,List,False,Research report / Introduction,0.6666666666666667,1.0
+1014,I_hi,"9,358",-1.8348277807235718,-9.174139022827148,5,True,1317,1240,table,Float,False,Financial report,0.0,0.0
+1044,I_hi,1.05,-0.9392240643501282,-3.7568962574005127,4,True,1315,1240,table,Float,False,Financial report,0.0,0.0
+488,I_hi,37,-0.7116023302078247,-2.1348068714141846,3,True,1302,1222,chart,Float,False,Financial report,1.0,1.0
+694,I_hi,50,-0.004545813426375389,-0.009091626852750778,2,True,1309,1240,chart,Float,False,Research report / Introduction,1.0,1.0
+493,I_hi,"['cat', 'dog']",-0.6301543712615967,-3.78092622756958,6,True,1301,1222,figure,List,False,Financial report,1.0,1.0
+546,I_hi,person,-1.9780478477478027,-1.9780478477478027,1,True,1321,1247,figure,Str,False,Academic paper,1.0,1.0
+28,I_hi,https://w.wiki/6gb,-0.008596723899245262,-0.0687737911939621,8,True,1306,1230,layout,Str,True,Tutorial/Workshop,1.0,1.0
+668,I_lo,3.0,-0.2313690185546875,-0.2313690185546875,1,True,310,240,text,Int,False,Guidebook,1.0,1.0
+134,I_lo,"['Is the service safe?', 'Is the service effective?', 'Is the service caring?', 'Is the service responsive?', 'Is the service well-led?']",-1.3367369174957275,-44.1123161315918,33,True,324,247,text,List,False,Research report / Introduction,0.6666666666666667,1.0
+1014,I_lo,"41,190",-3.0341882705688477,-15.170941352844238,5,True,329,252,table,Float,False,Financial report,0.0,0.0
+1044,I_lo,0.84,-1.351356029510498,-5.405424118041992,4,True,327,252,table,Float,False,Financial report,0.0,0.0
+488,I_lo,37,-0.547882080078125,-1.643646240234375,3,True,311,231,chart,Float,False,Financial report,1.0,1.0
+694,I_lo,50,-0.17719228565692902,-0.35438457131385803,2,True,321,252,chart,Float,False,Research report / Introduction,1.0,1.0
+493,I_lo,['Pets'],-1.159153699874878,-6.954921722412109,6,True,310,231,figure,List,False,Financial report,0.0,0.0
+546,I_lo,dog,-3.7846899032592773,-3.7846899032592773,1,True,321,247,figure,Str,False,Academic paper,0.0,0.0
+28,I_lo,https://w.wiki/6gb,-0.01108476147055626,-0.08867809176445007,8,True,310,234,layout,Str,True,Tutorial/Workshop,1.0,1.0
+668,TI_hi,3.0,-0.0028443378396332264,-0.0028443378396332264,1,True,1791,1221,text,Int,False,Guidebook,1.0,1.0
+134,TI_hi,"['Is the service safe?', 'Is the service effective?', 'Is the service caring?', 'Is the service responsive?', 'Is the service well-led?']",-1.3348865509033203,-44.05125427246094,33,True,1758,1260,text,List,False,Research report / Introduction,0.6666666666666667,1.0
+1014,TI_hi,"11,752",-0.7708578109741211,-3.8542890548706055,5,True,2156,1240,table,Float,False,Financial report,1.0,1.0
+1044,TI_hi,1.27,-0.9649373292922974,-3.8597493171691895,4,True,2067,1240,table,Float,False,Financial report,0.0,0.0
+488,TI_hi,37,-0.9001532793045044,-2.7004597187042236,3,True,1443,1222,chart,Float,False,Financial report,1.0,1.0
+694,TI_hi,50,-0.0374261699616909,-0.0748523399233818,2,True,1976,1240,chart,Float,False,Research report / Introduction,1.0,1.0
+493,TI_hi,['cat'],-0.6988437175750732,-4.1930623054504395,6,True,1403,1222,figure,List,False,Financial report,0.0,0.0
+546,TI_hi,person,-1.8580164909362793,-1.8580164909362793,1,True,1667,1247,figure,Str,False,Academic paper,1.0,1.0
+28,TI_hi,https://w.wiki/6gb,-0.002057765843346715,-0.01646212674677372,8,True,1349,1230,layout,Str,True,Tutorial/Workshop,1.0,1.0
+668,TI_lo,3.0,-0.009564291685819626,-0.009564291685819626,1,True,810,240,text,Int,False,Guidebook,1.0,1.0
+134,TI_lo,"['Is the service safe?', 'Is the service effective?', 'Is the service caring?', 'Is the service responsive?', 'Is the service well-led?']",-1.3883928060531616,-45.816959381103516,33,True,745,247,text,List,False,Research report / Introduction,0.6666666666666667,1.0
+1014,TI_lo,"11,751",-1.1554049253463745,-5.777024745941162,5,True,1168,252,table,Float,False,Financial report,1.0,1.0
+1044,TI_lo,1.21,-1.4950149059295654,-5.980059623718262,4,True,1079,252,table,Float,False,Financial report,0.0,0.0
+488,TI_lo,37,-0.865226686000824,-2.595679998397827,3,True,452,231,chart,Float,False,Financial report,1.0,1.0
+694,TI_lo,50,-0.014337485656142235,-0.02867497131228447,2,True,988,252,chart,Float,False,Research report / Introduction,1.0,1.0
+493,TI_lo,['Pets'],-1.1945761442184448,-7.16745662689209,6,True,412,231,figure,List,False,Financial report,0.0,0.0
+546,TI_lo,dog,-3.1252593994140625,-3.1252593994140625,1,True,667,247,figure,Str,False,Academic paper,0.0,0.0
+28,TI_lo,https://w.wiki/6gb,-0.001670028199441731,-0.013360225595533848,8,True,353,234,layout,Str,True,Tutorial/Workshop,1.0,1.0
+668,M_lo,2.0,-1.2624874114990234,-1.2624874114990234,1,True,316,240,text,Int,False,Guidebook,0.0,0.0
+134,M_lo,"['What services are offered?', 'How do I sign up for these services?', 'What are the benefits of using these services?', 'Are there any fees associated with these services?', 'Can I cancel my subscription at any time?', 'What support is available if I have issues with the services?']",-2.8830699920654297,-95.14130401611328,33,True,330,247,text,List,False,Research report / Introduction,0.0,0.0
+1014,M_lo,4500,-2.5540781021118164,-12.770390510559082,5,True,335,252,table,Float,False,Financial report,0.0,0.0
+1044,M_lo,0.75,-1.335679054260254,-5.342716217041016,4,True,333,252,table,Float,False,Financial report,0.0,0.0
+488,M_lo,50,-2.8940627574920654,-8.682188034057617,3,True,317,231,chart,Float,False,Financial report,0.0,0.0
+694,M_lo,40,-1.3809314966201782,-2.7618629932403564,2,True,327,252,chart,Float,False,Research report / Introduction,0.0,0.0
+493,M_lo,"['cat', 'dog']",-0.30371642112731934,-1.822298526763916,6,True,316,231,figure,List,False,Financial report,1.0,1.0
+546,M_lo,Blue,-9.811670303344727,-9.811670303344727,1,True,327,247,figure,Str,False,Academic paper,0.0,0.0
+28,M_lo,https://www.example.com/wikiqueryservice,-3.1274538040161133,-25.019630432128906,8,True,316,234,layout,Str,True,Tutorial/Workshop,0.0,0.0
+668,TM_lo,3.0,-0.013705906458199024,-0.013705906458199024,1,True,817,240,text,Int,False,Guidebook,1.0,1.0
+134,TM_lo,"['Is the service safe?', 'Is the service effective?', 'Is the service caring?', 'Is the service responsive?', 'Is the service well-led?']",-1.4970439672470093,-49.40245056152344,33,True,752,247,text,List,False,Research report / Introduction,0.6666666666666667,1.0
+1014,TM_lo,"11,752",-0.5455549955368042,-2.7277748584747314,5,True,1175,252,table,Float,False,Financial report,1.0,1.0
+1044,TM_lo,1.00,-0.8743606805801392,-3.4974427223205566,4,True,1086,252,table,Float,False,Financial report,0.0,0.0
+488,TM_lo,37,-0.457009881734848,-1.3710296154022217,3,True,459,231,chart,Float,False,Financial report,1.0,1.0
+694,TM_lo,59,-1.0141091346740723,-2.0282182693481445,2,True,995,252,chart,Float,False,Research report / Introduction,0.0,0.0
+493,TM_lo,['Pets'],-1.0025341510772705,-6.015204429626465,6,True,419,231,figure,List,False,Financial report,0.0,0.0
+546,TM_lo,person,-2.92172908782959,-2.92172908782959,1,True,674,247,figure,Str,False,Academic paper,1.0,1.0
+28,TM_lo,https://w.wiki/6gb,-0.005206919275224209,-0.04165535420179367,8,True,360,234,layout,Str,True,Tutorial/Workshop,1.0,1.0
+1059,Q,-5.0,-3.0427539348602295,-15.21376895904541,5,True,89,0,text,Float,False,Financial report,0.0,0.0
+977,Q,Environmental,-6.244536876678467,-12.489073753356934,2,True,72,0,text,Str,False,Academic paper,0.0,0.0
+140,Q,"['Chapter 10', 'Chapter 11', 'Chapter 12', 'Chapter 13']",-3.308515787124634,-119.1065673828125,36,True,84,0,table,List,False,Research report / Introduction,0.0,0.0
+289,Q,5,-5.346174240112305,-21.38469696044922,4,True,79,0,table,Int,False,Academic paper,0.0,0.0
+425,Q,"['AI', 'human']",-3.0072569847106934,-36.08708190917969,12,True,82,0,chart,List,True,Tutorial/Workshop,0.0,0.0
+357,Q,60%,-1.6689685583114624,-5.006905555725098,3,True,86,0,chart,Float,False,Research report / Introduction,0.0,0.0
+127,Q,Figure 2 Title,-6.910797595977783,-117.48355865478516,17,True,71,0,figure,Str,False,Academic paper,0.0,0.0
+974,Q,5,-2.2505807876586914,-2.2505807876586914,1,True,70,0,figure,Int,False,Academic paper,0.0,0.0
+159,Q,"['Comic Sans MS', 'Impact', 'Arial Black']",-1.0382673740386963,-12.459208488464355,12,True,81,0,layout,List,True,Tutorial/Workshop,0.0,0.0
+1059,T,-38.5,-2.6687910556793213,-13.343955039978027,5,True,1226,0,text,Float,False,Financial report,0.0,0.0
+977,T,Doing,-5.611385822296143,-11.222771644592285,2,True,1128,0,text,Str,False,Academic paper,0.0,0.0
+140,T,"['About the USGCRP Climate and Health Assessment', 'About the National Climate Assessment']",-2.400622606277466,-86.42240905761719,36,True,517,0,table,List,False,Research report / Introduction,0.0,0.0
+289,T,9784,-0.6597573161125183,-2.6390292644500732,4,True,1535,0,table,Int,False,Academic paper,0.0,0.0
+425,T,"['overlap', 'capabilities']",-3.057231903076172,-36.68678283691406,12,True,89,0,chart,List,True,Tutorial/Workshop,0.0,0.0
+357,T,53,-0.8612999320030212,-2.583899736404419,3,True,714,0,chart,Float,False,Research report / Introduction,1.0,1.0
+127,T,Diagram of Breccia Gashes with top denuded off but bottom shown in cliff.,-0.010767499916255474,-0.18304750323295593,17,True,259,0,figure,Str,False,Academic paper,1.0,1.0
+974,T,6,-0.995431125164032,-0.995431125164032,1,True,1536,0,figure,Int,False,Academic paper,1.0,1.0
+159,T,"['Comic Sans MS', 'Impact', 'Arial Black']",-1.0188201665878296,-12.225841522216797,12,True,88,0,layout,List,True,Tutorial/Workshop,0.0,0.0
+1059,X,-60.0,-2.3484439849853516,-11.742219924926758,5,True,1173,0,text,Float,False,Financial report,0.0,0.0
+977,X,Doing,-5.496349811553955,-10.99269962310791,2,True,1098,0,text,Str,False,Academic paper,0.0,0.0
+140,X,"['About the USGCRP Climate and Health Assessment', 'About the National Climate Assessment']",-2.3845067024230957,-85.84223937988281,36,True,493,0,table,List,False,Research report / Introduction,0.0,0.0
+289,X,9750,-0.8402644395828247,-3.361057758331299,4,True,1468,0,table,Int,False,Academic paper,0.0,0.0
+425,X,['Substantive Expertise'],-0.3076753616333008,-3.6921041011810303,12,True,215,0,chart,List,True,Tutorial/Workshop,0.0,0.0
+357,X,53,-0.4558895230293274,-1.3676685094833374,3,True,637,0,chart,Float,False,Research report / Introduction,1.0,1.0
+127,X,Diagram of Breccia Gashes with top denuded off but bottom shown in cliff.,-0.0023705463390797377,-0.04029928892850876,17,True,323,0,figure,Str,False,Academic paper,1.0,1.0
+974,X,6,-0.8820896744728088,-0.8820896744728088,1,True,1409,0,figure,Int,False,Academic paper,1.0,1.0
+159,X,"['Times New Roman', 'Arial', 'Comic Sans']",-0.0002368061541346833,-0.002841673791408539,12,True,131,0,layout,List,True,Tutorial/Workshop,1.0,1.0
+1059,I_hi,-3.8,-2.8838050365448,-14.419025421142578,5,True,1324,1240,text,Float,False,Financial report,0.0,0.0
+977,I_hi,"""doing""",-5.821084022521973,-11.642168045043945,2,True,1307,1240,text,Str,False,Academic paper,0.0,0.0
+140,I_hi,"['Climate Change and Human Health: A Scientific Assessment', 'The Impacts of Climate Change on Human Health in the United States', 'About the USGCRP Climate and Health Assessment', 'About the National Climate Assessment']",-2.4046714305877686,-86.56816864013672,36,True,1319,1240,table,List,False,Research report / Introduction,0.0,0.0
+289,I_hi,27832,-2.920158863067627,-11.680635452270508,4,True,1314,1240,table,Int,False,Academic paper,0.0,0.0
+425,I_hi,"['Hacking Skills', 'Math & Statistics Knowledge']",-0.1102299839258194,-1.322759747505188,12,True,1307,1230,chart,List,True,Tutorial/Workshop,0.0,0.0
+357,I_hi,53,-1.0966041088104248,-3.2898120880126953,3,True,1321,1240,chart,Float,False,Research report / Introduction,1.0,1.0
+127,I_hi,Diagram of Breccia Gashes with top denuded off but bottom shown in clir'.,-0.12035900354385376,-2.046103000640869,17,True,1326,1260,figure,Str,False,Academic paper,0.9589041095890412,1.0
+974,I_hi,6,-0.13489922881126404,-0.13489922881126404,1,True,1305,1240,figure,Int,False,Academic paper,1.0,1.0
+159,I_hi,"['Times New Roman', 'Arial', 'Comic Sans']",-0.0009624824742786586,-0.01154978945851326,12,True,1298,1222,layout,List,True,Tutorial/Workshop,1.0,1.0
+1059,I_lo,-35.4,-2.6092350482940674,-13.046175003051758,5,True,336,252,text,Float,False,Financial report,0.0,0.0
+977,I_lo,"""Using X's""",-4.984896183013916,-9.969792366027832,2,True,319,252,text,Str,False,Academic paper,0.0,0.0
+140,I_lo,"['Climate Change and Human Health', 'Human Health Impacts', 'Human Health Adaptation', 'Human Health Mitigation']",-2.4547386169433594,-88.37059020996094,36,True,331,252,table,List,False,Research report / Introduction,0.0,0.0
+289,I_lo,1025,-2.799675941467285,-11.19870376586914,4,True,326,252,table,Int,False,Academic paper,0.0,0.0
+425,I_lo,"['Hacking Skills', 'Substantive Expertise']",-0.04499590024352074,-0.5399507880210876,12,True,311,234,chart,List,True,Tutorial/Workshop,1.0,1.0
+357,I_lo,53,-2.0190000534057617,-6.057000160217285,3,True,333,252,chart,Float,False,Research report / Introduction,1.0,1.0
+127,I_lo,Diagram of Breccia Gash with top clamped off but bottom shown in cliff.,-0.6721999049186707,-11.427398681640625,17,True,306,240,figure,Str,False,Academic paper,0.8888888888888888,1.0
+974,I_lo,5,-1.8845940828323364,-1.8845940828323364,1,True,317,252,figure,Int,False,Academic paper,0.0,0.0
+159,I_lo,"['Times New Roman', 'Arial', 'Comic Sans']",-0.0015645634848624468,-0.018774760887026787,12,True,328,252,layout,List,True,Tutorial/Workshop,1.0,1.0
+1059,TI_hi,-3.8,-3.0520546436309814,-15.260272979736328,5,True,2475,1240,text,Float,False,Financial report,0.0,0.0
+977,TI_hi,"""doing""",-4.382736682891846,-8.765473365783691,2,True,2377,1240,text,Str,False,Academic paper,0.0,0.0
+140,TI_hi,"['Climate and Health Assessment', 'National Climate Assessment', 'About the USGCRP Climate and Health Assessment', 'About the National Climate Assessment']",-2.4093568325042725,-86.73684692382812,36,True,1766,1240,table,List,False,Research report / Introduction,0.0,0.0
+289,TI_hi,9680,-0.8142523765563965,-3.257009506225586,4,True,2784,1240,table,Int,False,Academic paper,0.0,0.0
+425,TI_hi,"['Hacking Skills', 'Math & Statistics Knowledge']",-0.13101014494895935,-1.5721217393875122,12,True,1328,1230,chart,List,True,Tutorial/Workshop,0.0,0.0
+357,TI_hi,53,-0.8221975564956665,-2.46659255027771,3,True,1963,1240,chart,Float,False,Research report / Introduction,1.0,1.0
+127,TI_hi,Diagram of Breccia Gashes with top denuded off but bottom shown in cliff.,-0.011226019822061062,-0.19084233045578003,17,True,1528,1260,figure,Str,False,Academic paper,1.0,1.0
+974,TI_hi,6,-0.2635137438774109,-0.2635137438774109,1,True,2785,1240,figure,Int,False,Academic paper,1.0,1.0
+159,TI_hi,"['Times New Roman', 'Arial', 'Comic Sans']",-0.0007009434048086405,-0.008411320857703686,12,True,1319,1222,layout,List,True,Tutorial/Workshop,1.0,1.0
+1059,TI_lo,-20.0,-2.8848917484283447,-14.424458503723145,5,True,1487,252,text,Float,False,Financial report,0.0,0.0
+977,TI_lo,Doing,-4.568366050720215,-9.13673210144043,2,True,1389,252,text,Str,False,Academic paper,0.0,0.0
+140,TI_lo,"['Climate and Health Assessment', 'National Climate Assessment']",-2.4465866088867188,-88.07711791992188,36,True,778,252,table,List,False,Research report / Introduction,0.0,0.0
+289,TI_lo,9750,-0.8807323575019836,-3.5229294300079346,4,True,1796,252,table,Int,False,Academic paper,0.0,0.0
+425,TI_lo,"['Hacking Skills', 'Substantive Expertise']",-0.05396467447280884,-0.647576093673706,12,True,332,234,chart,List,True,Tutorial/Workshop,1.0,1.0
+357,TI_lo,53,-1.0567357540130615,-3.1702070236206055,3,True,975,252,chart,Float,False,Research report / Introduction,1.0,1.0
+127,TI_lo,Diagram of Breccia Gashes with top denuded off but bottom shown in cliff.,-0.020809493958950043,-0.3537614047527313,17,True,508,240,figure,Str,False,Academic paper,1.0,1.0
+974,TI_lo,6,-0.6545729637145996,-0.6545729637145996,1,True,1797,252,figure,Int,False,Academic paper,1.0,1.0
+159,TI_lo,"['Times New Roman', 'Arial', 'Comic Sans']",-0.001419727923348546,-0.017036734148859978,12,True,349,252,layout,List,True,Tutorial/Workshop,1.0,1.0
+1059,M_lo,-33.3,-2.874972105026245,-14.374860763549805,5,True,342,252,text,Float,False,Financial report,0.0,0.0
+977,M_lo,Environmental,-5.228709697723389,-10.457419395446777,2,True,325,252,text,Str,False,Academic paper,0.0,0.0
+140,M_lo,"['Introduction', 'Methodology', 'Results', 'Conclusion']",-2.96254825592041,-106.6517333984375,36,True,337,252,table,List,False,Research report / Introduction,0.0,0.0
+289,M_lo,2,-5.235149383544922,-20.940597534179688,4,True,332,252,table,Int,False,Academic paper,0.0,0.0
+425,M_lo,"['Hacking Skills', 'Substantive Expertise']",-0.05126712843775749,-0.6152055263519287,12,True,317,234,chart,List,True,Tutorial/Workshop,1.0,1.0
+357,M_lo,20,-2.7379636764526367,-8.21389102935791,3,True,339,252,chart,Float,False,Research report / Introduction,0.0,0.0
+127,M_lo,Geological Cross-Sections,-6.167020797729492,-104.83935546875,17,True,312,240,figure,Str,False,Academic paper,0.0,0.0
+974,M_lo,5,-2.1511101722717285,-2.1511101722717285,1,True,323,252,figure,Int,False,Academic paper,0.0,0.0
+159,M_lo,"['Times New Roman', 'Arial', 'Comic Sans']",-0.0018484732136130333,-0.0221816785633564,12,True,334,252,layout,List,True,Tutorial/Workshop,1.0,1.0
+1059,TM_lo,-58.8,-2.6148877143859863,-13.074438095092773,5,True,1494,252,text,Float,False,Financial report,0.0,0.0
+977,TM_lo,Doing,-5.129846096038818,-10.259692192077637,2,True,1396,252,text,Str,False,Academic paper,0.0,0.0
+140,TM_lo,"['About the USGCRP Climate and Health Assessment', 'About the National Climate Assessment', 'Acknowledgements', 'References']",-2.342190742492676,-84.31886291503906,36,True,785,252,table,List,False,Research report / Introduction,0.0,0.0
+289,TM_lo,9784,-0.7178413271903992,-2.8713653087615967,4,True,1803,252,table,Int,False,Academic paper,0.0,0.0
+425,TM_lo,"['Hacking Skills', 'Substantive Expertise']",-0.046599313616752625,-0.5591917634010315,12,True,339,234,chart,List,True,Tutorial/Workshop,1.0,1.0
+357,TM_lo,53,-0.899763286113739,-2.6992897987365723,3,True,982,252,chart,Float,False,Research report / Introduction,1.0,1.0
+127,TM_lo,Diagram of Breccia Gashes with top denuded off but bottom shown in cliff.,-0.0119659174233675,-0.20342059433460236,17,True,515,240,figure,Str,False,Academic paper,1.0,1.0
+974,TM_lo,6,-0.9135907888412476,-0.9135907888412476,1,True,1804,252,figure,Int,False,Academic paper,1.0,1.0
+159,TM_lo,"['Times New Roman', 'Arial', 'Comic Sans']",-0.0016549796564504504,-0.019859755411744118,12,True,356,252,layout,List,True,Tutorial/Workshop,1.0,1.0
+578,Q,2023-04-01,-1.6296970844268799,-16.29697036743164,10,True,79,0,text,Str,False,Administration/Industry file,0.0,0.0
+1027,Q,Customer loyalty and sales growth.,-3.92117977142334,-47.05415725708008,12,True,76,0,text,Str,False,Financial report,0.0,0.0
+467,Q,Platinum,-6.819997310638428,-13.639994621276855,2,True,84,0,table,Str,True,Guidebook,0.0,0.0
+631,Q,2,-2.0226526260375977,-2.0226526260375977,1,True,91,0,table,Int,False,Academic paper,0.0,0.0
+416,Q,2.5,-3.4736413955688477,-13.89456558227539,4,True,79,0,chart,Float,True,Research report / Introduction,0.0,0.0
+894,Q,"['Network', 'Wi-Fi', 'Cellular', 'Bluetooth']",-1.8004560470581055,-57.614593505859375,32,True,85,0,chart,List,False,Guidebook,0.0,0.0
+474,Q,12:00 PM,-1.2114282846450806,-6.057141304016113,5,True,76,0,figure,Str,False,Guidebook,0.0,0.0
+795,Q,Account No. 123456789,-3.695608377456665,-33.260475158691406,9,True,75,0,figure,Str,False,Brochure,0.0,0.0
+997,Q,30 mins,-0.8869634866714478,-2.6608903408050537,3,True,86,0,layout,Str,False,Guidebook,0.7142857142857143,1.0
+578,T,2003-10-07,-0.0019272227073088288,-0.019272226840257645,10,True,726,0,text,Str,False,Administration/Industry file,1.0,1.0
+1027,T,U.S. and Canadian operations,-1.3523597717285156,-16.228317260742188,12,True,863,0,text,Str,False,Financial report,0.0,0.0
+467,T,Tungsten,-5.837639808654785,-11.67527961730957,2,True,93,0,table,Str,True,Guidebook,0.0,0.0
+631,T,4,-0.8809525370597839,-0.8809525370597839,1,True,1771,0,table,Int,False,Academic paper,1.0,1.0
+416,T,3,-3.236182689666748,-12.944730758666992,4,True,86,0,chart,Float,True,Research report / Introduction,0.0,0.0
+894,T,"['network', 'wifi']",-1.8700189590454102,-59.840606689453125,32,True,286,0,chart,List,False,Guidebook,0.0,0.0
+474,T,21:00,-0.5720409750938416,-2.8602046966552734,5,True,600,0,figure,Str,False,Guidebook,0.6,1.0
+795,T,Not provided,-3.5623550415039062,-32.061195373535156,9,True,271,0,figure,Str,False,Brochure,0.0,0.0
+997,T,15 mins,-0.0052076829597353935,-0.01562304887920618,3,True,171,0,layout,Str,False,Guidebook,1.0,1.0
+578,X,2003-10-07,-0.000454233173513785,-0.004542331676930189,10,True,548,0,text,Str,False,Administration/Industry file,1.0,1.0
+1027,X,U.S. and Canadian operations,-1.4044525623321533,-16.853429794311523,12,True,835,0,text,Str,False,Financial report,0.0,0.0
+467,X,Lead (Pb),-1.1573989391326904,-2.314797878265381,2,True,567,0,table,Str,True,Guidebook,0.0,0.0
+631,X,5,-1.430604338645935,-1.430604338645935,1,True,1417,0,table,Int,False,Academic paper,0.0,0.0
+416,X,4.67,-2.4681572914123535,-9.872629165649414,4,True,291,0,chart,Float,True,Research report / Introduction,0.0,0.0
+894,X,"['Wi-Fi', 'Cellular', 'Bluetooth', 'GPS', 'Battery']",-1.849914312362671,-59.19725799560547,32,True,344,0,chart,List,False,Guidebook,0.0,0.0
+474,X,07:00,-0.9912611842155457,-4.956305980682373,5,True,1216,0,figure,Str,False,Guidebook,0.6,1.0
+795,X,ILF0000808,-0.0017183969030156732,-0.015465572476387024,9,True,495,0,figure,Str,False,Brochure,1.0,1.0
+997,X,15 mins,-0.0020782530773431063,-0.006234758999198675,3,True,439,0,layout,Str,False,Guidebook,1.0,1.0
+578,I_hi,2003-10-07,-0.0004854162398260087,-0.004854162223637104,10,True,1314,1240,text,Str,False,Administration/Industry file,1.0,1.0
+1027,I_hi,U.S. and Canadian operations,-0.9589745402336121,-11.507694244384766,12,True,1311,1240,text,Str,False,Financial report,0.0,0.0
+467,I_hi,Lead (Pb),-1.5063259601593018,-3.0126519203186035,2,True,1319,1240,table,Str,True,Guidebook,0.0,0.0
+631,I_hi,5,-0.679114043712616,-0.679114043712616,1,True,1346,1260,table,Int,False,Academic paper,0.0,0.0
+416,I_hi,5,-2.6396079063415527,-10.558431625366211,4,True,1296,1222,chart,Float,True,Research report / Introduction,0.0,0.0
+894,I_hi,"['Wi-Fi', 'Mobile Data']",-1.9278029203414917,-61.689693450927734,32,True,1327,1247,chart,List,False,Guidebook,0.0,0.0
+474,I_hi,02:00,-1.3694168329238892,-6.847084045410156,5,True,1331,1260,figure,Str,False,Guidebook,0.6,1.0
+795,I_hi,ILF000808,-0.0538257472217083,-0.4844317138195038,9,True,1330,1260,figure,Str,False,Brochure,0.9,1.0
+997,I_hi,15 mins,-0.00485258549451828,-0.014557755552232265,3,True,873,792,layout,Str,False,Guidebook,1.0,1.0
+578,I_lo,2003-10-07,-0.03325672820210457,-0.3325672745704651,10,True,326,252,text,Str,False,Administration/Industry file,1.0,1.0
+1027,I_lo,U.S. and Canadian operations,-0.962954044342041,-11.555448532104492,12,True,323,252,text,Str,False,Financial report,0.0,0.0
+467,I_lo,None,-3.223945140838623,-6.447890281677246,2,True,331,252,table,Str,True,Guidebook,0.0,0.0
+631,I_lo,3,-1.624192237854004,-1.624192237854004,1,True,333,247,table,Int,False,Academic paper,0.0,0.0
+416,I_lo,5,-3.1854257583618164,-12.741703033447266,4,True,326,252,chart,Float,True,Research report / Introduction,0.0,0.0
+894,I_lo,"['Wi-Fi', 'Cellular']",-1.8959192037582397,-60.66941452026367,32,True,327,247,chart,List,False,Guidebook,0.0,0.0
+474,I_lo,12:00,-0.8549087643623352,-4.274543762207031,5,True,318,247,figure,Str,False,Guidebook,0.8,1.0
+795,I_lo,6509321497,-3.507798910140991,-31.5701904296875,9,True,317,247,figure,Str,False,Brochure,0.0,0.0
+997,I_lo,15 mins,-0.0217886995524168,-0.06536609679460526,3,True,315,234,layout,Str,False,Guidebook,1.0,1.0
+578,TI_hi,2003-10-07,-0.0008034955826587975,-0.008034955710172653,10,True,1975,1240,text,Str,False,Administration/Industry file,1.0,1.0
+1027,TI_hi,U.S. and Canadian operations,-1.005167841911316,-12.062013626098633,12,True,2112,1240,text,Str,False,Financial report,0.0,0.0
+467,TI_hi,Lead (Pb),-1.5438472032546997,-3.0876944065093994,2,True,1342,1240,table,Str,True,Guidebook,0.0,0.0
+631,TI_hi,5,-1.4821932315826416,-1.4821932315826416,1,True,3040,1260,table,Int,False,Academic paper,0.0,0.0
+416,TI_hi,5.5,-2.6008522510528564,-10.403409004211426,4,True,1317,1222,chart,Float,True,Research report / Introduction,0.0,0.0
+894,TI_hi,"['Wi-Fi', 'Mobile Data', 'Bluetooth', 'GPS']",-1.9516205787658691,-62.45185852050781,32,True,1542,1247,chart,List,False,Guidebook,0.0,0.0
+474,TI_hi,02:00,-0.4237755835056305,-2.11887788772583,5,True,1869,1260,figure,Str,False,Guidebook,0.6,1.0
+795,TI_hi,ILF000808,-0.06165168806910515,-0.5548651814460754,9,True,1540,1260,figure,Str,False,Brochure,0.9,1.0
+997,TI_hi,15 mins,-0.03199690580368042,-0.09599071741104126,3,True,972,792,layout,Str,False,Guidebook,1.0,1.0
+578,TI_lo,2003-10-07,-0.0009497169521637261,-0.009497169405221939,10,True,987,252,text,Str,False,Administration/Industry file,1.0,1.0
+1027,TI_lo,U.S. and Canadian operations,-1.1375175714492798,-13.6502103805542,12,True,1124,252,text,Str,False,Financial report,0.0,0.0
+467,TI_lo,None,-3.622917413711548,-7.245834827423096,2,True,354,252,table,Str,True,Guidebook,0.0,0.0
+631,TI_lo,4,-0.9188329577445984,-0.9188329577445984,1,True,2027,247,table,Int,False,Academic paper,1.0,1.0
+416,TI_lo,5.33,-3.392260789871216,-13.569043159484863,4,True,347,252,chart,Float,True,Research report / Introduction,0.0,0.0
+894,TI_lo,"['Wi-Fi', 'Cellular', 'Bluetooth']",-1.843398094177246,-58.988739013671875,32,True,542,247,chart,List,False,Guidebook,0.0,0.0
+474,TI_lo,15:00,-0.25131282210350037,-1.2565641403198242,5,True,856,247,figure,Str,False,Guidebook,1.0,1.0
+795,TI_lo,102975,-3.598623037338257,-32.38760757446289,9,True,527,247,figure,Str,False,Brochure,0.0,0.0
+997,TI_lo,15 mins,-0.024983104318380356,-0.07494930922985077,3,True,414,234,layout,Str,False,Guidebook,1.0,1.0
+578,M_lo,2023-04-01,-1.5038912296295166,-15.038911819458008,10,True,332,252,text,Str,False,Administration/Industry file,0.0,0.0
+1027,M_lo,Membership fees,-3.5805130004882812,-42.966156005859375,12,True,329,252,text,Str,False,Financial report,0.0,0.0
+467,M_lo,None,-3.1428942680358887,-6.285788536071777,2,True,337,252,table,Str,True,Guidebook,0.0,0.0
+631,M_lo,2,-2.314858913421631,-2.314858913421631,1,True,339,247,table,Int,False,Academic paper,0.0,0.0
+416,M_lo,5,-3.2096445560455322,-12.838578224182129,4,True,332,252,chart,Float,True,Research report / Introduction,0.0,0.0
+894,M_lo,['network'],-2.06425142288208,-66.05604553222656,32,True,333,247,chart,List,False,Guidebook,0.0,0.0
+474,M_lo,12:00,-1.1881746053695679,-5.940872669219971,5,True,324,247,figure,Str,False,Guidebook,0.8,1.0
+795,M_lo,1010101,-3.5070316791534424,-31.563283920288086,9,True,323,247,figure,Str,False,Brochure,0.0,0.0
+997,M_lo,15 mins,-0.4971756935119629,-1.4915270805358887,3,True,321,234,layout,Str,False,Guidebook,1.0,1.0
+578,TM_lo,2003-10-07,-0.001594068482518196,-0.01594068482518196,10,True,994,252,text,Str,False,Administration/Industry file,1.0,1.0
+1027,TM_lo,U.S. and Canadian operations,-1.293860673904419,-15.526328086853027,12,True,1131,252,text,Str,False,Financial report,0.0,0.0
+467,TM_lo,None,-3.3460142612457275,-6.692028522491455,2,True,361,252,table,Str,True,Guidebook,0.0,0.0
+631,TM_lo,3,-0.9755179286003113,-0.9755179286003113,1,True,2034,247,table,Int,False,Academic paper,0.0,0.0
+416,TM_lo,5.33,-3.300506830215454,-13.202027320861816,4,True,354,252,chart,Float,True,Research report / Introduction,0.0,0.0
+894,TM_lo,['network'],-1.9501194953918457,-62.40382385253906,32,True,549,247,chart,List,False,Guidebook,0.0,0.0
+474,TM_lo,07:00,-0.572074294090271,-2.8603713512420654,5,True,863,247,figure,Str,False,Guidebook,0.6,1.0
+795,TM_lo,1010101,-3.6416256427764893,-32.77463150024414,9,True,534,247,figure,Str,False,Brochure,0.0,0.0
+997,TM_lo,15 mins,-0.03945740684866905,-0.11837221682071686,3,True,421,234,layout,Str,False,Guidebook,1.0,1.0

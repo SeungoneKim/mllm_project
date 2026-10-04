@@ -1,0 +1,81 @@
+{"qid": 897, "cond": "Q", "pred": "3", "lp_mean": -2.0200700759887695, "lp_sum": -2.0200700759887695, "n_answer_tokens": 1, "aligned": true, "input_tokens": 68, "image_tokens": 0}
+{"qid": 907, "cond": "Q", "pred": "5", "lp_mean": -1.8771674633026123, "lp_sum": -1.8771674633026123, "n_answer_tokens": 1, "aligned": true, "input_tokens": 72, "image_tokens": 0}
+{"qid": 181, "cond": "Q", "pred": "15", "lp_mean": -1.6686618328094482, "lp_sum": -1.6686618328094482, "n_answer_tokens": 1, "aligned": true, "input_tokens": 75, "image_tokens": 0}
+{"qid": 130, "cond": "Q", "pred": "I'm sorry, but I cannot provide an answer without knowing the specific document or table you are referring to. Please provide more details or context.", "lp_mean": -1.5131484270095825, "lp_sum": -25.72352409362793, "n_answer_tokens": 17, "aligned": true, "input_tokens": 108, "image_tokens": 0}
+{"qid": 414, "cond": "Q", "pred": "30", "lp_mean": -3.2898716926574707, "lp_sum": -16.449357986450195, "n_answer_tokens": 5, "aligned": true, "input_tokens": 84, "image_tokens": 0}
+{"qid": 889, "cond": "Q", "pred": "Insufficient data to determine.", "lp_mean": -7.609714508056641, "lp_sum": -45.658287048339844, "n_answer_tokens": 6, "aligned": true, "input_tokens": 79, "image_tokens": 0}
+{"qid": 962, "cond": "Q", "pred": "2", "lp_mean": -0.7160297632217407, "lp_sum": -0.7160297632217407, "n_answer_tokens": 1, "aligned": true, "input_tokens": 74, "image_tokens": 0}
+{"qid": 446, "cond": "Q", "pred": "SUV", "lp_mean": -2.9088244438171387, "lp_sum": -23.27059555053711, "n_answer_tokens": 8, "aligned": true, "input_tokens": 75, "image_tokens": 0}
+{"qid": 21, "cond": "Q", "pred": "2023", "lp_mean": -1.690717339515686, "lp_sum": -15.216456413269043, "n_answer_tokens": 9, "aligned": true, "input_tokens": 66, "image_tokens": 0}
+{"qid": 897, "cond": "T", "pred": "0", "lp_mean": -2.5718295574188232, "lp_sum": -2.5718295574188232, "n_answer_tokens": 1, "aligned": true, "input_tokens": 115, "image_tokens": 0}
+{"qid": 907, "cond": "T", "pred": "0", "lp_mean": -2.443310260772705, "lp_sum": -2.443310260772705, "n_answer_tokens": 1, "aligned": true, "input_tokens": 79, "image_tokens": 0}
+{"qid": 181, "cond": "T", "pred": "23", "lp_mean": -0.14498135447502136, "lp_sum": -0.14498135447502136, "n_answer_tokens": 1, "aligned": true, "input_tokens": 565, "image_tokens": 0}
+{"qid": 130, "cond": "T", "pred": "1883 Dec.7, 2 8 p.m.", "lp_mean": -1.1058976650238037, "lp_sum": -18.800260543823242, "n_answer_tokens": 17, "aligned": true, "input_tokens": 724, "image_tokens": 0}
+{"qid": 414, "cond": "T", "pred": "30", "lp_mean": -3.1789817810058594, "lp_sum": -15.894908905029297, "n_answer_tokens": 5, "aligned": true, "input_tokens": 91, "image_tokens": 0}
+{"qid": 889, "cond": "T", "pred": "Finetuning with confidence loss", "lp_mean": -1.1268328428268433, "lp_sum": -6.7609968185424805, "n_answer_tokens": 6, "aligned": true, "input_tokens": 1214, "image_tokens": 0}
+{"qid": 962, "cond": "T", "pred": "0", "lp_mean": -1.627948522567749, "lp_sum": -1.627948522567749, "n_answer_tokens": 1, "aligned": true, "input_tokens": 81, "image_tokens": 0}
+{"qid": 446, "cond": "T", "pred": "Mercedes-Benz E-Class Sedan", "lp_mean": -1.2868839502334595, "lp_sum": -10.295071601867676, "n_answer_tokens": 8, "aligned": true, "input_tokens": 829, "image_tokens": 0}
+{"qid": 21, "cond": "T", "pred": "2015", "lp_mean": -0.49137455224990845, "lp_sum": -4.422370910644531, "n_answer_tokens": 9, "aligned": true, "input_tokens": 861, "image_tokens": 0}
+{"qid": 897, "cond": "X", "pred": "0", "lp_mean": -2.5638997554779053, "lp_sum": -2.5638997554779053, "n_answer_tokens": 1, "aligned": true, "input_tokens": 262, "image_tokens": 0}
+{"qid": 907, "cond": "X", "pred": "5", "lp_mean": -1.912734866142273, "lp_sum": -1.912734866142273, "n_answer_tokens": 1, "aligned": true, "input_tokens": 357, "image_tokens": 0}
+{"qid": 181, "cond": "X", "pred": "23", "lp_mean": -0.11055535823106766, "lp_sum": -0.11055535823106766, "n_answer_tokens": 1, "aligned": true, "input_tokens": 813, "image_tokens": 0}
+{"qid": 130, "cond": "X", "pred": "1883 Dec.7, 2:20 PM", "lp_mean": -1.4399558305740356, "lp_sum": -24.479248046875, "n_answer_tokens": 17, "aligned": true, "input_tokens": 756, "image_tokens": 0}
+{"qid": 414, "cond": "X", "pred": "91.77", "lp_mean": -0.003972645848989487, "lp_sum": -0.019863229244947433, "n_answer_tokens": 5, "aligned": true, "input_tokens": 435, "image_tokens": 0}
+{"qid": 889, "cond": "X", "pred": "Finetuning with confidence loss", "lp_mean": -6.78544807434082, "lp_sum": -40.71268844604492, "n_answer_tokens": 6, "aligned": true, "input_tokens": 1089, "image_tokens": 0}
+{"qid": 962, "cond": "X", "pred": "0", "lp_mean": -1.431499719619751, "lp_sum": -1.431499719619751, "n_answer_tokens": 1, "aligned": true, "input_tokens": 129, "image_tokens": 0}
+{"qid": 446, "cond": "X", "pred": "Mercedes-Benz", "lp_mean": -1.7281230688095093, "lp_sum": -13.824984550476074, "n_answer_tokens": 8, "aligned": true, "input_tokens": 713, "image_tokens": 0}
+{"qid": 21, "cond": "X", "pred": "2015", "lp_mean": -0.5039445161819458, "lp_sum": -4.535500526428223, "n_answer_tokens": 9, "aligned": true, "input_tokens": 776, "image_tokens": 0}
+{"qid": 897, "cond": "I_hi", "pred": "0", "lp_mean": -2.1575286388397217, "lp_sum": -2.1575286388397217, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1310, "image_tokens": 1247}
+{"qid": 907, "cond": "I_hi", "pred": "5", "lp_mean": -2.047456741333008, "lp_sum": -2.047456741333008, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1314, "image_tokens": 1247}
+{"qid": 181, "cond": "I_hi", "pred": "23", "lp_mean": -0.007300130557268858, "lp_sum": -0.007300130557268858, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1310, "image_tokens": 1240}
+{"qid": 130, "cond": "I_hi", "pred": "1883 Dec.7, 2 8 p.m.", "lp_mean": -1.2250902652740479, "lp_sum": -20.826534271240234, "n_answer_tokens": 17, "aligned": true, "input_tokens": 1363, "image_tokens": 1260}
+{"qid": 414, "cond": "I_hi", "pred": "91.78", "lp_mean": -0.3977872133255005, "lp_sum": -1.9889360666275024, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1301, "image_tokens": 1222}
+{"qid": 889, "cond": "I_hi", "pred": "Finetuning with confidence loss", "lp_mean": -1.7626378536224365, "lp_sum": -10.575826644897461, "n_answer_tokens": 6, "aligned": true, "input_tokens": 1314, "image_tokens": 1240}
+{"qid": 962, "cond": "I_hi", "pred": "2", "lp_mean": -0.03278056159615517, "lp_sum": -0.03278056159615517, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1309, "image_tokens": 1240}
+{"qid": 446, "cond": "I_hi", "pred": "Mercedes-Benz E-Class Sedan", "lp_mean": -1.383713722229004, "lp_sum": -11.069709777832031, "n_answer_tokens": 8, "aligned": true, "input_tokens": 1310, "image_tokens": 1240}
+{"qid": 21, "cond": "I_hi", "pred": "2015-2016", "lp_mean": -0.00955186691135168, "lp_sum": -0.0859668031334877, "n_answer_tokens": 9, "aligned": true, "input_tokens": 1321, "image_tokens": 1260}
+{"qid": 897, "cond": "I_lo", "pred": "3", "lp_mean": -2.460024833679199, "lp_sum": -2.460024833679199, "n_answer_tokens": 1, "aligned": true, "input_tokens": 310, "image_tokens": 247}
+{"qid": 907, "cond": "I_lo", "pred": "4", "lp_mean": -1.9947926998138428, "lp_sum": -1.9947926998138428, "n_answer_tokens": 1, "aligned": true, "input_tokens": 314, "image_tokens": 247}
+{"qid": 181, "cond": "I_lo", "pred": "23", "lp_mean": -0.04768529161810875, "lp_sum": -0.04768529161810875, "n_answer_tokens": 1, "aligned": true, "input_tokens": 322, "image_tokens": 252}
+{"qid": 130, "cond": "I_lo", "pred": "1883 Dec.7, 2 8 p.m.", "lp_mean": -1.2669705152511597, "lp_sum": -21.538497924804688, "n_answer_tokens": 17, "aligned": true, "input_tokens": 343, "image_tokens": 240}
+{"qid": 414, "cond": "I_lo", "pred": "101.78", "lp_mean": -1.002825379371643, "lp_sum": -5.014126777648926, "n_answer_tokens": 5, "aligned": true, "input_tokens": 331, "image_tokens": 252}
+{"qid": 889, "cond": "I_lo", "pred": "Finetuning with confidence loss", "lp_mean": -3.88175106048584, "lp_sum": -23.29050636291504, "n_answer_tokens": 6, "aligned": true, "input_tokens": 326, "image_tokens": 252}
+{"qid": 962, "cond": "I_lo", "pred": "2", "lp_mean": -0.10931382328271866, "lp_sum": -0.10931382328271866, "n_answer_tokens": 1, "aligned": true, "input_tokens": 321, "image_tokens": 252}
+{"qid": 446, "cond": "I_lo", "pred": "SUV", "lp_mean": -2.197734832763672, "lp_sum": -17.581878662109375, "n_answer_tokens": 8, "aligned": true, "input_tokens": 322, "image_tokens": 252}
+{"qid": 21, "cond": "I_lo", "pred": "2015-2016", "lp_mean": -0.009541136212646961, "lp_sum": -0.08587022125720978, "n_answer_tokens": 9, "aligned": true, "input_tokens": 308, "image_tokens": 247}
+{"qid": 897, "cond": "TI_hi", "pred": "0", "lp_mean": -2.5682570934295654, "lp_sum": -2.5682570934295654, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1371, "image_tokens": 1247}
+{"qid": 907, "cond": "TI_hi", "pred": "3", "lp_mean": -1.607818841934204, "lp_sum": -1.607818841934204, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1335, "image_tokens": 1247}
+{"qid": 181, "cond": "TI_hi", "pred": "23", "lp_mean": -0.022385643795132637, "lp_sum": -0.022385643795132637, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1814, "image_tokens": 1240}
+{"qid": 130, "cond": "TI_hi", "pred": "1883 Dec.7, 2 8 p.m.", "lp_mean": -1.1778298616409302, "lp_sum": -20.023107528686523, "n_answer_tokens": 17, "aligned": true, "input_tokens": 1993, "image_tokens": 1260}
+{"qid": 414, "cond": "TI_hi", "pred": "91.78", "lp_mean": -0.5364384651184082, "lp_sum": -2.682192325592041, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1322, "image_tokens": 1222}
+{"qid": 889, "cond": "TI_hi", "pred": "Finetuning with confidence loss", "lp_mean": -1.3775041103363037, "lp_sum": -8.265024185180664, "n_answer_tokens": 6, "aligned": true, "input_tokens": 2463, "image_tokens": 1240}
+{"qid": 962, "cond": "TI_hi", "pred": "2", "lp_mean": -0.030871298164129257, "lp_sum": -0.030871298164129257, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1330, "image_tokens": 1240}
+{"qid": 446, "cond": "TI_hi", "pred": "Mercedes-Benz E-Class Sedan", "lp_mean": -1.4488636255264282, "lp_sum": -11.590909004211426, "n_answer_tokens": 8, "aligned": true, "input_tokens": 2078, "image_tokens": 1240}
+{"qid": 21, "cond": "TI_hi", "pred": "2015-2016", "lp_mean": -0.0202986691147089, "lp_sum": -0.18268802762031555, "n_answer_tokens": 9, "aligned": true, "input_tokens": 2130, "image_tokens": 1260}
+{"qid": 897, "cond": "TI_lo", "pred": "3", "lp_mean": -2.6002914905548096, "lp_sum": -2.6002914905548096, "n_answer_tokens": 1, "aligned": true, "input_tokens": 371, "image_tokens": 247}
+{"qid": 907, "cond": "TI_lo", "pred": "5", "lp_mean": -1.7575300931930542, "lp_sum": -1.7575300931930542, "n_answer_tokens": 1, "aligned": true, "input_tokens": 335, "image_tokens": 247}
+{"qid": 181, "cond": "TI_lo", "pred": "23", "lp_mean": -0.20793060958385468, "lp_sum": -0.20793060958385468, "n_answer_tokens": 1, "aligned": true, "input_tokens": 826, "image_tokens": 252}
+{"qid": 130, "cond": "TI_lo", "pred": "1883 Dec. 7, 2 8 p.m.", "lp_mean": -1.0609681606292725, "lp_sum": -18.03645896911621, "n_answer_tokens": 17, "aligned": true, "input_tokens": 973, "image_tokens": 240}
+{"qid": 414, "cond": "TI_lo", "pred": "101.78", "lp_mean": -1.084360957145691, "lp_sum": -5.421804428100586, "n_answer_tokens": 5, "aligned": true, "input_tokens": 352, "image_tokens": 252}
+{"qid": 889, "cond": "TI_lo", "pred": "Finetuning with the confidence loss", "lp_mean": -0.8448659777641296, "lp_sum": -5.069195747375488, "n_answer_tokens": 6, "aligned": true, "input_tokens": 1475, "image_tokens": 252}
+{"qid": 962, "cond": "TI_lo", "pred": "2", "lp_mean": -0.11817820370197296, "lp_sum": -0.11817820370197296, "n_answer_tokens": 1, "aligned": true, "input_tokens": 342, "image_tokens": 252}
+{"qid": 446, "cond": "TI_lo", "pred": "Mercedes-Benz E-Class Sedan", "lp_mean": -1.2467467784881592, "lp_sum": -9.973974227905273, "n_answer_tokens": 8, "aligned": true, "input_tokens": 1090, "image_tokens": 252}
+{"qid": 21, "cond": "TI_lo", "pred": "2015-2016", "lp_mean": -0.046617522835731506, "lp_sum": -0.41955769062042236, "n_answer_tokens": 9, "aligned": true, "input_tokens": 1117, "image_tokens": 247}
+{"qid": 897, "cond": "M_lo", "pred": "3", "lp_mean": -1.5749748945236206, "lp_sum": -1.5749748945236206, "n_answer_tokens": 1, "aligned": true, "input_tokens": 316, "image_tokens": 247}
+{"qid": 907, "cond": "M_lo", "pred": "4", "lp_mean": -1.8328418731689453, "lp_sum": -1.8328418731689453, "n_answer_tokens": 1, "aligned": true, "input_tokens": 320, "image_tokens": 247}
+{"qid": 181, "cond": "M_lo", "pred": "0", "lp_mean": -3.457348585128784, "lp_sum": -3.457348585128784, "n_answer_tokens": 1, "aligned": true, "input_tokens": 328, "image_tokens": 252}
+{"qid": 130, "cond": "M_lo", "pred": "1906 Mar.18, 5 14 p.m.", "lp_mean": -1.3242919445037842, "lp_sum": -22.512962341308594, "n_answer_tokens": 17, "aligned": true, "input_tokens": 349, "image_tokens": 240}
+{"qid": 414, "cond": "M_lo", "pred": "101.78", "lp_mean": -1.0671590566635132, "lp_sum": -5.3357954025268555, "n_answer_tokens": 5, "aligned": true, "input_tokens": 337, "image_tokens": 252}
+{"qid": 889, "cond": "M_lo", "pred": "It's ambiguous; more context needed.", "lp_mean": -6.379336357116699, "lp_sum": -38.27601623535156, "n_answer_tokens": 6, "aligned": true, "input_tokens": 332, "image_tokens": 252}
+{"qid": 962, "cond": "M_lo", "pred": "2", "lp_mean": -0.10773514211177826, "lp_sum": -0.10773514211177826, "n_answer_tokens": 1, "aligned": true, "input_tokens": 327, "image_tokens": 252}
+{"qid": 446, "cond": "M_lo", "pred": "SUV", "lp_mean": -3.1277270317077637, "lp_sum": -25.02181625366211, "n_answer_tokens": 8, "aligned": true, "input_tokens": 328, "image_tokens": 252}
+{"qid": 21, "cond": "M_lo", "pred": "2015-2016", "lp_mean": -0.0028970527928322554, "lp_sum": -0.026073474436998367, "n_answer_tokens": 9, "aligned": true, "input_tokens": 314, "image_tokens": 247}
+{"qid": 897, "cond": "TM_lo", "pred": "0", "lp_mean": -1.7381558418273926, "lp_sum": -1.7381558418273926, "n_answer_tokens": 1, "aligned": true, "input_tokens": 378, "image_tokens": 247}
+{"qid": 907, "cond": "TM_lo", "pred": "5", "lp_mean": -1.7040796279907227, "lp_sum": -1.7040796279907227, "n_answer_tokens": 1, "aligned": true, "input_tokens": 342, "image_tokens": 247}
+{"qid": 181, "cond": "TM_lo", "pred": "23", "lp_mean": -0.03486211597919464, "lp_sum": -0.03486211597919464, "n_answer_tokens": 1, "aligned": true, "input_tokens": 833, "image_tokens": 252}
+{"qid": 130, "cond": "TM_lo", "pred": "1883 Dec.7, 2 8 p.m.", "lp_mean": -1.094059705734253, "lp_sum": -18.599014282226562, "n_answer_tokens": 17, "aligned": true, "input_tokens": 980, "image_tokens": 240}
+{"qid": 414, "cond": "TM_lo", "pred": "101.78", "lp_mean": -1.10080087184906, "lp_sum": -5.50400447845459, "n_answer_tokens": 5, "aligned": true, "input_tokens": 359, "image_tokens": 252}
+{"qid": 889, "cond": "TM_lo", "pred": "Finetuning with confidence loss", "lp_mean": -0.7588286399841309, "lp_sum": -4.552971839904785, "n_answer_tokens": 6, "aligned": true, "input_tokens": 1482, "image_tokens": 252}
+{"qid": 962, "cond": "TM_lo", "pred": "2", "lp_mean": -0.1160394698381424, "lp_sum": -0.1160394698381424, "n_answer_tokens": 1, "aligned": true, "input_tokens": 349, "image_tokens": 252}
+{"qid": 446, "cond": "TM_lo", "pred": "Mercedes-Benz S-Class Sedan", "lp_mean": -1.2824193239212036, "lp_sum": -10.259354591369629, "n_answer_tokens": 8, "aligned": true, "input_tokens": 1097, "image_tokens": 252}
+{"qid": 21, "cond": "TM_lo", "pred": "2015-2016", "lp_mean": -0.03204922378063202, "lp_sum": -0.288442999124527, "n_answer_tokens": 9, "aligned": true, "input_tokens": 1124, "image_tokens": 247}

@@ -1,0 +1,81 @@
+{"qid": 578, "cond": "Q", "pred": "2023-04-01", "lp_mean": -1.6296970844268799, "lp_sum": -16.29697036743164, "n_answer_tokens": 10, "aligned": true, "input_tokens": 79, "image_tokens": 0}
+{"qid": 1027, "cond": "Q", "pred": "Customer loyalty and sales growth.", "lp_mean": -3.92117977142334, "lp_sum": -47.05415725708008, "n_answer_tokens": 12, "aligned": true, "input_tokens": 76, "image_tokens": 0}
+{"qid": 467, "cond": "Q", "pred": "Platinum", "lp_mean": -6.819997310638428, "lp_sum": -13.639994621276855, "n_answer_tokens": 2, "aligned": true, "input_tokens": 84, "image_tokens": 0}
+{"qid": 631, "cond": "Q", "pred": "2", "lp_mean": -2.0226526260375977, "lp_sum": -2.0226526260375977, "n_answer_tokens": 1, "aligned": true, "input_tokens": 91, "image_tokens": 0}
+{"qid": 416, "cond": "Q", "pred": "2.5", "lp_mean": -3.4736413955688477, "lp_sum": -13.89456558227539, "n_answer_tokens": 4, "aligned": true, "input_tokens": 79, "image_tokens": 0}
+{"qid": 894, "cond": "Q", "pred": "['Network', 'Wi-Fi', 'Cellular', 'Bluetooth']", "lp_mean": -1.8004560470581055, "lp_sum": -57.614593505859375, "n_answer_tokens": 32, "aligned": true, "input_tokens": 85, "image_tokens": 0}
+{"qid": 474, "cond": "Q", "pred": "12:00 PM", "lp_mean": -1.2114282846450806, "lp_sum": -6.057141304016113, "n_answer_tokens": 5, "aligned": true, "input_tokens": 76, "image_tokens": 0}
+{"qid": 795, "cond": "Q", "pred": "Account No. 123456789", "lp_mean": -3.695608377456665, "lp_sum": -33.260475158691406, "n_answer_tokens": 9, "aligned": true, "input_tokens": 75, "image_tokens": 0}
+{"qid": 997, "cond": "Q", "pred": "30 mins", "lp_mean": -0.8869634866714478, "lp_sum": -2.6608903408050537, "n_answer_tokens": 3, "aligned": true, "input_tokens": 86, "image_tokens": 0}
+{"qid": 578, "cond": "T", "pred": "2003-10-07", "lp_mean": -0.0019272227073088288, "lp_sum": -0.019272226840257645, "n_answer_tokens": 10, "aligned": true, "input_tokens": 726, "image_tokens": 0}
+{"qid": 1027, "cond": "T", "pred": "U.S. and Canadian operations", "lp_mean": -1.3523597717285156, "lp_sum": -16.228317260742188, "n_answer_tokens": 12, "aligned": true, "input_tokens": 863, "image_tokens": 0}
+{"qid": 467, "cond": "T", "pred": "Tungsten", "lp_mean": -5.837639808654785, "lp_sum": -11.67527961730957, "n_answer_tokens": 2, "aligned": true, "input_tokens": 93, "image_tokens": 0}
+{"qid": 631, "cond": "T", "pred": "4", "lp_mean": -0.8809525370597839, "lp_sum": -0.8809525370597839, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1771, "image_tokens": 0}
+{"qid": 416, "cond": "T", "pred": "3", "lp_mean": -3.236182689666748, "lp_sum": -12.944730758666992, "n_answer_tokens": 4, "aligned": true, "input_tokens": 86, "image_tokens": 0}
+{"qid": 894, "cond": "T", "pred": "['network', 'wifi']", "lp_mean": -1.8700189590454102, "lp_sum": -59.840606689453125, "n_answer_tokens": 32, "aligned": true, "input_tokens": 286, "image_tokens": 0}
+{"qid": 474, "cond": "T", "pred": "21:00", "lp_mean": -0.5720409750938416, "lp_sum": -2.8602046966552734, "n_answer_tokens": 5, "aligned": true, "input_tokens": 600, "image_tokens": 0}
+{"qid": 795, "cond": "T", "pred": "Not provided", "lp_mean": -3.5623550415039062, "lp_sum": -32.061195373535156, "n_answer_tokens": 9, "aligned": true, "input_tokens": 271, "image_tokens": 0}
+{"qid": 997, "cond": "T", "pred": "15 mins", "lp_mean": -0.0052076829597353935, "lp_sum": -0.01562304887920618, "n_answer_tokens": 3, "aligned": true, "input_tokens": 171, "image_tokens": 0}
+{"qid": 578, "cond": "X", "pred": "2003-10-07", "lp_mean": -0.000454233173513785, "lp_sum": -0.004542331676930189, "n_answer_tokens": 10, "aligned": true, "input_tokens": 548, "image_tokens": 0}
+{"qid": 1027, "cond": "X", "pred": "U.S. and Canadian operations", "lp_mean": -1.4044525623321533, "lp_sum": -16.853429794311523, "n_answer_tokens": 12, "aligned": true, "input_tokens": 835, "image_tokens": 0}
+{"qid": 467, "cond": "X", "pred": "Lead (Pb)", "lp_mean": -1.1573989391326904, "lp_sum": -2.314797878265381, "n_answer_tokens": 2, "aligned": true, "input_tokens": 567, "image_tokens": 0}
+{"qid": 631, "cond": "X", "pred": "5", "lp_mean": -1.430604338645935, "lp_sum": -1.430604338645935, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1417, "image_tokens": 0}
+{"qid": 416, "cond": "X", "pred": "4.67", "lp_mean": -2.4681572914123535, "lp_sum": -9.872629165649414, "n_answer_tokens": 4, "aligned": true, "input_tokens": 291, "image_tokens": 0}
+{"qid": 894, "cond": "X", "pred": "['Wi-Fi', 'Cellular', 'Bluetooth', 'GPS', 'Battery']", "lp_mean": -1.849914312362671, "lp_sum": -59.19725799560547, "n_answer_tokens": 32, "aligned": true, "input_tokens": 344, "image_tokens": 0}
+{"qid": 474, "cond": "X", "pred": "07:00", "lp_mean": -0.9912611842155457, "lp_sum": -4.956305980682373, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1216, "image_tokens": 0}
+{"qid": 795, "cond": "X", "pred": "ILF0000808", "lp_mean": -0.0017183969030156732, "lp_sum": -0.015465572476387024, "n_answer_tokens": 9, "aligned": true, "input_tokens": 495, "image_tokens": 0}
+{"qid": 997, "cond": "X", "pred": "15 mins", "lp_mean": -0.0020782530773431063, "lp_sum": -0.006234758999198675, "n_answer_tokens": 3, "aligned": true, "input_tokens": 439, "image_tokens": 0}
+{"qid": 578, "cond": "I_hi", "pred": "2003-10-07", "lp_mean": -0.0004854162398260087, "lp_sum": -0.004854162223637104, "n_answer_tokens": 10, "aligned": true, "input_tokens": 1314, "image_tokens": 1240}
+{"qid": 1027, "cond": "I_hi", "pred": "U.S. and Canadian operations", "lp_mean": -0.9589745402336121, "lp_sum": -11.507694244384766, "n_answer_tokens": 12, "aligned": true, "input_tokens": 1311, "image_tokens": 1240}
+{"qid": 467, "cond": "I_hi", "pred": "Lead (Pb)", "lp_mean": -1.5063259601593018, "lp_sum": -3.0126519203186035, "n_answer_tokens": 2, "aligned": true, "input_tokens": 1319, "image_tokens": 1240}
+{"qid": 631, "cond": "I_hi", "pred": "5", "lp_mean": -0.679114043712616, "lp_sum": -0.679114043712616, "n_answer_tokens": 1, "aligned": true, "input_tokens": 1346, "image_tokens": 1260}
+{"qid": 416, "cond": "I_hi", "pred": "5", "lp_mean": -2.6396079063415527, "lp_sum": -10.558431625366211, "n_answer_tokens": 4, "aligned": true, "input_tokens": 1296, "image_tokens": 1222}
+{"qid": 894, "cond": "I_hi", "pred": "['Wi-Fi', 'Mobile Data']", "lp_mean": -1.9278029203414917, "lp_sum": -61.689693450927734, "n_answer_tokens": 32, "aligned": true, "input_tokens": 1327, "image_tokens": 1247}
+{"qid": 474, "cond": "I_hi", "pred": "02:00", "lp_mean": -1.3694168329238892, "lp_sum": -6.847084045410156, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1331, "image_tokens": 1260}
+{"qid": 795, "cond": "I_hi", "pred": "ILF000808", "lp_mean": -0.0538257472217083, "lp_sum": -0.4844317138195038, "n_answer_tokens": 9, "aligned": true, "input_tokens": 1330, "image_tokens": 1260}
+{"qid": 997, "cond": "I_hi", "pred": "15 mins", "lp_mean": -0.00485258549451828, "lp_sum": -0.014557755552232265, "n_answer_tokens": 3, "aligned": true, "input_tokens": 873, "image_tokens": 792}
+{"qid": 578, "cond": "I_lo", "pred": "2003-10-07", "lp_mean": -0.03325672820210457, "lp_sum": -0.3325672745704651, "n_answer_tokens": 10, "aligned": true, "input_tokens": 326, "image_tokens": 252}
+{"qid": 1027, "cond": "I_lo", "pred": "U.S. and Canadian operations", "lp_mean": -0.962954044342041, "lp_sum": -11.555448532104492, "n_answer_tokens": 12, "aligned": true, "input_tokens": 323, "image_tokens": 252}
+{"qid": 467, "cond": "I_lo", "pred": "None", "lp_mean": -3.223945140838623, "lp_sum": -6.447890281677246, "n_answer_tokens": 2, "aligned": true, "input_tokens": 331, "image_tokens": 252}
+{"qid": 631, "cond": "I_lo", "pred": "3", "lp_mean": -1.624192237854004, "lp_sum": -1.624192237854004, "n_answer_tokens": 1, "aligned": true, "input_tokens": 333, "image_tokens": 247}
+{"qid": 416, "cond": "I_lo", "pred": "5", "lp_mean": -3.1854257583618164, "lp_sum": -12.741703033447266, "n_answer_tokens": 4, "aligned": true, "input_tokens": 326, "image_tokens": 252}
+{"qid": 894, "cond": "I_lo", "pred": "['Wi-Fi', 'Cellular']", "lp_mean": -1.8959192037582397, "lp_sum": -60.66941452026367, "n_answer_tokens": 32, "aligned": true, "input_tokens": 327, "image_tokens": 247}
+{"qid": 474, "cond": "I_lo", "pred": "12:00", "lp_mean": -0.8549087643623352, "lp_sum": -4.274543762207031, "n_answer_tokens": 5, "aligned": true, "input_tokens": 318, "image_tokens": 247}
+{"qid": 795, "cond": "I_lo", "pred": "6509321497", "lp_mean": -3.507798910140991, "lp_sum": -31.5701904296875, "n_answer_tokens": 9, "aligned": true, "input_tokens": 317, "image_tokens": 247}
+{"qid": 997, "cond": "I_lo", "pred": "15 mins", "lp_mean": -0.0217886995524168, "lp_sum": -0.06536609679460526, "n_answer_tokens": 3, "aligned": true, "input_tokens": 315, "image_tokens": 234}
+{"qid": 578, "cond": "TI_hi", "pred": "2003-10-07", "lp_mean": -0.0008034955826587975, "lp_sum": -0.008034955710172653, "n_answer_tokens": 10, "aligned": true, "input_tokens": 1975, "image_tokens": 1240}
+{"qid": 1027, "cond": "TI_hi", "pred": "U.S. and Canadian operations", "lp_mean": -1.005167841911316, "lp_sum": -12.062013626098633, "n_answer_tokens": 12, "aligned": true, "input_tokens": 2112, "image_tokens": 1240}
+{"qid": 467, "cond": "TI_hi", "pred": "Lead (Pb)", "lp_mean": -1.5438472032546997, "lp_sum": -3.0876944065093994, "n_answer_tokens": 2, "aligned": true, "input_tokens": 1342, "image_tokens": 1240}
+{"qid": 631, "cond": "TI_hi", "pred": "5", "lp_mean": -1.4821932315826416, "lp_sum": -1.4821932315826416, "n_answer_tokens": 1, "aligned": true, "input_tokens": 3040, "image_tokens": 1260}
+{"qid": 416, "cond": "TI_hi", "pred": "5.5", "lp_mean": -2.6008522510528564, "lp_sum": -10.403409004211426, "n_answer_tokens": 4, "aligned": true, "input_tokens": 1317, "image_tokens": 1222}
+{"qid": 894, "cond": "TI_hi", "pred": "['Wi-Fi', 'Mobile Data', 'Bluetooth', 'GPS']", "lp_mean": -1.9516205787658691, "lp_sum": -62.45185852050781, "n_answer_tokens": 32, "aligned": true, "input_tokens": 1542, "image_tokens": 1247}
+{"qid": 474, "cond": "TI_hi", "pred": "02:00", "lp_mean": -0.4237755835056305, "lp_sum": -2.11887788772583, "n_answer_tokens": 5, "aligned": true, "input_tokens": 1869, "image_tokens": 1260}
+{"qid": 795, "cond": "TI_hi", "pred": "ILF000808", "lp_mean": -0.06165168806910515, "lp_sum": -0.5548651814460754, "n_answer_tokens": 9, "aligned": true, "input_tokens": 1540, "image_tokens": 1260}
+{"qid": 997, "cond": "TI_hi", "pred": "15 mins", "lp_mean": -0.03199690580368042, "lp_sum": -0.09599071741104126, "n_answer_tokens": 3, "aligned": true, "input_tokens": 972, "image_tokens": 792}
+{"qid": 578, "cond": "TI_lo", "pred": "2003-10-07", "lp_mean": -0.0009497169521637261, "lp_sum": -0.009497169405221939, "n_answer_tokens": 10, "aligned": true, "input_tokens": 987, "image_tokens": 252}
+{"qid": 1027, "cond": "TI_lo", "pred": "U.S. and Canadian operations", "lp_mean": -1.1375175714492798, "lp_sum": -13.6502103805542, "n_answer_tokens": 12, "aligned": true, "input_tokens": 1124, "image_tokens": 252}
+{"qid": 467, "cond": "TI_lo", "pred": "None", "lp_mean": -3.622917413711548, "lp_sum": -7.245834827423096, "n_answer_tokens": 2, "aligned": true, "input_tokens": 354, "image_tokens": 252}
+{"qid": 631, "cond": "TI_lo", "pred": "4", "lp_mean": -0.9188329577445984, "lp_sum": -0.9188329577445984, "n_answer_tokens": 1, "aligned": true, "input_tokens": 2027, "image_tokens": 247}
+{"qid": 416, "cond": "TI_lo", "pred": "5.33", "lp_mean": -3.392260789871216, "lp_sum": -13.569043159484863, "n_answer_tokens": 4, "aligned": true, "input_tokens": 347, "image_tokens": 252}
+{"qid": 894, "cond": "TI_lo", "pred": "['Wi-Fi', 'Cellular', 'Bluetooth']", "lp_mean": -1.843398094177246, "lp_sum": -58.988739013671875, "n_answer_tokens": 32, "aligned": true, "input_tokens": 542, "image_tokens": 247}
+{"qid": 474, "cond": "TI_lo", "pred": "15:00", "lp_mean": -0.25131282210350037, "lp_sum": -1.2565641403198242, "n_answer_tokens": 5, "aligned": true, "input_tokens": 856, "image_tokens": 247}
+{"qid": 795, "cond": "TI_lo", "pred": "102975", "lp_mean": -3.598623037338257, "lp_sum": -32.38760757446289, "n_answer_tokens": 9, "aligned": true, "input_tokens": 527, "image_tokens": 247}
+{"qid": 997, "cond": "TI_lo", "pred": "15 mins", "lp_mean": -0.024983104318380356, "lp_sum": -0.07494930922985077, "n_answer_tokens": 3, "aligned": true, "input_tokens": 414, "image_tokens": 234}
+{"qid": 578, "cond": "M_lo", "pred": "2023-04-01", "lp_mean": -1.5038912296295166, "lp_sum": -15.038911819458008, "n_answer_tokens": 10, "aligned": true, "input_tokens": 332, "image_tokens": 252}
+{"qid": 1027, "cond": "M_lo", "pred": "Membership fees", "lp_mean": -3.5805130004882812, "lp_sum": -42.966156005859375, "n_answer_tokens": 12, "aligned": true, "input_tokens": 329, "image_tokens": 252}
+{"qid": 467, "cond": "M_lo", "pred": "None", "lp_mean": -3.1428942680358887, "lp_sum": -6.285788536071777, "n_answer_tokens": 2, "aligned": true, "input_tokens": 337, "image_tokens": 252}
+{"qid": 631, "cond": "M_lo", "pred": "2", "lp_mean": -2.314858913421631, "lp_sum": -2.314858913421631, "n_answer_tokens": 1, "aligned": true, "input_tokens": 339, "image_tokens": 247}
+{"qid": 416, "cond": "M_lo", "pred": "5", "lp_mean": -3.2096445560455322, "lp_sum": -12.838578224182129, "n_answer_tokens": 4, "aligned": true, "input_tokens": 332, "image_tokens": 252}
+{"qid": 894, "cond": "M_lo", "pred": "['network']", "lp_mean": -2.06425142288208, "lp_sum": -66.05604553222656, "n_answer_tokens": 32, "aligned": true, "input_tokens": 333, "image_tokens": 247}
+{"qid": 474, "cond": "M_lo", "pred": "12:00", "lp_mean": -1.1881746053695679, "lp_sum": -5.940872669219971, "n_answer_tokens": 5, "aligned": true, "input_tokens": 324, "image_tokens": 247}
+{"qid": 795, "cond": "M_lo", "pred": "1010101", "lp_mean": -3.5070316791534424, "lp_sum": -31.563283920288086, "n_answer_tokens": 9, "aligned": true, "input_tokens": 323, "image_tokens": 247}
+{"qid": 997, "cond": "M_lo", "pred": "15 mins", "lp_mean": -0.4971756935119629, "lp_sum": -1.4915270805358887, "n_answer_tokens": 3, "aligned": true, "input_tokens": 321, "image_tokens": 234}
+{"qid": 578, "cond": "TM_lo", "pred": "2003-10-07", "lp_mean": -0.001594068482518196, "lp_sum": -0.01594068482518196, "n_answer_tokens": 10, "aligned": true, "input_tokens": 994, "image_tokens": 252}
+{"qid": 1027, "cond": "TM_lo", "pred": "U.S. and Canadian operations", "lp_mean": -1.293860673904419, "lp_sum": -15.526328086853027, "n_answer_tokens": 12, "aligned": true, "input_tokens": 1131, "image_tokens": 252}
+{"qid": 467, "cond": "TM_lo", "pred": "None", "lp_mean": -3.3460142612457275, "lp_sum": -6.692028522491455, "n_answer_tokens": 2, "aligned": true, "input_tokens": 361, "image_tokens": 252}
+{"qid": 631, "cond": "TM_lo", "pred": "3", "lp_mean": -0.9755179286003113, "lp_sum": -0.9755179286003113, "n_answer_tokens": 1, "aligned": true, "input_tokens": 2034, "image_tokens": 247}
+{"qid": 416, "cond": "TM_lo", "pred": "5.33", "lp_mean": -3.300506830215454, "lp_sum": -13.202027320861816, "n_answer_tokens": 4, "aligned": true, "input_tokens": 354, "image_tokens": 252}
+{"qid": 894, "cond": "TM_lo", "pred": "['network']", "lp_mean": -1.9501194953918457, "lp_sum": -62.40382385253906, "n_answer_tokens": 32, "aligned": true, "input_tokens": 549, "image_tokens": 247}
+{"qid": 474, "cond": "TM_lo", "pred": "07:00", "lp_mean": -0.572074294090271, "lp_sum": -2.8603713512420654, "n_answer_tokens": 5, "aligned": true, "input_tokens": 863, "image_tokens": 247}
+{"qid": 795, "cond": "TM_lo", "pred": "1010101", "lp_mean": -3.6416256427764893, "lp_sum": -32.77463150024414, "n_answer_tokens": 9, "aligned": true, "input_tokens": 534, "image_tokens": 247}
+{"qid": 997, "cond": "TM_lo", "pred": "15 mins", "lp_mean": -0.03945740684866905, "lp_sum": -0.11837221682071686, "n_answer_tokens": 3, "aligned": true, "input_tokens": 421, "image_tokens": 234}
