@@ -1,0 +1,10 @@
+numpy==2.4.4
+pandas==3.0.3
+pyarrow==24.0.0
+matplotlib==3.11.0
+scikit-learn==1.9.1
+pypdfium2==5.13.0
+rank-bm25==0.2.2
+torch==2.12.0
+transformers==5.17.0
+colpali-engine==0.3.18
