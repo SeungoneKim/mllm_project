@@ -1,4 +1,4 @@
-"""Thin client for the CMU AI gateway (LiteLLM, OpenAI-compatible)."""
+"""LiteLLM, OpenAI-compatible"""
 import os, json, base64, time, pathlib, hashlib, io, re
 
 def _load_env():
