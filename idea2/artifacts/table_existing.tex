@@ -1,0 +1,23 @@
+\begin{table}[t]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \caption{Existing multi-source questions. Top: categories of 10 sampled questions per group. Bottom: answerable questions with valid page labels (pool) and, for those with at most five evidence pages, the share whose evidence pages ColQwen2.5 ranks in its top 5, all of them or only some (single-page, single-modality questions: 87\%).}
+  \label{tab:existing-categories}
+  \begin{tabular}{@{}lccc@{}}
+    \toprule
+    & \multicolumn{1}{c}{Same mod.} & \multicolumn{2}{c}{Cross-modality} \\
+    \cmidrule(lr){2-2} \cmidrule(l){3-4}
+    & $\geq$2 pages & 1 page & $\geq$2 pages \\
+    \midrule
+    Partition & 5 & 1 & 5 \\
+    Composition & 4 & 1 & 4 \\
+    Redundant & 1 & 1 & 1 \\
+    Locator only & 0 & 7 & 0 \\
+    \midrule
+    Pool & 222 & 101 & 121 \\
+    All in top-5 (\%) & 48 & 90 & 60 \\
+    Some, not all (\%) & 35 & -- & 37 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

@@ -1,0 +1,31 @@
+qid,stratum,category,one_page_suffices,label_issue,rationale
+590,same_mod,partition,no,,Exhibits are mentioned on all ten listed pages; the count of 27 needs every page.
+7,same_mod,composition,no,,"p3 gives the Democrats' share of the public (31%), p5 the share of Democrats who voted (59%); the answer is their product."
+775,same_mod,partition,yes,,"Count of subplots with loss spikes over Figures 5 (p6) and 6 (p7); the only counted subplot (Fig. 6c) is on p7, so p7 alone gives 1. Fig. 5b also shows a small spike, so the gold count is debatable."
+26,same_mod,partition,no,,"Exterior photos of the organisations are spread over eight pages, so the count needs all of them; the two photos on p20 look like interiors, so the gold count of 10 is debatable."
+666,same_mod,partition,yes,,"The two named steps are on different pages (""Plugging it in"" p7, ""Installing it properly"" p8), but the overview sentence on p7 already gives the order (connect, install)."
+959,same_mod,redundant,,,Both slides state that radiowaves (ionosphere) and microwaves (satellites) are used for long-distance communication.
+1072,same_mod,composition,no,,ROCE combines operating income (results table p25) with total assets and current liabilities (balance sheet p39); the question names neither line item.
+449,same_mod,partition,no,,Fig. 7 (p21) holds 2 GPT-4V examples and Fig. 8 (p22) holds 3; the answer 5 needs both.
+1010,same_mod,composition,no,,R&D (product development table p47) divided by total assets (balance sheet p69); the question names neither table.
+1051,same_mod,composition,no,,DPO combines cost of sales (income statement p38) with accounts payable (balance sheet p40) through a formula the question does not spell out.
+336,cross_same,locator,,,"The printed page number (Layout) only matches ""Page 14"" in the question; the photo alone gives the count."
+967,cross_same,partition,,,"""Barclays"" appears twice in the text and three times in the logo and building photos; the count of 5 needs both."
+882,cross_same,redundant,,,The caption states that humans supervise weaker models and the figure shows the same relation.
+315,cross_same,locator,,,"The printed page number (Text) only matches ""page 13""; the step drawings alone show the two left arrows."
+637,cross_same,locator,,,"The printed page number 6985 (Text) only locates the page; the figure alone shows one complete example and ""more examples here""."
+513,cross_same,locator,,,"The heading ""Los Angeles Area"" (Text) only matches the question; the table alone lists the 13 names."
+219,cross_same,composition,,,"The text gives the sample size (6,010) and the pie chart the shares (41% and 27%); the answer 4,087 is their product."
+328,cross_same,locator,,,"The printed page number (Layout) only matches ""Page 5""; the photo alone gives the count."
+990,cross_same,locator,,,"The table row ""Missing Persons -> Call Campus Security"" answers alone; the icon (Figure) only marks the row."
+878,cross_same,locator,,,"The caption ""Table 23"" (Text) only matches the question; the table alone gives the best 0-shot QUAC model."
+250,cross_multi,partition,no,,Six research questions appear as sidebar headings on four pages (1 + 3 + 1 + 1).
+198,cross_multi,composition,no,,The campus map (p34) places J next to the New Tsinghua Xuetang; the coffee-shop table (p16) lists the café across from it.
+12,cross_multi,partition,no,,Charts and tables sourced from annual totals are spread over seven pages; the count needs all of them.
+210,cross_multi,composition,no,,"Bridge: the chart on p11 identifies the party (Republicans), the chart on p13 gives that party's share following the news very closely."
+901,cross_multi,partition,yes,,The numbered list of parts runs over p11 (1-9) and p12 (10-20); the last number on p12 alone reveals the count.
+598,cross_multi,partition,no,,The question asks for the sum of handwritten numbers on two named pages; each page holds some of them.
+516,cross_multi,redundant,,,"p9 lists CA03 as Sacramento County and states ""Bay Area: 4 through 11""; the Bay Area table on p10 (CA04-CA11) also excludes it."
+229,cross_multi,partition,no,answer,"Internet use (p16, 65%) and broadband at home (p17, 53%) for men 65+ are on two pages; the gold answer 73.0 does not match their gap of 12 points."
+621,cross_multi,composition,yes,,"Bridge: the utility table (p4) identifies hot dogs, the photo (p5) shows the plate and the 2007 shirt; p5 holds the only photo of a man with a serving plate."
+564,cross_multi,composition,yes,,"The chart on p15 selects threats that grew since 2014, the chart on p16 gives R-D gaps; Iran (+27) has the largest gap overall, so p16 alone gives the answer."
