@@ -1,0 +1,763 @@
+<style>
+.ev { font-family: var(--font-anthropic-sans); display: grid; gap: var(--cds-gap-lg); }
+.ev-head { display: grid; gap: var(--cds-gap-xs); }
+.ev-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+.ev-take { color: var(--color-fg-muted); margin: 0; max-width: 72ch; line-height: 1.5; }
+.ev-take b { font-weight: 600; color: var(--color-fg); font-variant-numeric: tabular-nums; }
+.ev-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+.ev-tab { background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; padding: var(--cds-pad-sm) var(--cds-pad-md); font: inherit; color: var(--color-fg-muted); cursor: pointer; }
+.ev-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); }
+.ev-tab:focus-visible, .ev-seg button:focus-visible, .ev-ctl:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+.ev-page { display: grid; gap: var(--cds-gap-lg); }
+.ev-section { display: grid; gap: var(--cds-gap-md); }
+.ev-section > h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+.ev-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr)); gap: var(--cds-gap-md); }
+.ev-kpi { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md); display: grid; gap: var(--cds-gap-xs); align-content: start; }
+.ev-kpi .lab { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.ev-kpi .val { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; }
+.ev-kpi .sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+.ev-up { color: var(--color-ok); }
+.ev-down { color: var(--color-bad); }
+.ev-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+.ev-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; display: grid; gap: var(--cds-gap-sm); align-content: start; }
+.ev-card h3 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+.ev-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; line-height: 1.5; }
+.ev-bar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--cds-gap-sm); }
+.ev-seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); overflow: hidden; }
+.ev-seg button { background: none; border: 0; padding: var(--cds-pad-xs) var(--cds-pad-sm); font: inherit; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); cursor: pointer; }
+.ev-seg button[aria-pressed="true"] { background: var(--color-bg); color: var(--color-fg); }
+.ev-ctl { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); min-width: 0; }
+.ev-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs) var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.ev-legend span { display: inline-flex; align-items: center; gap: var(--cds-gap-xs); }
+.ev-legend i { width: 0.75rem; height: 0.75rem; border-radius: 2px; display: inline-block; }
+.ev-chart { position: relative; min-height: 15rem; }
+.ev-chart svg { display: block; overflow: visible; }
+.ev-chart text { fill: var(--color-fg-muted); font-size: var(--cds-font-size-caption); font-family: var(--font-anthropic-sans); }
+.ev-chart text.strong { fill: var(--color-fg); }
+.ev-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); display: grid; gap: 2px; min-width: 11rem; z-index: 2; }
+.ev-tip .h { color: var(--cds-text-secondary); }
+.ev-tip .r { display: flex; align-items: center; gap: var(--cds-gap-xs); font-variant-numeric: tabular-nums; }
+.ev-tip .r i { width: 0.6rem; height: 0.6rem; border-radius: 2px; display: inline-block; }
+.ev-tip .r b { margin-left: auto; font-weight: 500; }
+.ev-tablebox { overflow: auto; max-height: 28rem; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); }
+.ev-tablebox.tall { max-height: 40rem; }
+.ev-table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.ev-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; z-index: 1; }
+.ev-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+.ev-table td.num, .ev-table th.num { text-align: right; }
+.ev-table td.long { min-width: 16rem; max-width: 26rem; }
+.ev-table td.mid { min-width: 9rem; max-width: 16rem; }
+.ev-table td.right { color: var(--color-ok); }
+.ev-table td.wrong { color: var(--color-bad); }
+.ev-table tr.hl td { background: var(--color-bg); }
+.ev-defs { display: grid; grid-template-columns: max-content 1fr; gap: var(--cds-gap-xs) var(--cds-gap-md); font-size: var(--cds-font-size-caption); margin: 0; }
+.ev-defs dt { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--color-fg); }
+.ev-defs dd { margin: 0; color: var(--color-fg-muted); line-height: 1.45; }
+[data-dash-source-state=empty] { color: transparent; }
+[data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+@media (max-width: 40rem) { .ev-defs { grid-template-columns: 1fr; } }
+</style>
+
+<div class="ev">
+  <header class="ev-head" id="top">
+    <h1>Idea 2+3 baseline results</h1>
+    <p class="ev-take" id="takeaway">Reading is the larger bottleneck. Handed the gold pages, the reader answers
+      <b data-source="accuracy" data-field="acc" data-where="group=multi&amp;method=gold&amp;k=0" class="dash-skeleton">—</b> of multi-page questions against
+      <b data-source="accuracy" data-field="acc" data-where="group=control&amp;method=gold&amp;k=0" class="dash-skeleton">—</b> of single-page ones, and the gold pages turn only
+      <b data-source="failsum" data-field="fixed" data-where="method=topk" data-fmt="int" class="dash-skeleton">—</b> of top-k's
+      <b data-source="failsum" data-field="wrong" data-where="method=topk" data-fmt="int" class="dash-skeleton">—</b> wrong answers right.
+      Coverage selection raises complete-evidence recall at five pages from
+      <b data-source="accuracy" data-field="complete" data-where="group=multi&amp;method=topk&amp;k=5" class="dash-skeleton">—</b> to
+      <b data-source="accuracy" data-field="complete" data-where="group=multi&amp;method=coverage&amp;k=5" class="dash-skeleton">—</b> without hurting single-page questions, but
+      <b data-source="needshare" data-field="share" data-row="0" class="dash-skeleton">—</b> of multi-page questions decompose into a single need, where it behaves almost exactly like top-k.</p>
+  </header>
+
+  <div class="ev-tabs" role="tablist" aria-label="Pages">
+    <button class="ev-tab" role="tab" id="tab-overview" data-tab="overview" aria-selected="true">Overview</button>
+    <button class="ev-tab" role="tab" id="tab-failures" data-tab="failures" aria-selected="false">Failure analysis</button>
+    <button class="ev-tab" role="tab" id="tab-questions" data-tab="questions" aria-selected="false">Questions</button>
+    <button class="ev-tab" role="tab" id="tab-setup" data-tab="setup" aria-selected="false">Setup</button>
+  </div>
+
+  <section class="ev-page" id="overview" role="tabpanel" aria-labelledby="tab-overview">
+    <div class="ev-kpis" id="kpis">
+      <div class="ev-kpi"><span class="lab">Top-k, all evidence in 5 pages</span>
+        <span class="val dash-skeleton" data-source="accuracy" data-field="complete" data-where="group=multi&amp;method=topk&amp;k=5">—</span>
+        <span class="sub">multi-page questions</span></div>
+      <div class="ev-kpi"><span class="lab">Coverage, all evidence in 5 pages</span>
+        <span class="val dash-skeleton" data-source="accuracy" data-field="complete" data-where="group=multi&amp;method=coverage&amp;k=5">—</span>
+        <span class="sub"><span class="ev-delta dash-skeleton" data-source="headline" data-field="delta" data-where="metric=complete" data-fmt="delta">—</span> vs top-k</span></div>
+      <div class="ev-kpi"><span class="lab">Top-k, reader accuracy</span>
+        <span class="val dash-skeleton" data-source="accuracy" data-field="acc" data-where="group=multi&amp;method=topk&amp;k=5">—</span>
+        <span class="sub">5 pages, multi-page questions</span></div>
+      <div class="ev-kpi"><span class="lab">Coverage, reader accuracy</span>
+        <span class="val dash-skeleton" data-source="accuracy" data-field="acc" data-where="group=multi&amp;method=coverage&amp;k=5">—</span>
+        <span class="sub"><span class="ev-delta dash-skeleton" data-source="headline" data-field="delta" data-where="metric=acc" data-fmt="delta">—</span> vs top-k</span></div>
+      <div class="ev-kpi"><span class="lab">Gold pages, reader accuracy</span>
+        <span class="val dash-skeleton" data-source="accuracy" data-field="acc" data-where="group=multi&amp;method=gold&amp;k=0">—</span>
+        <span class="sub">upper bound for any selector</span></div>
+    </div>
+
+    <div class="ev-bar">
+      <span class="ev-note">Question group</span>
+      <div class="ev-seg" id="group-seg" role="group" aria-label="Question group">
+        <button data-group="multi" aria-pressed="true">Multi-page (310)</button>
+        <button data-group="same_mod" aria-pressed="false">Same modality (201)</button>
+        <button data-group="cross_multi" aria-pressed="false">Cross-modal (109)</button>
+        <button data-group="control" aria-pressed="false">Single-page control (453)</button>
+      </div>
+    </div>
+
+    <div class="ev-grid">
+      <div class="ev-card" id="card-recall">
+        <h3>All evidence pages selected, by page budget</h3>
+        <p class="ev-note">Share of questions whose gold pages are all among the k selected pages (complete-evidence recall).</p>
+        <div class="ev-legend" id="legend-recall"></div>
+        <div class="ev-chart dash-skeleton" id="chart-recall" data-source="retrieval"></div>
+      </div>
+      <div class="ev-card" id="card-acc">
+        <h3>Reader accuracy at five pages</h3>
+        <p class="ev-note">Qwen2.5-VL-7B reads the selected pages; scored with the benchmark's rule-based scorer. Gold: the labelled evidence pages only.</p>
+        <div class="ev-chart dash-skeleton" id="chart-acc" data-source="accuracy"></div>
+      </div>
+    </div>
+
+    <div class="ev-grid">
+      <div class="ev-card" id="card-acc-table">
+        <h3>Every method at 3 and 5 pages</h3>
+        <p class="ev-note">complete: all gold pages selected; recall: share of gold pages selected; acc: reader accuracy; score: mean score (ANLS for strings).</p>
+        <div class="ev-tablebox">
+          <table class="ev-table" id="table-acc" data-source="accuracy" data-row-key="group,method,k">
+            <thead><tr><th data-field="method">method</th><th data-field="k" class="num">k</th><th data-field="n" class="num">n</th><th data-field="complete" class="num">complete %</th><th data-field="recall" class="num">recall %</th><th data-field="acc" class="num">acc %</th><th data-field="score" class="num">score</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="ev-card" id="card-paired">
+        <h3>Paired against top-k at five pages</h3>
+        <p class="ev-note">Questions a method gets right that top-k gets wrong (wins) and the reverse (losses), with an exact McNemar p-value; the same for complete retrieval.</p>
+        <div class="ev-tablebox">
+          <table class="ev-table" id="table-paired" data-source="paired" data-row-key="group,method">
+            <thead><tr><th data-field="method">method</th><th data-field="answer_wins" class="num">answer wins</th><th data-field="answer_losses" class="num">losses</th><th data-field="answer_p" class="num">p</th><th data-field="complete_wins" class="num">complete wins</th><th data-field="complete_losses" class="num">losses</th><th data-field="complete_p" class="num">p</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ev-page" id="failures" role="tabpanel" aria-labelledby="tab-failures" hidden>
+    <div class="ev-grid">
+      <div class="ev-card" id="card-failure">
+        <h3>Where wrong answers come from</h3>
+        <p class="ev-note">Multi-page questions at five pages, split by what the selector retrieved. A wrong answer is retrieval-attributable when the reader gets it right from the gold pages.
+          Of top-k's <b data-source="failsum" data-field="wrong" data-where="method=topk" data-fmt="int" class="dash-skeleton">—</b> wrong answers,
+          <b data-source="failsum" data-field="fixed" data-where="method=topk" data-fmt="int" class="dash-skeleton">—</b> become right with the gold pages.</p>
+        <div class="ev-legend" id="legend-failure"></div>
+        <div class="ev-chart dash-skeleton" id="chart-failure" data-source="failure"></div>
+      </div>
+      <div class="ev-card" id="card-reasoning">
+        <h3>Does reasoning help the reader?</h3>
+        <p class="ev-note">Ablation on multi-page questions at five pages: the same reader asked to reason step by step and end with "Answer: …" (up to 512 tokens), against the short-answer prompt used everywhere else.</p>
+        <div class="ev-legend" id="legend-reasoning"></div>
+        <div class="ev-chart dash-skeleton" id="chart-reasoning" data-source="reasoning"></div>
+      </div>
+      <div class="ev-card" id="card-needs">
+        <h3>How many needs the decomposer finds</h3>
+        <p class="ev-note">Qwen3-8B splits each multi-page question into at most four needs. With one need, coverage nearly reduces to top-k (the need's score only reorders the first picks), so its gains come where m is 2 or more.</p>
+        <div class="ev-legend" id="legend-needs"></div>
+        <div class="ev-chart dash-skeleton" id="chart-needs" data-source="needs_hist"></div>
+      </div>
+    </div>
+
+    <div class="ev-card" id="card-breakdown">
+      <h3>Breakdown of multi-page questions at five pages</h3>
+      <div class="ev-bar">
+        <label class="ev-note" for="dim-select">Split by</label>
+        <select class="ev-ctl" id="dim-select">
+          <option value="needs">number of needs (m, 3 = 3 or more)</option>
+          <option value="qtype">question type</option>
+          <option value="gap">distance between evidence pages</option>
+          <option value="n_gold">number of evidence pages</option>
+          <option value="stratum">same vs cross modality</option>
+          <option value="combo">evidence modalities</option>
+          <option value="answer_format">answer format</option>
+          <option value="doc_type">document type</option>
+        </select>
+      </div>
+      <div class="ev-legend" id="legend-breakdown"></div>
+      <div class="ev-grid">
+        <div><p class="ev-note">All evidence selected (%)</p><div class="ev-chart dash-skeleton" id="chart-bd-complete" data-source="breakdowns"></div></div>
+        <div><p class="ev-note">Reader accuracy (%)</p><div class="ev-chart dash-skeleton" id="chart-bd-acc" data-source="breakdowns"></div></div>
+      </div>
+    </div>
+
+    <div class="ev-grid">
+      <div class="ev-card" id="card-form">
+        <h3>Which gold pages get missed</h3>
+        <p class="ev-note">Each gold page of a multi-page question, by the form of its evidence (per-page tags from Qwen2.5-VL-7B for cross-modal questions), with its median ColQwen2.5 rank and how often each selector leaves it out at five pages.</p>
+        <div class="ev-tablebox">
+          <table class="ev-table" id="table-form" data-source="missed_by_form" data-row-key="stratum,form">
+            <thead><tr><th data-field="stratum">stratum</th><th data-field="form">form</th><th data-field="pages" class="num">pages</th><th data-field="median_ColQwen_rank" class="num">median rank</th><th data-field="topk_missed_pct" class="num">top-k missed %</th><th data-field="coverage_missed_pct" class="num">coverage missed %</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="ev-card" id="card-sens">
+        <h3>Sensitivity of the two free constants</h3>
+        <p class="ev-note">Complete-evidence recall on multi-page questions as the MMR weight a and the coverage relevance weight lam times k change. Defaults (a = 0.5, lam times k = 1) were fixed before running; this is for discussion, not tuning.</p>
+        <div class="ev-tablebox">
+          <table class="ev-table" id="table-sens" data-source="sensitivity" data-row-key="group,method,param,k">
+            <thead><tr><th data-field="method">method</th><th data-field="param">setting</th><th data-field="k" class="num">k</th><th data-field="complete" class="num">complete %</th><th data-field="recall" class="num">recall %</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ev-page" id="questions" role="tabpanel" aria-labelledby="tab-questions" hidden>
+    <div class="ev-card" id="card-questions">
+      <h3>Every test question</h3>
+      <p class="ev-note">What top-k and coverage selected at five pages, what the reader answered from them and from the gold pages. Pages are 1-indexed PDF pages.</p>
+      <div class="ev-bar">
+        <label class="ev-note" for="q-set">Set</label>
+        <select class="ev-ctl" id="q-set">
+          <option value="multi">multi-page</option>
+          <option value="control">single-page control</option>
+        </select>
+        <label class="ev-note" for="q-case">Retrieval</label>
+        <select class="ev-ctl" id="q-case">
+          <option value="all">all questions</option>
+          <option value="coverage completes, top-k does not">coverage completes, top-k does not</option>
+          <option value="top-k completes, coverage does not">top-k completes, coverage does not</option>
+          <option value="both complete">both complete</option>
+          <option value="neither complete">neither complete</option>
+        </select>
+        <label class="ev-note" for="q-answer">Answers</label>
+        <select class="ev-ctl" id="q-answer">
+          <option value="all">all</option>
+          <option value="topk-wrong-gold-right">top-k wrong, gold right</option>
+          <option value="gold-wrong">wrong even with gold pages</option>
+          <option value="differ">top-k and coverage differ</option>
+        </select>
+        <input class="ev-ctl" id="q-search" type="search" placeholder="Search questions, answers, documents" aria-label="Search questions">
+        <span class="ev-note" id="q-count"></span>
+      </div>
+      <div class="ev-tablebox tall">
+        <table class="ev-table" id="table-questions" data-source="questions" data-row-key="qid">
+          <thead><tr>
+            <th data-field="qid" class="num">qid</th><th data-field="question">question</th><th data-field="answer">answer</th>
+            <th data-field="gold">gold pages</th><th data-field="needs">needs</th>
+            <th data-field="topk_pages">top-k pages</th><th data-field="topk_pred">top-k answer</th><th data-field="topk_correct">top-k</th>
+            <th data-field="coverage_pages">coverage pages</th><th data-field="coverage_pred">coverage answer</th><th data-field="coverage_correct">coverage</th>
+            <th data-field="gold_pred">gold-page answer</th><th data-field="gold_correct">gold</th>
+            <th data-field="combo">modalities</th><th data-field="qtype">type</th><th data-field="doc_id">document</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="ev-page" id="setup" role="tabpanel" aria-labelledby="tab-setup" hidden>
+    <div class="ev-grid">
+      <div class="ev-card">
+        <h3>Pipeline</h3>
+        <p class="ev-note">MMLongBench-Doc, answerable questions with valid labels and not on the two mismatched PDFs. Nothing is trained or tuned, so every question is test data. Multi-page: 2 to 5 evidence pages; control: one evidence page.</p>
+        <dl class="ev-defs">
+          <dt>retriever</dt><dd>ColQwen2.5 (vidore/colqwen2.5-v0.2), pages at 144 dpi, up to 768 visual tokens; MaxSim score s(x, p) for a query x and page p.</dd>
+          <dt>decomposer</dt><dd>Qwen3-8B, no thinking, hand-written few-shot examples not from the benchmark; at most 4 needs per question.</dd>
+          <dt>reader</dt><dd>Qwen2.5-VL-7B-Instruct, selected pages in page order with their page numbers, up to 1,024 visual tokens per page, short answer in the expected format.</dd>
+          <dt>scoring</dt><dd>idea5/score.py, the rule-based part of the benchmark's scorer; correct when the score is above 0.</dd>
+          <dt>page tags</dt><dd>for cross-modal questions, Qwen2.5-VL-7B picks which of the question's labelled modalities each gold page holds; single-modality questions take their label.</dd>
+        </dl>
+        <p class="ev-note">Caveats: a few benchmark answer-format labels are wrong (for example a ratio question labelled List), which the scorer follows; the question types are a keyword heuristic; and the partition / composition categories of Analysis 2 cover only 17 of these questions, so they are reported in out/analysis/summary.md and not here.</p>
+      </div>
+      <div class="ev-card">
+        <h3>Selectors</h3>
+        <p class="ev-note">s^ is the score min-max normalised over the pages of the document. Rerankers choose from the same candidate pool, the ColQwen top 20.</p>
+        <dl class="ev-defs">
+          <dt>topk</dt><dd>top k pages by s(q, p), as in M3DocRAG.</dd>
+          <dt>bm25</dt><dd>top k by BM25 over the PDF text layer.</dd>
+          <dt>hybrid</dt><dd>top k by the sum of z-scored ColQwen and BM25 scores.</dd>
+          <dt>mmr</dt><dd>greedy a s^(q, p) minus (1 - a) times the highest cosine similarity to a selected page, a = 0.5.</dd>
+          <dt>decomp_rrf</dt><dd>reciprocal-rank fusion (c = 60) of the rankings of the question and of every need.</dd>
+          <dt>coverage</dt><dd>ours, v0: greedy maximisation of F(S) = sum over needs of (1/m) max over S of s^(d_j, p), plus (1/k) times the sum over S of s^(q, p).</dd>
+          <dt>coverage_beam</dt><dd>the same objective with beam search, 3 partial sets.</dd>
+          <dt>coverage_full</dt><dd>coverage over the whole document instead of the top 20 (retrieval only).</dd>
+          <dt>gold</dt><dd>the labelled evidence pages (reader only).</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+const NAMES = { topk: 'Top-k', bm25: 'BM25', hybrid: 'Hybrid', mmr: 'MMR', decomp_rrf: 'Decompose + RRF',
+  coverage: 'Coverage (v0)', coverage_beam: 'Coverage + beam', coverage_full: 'Coverage, full doc', gold: 'Gold pages' };
+window.EV = { NAMES };
+
+dash.calc('headline', {
+  inputs: ['accuracy'],
+  title: 'Coverage minus top-k',
+  description: 'Coverage minus top-k on the multi-page questions at five pages, in percentage points.',
+  fn: (accuracy) => {
+    const get = (m, k) => accuracy.find((r) => r.group === 'multi' && r.method === m && Number(r.k) === k);
+    const t = get('topk', 5), c = get('coverage', 5);
+    if (!t || !c) return [];
+    return ['complete', 'acc'].map((metric) => ({ metric, topk: t[metric], coverage: c[metric],
+      delta: Math.round((c[metric] - t[metric]) * 10) / 10 }));
+  },
+});
+
+dash.calc('needshare', {
+  inputs: ['needs_hist'],
+  title: 'Single-need share',
+  description: 'Share of multi-page questions that the decomposer turns into a single need, in percent.',
+  fn: (needs_hist) => {
+    const total = d3.sum(needs_hist, (r) => r.n);
+    const single = d3.sum(needs_hist.filter((r) => Number(r.m) === 1), (r) => r.n);
+    return [{ single, total, share: total ? Math.round((1000 * single) / total) / 10 : null }];
+  },
+});
+
+dash.calc('failsum', {
+  inputs: ['failure'],
+  title: 'Wrong answers the gold pages fix',
+  description: 'Per selector, wrong answers on multi-page questions at five pages and how many the gold pages make right.',
+  fn: (failure) => ['topk', 'coverage'].map((method) => {
+    const rows = failure.filter((r) => r.method === method);
+    return { method, wrong: d3.sum(rows, (r) => r.wrong), fixed: d3.sum(rows, (r) => r.wrong_fixed_by_gold) };
+  }),
+});
+</script>
+
+<script>
+(() => {
+  const { NAMES } = window.EV;
+  const f1 = d3.format('.1f');
+  const pct = (v) => (v == null || Number.isNaN(+v) ? '—' : f1(+v) + '%');
+  const signed = (v) => (v == null || Number.isNaN(+v) ? '—' : (v > 0 ? '+' : v < 0 ? '−' : '±') + f1(Math.abs(v)) + ' pts');
+  const color = (m) => ({ coverage: dash.colors[0], topk: dash.colors[1], decomp_rrf: dash.colors[2], mmr: dash.colors[3],
+    hybrid: dash.colors[4], bm25: dash.colors[5], coverage_beam: dash.colors[6], gold: dash.colors[7] }[m] || 'var(--cds-chart-muted)');
+  const ok = (id) => dash.data(id).status === 'ok';
+  const rows = (id) => (ok(id) ? dash.data(id).data : []);
+  const ready = (el) => el.classList.remove('dash-skeleton');
+  const failed = (el, id) => {
+    const s = dash.data(id).status;
+    if (s === 'error' || s === 'connect' || s === 'declined' || s === 'missing') {
+      el.replaceChildren();
+      const line = document.createElement('div');
+      line.style.cssText = 'display:flex;align-items:center;justify-content:center;gap:.5rem;min-height:inherit;height:100%;color:var(--color-fg-muted);font-size:var(--cds-font-size-caption)';
+      const dot = document.createElement('span');
+      dot.style.cssText = 'width:.375rem;height:.375rem;border-radius:50%;background:var(--color-bad)';
+      line.append(dot, 'Failed to load');
+      el.append(line);
+      ready(el);
+      return true;
+    }
+    return false;
+  };
+  const legend = (el, items) => {
+    el.replaceChildren(...items.map(([label, c]) => {
+      const s = document.createElement('span');
+      const i = document.createElement('i');
+      i.style.background = c;
+      s.append(i, label);
+      return s;
+    }));
+  };
+  const textWidth = (svg, strings) => {
+    const t = svg.append('text').attr('font-size', null);
+    let w = 0;
+    for (const s of strings) { t.text(s); w = Math.max(w, t.node().getComputedTextLength()); }
+    t.remove();
+    return w;
+  };
+  const tip = (box) => {
+    let el = box.querySelector('.ev-tip');
+    if (!el) { el = document.createElement('div'); el.className = 'ev-tip'; el.hidden = true; box.append(el); }
+    return el;
+  };
+  const showTip = (box, el, title, lines, x, y) => {
+    el.replaceChildren();
+    const h = document.createElement('div'); h.className = 'h'; h.textContent = title; el.append(h);
+    for (const [c, name, value] of lines) {
+      const r = document.createElement('div'); r.className = 'r';
+      const i = document.createElement('i'); i.style.background = c;
+      const b = document.createElement('b'); b.textContent = value;
+      r.append(i, name, b); el.append(r);
+    }
+    el.hidden = false;
+    const bw = box.clientWidth, tw = el.offsetWidth;
+    el.style.left = Math.max(0, Math.min(bw - tw, x + 12)) + 'px';
+    el.style.top = Math.max(0, y - 10) + 'px';
+  };
+
+  // ---------- tabs ----------
+  const tabs = [...document.querySelectorAll('.ev-tab')];
+  let current = 'overview';
+  const show = (name) => {
+    current = name;
+    for (const t of tabs) t.setAttribute('aria-selected', String(t.dataset.tab === name));
+    for (const p of document.querySelectorAll('.ev-page')) p.hidden = p.id !== name;
+    dash.setLink(name);
+    draw();
+  };
+  for (const t of tabs) t.addEventListener('click', () => show(t.dataset.tab));
+
+  // ---------- controls ----------
+  const groupSeg = document.getElementById('group-seg');
+  groupSeg.addEventListener('click', (e) => {
+    const b = e.target.closest('button[data-group]');
+    if (b) dash.setParams({ group: b.dataset.group });
+  });
+  const dimSel = document.getElementById('dim-select');
+  dimSel.addEventListener('change', () => dash.setParams({ dim: dimSel.value }));
+  const qSet = document.getElementById('q-set'), qCase = document.getElementById('q-case');
+  const qAns = document.getElementById('q-answer'), qSearch = document.getElementById('q-search');
+  qSet.addEventListener('change', () => dash.setParams({ qset: qSet.value }));
+  qCase.addEventListener('change', () => dash.setParams({ qcase: qCase.value }));
+  qAns.addEventListener('change', () => dash.setParams({ qanswer: qAns.value }));
+  let searchTimer;
+  qSearch.addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(draw, 150); });
+  const param = (name, fallback) => dash.params()[name] ?? fallback;
+
+  // ---------- header ----------
+  // Single values marked in the text and the tiles: find the row by data-where (or data-row), show its field.
+  function drawHeader() {
+    for (const el of document.querySelectorAll('[data-source][data-field]')) {
+      if (el.closest('table')) continue;
+      const d = dash.data(el.dataset.source);
+      if (d.status !== 'ok') { el.textContent = '—'; continue; }
+      const list = Array.isArray(d.data) ? d.data : [];
+      let r;
+      if (el.dataset.row != null) r = list[Number(el.dataset.row)];
+      else {
+        const w = [...new URLSearchParams(el.dataset.where || '')];
+        r = list.find((x) => w.every(([k, v]) => String(x[k]) === v));
+      }
+      const v = r ? r[el.dataset.field] : null;
+      const kind = el.dataset.fmt || 'pct';
+      el.textContent = v == null ? '—' : kind === 'delta' ? signed(v) : kind === 'int' ? d3.format(',')(v) : pct(v);
+      if (kind === 'delta') {
+        el.classList.toggle('ev-up', v > 0);
+        el.classList.toggle('ev-down', v < 0);
+      }
+      ready(el);
+    }
+  }
+
+  // ---------- overview ----------
+  function drawRecall(group) {
+    const box = document.getElementById('chart-recall');
+    if (failed(box, 'retrieval') || !ok('retrieval')) return;
+    const methods = ['coverage', 'topk', 'decomp_rrf', 'mmr', 'hybrid', 'bm25'];
+    legend(document.getElementById('legend-recall'), methods.map((m) => [NAMES[m], color(m)]));
+    const ks = [1, 3, 5, 10];
+    const data = rows('retrieval');
+    const series = methods.map((m) => ({ m, pts: ks.map((k) => {
+      const r = data.find((x) => x.group === group && x.method === m && Number(x.k) === k);
+      return { k, v: r ? +r.complete : null };
+    }) }));
+    box.replaceChildren();
+    const W = Math.max(280, box.clientWidth), H = 260;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+    const left = textWidth(svg, ['100%']) + 10;
+    const M = { t: 10, r: 14, b: 28, l: left };
+    const x = d3.scalePoint(ks.map(String), [M.l, W - M.r]).padding(0.35);
+    const y = d3.scaleLinear([0, 100], [H - M.b, M.t]);
+    const g = svg.append('g');
+    for (const t of [0, 25, 50, 75, 100]) {
+      g.append('line').attr('x1', M.l).attr('x2', W - M.r).attr('y1', y(t)).attr('y2', y(t))
+        .attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+      g.append('text').attr('x', M.l - 8).attr('y', y(t)).attr('dy', '0.32em').attr('text-anchor', 'end').text(t + '%');
+    }
+    for (const k of ks) {
+      g.append('text').attr('x', x(String(k))).attr('y', H - 8).attr('text-anchor', 'middle').text(`k = ${k}`);
+    }
+    const line = d3.line().defined((d) => d.v != null).x((d) => x(String(d.k))).y((d) => y(d.v));
+    for (const s of [...series].reverse()) {
+      const main = s.m === 'coverage' || s.m === 'topk';
+      svg.append('path').attr('d', line(s.pts)).attr('fill', 'none').attr('stroke', color(s.m))
+        .attr('stroke-width', main ? 2.5 : 1.5).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round')
+        .attr('opacity', main ? 1 : 0.75);
+      svg.selectAll(null).data(s.pts.filter((d) => d.v != null)).join('circle')
+        .attr('cx', (d) => x(String(d.k))).attr('cy', (d) => y(d.v)).attr('r', main ? 3.5 : 2.5).attr('fill', color(s.m));
+    }
+    const el = tip(box);
+    const band = (W - M.l - M.r) / ks.length;
+    svg.selectAll(null).data(ks).join('rect')
+      .attr('x', (k) => x(String(k)) - band / 2).attr('y', M.t).attr('width', band).attr('height', H - M.t - M.b)
+      .attr('fill', 'transparent')
+      .on('mousemove', (event, k) => {
+        const [px, py] = d3.pointer(event, box);
+        const lines = series.map((s) => [color(s.m), NAMES[s.m], pct(s.pts.find((p) => p.k === k).v)])
+          .sort((a, b) => parseFloat(b[2]) - parseFloat(a[2]));
+        showTip(box, el, `${k} page${k > 1 ? 's' : ''}`, lines, px, py);
+      })
+      .on('mouseleave', () => { el.hidden = true; });
+    ready(box);
+  }
+
+  function hbars(box, items, opts) {
+    // items: [{label, sub, bars: [{key, v, c}]}]; one band per item, one bar per entry
+    box.replaceChildren();
+    const W = Math.max(260, box.clientWidth);
+    const nb = d3.max(items, (d) => d.bars.length) || 1;
+    const barH = opts.barH || (nb > 1 ? 9 : 18), gap = nb > 1 ? 2 : 0, bandPad = 12;
+    const bandH = nb * barH + (nb - 1) * gap;
+    const H = items.length * (bandH + bandPad) + 22;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+    const labelW = Math.min(W * 0.42, textWidth(svg, items.flatMap((d) => [d.label, d.sub || ''])) + 10);
+    const valueW = textWidth(svg, ['100.0%']) + 6;
+    const x = d3.scaleLinear([0, 100], [labelW, W - valueW]);
+    for (const t of [0, 50, 100]) {
+      svg.append('line').attr('x1', x(t)).attr('x2', x(t)).attr('y1', 0).attr('y2', H - 18)
+        .attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+      svg.append('text').attr('x', x(t)).attr('y', H - 4).attr('text-anchor', 'middle').text(t + '%');
+    }
+    items.forEach((d, i) => {
+      const y0 = i * (bandH + bandPad) + bandPad / 2;
+      const lab = svg.append('text').attr('x', labelW - 8).attr('y', y0 + bandH / 2 - (d.sub ? 6 : 0)).attr('dy', '0.32em')
+        .attr('text-anchor', 'end').attr('class', 'strong').text(d.label);
+      if (lab.node().getComputedTextLength() > labelW - 10) {
+        let s = d.label;
+        while (s.length > 3 && lab.node().getComputedTextLength() > labelW - 10) { s = s.slice(0, -1); lab.text(s + '…'); }
+      }
+      if (d.sub) svg.append('text').attr('x', labelW - 8).attr('y', y0 + bandH / 2 + 8).attr('dy', '0.32em').attr('text-anchor', 'end').text(d.sub);
+      d.bars.forEach((b, j) => {
+        const y = y0 + j * (barH + gap);
+        if (b.v == null || Number.isNaN(+b.v)) return;
+        svg.append('rect').attr('x', x(0)).attr('y', y).attr('width', Math.max(0, x(+b.v) - x(0))).attr('height', barH)
+          .attr('rx', Math.min(4, barH / 2)).attr('fill', b.c);
+        svg.append('text').attr('x', x(+b.v) + 4).attr('y', y + barH / 2).attr('dy', '0.32em').text(pct(b.v));
+      });
+    });
+    ready(box);
+  }
+
+  function drawAcc(group) {
+    const box = document.getElementById('chart-acc');
+    if (failed(box, 'accuracy') || !ok('accuracy')) return;
+    const methods = ['topk', 'hybrid', 'mmr', 'decomp_rrf', 'coverage', 'coverage_beam', 'gold'];
+    const acc = rows('accuracy');
+    const items = methods.map((m) => {
+      const r = acc.find((x) => x.group === group && x.method === m && Number(x.k) === (m === 'gold' ? 0 : 5));
+      return r ? { label: NAMES[m], bars: [{ v: r.acc, c: m === 'coverage' || m === 'gold' || m === 'topk' ? color(m) : 'var(--cds-chart-muted)' }] } : null;
+    }).filter(Boolean);
+    hbars(box, items, { barH: 18 });
+  }
+
+  function fillTable(id, list, cols, keyOf, { cls = {}, fmt = {} } = {}) {
+    const tbody = document.getElementById(id).querySelector('tbody');
+    tbody.replaceChildren(...list.map((r) => {
+      const tr = document.createElement('tr');
+      tr.dataset.key = keyOf(r);
+      for (const c of cols) {
+        const td = document.createElement('td');
+        const v = r[c];
+        td.textContent = v == null ? '' : fmt[c] ? fmt[c](v)
+          : typeof v === 'number' ? (Number.isInteger(v) ? String(v) : f1(v)) : String(v);
+        if (typeof v === 'number') td.className = 'num';
+        if (cls[c]) td.className = cls[c](r);
+        tr.append(td);
+      }
+      return tr;
+    }));
+  }
+  const f3 = d3.format('.3f');
+
+  function drawOverview() {
+    const group = param('group', 'multi');
+    for (const b of groupSeg.querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.group === group));
+    drawRecall(group);
+    drawAcc(group);
+    const order = ['topk', 'bm25', 'hybrid', 'mmr', 'decomp_rrf', 'coverage', 'coverage_beam', 'gold'];
+    const acc = rows('accuracy').filter((r) => r.group === group)
+      .sort((a, b) => order.indexOf(a.method) - order.indexOf(b.method) || a.k - b.k);
+    fillTable('table-acc', acc, ['method', 'k', 'n', 'complete', 'recall', 'acc', 'score'],
+      (r) => `${r.group},${r.method},${r.k}`);
+    const pr = rows('paired').filter((r) => r.group === group)
+      .sort((a, b) => order.indexOf(a.method) - order.indexOf(b.method));
+    fillTable('table-paired', pr, ['method', 'answer_wins', 'answer_losses', 'answer_p', 'complete_wins', 'complete_losses', 'complete_p'],
+      (r) => `${r.group},${r.method}`, { fmt: { answer_p: f3, complete_p: f3 } });
+  }
+
+  // ---------- failures ----------
+  function drawFailure() {
+    const box = document.getElementById('chart-failure');
+    if (failed(box, 'failure') || !ok('failure')) return;
+    const cols = [['answered right', dash.colors[0]], ['wrong, right with gold pages', dash.colors[3]], ['wrong even with gold pages', 'var(--cds-chart-muted)']];
+    legend(document.getElementById('legend-failure'), cols);
+    const data = rows('failure');
+    const items = [];
+    for (const m of ['topk', 'coverage']) {
+      for (const o of ['complete', 'partial', 'none']) {
+        const r = data.find((x) => x.method === m && x.outcome === o);
+        if (r) items.push({ m, o, n: r.n, parts: [r.correct, r.wrong_fixed_by_gold, r.wrong - r.wrong_fixed_by_gold] });
+      }
+    }
+    box.replaceChildren();
+    const W = Math.max(260, box.clientWidth), barH = 20, pad = 10, headH = 18;
+    const H = items.length * (barH + pad) + 2 * headH + 8;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+    const labels = { complete: 'all evidence', partial: 'some evidence', none: 'no evidence' };
+    const labelW = textWidth(svg, Object.values(labels).map((s) => s + ' (000)')) + 10;
+    const maxN = d3.max(items, (d) => d.n) || 1;
+    const x = d3.scaleLinear([0, maxN], [labelW, W - 8]);
+    const el = tip(box);
+    let y = 0;
+    for (const m of ['topk', 'coverage']) {
+      svg.append('text').attr('x', 0).attr('y', y + 12).attr('class', 'strong').text(NAMES[m]);
+      y += headH;
+      for (const d of items.filter((i) => i.m === m)) {
+        svg.append('text').attr('x', labelW - 8).attr('y', y + barH / 2).attr('dy', '0.32em').attr('text-anchor', 'end')
+          .text(`${labels[d.o]} (${d.n})`);
+        let acc = 0;
+        d.parts.forEach((v, i) => {
+          if (!v) return;
+          svg.append('rect').attr('x', x(acc)).attr('y', y).attr('width', Math.max(0, x(acc + v) - x(acc) - 1)).attr('height', barH)
+            .attr('rx', 3).attr('fill', cols[i][1])
+            .on('mousemove', (event) => {
+              const [px, py] = d3.pointer(event, box);
+              showTip(box, el, `${NAMES[m]}, ${labels[d.o]}`, d.parts.map((p, j) => [cols[j][1], cols[j][0], `${p} (${f1(100 * p / d.n)}%)`]), px, py);
+            })
+            .on('mouseleave', () => { el.hidden = true; });
+          if (x(acc + v) - x(acc) > 26) svg.append('text').attr('x', x(acc) + 6).attr('y', y + barH / 2).attr('dy', '0.32em')
+            .attr('pointer-events', 'none').style('fill', 'var(--color-bg)').text(v);
+          acc += v;
+        });
+        y += barH + pad;
+      }
+      y += 4;
+    }
+    ready(box);
+  }
+
+  function drawNeeds() {
+    const box = document.getElementById('chart-needs');
+    if (failed(box, 'needs_hist') || !ok('needs_hist')) return;
+    const data = rows('needs_hist');
+    const ms = [...new Set(data.map((r) => +r.m))].sort((a, b) => a - b);
+    const cs = [dash.colors[1], dash.colors[0], dash.colors[2], dash.colors[3]];
+    legend(document.getElementById('legend-needs'), ms.map((m, i) => [`m = ${m}`, cs[i % cs.length]]));
+    const types = d3.rollups(data, (v) => d3.sum(v, (r) => r.n), (r) => r.qtype).sort((a, b) => b[1] - a[1]).map((d) => d[0]);
+    box.replaceChildren();
+    const W = Math.max(260, box.clientWidth), barH = 22, pad = 12;
+    const H = types.length * (barH + pad) + 22;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+    const labelW = textWidth(svg, types.map((t) => `${t} (000)`)) + 10;
+    const maxN = d3.max(types, (t) => d3.sum(data.filter((r) => r.qtype === t), (r) => r.n)) || 1;
+    const x = d3.scaleLinear([0, maxN], [labelW, W - 8]);
+    const el = tip(box);
+    types.forEach((t, i) => {
+      const y = i * (barH + pad) + pad / 2;
+      const parts = ms.map((m) => (data.find((r) => r.qtype === t && +r.m === m) || { n: 0 }).n);
+      const total = d3.sum(parts);
+      svg.append('text').attr('x', labelW - 8).attr('y', y + barH / 2).attr('dy', '0.32em').attr('text-anchor', 'end').text(`${t} (${total})`);
+      let acc = 0;
+      parts.forEach((v, j) => {
+        if (!v) return;
+        svg.append('rect').attr('x', x(acc)).attr('y', y).attr('width', Math.max(0, x(acc + v) - x(acc) - 1)).attr('height', barH)
+          .attr('rx', 3).attr('fill', cs[j % cs.length])
+          .on('mousemove', (event) => {
+            const [px, py] = d3.pointer(event, box);
+            showTip(box, el, t, ms.map((m, k) => [cs[k % cs.length], `m = ${m}`, `${parts[k]} (${f1(100 * parts[k] / total)}%)`]), px, py);
+          })
+          .on('mouseleave', () => { el.hidden = true; });
+        if (x(acc + v) - x(acc) > 22) svg.append('text').attr('x', x(acc) + 5).attr('y', y + barH / 2).attr('dy', '0.32em')
+          .attr('pointer-events', 'none').style('fill', 'var(--color-bg)').text(v);
+        acc += v;
+      });
+    });
+    ready(box);
+  }
+
+  function drawBreakdown() {
+    const dim = param('dim', 'needs');
+    dimSel.value = dim;
+    const boxC = document.getElementById('chart-bd-complete'), boxA = document.getElementById('chart-bd-acc');
+    if (failed(boxC, 'breakdowns') || failed(boxA, 'breakdowns') || !ok('breakdowns')) return;
+    const data = rows('breakdowns').filter((r) => r.dimension === dim);
+    const values = [...new Set(data.map((r) => r.value))];
+    const nOf = (v) => (data.find((r) => r.value === v && r.method === 'topk') || {}).n || 0;
+    values.sort((a, b) => (dim === 'needs' || dim === 'n_gold' ? Number(a) - Number(b) : nOf(b) - nOf(a)));
+    const get = (v, m, f) => (data.find((r) => r.value === v && r.method === m) || {})[f];
+    const label = (v) => (dim === 'needs' ? `m = ${v}` : dim === 'n_gold' ? `${v} pages` : v);
+    legend(document.getElementById('legend-breakdown'), ['topk', 'coverage', 'gold'].map((m) => [NAMES[m], color(m)]));
+    hbars(boxC, values.map((v) => ({ label: label(v), sub: `n = ${nOf(v)}`,
+      bars: ['topk', 'coverage'].map((m) => ({ v: get(v, m, 'complete'), c: color(m) })) })), {});
+    hbars(boxA, values.map((v) => ({ label: label(v), sub: `n = ${nOf(v)}`,
+      bars: ['topk', 'coverage', 'gold'].map((m) => ({ v: get(v, m, 'acc'), c: color(m) })) })), {});
+  }
+
+  function drawReasoning() {
+    const box = document.getElementById('chart-reasoning');
+    if (failed(box, 'reasoning') || !ok('reasoning')) return;
+    const data = rows('reasoning');
+    const readers = [['short answer', 'var(--cds-chart-muted)'], ['reasoning', dash.colors[0]]];
+    legend(document.getElementById('legend-reasoning'), readers.map(([r, c]) => [r === 'short answer' ? 'short answer (main setup)' : 'reason, then answer', c]));
+    const methods = ['topk', 'coverage', 'gold'].filter((m) => data.some((r) => r.method === m));
+    hbars(box, methods.map((m) => {
+      const n = (data.find((r) => r.method === m) || {}).n;
+      return { label: NAMES[m], sub: n ? `n = ${n}` : '',
+        bars: readers.map(([reader, c]) => ({ v: (data.find((r) => r.method === m && r.reader === reader) || {}).acc, c })) };
+    }), { barH: 12 });
+  }
+
+  function drawFailures() {
+    drawFailure();
+    drawReasoning();
+    drawNeeds();
+    drawBreakdown();
+    const order = ['same_mod', 'cross_multi'];
+    const form = rows('missed_by_form').slice().sort((a, b) => order.indexOf(a.stratum) - order.indexOf(b.stratum) || b.pages - a.pages);
+    fillTable('table-form', form, ['stratum', 'form', 'pages', 'median_ColQwen_rank', 'topk_missed_pct', 'coverage_missed_pct'],
+      (r) => `${r.stratum},${r.form}`);
+    const sens = rows('sensitivity').filter((r) => r.group === 'multi').sort((a, b) => a.method.localeCompare(b.method) || a.k - b.k || a.param.localeCompare(b.param));
+    fillTable('table-sens', sens, ['method', 'param', 'k', 'complete', 'recall'],
+      (r) => `${r.group},${r.method},${encodeURIComponent(r.param)},${r.k}`);
+    for (const tr of document.querySelectorAll('#table-sens tbody tr')) {
+      const p = tr.children[1].textContent;
+      tr.classList.toggle('hl', p === 'alpha=0.5' || p === 'lam*k=1.0');
+    }
+  }
+
+  // ---------- questions ----------
+  function drawQuestions() {
+    const set = param('qset', 'multi'), kase = param('qcase', 'all'), ans = param('qanswer', 'all');
+    qSet.value = set; qCase.value = kase; qAns.value = ans;
+    const q = qSearch.value.trim().toLowerCase();
+    const list = rows('questions').filter((r) => r.set === set
+      && (kase === 'all' || r.case === kase)
+      && (ans === 'all'
+        || (ans === 'topk-wrong-gold-right' && r.topk_correct === 'wrong' && r.gold_correct === 'right')
+        || (ans === 'gold-wrong' && r.gold_correct === 'wrong')
+        || (ans === 'differ' && r.topk_correct && r.coverage_correct && r.topk_correct !== r.coverage_correct))
+      && (!q || [r.question, r.answer, r.doc_id, r.needs, r.topk_pred, r.coverage_pred].some((s) => String(s ?? '').toLowerCase().includes(q))));
+    const cols = ['qid', 'question', 'answer', 'gold', 'needs', 'topk_pages', 'topk_pred', 'topk_correct', 'coverage_pages',
+      'coverage_pred', 'coverage_correct', 'gold_pred', 'gold_correct', 'combo', 'qtype', 'doc_id'];
+    const verdict = (c) => (r) => (r[c] === 'right' ? 'right' : r[c] === 'wrong' ? 'wrong' : '');
+    fillTable('table-questions', list, cols, (r) => String(r.qid), { cls: {
+      question: () => 'long', needs: () => 'mid', topk_pred: () => 'mid', coverage_pred: () => 'mid', gold_pred: () => 'mid',
+      topk_correct: verdict('topk_correct'), coverage_correct: verdict('coverage_correct'), gold_correct: verdict('gold_correct'),
+      qid: () => 'num',
+    } });
+    const all = rows('questions').filter((r) => r.set === set).length;
+    document.getElementById('q-count').textContent = ok('questions') ? `${d3.format(',')(list.length)} of ${d3.format(',')(all)} questions` : '';
+  }
+
+  function draw() {
+    drawHeader();
+    if (current === 'overview') drawOverview();
+    if (current === 'failures') drawFailures();
+    if (current === 'questions') drawQuestions();
+  }
+
+  dash.onData(draw);
+  const named = document.getElementById(location.hash.slice(1));
+  if (named && named.classList.contains('ev-page')) show(named.id);
+})();
+</script>

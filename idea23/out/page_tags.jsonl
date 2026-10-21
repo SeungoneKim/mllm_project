@@ -1,0 +1,744 @@
+{"qid": 1, "page": 19, "form": "Table", "by": "label"}
+{"qid": 1, "page": 20, "form": "Table", "by": "label"}
+{"qid": 3, "page": 2, "form": "Text", "by": "label"}
+{"qid": 3, "page": 22, "form": "Text", "by": "label"}
+{"qid": 3, "page": 23, "form": "Text", "by": "label"}
+{"qid": 7, "page": 3, "form": "Text", "by": "label"}
+{"qid": 7, "page": 5, "form": "Text", "by": "label"}
+{"qid": 11, "page": 8, "form": "Chart", "by": "label"}
+{"qid": 11, "page": 12, "form": "Chart", "by": "label"}
+{"qid": 32, "page": 24, "form": "Figure", "by": "label"}
+{"qid": 32, "page": 53, "form": "Figure", "by": "label"}
+{"qid": 32, "page": 56, "form": "Figure", "by": "label"}
+{"qid": 45, "page": 7, "form": "Text", "by": "label"}
+{"qid": 45, "page": 8, "form": "Text", "by": "label"}
+{"qid": 45, "page": 9, "form": "Text", "by": "label"}
+{"qid": 45, "page": 16, "form": "Text", "by": "label"}
+{"qid": 48, "page": 17, "form": "Figure", "by": "label"}
+{"qid": 48, "page": 25, "form": "Figure", "by": "label"}
+{"qid": 48, "page": 40, "form": "Figure", "by": "label"}
+{"qid": 48, "page": 51, "form": "Figure", "by": "label"}
+{"qid": 59, "page": 7, "form": "Chart", "by": "label"}
+{"qid": 59, "page": 15, "form": "Chart", "by": "label"}
+{"qid": 64, "page": 7, "form": "Table", "by": "label"}
+{"qid": 64, "page": 9, "form": "Table", "by": "label"}
+{"qid": 66, "page": 12, "form": "Text", "by": "label"}
+{"qid": 66, "page": 13, "form": "Text", "by": "label"}
+{"qid": 67, "page": 2, "form": "Text", "by": "label"}
+{"qid": 67, "page": 3, "form": "Text", "by": "label"}
+{"qid": 71, "page": 18, "form": "Table", "by": "label"}
+{"qid": 71, "page": 19, "form": "Table", "by": "label"}
+{"qid": 74, "page": 3, "form": "Text", "by": "label"}
+{"qid": 74, "page": 4, "form": "Text", "by": "label"}
+{"qid": 81, "page": 10, "form": "Text", "by": "label"}
+{"qid": 81, "page": 11, "form": "Text", "by": "label"}
+{"qid": 82, "page": 9, "form": "Text", "by": "label"}
+{"qid": 82, "page": 10, "form": "Text", "by": "label"}
+{"qid": 83, "page": 39, "form": "Figure", "by": "label"}
+{"qid": 83, "page": 40, "form": "Figure", "by": "label"}
+{"qid": 83, "page": 41, "form": "Figure", "by": "label"}
+{"qid": 87, "page": 12, "form": "Table", "by": "label"}
+{"qid": 87, "page": 13, "form": "Table", "by": "label"}
+{"qid": 93, "page": 11, "form": "Text", "by": "label"}
+{"qid": 93, "page": 12, "form": "Text", "by": "label"}
+{"qid": 96, "page": 9, "form": "Text", "by": "label"}
+{"qid": 96, "page": 10, "form": "Text", "by": "label"}
+{"qid": 105, "page": 11, "form": "Layout", "by": "label"}
+{"qid": 105, "page": 12, "form": "Layout", "by": "label"}
+{"qid": 105, "page": 13, "form": "Layout", "by": "label"}
+{"qid": 105, "page": 14, "form": "Layout", "by": "label"}
+{"qid": 108, "page": 9, "form": "Figure", "by": "label"}
+{"qid": 108, "page": 10, "form": "Figure", "by": "label"}
+{"qid": 122, "page": 8, "form": "Chart", "by": "label"}
+{"qid": 122, "page": 12, "form": "Chart", "by": "label"}
+{"qid": 122, "page": 14, "form": "Chart", "by": "label"}
+{"qid": 122, "page": 18, "form": "Chart", "by": "label"}
+{"qid": 135, "page": 1, "form": "Text", "by": "label"}
+{"qid": 135, "page": 5, "form": "Text", "by": "label"}
+{"qid": 141, "page": 14, "form": "Text", "by": "label"}
+{"qid": 141, "page": 15, "form": "Text", "by": "label"}
+{"qid": 152, "page": 10, "form": "Layout", "by": "label"}
+{"qid": 152, "page": 11, "form": "Layout", "by": "label"}
+{"qid": 152, "page": 12, "form": "Layout", "by": "label"}
+{"qid": 152, "page": 13, "form": "Layout", "by": "label"}
+{"qid": 153, "page": 24, "form": "Layout", "by": "label"}
+{"qid": 153, "page": 25, "form": "Layout", "by": "label"}
+{"qid": 153, "page": 26, "form": "Layout", "by": "label"}
+{"qid": 167, "page": 40, "form": "Figure", "by": "label"}
+{"qid": 167, "page": 41, "form": "Figure", "by": "label"}
+{"qid": 169, "page": 36, "form": "Figure", "by": "label"}
+{"qid": 169, "page": 37, "form": "Figure", "by": "label"}
+{"qid": 169, "page": 38, "form": "Figure", "by": "label"}
+{"qid": 169, "page": 39, "form": "Figure", "by": "label"}
+{"qid": 173, "page": 6, "form": "Chart", "by": "label"}
+{"qid": 173, "page": 10, "form": "Chart", "by": "label"}
+{"qid": 183, "page": 16, "form": "Table", "by": "label"}
+{"qid": 183, "page": 19, "form": "Table", "by": "label"}
+{"qid": 197, "page": 23, "form": "Figure", "by": "label"}
+{"qid": 197, "page": 25, "form": "Figure", "by": "label"}
+{"qid": 197, "page": 26, "form": "Figure", "by": "label"}
+{"qid": 202, "page": 66, "form": "Text", "by": "label"}
+{"qid": 202, "page": 67, "form": "Text", "by": "label"}
+{"qid": 202, "page": 68, "form": "Text", "by": "label"}
+{"qid": 227, "page": 18, "form": "Table", "by": "label"}
+{"qid": 227, "page": 20, "form": "Table", "by": "label"}
+{"qid": 235, "page": 2, "form": "Figure", "by": "label"}
+{"qid": 235, "page": 4, "form": "Figure", "by": "label"}
+{"qid": 235, "page": 5, "form": "Figure", "by": "label"}
+{"qid": 235, "page": 14, "form": "Figure", "by": "label"}
+{"qid": 235, "page": 15, "form": "Figure", "by": "label"}
+{"qid": 241, "page": 12, "form": "Text", "by": "label"}
+{"qid": 241, "page": 15, "form": "Text", "by": "label"}
+{"qid": 241, "page": 17, "form": "Text", "by": "label"}
+{"qid": 248, "page": 2, "form": "Figure", "by": "label"}
+{"qid": 248, "page": 4, "form": "Figure", "by": "label"}
+{"qid": 249, "page": 3, "form": "Figure", "by": "label"}
+{"qid": 249, "page": 6, "form": "Figure", "by": "label"}
+{"qid": 249, "page": 14, "form": "Figure", "by": "label"}
+{"qid": 267, "page": 19, "form": "Figure", "by": "label"}
+{"qid": 267, "page": 21, "form": "Figure", "by": "label"}
+{"qid": 267, "page": 23, "form": "Figure", "by": "label"}
+{"qid": 319, "page": 30, "form": "Table", "by": "label"}
+{"qid": 319, "page": 31, "form": "Table", "by": "label"}
+{"qid": 319, "page": 32, "form": "Table", "by": "label"}
+{"qid": 342, "page": 19, "form": "Text", "by": "label"}
+{"qid": 342, "page": 20, "form": "Text", "by": "label"}
+{"qid": 348, "page": 13, "form": "Chart", "by": "label"}
+{"qid": 348, "page": 14, "form": "Chart", "by": "label"}
+{"qid": 351, "page": 16, "form": "Chart", "by": "label"}
+{"qid": 351, "page": 17, "form": "Chart", "by": "label"}
+{"qid": 352, "page": 20, "form": "Chart", "by": "label"}
+{"qid": 352, "page": 21, "form": "Chart", "by": "label"}
+{"qid": 359, "page": 11, "form": "Chart", "by": "label"}
+{"qid": 359, "page": 12, "form": "Chart", "by": "label"}
+{"qid": 362, "page": 12, "form": "Chart", "by": "label"}
+{"qid": 362, "page": 16, "form": "Chart", "by": "label"}
+{"qid": 363, "page": 17, "form": "Chart", "by": "label"}
+{"qid": 363, "page": 18, "form": "Chart", "by": "label"}
+{"qid": 371, "page": 10, "form": "Table", "by": "label"}
+{"qid": 371, "page": 11, "form": "Table", "by": "label"}
+{"qid": 378, "page": 2, "form": "Chart", "by": "label"}
+{"qid": 378, "page": 3, "form": "Chart", "by": "label"}
+{"qid": 378, "page": 4, "form": "Chart", "by": "label"}
+{"qid": 378, "page": 13, "form": "Chart", "by": "label"}
+{"qid": 379, "page": 9, "form": "Table", "by": "label"}
+{"qid": 379, "page": 10, "form": "Table", "by": "label"}
+{"qid": 380, "page": 18, "form": "Table", "by": "label"}
+{"qid": 380, "page": 19, "form": "Table", "by": "label"}
+{"qid": 381, "page": 15, "form": "Table", "by": "label"}
+{"qid": 381, "page": 16, "form": "Table", "by": "label"}
+{"qid": 382, "page": 4, "form": "Text", "by": "label"}
+{"qid": 382, "page": 5, "form": "Text", "by": "label"}
+{"qid": 382, "page": 6, "form": "Text", "by": "label"}
+{"qid": 396, "page": 13, "form": "Table", "by": "label"}
+{"qid": 396, "page": 14, "form": "Table", "by": "label"}
+{"qid": 398, "page": 7, "form": "Layout", "by": "label"}
+{"qid": 398, "page": 11, "form": "Layout", "by": "label"}
+{"qid": 398, "page": 13, "form": "Layout", "by": "label"}
+{"qid": 398, "page": 16, "form": "Layout", "by": "label"}
+{"qid": 398, "page": 17, "form": "Layout", "by": "label"}
+{"qid": 399, "page": 7, "form": "Text", "by": "label"}
+{"qid": 399, "page": 9, "form": "Text", "by": "label"}
+{"qid": 403, "page": 1, "form": "Layout", "by": "label"}
+{"qid": 403, "page": 28, "form": "Layout", "by": "label"}
+{"qid": 403, "page": 48, "form": "Layout", "by": "label"}
+{"qid": 407, "page": 38, "form": "Figure", "by": "label"}
+{"qid": 407, "page": 46, "form": "Figure", "by": "label"}
+{"qid": 409, "page": 12, "form": "Figure", "by": "label"}
+{"qid": 409, "page": 14, "form": "Figure", "by": "label"}
+{"qid": 413, "page": 8, "form": "Chart", "by": "label"}
+{"qid": 413, "page": 15, "form": "Chart", "by": "label"}
+{"qid": 418, "page": 12, "form": "Chart", "by": "label"}
+{"qid": 418, "page": 15, "form": "Chart", "by": "label"}
+{"qid": 422, "page": 21, "form": "Table", "by": "label"}
+{"qid": 422, "page": 22, "form": "Table", "by": "label"}
+{"qid": 423, "page": 1, "form": "Figure", "by": "label"}
+{"qid": 423, "page": 26, "form": "Figure", "by": "label"}
+{"qid": 426, "page": 1, "form": "Figure", "by": "label"}
+{"qid": 426, "page": 9, "form": "Figure", "by": "label"}
+{"qid": 429, "page": 9, "form": "Figure", "by": "label"}
+{"qid": 429, "page": 28, "form": "Figure", "by": "label"}
+{"qid": 431, "page": 29, "form": "Figure", "by": "label"}
+{"qid": 431, "page": 30, "form": "Figure", "by": "label"}
+{"qid": 431, "page": 32, "form": "Figure", "by": "label"}
+{"qid": 433, "page": 58, "form": "Figure", "by": "label"}
+{"qid": 433, "page": 60, "form": "Figure", "by": "label"}
+{"qid": 433, "page": 61, "form": "Figure", "by": "label"}
+{"qid": 441, "page": 1, "form": "Figure", "by": "label"}
+{"qid": 441, "page": 6, "form": "Figure", "by": "label"}
+{"qid": 441, "page": 13, "form": "Figure", "by": "label"}
+{"qid": 441, "page": 15, "form": "Figure", "by": "label"}
+{"qid": 442, "page": 17, "form": "Figure", "by": "label"}
+{"qid": 442, "page": 19, "form": "Figure", "by": "label"}
+{"qid": 443, "page": 19, "form": "Table", "by": "label"}
+{"qid": 443, "page": 20, "form": "Table", "by": "label"}
+{"qid": 449, "page": 21, "form": "Figure", "by": "label"}
+{"qid": 449, "page": 22, "form": "Figure", "by": "label"}
+{"qid": 451, "page": 24, "form": "Table", "by": "label"}
+{"qid": 451, "page": 25, "form": "Table", "by": "label"}
+{"qid": 452, "page": 8, "form": "Figure", "by": "label"}
+{"qid": 452, "page": 13, "form": "Figure", "by": "label"}
+{"qid": 457, "page": 5, "form": "Table", "by": "label"}
+{"qid": 457, "page": 6, "form": "Table", "by": "label"}
+{"qid": 459, "page": 6, "form": "Chart", "by": "label"}
+{"qid": 459, "page": 12, "form": "Chart", "by": "label"}
+{"qid": 460, "page": 6, "form": "Chart", "by": "label"}
+{"qid": 460, "page": 12, "form": "Chart", "by": "label"}
+{"qid": 462, "page": 37, "form": "Figure", "by": "label"}
+{"qid": 462, "page": 38, "form": "Figure", "by": "label"}
+{"qid": 463, "page": 51, "form": "Figure", "by": "label"}
+{"qid": 463, "page": 52, "form": "Figure", "by": "label"}
+{"qid": 472, "page": 24, "form": "Layout", "by": "label"}
+{"qid": 472, "page": 25, "form": "Layout", "by": "label"}
+{"qid": 476, "page": 56, "form": "Layout", "by": "label"}
+{"qid": 476, "page": 57, "form": "Layout", "by": "label"}
+{"qid": 478, "page": 88, "form": "Table", "by": "label"}
+{"qid": 478, "page": 89, "form": "Table", "by": "label"}
+{"qid": 485, "page": 10, "form": "Layout", "by": "label"}
+{"qid": 485, "page": 11, "form": "Layout", "by": "label"}
+{"qid": 487, "page": 3, "form": "Figure", "by": "label"}
+{"qid": 487, "page": 4, "form": "Figure", "by": "label"}
+{"qid": 494, "page": 10, "form": "Figure", "by": "label"}
+{"qid": 494, "page": 11, "form": "Figure", "by": "label"}
+{"qid": 495, "page": 16, "form": "Figure", "by": "label"}
+{"qid": 495, "page": 18, "form": "Figure", "by": "label"}
+{"qid": 515, "page": 1, "form": "Layout", "by": "label"}
+{"qid": 515, "page": 2, "form": "Layout", "by": "label"}
+{"qid": 517, "page": 9, "form": "Table", "by": "label"}
+{"qid": 517, "page": 10, "form": "Table", "by": "label"}
+{"qid": 519, "page": 10, "form": "Table", "by": "label"}
+{"qid": 519, "page": 13, "form": "Table", "by": "label"}
+{"qid": 522, "page": 10, "form": "Figure", "by": "label"}
+{"qid": 522, "page": 11, "form": "Figure", "by": "label"}
+{"qid": 524, "page": 15, "form": "Table", "by": "label"}
+{"qid": 524, "page": 19, "form": "Table", "by": "label"}
+{"qid": 529, "page": 13, "form": "Figure", "by": "label"}
+{"qid": 529, "page": 18, "form": "Figure", "by": "label"}
+{"qid": 529, "page": 23, "form": "Figure", "by": "label"}
+{"qid": 534, "page": 2, "form": "Figure", "by": "label"}
+{"qid": 534, "page": 8, "form": "Figure", "by": "label"}
+{"qid": 592, "page": 1, "form": "Text", "by": "label"}
+{"qid": 592, "page": 2, "form": "Text", "by": "label"}
+{"qid": 592, "page": 3, "form": "Text", "by": "label"}
+{"qid": 592, "page": 10, "form": "Text", "by": "label"}
+{"qid": 618, "page": 27, "form": "Text", "by": "label"}
+{"qid": 618, "page": 29, "form": "Text", "by": "label"}
+{"qid": 625, "page": 10, "form": "Figure", "by": "label"}
+{"qid": 625, "page": 12, "form": "Figure", "by": "label"}
+{"qid": 628, "page": 9, "form": "Figure", "by": "label"}
+{"qid": 628, "page": 19, "form": "Figure", "by": "label"}
+{"qid": 630, "page": 14, "form": "Figure", "by": "label"}
+{"qid": 630, "page": 15, "form": "Figure", "by": "label"}
+{"qid": 630, "page": 16, "form": "Figure", "by": "label"}
+{"qid": 630, "page": 17, "form": "Figure", "by": "label"}
+{"qid": 630, "page": 18, "form": "Figure", "by": "label"}
+{"qid": 643, "page": 5, "form": "Table", "by": "label"}
+{"qid": 643, "page": 6, "form": "Table", "by": "label"}
+{"qid": 645, "page": 6, "form": "Figure", "by": "label"}
+{"qid": 645, "page": 7, "form": "Figure", "by": "label"}
+{"qid": 645, "page": 9, "form": "Figure", "by": "label"}
+{"qid": 649, "page": 5, "form": "Table", "by": "label"}
+{"qid": 649, "page": 6, "form": "Table", "by": "label"}
+{"qid": 653, "page": 17, "form": "Text", "by": "label"}
+{"qid": 653, "page": 18, "form": "Text", "by": "label"}
+{"qid": 653, "page": 20, "form": "Text", "by": "label"}
+{"qid": 655, "page": 15, "form": "Figure", "by": "label"}
+{"qid": 655, "page": 16, "form": "Figure", "by": "label"}
+{"qid": 655, "page": 25, "form": "Figure", "by": "label"}
+{"qid": 655, "page": 26, "form": "Figure", "by": "label"}
+{"qid": 664, "page": 5, "form": "Figure", "by": "label"}
+{"qid": 664, "page": 6, "form": "Figure", "by": "label"}
+{"qid": 666, "page": 7, "form": "Text", "by": "label"}
+{"qid": 666, "page": 8, "form": "Text", "by": "label"}
+{"qid": 667, "page": 10, "form": "Text", "by": "label"}
+{"qid": 667, "page": 13, "form": "Text", "by": "label"}
+{"qid": 675, "page": 5, "form": "Text", "by": "label"}
+{"qid": 675, "page": 6, "form": "Text", "by": "label"}
+{"qid": 676, "page": 5, "form": "Text", "by": "label"}
+{"qid": 676, "page": 6, "form": "Text", "by": "label"}
+{"qid": 680, "page": 3, "form": "Table", "by": "label"}
+{"qid": 680, "page": 4, "form": "Table", "by": "label"}
+{"qid": 680, "page": 5, "form": "Table", "by": "label"}
+{"qid": 686, "page": 3, "form": "Chart", "by": "label"}
+{"qid": 686, "page": 7, "form": "Chart", "by": "label"}
+{"qid": 686, "page": 33, "form": "Chart", "by": "label"}
+{"qid": 686, "page": 34, "form": "Chart", "by": "label"}
+{"qid": 686, "page": 35, "form": "Chart", "by": "label"}
+{"qid": 687, "page": 28, "form": "Chart", "by": "label"}
+{"qid": 687, "page": 29, "form": "Chart", "by": "label"}
+{"qid": 688, "page": 7, "form": "Chart", "by": "label"}
+{"qid": 688, "page": 34, "form": "Chart", "by": "label"}
+{"qid": 691, "page": 17, "form": "Chart", "by": "label"}
+{"qid": 691, "page": 19, "form": "Chart", "by": "label"}
+{"qid": 696, "page": 6, "form": "Chart", "by": "label"}
+{"qid": 696, "page": 7, "form": "Chart", "by": "label"}
+{"qid": 702, "page": 13, "form": "Text", "by": "label"}
+{"qid": 702, "page": 14, "form": "Text", "by": "label"}
+{"qid": 711, "page": 6, "form": "Figure", "by": "label"}
+{"qid": 711, "page": 7, "form": "Figure", "by": "label"}
+{"qid": 711, "page": 18, "form": "Figure", "by": "label"}
+{"qid": 718, "page": 12, "form": "Table", "by": "label"}
+{"qid": 718, "page": 13, "form": "Table", "by": "label"}
+{"qid": 721, "page": 14, "form": "Figure", "by": "label"}
+{"qid": 721, "page": 15, "form": "Figure", "by": "label"}
+{"qid": 721, "page": 16, "form": "Figure", "by": "label"}
+{"qid": 721, "page": 17, "form": "Figure", "by": "label"}
+{"qid": 721, "page": 18, "form": "Figure", "by": "label"}
+{"qid": 722, "page": 41, "form": "Figure", "by": "label"}
+{"qid": 722, "page": 42, "form": "Figure", "by": "label"}
+{"qid": 722, "page": 43, "form": "Figure", "by": "label"}
+{"qid": 722, "page": 44, "form": "Figure", "by": "label"}
+{"qid": 724, "page": 50, "form": "Figure", "by": "label"}
+{"qid": 724, "page": 51, "form": "Figure", "by": "label"}
+{"qid": 724, "page": 52, "form": "Figure", "by": "label"}
+{"qid": 725, "page": 12, "form": "Table", "by": "label"}
+{"qid": 725, "page": 55, "form": "Table", "by": "label"}
+{"qid": 731, "page": 7, "form": "Figure", "by": "label"}
+{"qid": 731, "page": 8, "form": "Figure", "by": "label"}
+{"qid": 735, "page": 8, "form": "Figure", "by": "label"}
+{"qid": 735, "page": 9, "form": "Figure", "by": "label"}
+{"qid": 735, "page": 10, "form": "Figure", "by": "label"}
+{"qid": 739, "page": 11, "form": "Figure", "by": "label"}
+{"qid": 739, "page": 13, "form": "Figure", "by": "label"}
+{"qid": 740, "page": 1, "form": "Text", "by": "label"}
+{"qid": 740, "page": 2, "form": "Text", "by": "label"}
+{"qid": 744, "page": 7, "form": "Figure", "by": "label"}
+{"qid": 744, "page": 8, "form": "Figure", "by": "label"}
+{"qid": 748, "page": 12, "form": "Figure", "by": "label"}
+{"qid": 748, "page": 13, "form": "Figure", "by": "label"}
+{"qid": 750, "page": 14, "form": "Figure", "by": "label"}
+{"qid": 750, "page": 32, "form": "Figure", "by": "label"}
+{"qid": 755, "page": 7, "form": "Chart", "by": "label"}
+{"qid": 755, "page": 10, "form": "Chart", "by": "label"}
+{"qid": 757, "page": 4, "form": "Figure", "by": "label"}
+{"qid": 757, "page": 5, "form": "Figure", "by": "label"}
+{"qid": 762, "page": 2, "form": "Figure", "by": "label"}
+{"qid": 762, "page": 16, "form": "Figure", "by": "label"}
+{"qid": 762, "page": 20, "form": "Figure", "by": "label"}
+{"qid": 765, "page": 4, "form": "Chart", "by": "label"}
+{"qid": 765, "page": 17, "form": "Chart", "by": "label"}
+{"qid": 766, "page": 8, "form": "Chart", "by": "label"}
+{"qid": 766, "page": 24, "form": "Chart", "by": "label"}
+{"qid": 767, "page": 14, "form": "Table", "by": "label"}
+{"qid": 767, "page": 15, "form": "Table", "by": "label"}
+{"qid": 771, "page": 6, "form": "Chart", "by": "label"}
+{"qid": 771, "page": 7, "form": "Chart", "by": "label"}
+{"qid": 774, "page": 3, "form": "Figure", "by": "label"}
+{"qid": 774, "page": 4, "form": "Figure", "by": "label"}
+{"qid": 774, "page": 5, "form": "Figure", "by": "label"}
+{"qid": 774, "page": 10, "form": "Figure", "by": "label"}
+{"qid": 774, "page": 11, "form": "Figure", "by": "label"}
+{"qid": 775, "page": 6, "form": "Figure", "by": "label"}
+{"qid": 775, "page": 7, "form": "Figure", "by": "label"}
+{"qid": 785, "page": 38, "form": "Text", "by": "label"}
+{"qid": 785, "page": 39, "form": "Text", "by": "label"}
+{"qid": 786, "page": 16, "form": "Text", "by": "label"}
+{"qid": 786, "page": 17, "form": "Text", "by": "label"}
+{"qid": 798, "page": 7, "form": "Figure", "by": "label"}
+{"qid": 798, "page": 8, "form": "Figure", "by": "label"}
+{"qid": 816, "page": 3, "form": "Chart", "by": "label"}
+{"qid": 816, "page": 5, "form": "Chart", "by": "label"}
+{"qid": 816, "page": 6, "form": "Chart", "by": "label"}
+{"qid": 816, "page": 8, "form": "Chart", "by": "label"}
+{"qid": 816, "page": 9, "form": "Chart", "by": "label"}
+{"qid": 822, "page": 5, "form": "Text", "by": "label"}
+{"qid": 822, "page": 13, "form": "Text", "by": "label"}
+{"qid": 822, "page": 18, "form": "Text", "by": "label"}
+{"qid": 822, "page": 19, "form": "Text", "by": "label"}
+{"qid": 824, "page": 12, "form": "Table", "by": "label"}
+{"qid": 824, "page": 14, "form": "Table", "by": "label"}
+{"qid": 824, "page": 17, "form": "Table", "by": "label"}
+{"qid": 826, "page": 6, "form": "Figure", "by": "label"}
+{"qid": 826, "page": 7, "form": "Figure", "by": "label"}
+{"qid": 827, "page": 7, "form": "Text", "by": "label"}
+{"qid": 827, "page": 11, "form": "Text", "by": "label"}
+{"qid": 832, "page": 1, "form": "Text", "by": "label"}
+{"qid": 832, "page": 2, "form": "Text", "by": "label"}
+{"qid": 834, "page": 3, "form": "Text", "by": "label"}
+{"qid": 834, "page": 4, "form": "Text", "by": "label"}
+{"qid": 834, "page": 7, "form": "Text", "by": "label"}
+{"qid": 834, "page": 15, "form": "Text", "by": "label"}
+{"qid": 835, "page": 6, "form": "Text", "by": "label"}
+{"qid": 835, "page": 7, "form": "Text", "by": "label"}
+{"qid": 838, "page": 4, "form": "Chart", "by": "label"}
+{"qid": 838, "page": 6, "form": "Chart", "by": "label"}
+{"qid": 867, "page": 5, "form": "Figure", "by": "label"}
+{"qid": 867, "page": 7, "form": "Figure", "by": "label"}
+{"qid": 867, "page": 8, "form": "Figure", "by": "label"}
+{"qid": 872, "page": 96, "form": "Figure", "by": "label"}
+{"qid": 872, "page": 98, "form": "Figure", "by": "label"}
+{"qid": 872, "page": 99, "form": "Figure", "by": "label"}
+{"qid": 872, "page": 100, "form": "Figure", "by": "label"}
+{"qid": 873, "page": 65, "form": "Figure", "by": "label"}
+{"qid": 873, "page": 66, "form": "Figure", "by": "label"}
+{"qid": 873, "page": 67, "form": "Figure", "by": "label"}
+{"qid": 873, "page": 70, "form": "Figure", "by": "label"}
+{"qid": 874, "page": 6, "form": "Table", "by": "label"}
+{"qid": 874, "page": 7, "form": "Table", "by": "label"}
+{"qid": 874, "page": 8, "form": "Table", "by": "label"}
+{"qid": 874, "page": 9, "form": "Table", "by": "label"}
+{"qid": 880, "page": 48, "form": "Table", "by": "label"}
+{"qid": 880, "page": 49, "form": "Table", "by": "label"}
+{"qid": 887, "page": 7, "form": "Text", "by": "label"}
+{"qid": 887, "page": 8, "form": "Text", "by": "label"}
+{"qid": 887, "page": 9, "form": "Text", "by": "label"}
+{"qid": 887, "page": 10, "form": "Text", "by": "label"}
+{"qid": 887, "page": 28, "form": "Text", "by": "label"}
+{"qid": 905, "page": 51, "form": "Figure", "by": "label"}
+{"qid": 905, "page": 52, "form": "Figure", "by": "label"}
+{"qid": 905, "page": 53, "form": "Figure", "by": "label"}
+{"qid": 910, "page": 25, "form": "Figure", "by": "label"}
+{"qid": 910, "page": 26, "form": "Figure", "by": "label"}
+{"qid": 910, "page": 27, "form": "Figure", "by": "label"}
+{"qid": 910, "page": 28, "form": "Figure", "by": "label"}
+{"qid": 913, "page": 18, "form": "Figure", "by": "label"}
+{"qid": 913, "page": 19, "form": "Figure", "by": "label"}
+{"qid": 918, "page": 7, "form": "Chart", "by": "label"}
+{"qid": 918, "page": 9, "form": "Chart", "by": "label"}
+{"qid": 918, "page": 11, "form": "Chart", "by": "label"}
+{"qid": 918, "page": 13, "form": "Chart", "by": "label"}
+{"qid": 938, "page": 1, "form": "Text", "by": "label"}
+{"qid": 938, "page": 3, "form": "Text", "by": "label"}
+{"qid": 938, "page": 4, "form": "Text", "by": "label"}
+{"qid": 945, "page": 3, "form": "Table", "by": "label"}
+{"qid": 945, "page": 5, "form": "Table", "by": "label"}
+{"qid": 947, "page": 6, "form": "Table", "by": "label"}
+{"qid": 947, "page": 7, "form": "Table", "by": "label"}
+{"qid": 955, "page": 37, "form": "Text", "by": "label"}
+{"qid": 955, "page": 38, "form": "Text", "by": "label"}
+{"qid": 955, "page": 39, "form": "Text", "by": "label"}
+{"qid": 955, "page": 40, "form": "Text", "by": "label"}
+{"qid": 955, "page": 41, "form": "Text", "by": "label"}
+{"qid": 956, "page": 2, "form": "Text", "by": "label"}
+{"qid": 956, "page": 18, "form": "Text", "by": "label"}
+{"qid": 956, "page": 19, "form": "Text", "by": "label"}
+{"qid": 959, "page": 17, "form": "Text", "by": "label"}
+{"qid": 959, "page": 18, "form": "Text", "by": "label"}
+{"qid": 960, "page": 18, "form": "Text", "by": "label"}
+{"qid": 960, "page": 20, "form": "Text", "by": "label"}
+{"qid": 968, "page": 10, "form": "Figure", "by": "label"}
+{"qid": 968, "page": 11, "form": "Figure", "by": "label"}
+{"qid": 969, "page": 1, "form": "Text", "by": "label"}
+{"qid": 969, "page": 2, "form": "Text", "by": "label"}
+{"qid": 969, "page": 3, "form": "Text", "by": "label"}
+{"qid": 1000, "page": 7, "form": "Layout", "by": "label"}
+{"qid": 1000, "page": 8, "form": "Layout", "by": "label"}
+{"qid": 1008, "page": 69, "form": "Table", "by": "label"}
+{"qid": 1008, "page": 70, "form": "Table", "by": "label"}
+{"qid": 1010, "page": 47, "form": "Table", "by": "label"}
+{"qid": 1010, "page": 69, "form": "Table", "by": "label"}
+{"qid": 1011, "page": 70, "form": "Table", "by": "label"}
+{"qid": 1011, "page": 114, "form": "Table", "by": "label"}
+{"qid": 1015, "page": 36, "form": "Table", "by": "label"}
+{"qid": 1015, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1016, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1016, "page": 53, "form": "Table", "by": "label"}
+{"qid": 1017, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1017, "page": 53, "form": "Table", "by": "label"}
+{"qid": 1018, "page": 36, "form": "Table", "by": "label"}
+{"qid": 1018, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1018, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1018, "page": 53, "form": "Table", "by": "label"}
+{"qid": 1020, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1020, "page": 53, "form": "Table", "by": "label"}
+{"qid": 1022, "page": 36, "form": "Table", "by": "label"}
+{"qid": 1022, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1023, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1023, "page": 53, "form": "Table", "by": "label"}
+{"qid": 1024, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1024, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1029, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1029, "page": 42, "form": "Table", "by": "label"}
+{"qid": 1031, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1031, "page": 43, "form": "Table", "by": "label"}
+{"qid": 1036, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1036, "page": 43, "form": "Table", "by": "label"}
+{"qid": 1041, "page": 59, "form": "Table", "by": "label"}
+{"qid": 1041, "page": 61, "form": "Table", "by": "label"}
+{"qid": 1042, "page": 59, "form": "Table", "by": "label"}
+{"qid": 1042, "page": 61, "form": "Table", "by": "label"}
+{"qid": 1043, "page": 59, "form": "Table", "by": "label"}
+{"qid": 1043, "page": 61, "form": "Table", "by": "label"}
+{"qid": 1045, "page": 59, "form": "Table", "by": "label"}
+{"qid": 1045, "page": 61, "form": "Table", "by": "label"}
+{"qid": 1051, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1051, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1052, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1052, "page": 71, "form": "Table", "by": "label"}
+{"qid": 1053, "page": 35, "form": "Table", "by": "label"}
+{"qid": 1053, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1054, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1054, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1055, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1055, "page": 64, "form": "Table", "by": "label"}
+{"qid": 1056, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1056, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1057, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1057, "page": 50, "form": "Table", "by": "label"}
+{"qid": 1058, "page": 38, "form": "Table", "by": "label"}
+{"qid": 1058, "page": 56, "form": "Table", "by": "label"}
+{"qid": 1058, "page": 71, "form": "Table", "by": "label"}
+{"qid": 1066, "page": 59, "form": "Table", "by": "label"}
+{"qid": 1066, "page": 63, "form": "Table", "by": "label"}
+{"qid": 1067, "page": 59, "form": "Table", "by": "label"}
+{"qid": 1067, "page": 60, "form": "Table", "by": "label"}
+{"qid": 1068, "page": 63, "form": "Table", "by": "label"}
+{"qid": 1068, "page": 99, "form": "Table", "by": "label"}
+{"qid": 1072, "page": 25, "form": "Table", "by": "label"}
+{"qid": 1072, "page": 39, "form": "Table", "by": "label"}
+{"qid": 1073, "page": 39, "form": "Table", "by": "label"}
+{"qid": 1073, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1074, "page": 39, "form": "Table", "by": "label"}
+{"qid": 1074, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1079, "page": 39, "form": "Table", "by": "label"}
+{"qid": 1079, "page": 40, "form": "Table", "by": "label"}
+{"qid": 1088, "page": 4, "form": "Text", "by": "label"}
+{"qid": 1088, "page": 5, "form": "Text", "by": "label"}
+{"qid": 10, "page": 3, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 10, "page": 22, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 36, "page": 14, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Figure\"}\n```"}
+{"qid": 36, "page": 19, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Layout\"}\n```"}
+{"qid": 36, "page": 20, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Figure\"}\n```"}
+{"qid": 36, "page": 33, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\n  \"form\": \"Layout\"\n}\n```"}
+{"qid": 36, "page": 37, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Layout\"}\n```"}
+{"qid": 46, "page": 49, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 46, "page": 50, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 55, "page": 29, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 55, "page": 30, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 57, "page": 26, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\n  \"form\": \"Figure\"\n}\n```"}
+{"qid": 57, "page": 27, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\n  \"form\": \"Layout\"\n}\n```"}
+{"qid": 58, "page": 28, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Layout\"}\n```"}
+{"qid": 58, "page": 33, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Figure\"}\n```"}
+{"qid": 61, "page": 13, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Layout\"}"}
+{"qid": 61, "page": 31, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Layout\"}"}
+{"qid": 75, "page": 4, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 75, "page": 5, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 75, "page": 18, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 78, "page": 6, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 78, "page": 17, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 89, "page": 8, "form": "Table", "by": "vlm", "options": ["Figure", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 89, "page": 9, "form": "Table", "by": "vlm", "options": ["Figure", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 103, "page": 10, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Layout\"}"}
+{"qid": 103, "page": 17, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Layout\"}"}
+{"qid": 103, "page": 18, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Layout\"}"}
+{"qid": 104, "page": 12, "form": "Layout", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\n  \"form\": \"Layout\"\n}\n```"}
+{"qid": 104, "page": 13, "form": "Layout", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\"form\": \"Layout\"}\n```"}
+{"qid": 111, "page": 27, "form": "Table", "by": "vlm", "options": ["Chart", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 111, "page": 39, "form": "Table", "by": "vlm", "options": ["Chart", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 119, "page": 11, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 119, "page": 13, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 121, "page": 6, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 121, "page": 17, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 143, "page": 7, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 143, "page": 12, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "```json\n{\n  \"form\": \"Text\"\n}\n```"}
+{"qid": 170, "page": 9, "form": "Table", "by": "vlm", "options": ["Chart", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 170, "page": 11, "form": "Table", "by": "vlm", "options": ["Chart", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 170, "page": 16, "form": "Chart", "by": "vlm", "options": ["Chart", "Table"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 177, "page": 11, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 177, "page": 19, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 177, "page": 20, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 177, "page": 25, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 177, "page": 37, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 180, "page": 3, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Figure\"}\n```"}
+{"qid": 180, "page": 20, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Layout\"}\n```"}
+{"qid": 188, "page": 5, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 188, "page": 16, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 190, "page": 8, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 190, "page": 29, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 192, "page": 8, "form": "Table", "by": "vlm", "options": ["Figure", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 192, "page": 9, "form": "Table", "by": "vlm", "options": ["Figure", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 198, "page": 16, "form": "Table", "by": "vlm", "options": ["Figure", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 198, "page": 34, "form": "Figure", "by": "vlm", "options": ["Figure", "Table"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 199, "page": 45, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 199, "page": 49, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 199, "page": 50, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 203, "page": 54, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 203, "page": 55, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 206, "page": 3, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 206, "page": 4, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 210, "page": 11, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 210, "page": 13, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 212, "page": 11, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 212, "page": 14, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 214, "page": 8, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "```json\n{\n  \"form\": \"Text\"\n}\n```"}
+{"qid": 214, "page": 10, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "```json\n{\n  \"form\": \"Chart\"\n}\n```"}
+{"qid": 216, "page": 12, "form": "Table", "by": "vlm", "options": ["Chart", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 216, "page": 17, "form": "Table", "by": "vlm", "options": ["Chart", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 221, "page": 7, "form": "Text", "by": "vlm", "options": ["Chart", "Table", "Text"], "raw": "```json\n{\n  \"form\": \"Text\"\n}\n```"}
+{"qid": 221, "page": 8, "form": "Table", "by": "vlm", "options": ["Chart", "Table", "Text"], "raw": "```json\n{\n  \"form\": \"Table\"\n}\n```"}
+{"qid": 223, "page": 8, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "```json\n{\n  \"form\": \"Table\"\n}\n```"}
+{"qid": 223, "page": 9, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "```json\n{\n  \"form\": \"Table\"\n}\n```"}
+{"qid": 223, "page": 10, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "```json\n{\n  \"form\": \"Table\"\n}\n```"}
+{"qid": 225, "page": 4, "form": "Table", "by": "vlm", "options": ["Chart", "Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 225, "page": 16, "form": "Table", "by": "vlm", "options": ["Chart", "Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 229, "page": 16, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "```json\n{\n  \"form\": \"Table\"\n}\n```"}
+{"qid": 229, "page": 17, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "```json\n{\n  \"form\": \"Table\"\n}\n```"}
+{"qid": 240, "page": 11, "form": "Figure", "by": "vlm", "options": ["Figure", "Table", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 240, "page": 19, "form": "Text", "by": "vlm", "options": ["Figure", "Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 250, "page": 6, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 250, "page": 8, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 250, "page": 10, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 250, "page": 11, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 258, "page": 9, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout", "Text"], "raw": "```json\n{\"form\": \"Chart\"}\n```"}
+{"qid": 258, "page": 10, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout", "Text"], "raw": "```json\n{\"form\": \"Chart\"}\n```"}
+{"qid": 259, "page": 11, "form": "Table", "by": "vlm", "options": ["Chart", "Table"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 259, "page": 17, "form": "Table", "by": "vlm", "options": ["Chart", "Table"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 278, "page": 95, "form": "Text", "by": "vlm", "options": ["Chart", "Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 278, "page": 107, "form": "Text", "by": "vlm", "options": ["Chart", "Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 286, "page": 2, "form": "Figure", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 286, "page": 4, "form": "Figure", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 286, "page": 5, "form": "Figure", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 287, "page": 3, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 287, "page": 4, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 293, "page": 4, "form": "Table", "by": "vlm", "options": ["Figure", "Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 293, "page": 5, "form": "Figure", "by": "vlm", "options": ["Figure", "Table", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 294, "page": 5, "form": "Figure", "by": "vlm", "options": ["Figure", "Table", "Text"], "raw": "```json\n{\"form\": \"Figure\"}\n```"}
+{"qid": 294, "page": 6, "form": "Table", "by": "vlm", "options": ["Figure", "Table", "Text"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 295, "page": 6, "form": "Table", "by": "vlm", "options": ["Chart", "Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 295, "page": 8, "form": "Table", "by": "vlm", "options": ["Chart", "Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 296, "page": 5, "form": "Text", "by": "vlm", "options": ["Figure", "Layout", "Table", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 296, "page": 8, "form": "Table", "by": "vlm", "options": ["Figure", "Layout", "Table", "Text"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 303, "page": 4, "form": "Table", "by": "vlm", "options": ["Chart", "Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 303, "page": 5, "form": "Chart", "by": "vlm", "options": ["Chart", "Table", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 309, "page": 24, "form": "Text", "by": "vlm", "options": ["Figure", "Layout", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 309, "page": 25, "form": "Text", "by": "vlm", "options": ["Figure", "Layout", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 309, "page": 26, "form": "Text", "by": "vlm", "options": ["Figure", "Layout", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 309, "page": 27, "form": "Text", "by": "vlm", "options": ["Figure", "Layout", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 309, "page": 28, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 312, "page": 31, "form": "Table", "by": "vlm", "options": ["Layout", "Table", "Text"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 312, "page": 32, "form": "Table", "by": "vlm", "options": ["Layout", "Table", "Text"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 317, "page": 14, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout", "Text"], "raw": "```json\n{\"form\": \"Figure\"}\n```"}
+{"qid": 317, "page": 15, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout", "Text"], "raw": "```json\n{\"form\": \"Figure\"}\n```"}
+{"qid": 322, "page": 7, "form": null, "by": "vlm", "options": ["Layout", "Table"], "raw": "```json\n{\n  \"compared_item_with_blue_color\": [\n    \"Designed durability\",\n    \"Designed durability ("}
+{"qid": 322, "page": 8, "form": "Table", "by": "vlm", "options": ["Layout", "Table"], "raw": "```json\n{\n  \"form\": \"Table\"\n}\n```"}
+{"qid": 327, "page": 41, "form": "Table", "by": "vlm", "options": ["Layout", "Table"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 327, "page": 42, "form": "Table", "by": "vlm", "options": ["Layout", "Table"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 327, "page": 43, "form": "Table", "by": "vlm", "options": ["Layout", "Table"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 327, "page": 44, "form": "Table", "by": "vlm", "options": ["Layout", "Table"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 332, "page": 11, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Figure\"}\n```"}
+{"qid": 332, "page": 12, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Figure\"}\n```"}
+{"qid": 340, "page": 11, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Figure\"}\n```"}
+{"qid": 340, "page": 12, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\n  \"form\": \"Figure\"\n}\n```"}
+{"qid": 341, "page": 17, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\n  \"answer\": [\"8\", \"2\", \"2\"],\n  \"form\": \"Text\""}
+{"qid": 341, "page": 18, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\n  \"answer\": [\"5\", \"5\", \"5\"],\n  \"form\": \"Text\""}
+{"qid": 499, "page": 9, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 499, "page": 10, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 502, "page": 73, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 502, "page": 95, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 503, "page": 57, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 503, "page": 66, "form": "Chart", "by": "vlm", "options": ["Chart", "Layout"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 516, "page": 9, "form": "Table", "by": "vlm", "options": ["Layout", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 516, "page": 10, "form": "Table", "by": "vlm", "options": ["Layout", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 525, "page": 15, "form": "Table", "by": "vlm", "options": ["Figure", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 525, "page": 18, "form": "Table", "by": "vlm", "options": ["Figure", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 527, "page": 20, "form": "Chart", "by": "vlm", "options": ["Chart", "Figure"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 527, "page": 24, "form": "Chart", "by": "vlm", "options": ["Chart", "Figure"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 562, "page": 2, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "```json\n{\n  \"form\": \"Chart\"\n}\n```"}
+{"qid": 562, "page": 11, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "```json\n{\n  \"form\": \"Chart\"\n}\n```"}
+{"qid": 564, "page": 15, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 564, "page": 16, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 570, "page": 78, "form": "Table", "by": "vlm", "options": ["Chart", "Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 570, "page": 82, "form": "Table", "by": "vlm", "options": ["Chart", "Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 571, "page": 9, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 571, "page": 10, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 575, "page": 3, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 575, "page": 29, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "```json\n{\n  \"form\": \"Text\"\n}\n```"}
+{"qid": 575, "page": 84, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "```json\n{\n  \"form\": \"Text\"\n}\n```"}
+{"qid": 582, "page": 2, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 582, "page": 5, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 597, "page": 13, "form": null, "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\n  \"blacked_out_pages\": [2, 3, 5],\n  \"form\":"}
+{"qid": 597, "page": 14, "form": null, "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\n  \"pages_with_blackout_info\": [2, 3, 5],\n  \"form"}
+{"qid": 598, "page": 15, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Layout\"}\n```"}
+{"qid": 598, "page": 16, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Layout\"}\n```"}
+{"qid": 600, "page": 15, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Layout\"}\n```"}
+{"qid": 600, "page": 16, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\"form\": \"Layout\"}\n```"}
+{"qid": 601, "page": 11, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 601, "page": 14, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 603, "page": 42, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 603, "page": 43, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout", "Text"], "raw": "{\"form\": \"Layout\"}"}
+{"qid": 605, "page": 42, "form": "Figure", "by": "vlm", "options": ["Figure", "Text"], "raw": "```json\n{\"form\": \"Figure\"}\n```"}
+{"qid": 605, "page": 43, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 607, "page": 37, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 607, "page": 38, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 611, "page": 9, "form": "Chart", "by": "vlm", "options": ["Chart", "Figure"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 611, "page": 14, "form": "Chart", "by": "vlm", "options": ["Chart", "Figure"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 621, "page": 4, "form": "Figure", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 621, "page": 5, "form": "Figure", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 622, "page": 42, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 622, "page": 43, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 622, "page": 48, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 626, "page": 5, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 626, "page": 6, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 632, "page": 3, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 632, "page": 5, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 633, "page": 6, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 633, "page": 14, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 641, "page": 7, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 641, "page": 8, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "```json\n{\n  \"form\": \"Text\"\n}\n```"}
+{"qid": 647, "page": 6, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 647, "page": 9, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 648, "page": 6, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "```json\n{\"form\": \"Table\"}\n```"}
+{"qid": 648, "page": 10, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 661, "page": 15, "form": "Table", "by": "vlm", "options": ["Figure", "Table"], "raw": "```json\n{\n  \"answer\": 0.0,\n  \"form\": \"Table\"\n}\n```"}
+{"qid": 661, "page": 16, "form": "Figure", "by": "vlm", "options": ["Figure", "Table"], "raw": "```json\n{\n  \"answer\": 21,\n  \"form\": \"Figure\"\n}\n```"}
+{"qid": 662, "page": 12, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\n  \"form\": \"Figure\"\n}\n```"}
+{"qid": 662, "page": 13, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\n  \"form\": \"Figure\"\n}\n```"}
+{"qid": 662, "page": 16, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\n  \"form\": \"Figure\"\n}\n```"}
+{"qid": 662, "page": 18, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\n  \"form\": \"Figure\"\n}\n```"}
+{"qid": 662, "page": 20, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "```json\n{\n  \"form\": \"Figure\"\n}\n```"}
+{"qid": 663, "page": 3, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 663, "page": 5, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 681, "page": 9, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 681, "page": 10, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 689, "page": 8, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 689, "page": 9, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 726, "page": 17, "form": "Figure", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 726, "page": 18, "form": "Figure", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 732, "page": 7, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 732, "page": 11, "form": "Figure", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 732, "page": 14, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 749, "page": 25, "form": "Figure", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 749, "page": 27, "form": "Figure", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 811, "page": 3, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 811, "page": 12, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 813, "page": 3, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 813, "page": 42, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 820, "page": 15, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 820, "page": 29, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 821, "page": 21, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 821, "page": 29, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 825, "page": 7, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 825, "page": 17, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 841, "page": 14, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 841, "page": 15, "form": "Chart", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Chart\"}"}
+{"qid": 862, "page": 17, "form": "Table", "by": "vlm", "options": ["Figure", "Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 862, "page": 28, "form": "Table", "by": "vlm", "options": ["Figure", "Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 884, "page": 3, "form": "Figure", "by": "vlm", "options": ["Chart", "Figure"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 884, "page": 6, "form": "Figure", "by": "vlm", "options": ["Chart", "Figure"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 884, "page": 8, "form": "Figure", "by": "vlm", "options": ["Chart", "Figure"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 884, "page": 9, "form": "Figure", "by": "vlm", "options": ["Chart", "Figure"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 884, "page": 10, "form": "Figure", "by": "vlm", "options": ["Chart", "Figure"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 900, "page": 9, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 900, "page": 10, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 901, "page": 11, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 901, "page": 12, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 903, "page": 51, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 903, "page": 52, "form": "Text", "by": "vlm", "options": ["Layout", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 957, "page": 21, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 957, "page": 62, "form": "Figure", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 964, "page": 2, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 964, "page": 3, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 964, "page": 38, "form": "Text", "by": "vlm", "options": ["Figure", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 970, "page": 1, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 970, "page": 2, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 970, "page": 3, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "{\"form\": \"Text\"}"}
+{"qid": 981, "page": 3, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 981, "page": 4, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "```json\n{\n  \"form\": \"Text\"\n}\n```"}
+{"qid": 982, "page": 3, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 982, "page": 4, "form": "Text", "by": "vlm", "options": ["Chart", "Text"], "raw": "```json\n{\"form\": \"Text\"}\n```"}
+{"qid": 1003, "page": 11, "form": "Figure", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Figure\"}"}
+{"qid": 1003, "page": 16, "form": "Layout", "by": "vlm", "options": ["Figure", "Layout"], "raw": "{\"form\": \"Layout\"}"}
+{"qid": 1007, "page": 11, "form": "Table", "by": "vlm", "options": ["Layout", "Table"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 1007, "page": 28, "form": "Layout", "by": "vlm", "options": ["Layout", "Table"], "raw": "```json\n{\"form\": \"Layout\"}\n```"}
+{"qid": 1034, "page": 40, "form": "Table", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Table\"}"}
+{"qid": 1034, "page": 47, "form": "Text", "by": "vlm", "options": ["Table", "Text"], "raw": "{\"form\": \"Text\"}"}

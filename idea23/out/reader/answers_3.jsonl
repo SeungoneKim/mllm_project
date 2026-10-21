@@ -1,0 +1,876 @@
+{"qid": 0, "pages": [3, 5, 13, 16, 17], "pred": "Less well off", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 1, "pages": [5, 10, 19], "pred": "Foreign born Latinos", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 2, "pages": [1, 4, 6, 13, 14], "pred": "Some college or more", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 3, "pages": [2, 3, 6, 22, 23], "pred": "7", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 3, "pages": [3, 22, 23], "pred": "7", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 5, "pages": [4, 9, 13, 14, 16], "pred": "Only fair financial condition", "input_tokens": 5161, "image_tokens": 5040}
+{"qid": 6, "pages": [6, 11, 12], "pred": "['white']", "input_tokens": 3161, "image_tokens": 3024}
+{"qid": 7, "pages": [3, 4, 5, 20, 22], "pred": "61", "input_tokens": 5153, "image_tokens": 5040}
+{"qid": 10, "pages": [3, 10, 14, 21, 22], "pred": "No leans who are male", "input_tokens": 5159, "image_tokens": 5040}
+{"qid": 11, "pages": [1, 11, 22], "pred": "0", "input_tokens": 3117, "image_tokens": 3024}
+{"qid": 11, "pages": [10, 11, 19, 20, 22], "pred": "4", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 13, "pages": [2, 8, 11], "pred": "Berlin School of Experimental Psychology", "input_tokens": 3105, "image_tokens": 3024}
+{"qid": 14, "pages": [6, 12, 14], "pred": "21%", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 15, "pages": [4, 5, 6, 9, 10], "pred": "0 - 375 miles", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 16, "pages": [1, 6, 7, 9, 11], "pred": "Elements of objects tend to be perceptually grouped together if they form a pattern that is regular, simple, and orderly.", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 17, "pages": [7, 9, 12, 13, 14], "pred": "With family and friends", "input_tokens": 5152, "image_tokens": 5040}
+{"qid": 18, "pages": [2, 11, 13], "pred": "Asia", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 18, "pages": [13], "pred": "Asia", "input_tokens": 1087, "image_tokens": 1008}
+{"qid": 19, "pages": [8], "pred": "['circle', 'rectangle']", "input_tokens": 1098, "image_tokens": 1008}
+{"qid": 20, "pages": [10, 18, 19], "pred": "Budget Profile", "input_tokens": 3048, "image_tokens": 2964}
+{"qid": 21, "pages": [9, 10, 19], "pred": "2015-2016", "input_tokens": 3045, "image_tokens": 2964}
+{"qid": 22, "pages": [6, 13, 15], "pred": "['Agricultural Crops Inventory', 'Agricultural Drought', 'Forest Fire', 'Landslides and Earthquakes monitoring', 'Groundwater Prospects Mapping', 'Inventory', 'Monitoring of Glacial Lakes/Water Bodies', 'Sericulture Development', 'Satellite Aided Search and Rescue']", "input_tokens": 3060, "image_tokens": 2964}
+{"qid": 23, "pages": [9, 16, 19], "pred": "National Atmospheric Research Laboratory", "input_tokens": 3049, "image_tokens": 2964}
+{"qid": 24, "pages": [2, 3, 5, 6, 7], "pred": "ASTROSAT", "input_tokens": 5059, "image_tokens": 4940}
+{"qid": 27, "pages": [5, 6, 7, 8, 11], "pred": "Basic flat & layered maps", "input_tokens": 4954, "image_tokens": 4860}
+{"qid": 28, "pages": [4, 33, 78], "pred": "https://w.wiki/6ew", "input_tokens": 3012, "image_tokens": 2916}
+{"qid": 28, "pages": [25, 27, 33], "pred": "https://w.wiki/6eq", "input_tokens": 3013, "image_tokens": 2916}
+{"qid": 30, "pages": [81], "pred": "Purple", "input_tokens": 1057, "image_tokens": 972}
+{"qid": 31, "pages": [89, 101, 108], "pred": "WikidataMapMakingWorkshop.ipynb", "input_tokens": 3010, "image_tokens": 2916}
+{"qid": 32, "pages": [10, 11, 17, 48, 88], "pred": "3", "input_tokens": 4961, "image_tokens": 4860}
+{"qid": 32, "pages": [24, 53, 56], "pred": "3", "input_tokens": 3003, "image_tokens": 2916}
+{"qid": 34, "pages": [5, 11, 26, 31, 35], "pred": "US IPO index value", "input_tokens": 4968, "image_tokens": 4860}
+{"qid": 36, "pages": [14, 20, 28, 34, 37], "pred": "5", "input_tokens": 4960, "image_tokens": 4860}
+{"qid": 37, "pages": [32, 38, 39], "pred": "['Earlybird Venture Capital']", "input_tokens": 3018, "image_tokens": 2916}
+{"qid": 42, "pages": [5, 12, 37, 38, 59], "pred": "['Standard Reports', 'Ad-Hoc Reports', 'Query Drilldown (OLAP)', 'Alerts']", "input_tokens": 4977, "image_tokens": 4860}
+{"qid": 42, "pages": [12], "pred": "['Standard Reports', 'Ad-Hoc Reports', 'Query Drilldown (OLAP)', 'Alerts']", "input_tokens": 1062, "image_tokens": 972}
+{"qid": 44, "pages": [13], "pred": "Analysis", "input_tokens": 1050, "image_tokens": 972}
+{"qid": 45, "pages": [7, 11, 59], "pred": "['Having lots of reports']", "input_tokens": 3017, "image_tokens": 2916}
+{"qid": 46, "pages": [49, 50], "pred": "Girls Crash into Lake following Bad GPS directions", "input_tokens": 2028, "image_tokens": 1944}
+{"qid": 50, "pages": [5, 16, 23, 25, 60], "pred": "Highest Paid Person", "input_tokens": 4964, "image_tokens": 4860}
+{"qid": 50, "pages": [25], "pred": "The highest paid person", "input_tokens": 1049, "image_tokens": 972}
+{"qid": 53, "pages": [6, 8, 9, 16, 17], "pred": "17.5", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 54, "pages": [1, 10, 11, 31, 33], "pred": "['Apple App Store', '1.3']", "input_tokens": 5171, "image_tokens": 5040}
+{"qid": 55, "pages": [3, 18, 30], "pred": "NCT", "input_tokens": 3123, "image_tokens": 3024}
+{"qid": 57, "pages": [26, 27], "pred": "['1500', '2000']", "input_tokens": 2153, "image_tokens": 2016}
+{"qid": 58, "pages": [2, 28, 33], "pred": "Appota", "input_tokens": 3140, "image_tokens": 3024}
+{"qid": 59, "pages": [7, 15, 29], "pred": "['lower', '18%']", "input_tokens": 3145, "image_tokens": 3024}
+{"qid": 62, "pages": [1], "pred": "['occupation', 'place of birth']", "input_tokens": 1075, "image_tokens": 988}
+{"qid": 63, "pages": [6, 7, 8, 11, 22], "pred": "red", "input_tokens": 5047, "image_tokens": 4940}
+{"qid": 63, "pages": [8, 11, 17, 22, 24], "pred": "red", "input_tokens": 5049, "image_tokens": 4940}
+{"qid": 64, "pages": [6, 7, 8], "pred": "2", "input_tokens": 3047, "image_tokens": 2964}
+{"qid": 65, "pages": [6, 7, 8, 13, 14], "pred": "0.1", "input_tokens": 5040, "image_tokens": 4940}
+{"qid": 66, "pages": [2, 3, 12], "pred": "Name Disambiguation", "input_tokens": 3053, "image_tokens": 2964}
+{"qid": 67, "pages": [2, 4, 5], "pred": "if it can", "input_tokens": 3063, "image_tokens": 2964}
+{"qid": 69, "pages": [6, 7, 18, 19, 21], "pred": "['16', '17']", "input_tokens": 5155, "image_tokens": 5040}
+{"qid": 70, "pages": [2, 5, 6, 7, 22], "pred": "['Context Length', 'F1']", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 71, "pages": [2, 3, 4, 5, 18], "pred": "Tree Traversal Algorithm", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 72, "pages": [2], "pred": "['3']", "input_tokens": 1101, "image_tokens": 1008}
+{"qid": 74, "pages": [1, 2, 3, 4, 16], "pred": "['Gaussian Mixture Models (GMMs)', 'high dimensionality of vector embeddings']", "input_tokens": 5156, "image_tokens": 5040}
+{"qid": 74, "pages": [3, 4, 16], "pred": "['Gaussian Mixture Models (GMMs)']", "input_tokens": 3128, "image_tokens": 3024}
+{"qid": 76, "pages": [1, 2, 5, 8, 11], "pred": "Pre-training", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 76, "pages": [2, 8, 20], "pred": "Inference", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 77, "pages": [2, 10, 16], "pred": "3", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 78, "pages": [1, 5, 7, 8, 10], "pred": "Retrieval-Augmented Generation for Large Language Models: A Survey", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 78, "pages": [7, 8, 9, 10, 18], "pred": "DenseX", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 80, "pages": [2, 12, 13], "pred": "['TriviaQA(TQA)', 'Web Questions(WebQ)']", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 81, "pages": [1, 2, 10], "pred": "['Iterative Retrieval']", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 82, "pages": [5, 9, 10], "pred": "SLMs", "input_tokens": 3111, "image_tokens": 3024}
+{"qid": 82, "pages": [10, 16, 20], "pred": "Filter-Reranker", "input_tokens": 3113, "image_tokens": 3024}
+{"qid": 83, "pages": [39, 40, 41], "pred": "10:08 AM", "input_tokens": 3059, "image_tokens": 2964}
+{"qid": 84, "pages": [18, 19, 23, 25, 27], "pred": "Yellow", "input_tokens": 5042, "image_tokens": 4940}
+{"qid": 85, "pages": [15, 16, 34], "pred": "['gray', 'red']", "input_tokens": 3072, "image_tokens": 2964}
+{"qid": 87, "pages": [12, 15, 18, 19, 23], "pred": "6", "input_tokens": 5039, "image_tokens": 4940}
+{"qid": 89, "pages": [2, 5, 8, 9, 42], "pred": "20", "input_tokens": 5038, "image_tokens": 4940}
+{"qid": 89, "pages": [8, 9], "pred": "30", "input_tokens": 2055, "image_tokens": 1976}
+{"qid": 90, "pages": [27], "pred": "Exposure", "input_tokens": 1076, "image_tokens": 988}
+{"qid": 93, "pages": [11, 12], "pred": "['Vision', 'Bluetooth device']", "input_tokens": 2067, "image_tokens": 1976}
+{"qid": 94, "pages": [13, 14, 15, 16, 17], "pred": "8", "input_tokens": 5046, "image_tokens": 4940}
+{"qid": 95, "pages": [6, 7, 14], "pred": "2.5-3 cm", "input_tokens": 3092, "image_tokens": 2964}
+{"qid": 97, "pages": [2, 3, 9], "pred": "Wake up the voice assistant", "input_tokens": 3048, "image_tokens": 2964}
+{"qid": 97, "pages": [3, 10, 15], "pred": "Wake up the voice assistant", "input_tokens": 3050, "image_tokens": 2964}
+{"qid": 99, "pages": [24, 25, 26], "pred": "['Part-Time B.Eng in Computing (A SkillsFuture Work-Study Degree)']", "input_tokens": 3067, "image_tokens": 2964}
+{"qid": 100, "pages": [2, 3, 17, 21, 23], "pred": "Global Exposure", "input_tokens": 5058, "image_tokens": 4940}
+{"qid": 101, "pages": [9, 12, 22], "pred": "Accountancy and Business", "input_tokens": 3054, "image_tokens": 2964}
+{"qid": 103, "pages": [6, 10, 14, 17, 24], "pred": "['College of Engineering', 'College of Science']", "input_tokens": 5061, "image_tokens": 4940}
+{"qid": 104, "pages": [2, 10, 12, 13, 14], "pred": "2", "input_tokens": 5047, "image_tokens": 4940}
+{"qid": 105, "pages": [1, 11, 13], "pred": "7", "input_tokens": 2977, "image_tokens": 2886}
+{"qid": 106, "pages": [9, 10, 11, 23, 28], "pred": "4", "input_tokens": 4913, "image_tokens": 4810}
+{"qid": 106, "pages": [23], "pred": "4", "input_tokens": 1038, "image_tokens": 962}
+{"qid": 108, "pages": [10, 17, 18], "pred": "Hop on Hop off Bus Bergen", "input_tokens": 2973, "image_tokens": 2886}
+{"qid": 109, "pages": [32], "pred": "bus", "input_tokens": 1049, "image_tokens": 962}
+{"qid": 110, "pages": [17, 44, 46], "pred": "20", "input_tokens": 2974, "image_tokens": 2886}
+{"qid": 111, "pages": [9, 25, 27], "pred": "200", "input_tokens": 3155, "image_tokens": 3024}
+{"qid": 115, "pages": [4, 5, 16, 17, 18], "pred": "['China', 'Russia', 'North Korea', 'Iran']", "input_tokens": 5166, "image_tokens": 5040}
+{"qid": 116, "pages": [5, 10, 17, 22, 30], "pred": "4", "input_tokens": 5169, "image_tokens": 5040}
+{"qid": 118, "pages": [3, 4, 5, 14, 15], "pred": "29", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 119, "pages": [3, 5, 9, 11, 13], "pred": "['UK', 'China', 'Canada', 'Israel', 'Mexico']", "input_tokens": 5171, "image_tokens": 5040}
+{"qid": 119, "pages": [3, 11, 17], "pred": "['UK', 'China', 'Canada', 'Israel', 'Mexico']", "input_tokens": 3143, "image_tokens": 3024}
+{"qid": 120, "pages": [4, 5, 15], "pred": "16", "input_tokens": 3128, "image_tokens": 3024}
+{"qid": 121, "pages": [4, 6, 7], "pred": "['Sharp divides in German and American views of security issues, from use of force to defense budgeting']", "input_tokens": 3157, "image_tokens": 3024}
+{"qid": 122, "pages": [4, 8, 11, 12, 18], "pred": "['Republican support for increased defense spending from Europe has waned since 2017', \"Supporters of CDU/CSU more likely to favor increased defense spending\"]", "input_tokens": 5171, "image_tokens": 5040}
+{"qid": 123, "pages": [3, 15, 16], "pred": "39", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 126, "pages": [1], "pred": "M.A.", "input_tokens": 1068, "image_tokens": 1000}
+{"qid": 127, "pages": [3], "pred": "Fig.2. Diagram of Breccia Gashes with top denuded off but bottom shown in cliff.", "input_tokens": 1072, "image_tokens": 1000}
+{"qid": 127, "pages": [3, 8, 14], "pred": "Diagram of Breccia Gashes with top denuded off but bottom shown in cliff", "input_tokens": 3085, "image_tokens": 3000}
+{"qid": 129, "pages": [2, 3, 14], "pred": "2", "input_tokens": 3092, "image_tokens": 3000}
+{"qid": 130, "pages": [7, 8, 10], "pred": "1884 Apr. 7, 7 19 p.m.", "input_tokens": 3122, "image_tokens": 3000}
+{"qid": 132, "pages": [1, 3, 5, 13, 14], "pred": "01983 873655", "input_tokens": 5038, "image_tokens": 4940}
+{"qid": 134, "pages": [3], "pred": "['Is the service safe?', 'Is the service effective?', 'Is the service caring?', 'Is the service responsive?', 'Is the service well-led?']", "input_tokens": 1071, "image_tokens": 988}
+{"qid": 135, "pages": [1, 3, 5, 9, 13], "pred": "['Page 1', 'Page 3', 'Page 5', 'Page 9', 'Page 13']", "input_tokens": 5069, "image_tokens": 4940}
+{"qid": 137, "pages": [3, 4, 15], "pred": "Thomas Karl", "input_tokens": 3103, "image_tokens": 3024}
+{"qid": 137, "pages": [14], "pred": "Allison Crimmis", "input_tokens": 1075, "image_tokens": 1008}
+{"qid": 139, "pages": [7, 8, 9, 10, 11], "pred": "9", "input_tokens": 5133, "image_tokens": 5040}
+{"qid": 140, "pages": [7, 8, 9, 11, 12], "pred": "['Vector-Borne Diseases', 'Climate Impacts on Water-Related Illness', 'Food Safety, Nutrition, and Distribution', 'Mental Health and Well-Being']", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 141, "pages": [9, 10, 14, 15, 17], "pred": "2", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 143, "pages": [7, 8, 11, 12, 15], "pred": "['Temperature-Related Death and Illness', 'Air Quality Impacts', 'Vector-Borne Disease', 'Water-Related Illness']", "input_tokens": 5171, "image_tokens": 5040}
+{"qid": 146, "pages": [2, 4, 7, 9, 15], "pred": "2014-10-06", "input_tokens": 5041, "image_tokens": 4940}
+{"qid": 147, "pages": [1, 8, 10, 11, 17], "pred": "4", "input_tokens": 5043, "image_tokens": 4940}
+{"qid": 147, "pages": [6, 10, 17], "pred": "4", "input_tokens": 3054, "image_tokens": 2964}
+{"qid": 148, "pages": [5, 6, 11, 13, 14], "pred": "89104", "input_tokens": 5044, "image_tokens": 4940}
+{"qid": 149, "pages": [6, 12, 20], "pred": "11", "input_tokens": 3018, "image_tokens": 2916}
+{"qid": 151, "pages": [6, 9, 12, 17, 27], "pred": "48", "input_tokens": 4977, "image_tokens": 4860}
+{"qid": 152, "pages": [3, 8, 12, 27, 31], "pred": "1", "input_tokens": 4955, "image_tokens": 4860}
+{"qid": 153, "pages": [3, 8, 24, 29, 30], "pred": "I don't know", "input_tokens": 4957, "image_tokens": 4860}
+{"qid": 155, "pages": [7, 31, 33], "pred": "Eric Kelleher", "input_tokens": 3000, "image_tokens": 2916}
+{"qid": 157, "pages": [3, 8, 11], "pred": "2", "input_tokens": 3111, "image_tokens": 3024}
+{"qid": 158, "pages": [1, 8, 19], "pred": "AVALAUNCH MEDIA", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 159, "pages": [6, 21, 24, 25, 26], "pred": "['Times New Roman', 'Arial', 'Comic Sans']", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 160, "pages": [2, 26, 27], "pred": "4", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 161, "pages": [9], "pred": "44", "input_tokens": 1056, "image_tokens": 988}
+{"qid": 164, "pages": [4, 11, 12], "pred": "Green", "input_tokens": 3055, "image_tokens": 2964}
+{"qid": 166, "pages": [9, 15, 23, 28, 30], "pred": "38%", "input_tokens": 5047, "image_tokens": 4940}
+{"qid": 167, "pages": [15, 36, 37, 39, 41], "pred": "14", "input_tokens": 5045, "image_tokens": 4940}
+{"qid": 169, "pages": [1, 3, 13, 31, 41], "pred": "['Television', 'Newspaper', 'Radio']", "input_tokens": 5048, "image_tokens": 4940}
+{"qid": 170, "pages": [1, 9, 16], "pred": "557", "input_tokens": 3053, "image_tokens": 2964}
+{"qid": 171, "pages": [10, 11, 15, 17, 41], "pred": "29", "input_tokens": 4976, "image_tokens": 4860}
+{"qid": 173, "pages": [1, 10, 11, 15, 45], "pred": "39", "input_tokens": 4980, "image_tokens": 4860}
+{"qid": 174, "pages": [1, 10, 11, 37, 45], "pred": "Oman", "input_tokens": 4964, "image_tokens": 4860}
+{"qid": 175, "pages": [8, 24, 30, 43, 44], "pred": "Arab youth are increasingly concerned about obesity and lifestyle diseases and do not believe that healthcare in their country is improving", "input_tokens": 4967, "image_tokens": 4860}
+{"qid": 177, "pages": [8, 32, 37, 43, 44], "pred": "2", "input_tokens": 4969, "image_tokens": 4860}
+{"qid": 178, "pages": [20], "pred": "Libya", "input_tokens": 1050, "image_tokens": 972}
+{"qid": 179, "pages": [3, 13, 86, 110, 115], "pred": "287", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 180, "pages": [3, 20], "pred": "4", "input_tokens": 2108, "image_tokens": 2016}
+{"qid": 181, "pages": [20, 37, 38, 56, 62], "pred": "2", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 181, "pages": [37, 38, 92], "pred": "2", "input_tokens": 3115, "image_tokens": 3024}
+{"qid": 182, "pages": [104, 110, 111], "pred": "['Thermodynamics', 'Heat Transfer', 'Fluid Mechanics']", "input_tokens": 3128, "image_tokens": 3024}
+{"qid": 183, "pages": [1, 2, 13, 16, 110], "pred": "11.7", "input_tokens": 5155, "image_tokens": 5040}
+{"qid": 186, "pages": [8, 9, 21], "pred": "64.9", "input_tokens": 3064, "image_tokens": 2964}
+{"qid": 188, "pages": [5, 16], "pred": "Instruction format", "input_tokens": 2061, "image_tokens": 1976}
+{"qid": 190, "pages": [6, 8, 29], "pred": "The word [evt] triggers a MEET event: two or more entities come together at a single location and interact with one another face-to-face.", "input_tokens": 3062, "image_tokens": 2964}
+{"qid": 192, "pages": [4, 8, 17], "pred": "2", "input_tokens": 3066, "image_tokens": 2964}
+{"qid": 193, "pages": [7, 12, 14, 17, 27], "pred": "Go to the medical department you registered at", "input_tokens": 5108, "image_tokens": 4995}
+{"qid": 193, "pages": [12, 27, 33], "pred": "Go to the medical department you registered at", "input_tokens": 3097, "image_tokens": 2997}
+{"qid": 194, "pages": [16, 18, 23, 24, 36], "pred": "0", "input_tokens": 5105, "image_tokens": 4995}
+{"qid": 194, "pages": [19, 23, 36, 38, 39], "pred": "0", "input_tokens": 5105, "image_tokens": 4995}
+{"qid": 196, "pages": [19, 21, 34], "pred": "C", "input_tokens": 3110, "image_tokens": 2997}
+{"qid": 197, "pages": [2, 23, 36], "pred": "2", "input_tokens": 3092, "image_tokens": 2997}
+{"qid": 198, "pages": [16, 32, 34], "pred": "Time Capsule Cafe", "input_tokens": 3096, "image_tokens": 2997}
+{"qid": 199, "pages": [6, 45, 47], "pred": "['Page 45']", "input_tokens": 2002, "image_tokens": 1875}
+{"qid": 200, "pages": [32, 33, 34, 63, 72], "pred": "1", "input_tokens": 3233, "image_tokens": 3125}
+{"qid": 201, "pages": [5, 10, 27, 29, 31], "pred": "['Headphone jack', 'USB (Universal Serial Bus) 2.0 port']", "input_tokens": 3244, "image_tokens": 3125}
+{"qid": 201, "pages": [30], "pred": "['Micro-DVI port', 'USB 2.0 port']", "input_tokens": 717, "image_tokens": 625}
+{"qid": 202, "pages": [65, 66, 75], "pred": "['Canada']", "input_tokens": 1994, "image_tokens": 1875}
+{"qid": 203, "pages": [36, 53, 54], "pred": "917-820-2000", "input_tokens": 1980, "image_tokens": 1875}
+{"qid": 204, "pages": [10, 22, 27], "pred": "Microphone", "input_tokens": 1968, "image_tokens": 1875}
+{"qid": 206, "pages": [3, 4], "pred": "58", "input_tokens": 2114, "image_tokens": 2016}
+{"qid": 206, "pages": [3, 8, 16], "pred": "58", "input_tokens": 3129, "image_tokens": 3024}
+{"qid": 210, "pages": [3, 4, 8, 11, 13], "pred": "24", "input_tokens": 5183, "image_tokens": 5040}
+{"qid": 210, "pages": [11, 13], "pred": "18", "input_tokens": 2141, "image_tokens": 2016}
+{"qid": 212, "pages": [8, 11, 13, 14, 17], "pred": "48", "input_tokens": 5189, "image_tokens": 5040}
+{"qid": 214, "pages": [1, 10, 17], "pred": "19", "input_tokens": 3169, "image_tokens": 3024}
+{"qid": 216, "pages": [3, 4, 9, 11, 12], "pred": "18", "input_tokens": 5171, "image_tokens": 5040}
+{"qid": 219, "pages": [2, 3, 4, 6, 14], "pred": "79%", "input_tokens": 5166, "image_tokens": 5040}
+{"qid": 219, "pages": [6, 14, 24], "pred": "579", "input_tokens": 3139, "image_tokens": 3024}
+{"qid": 221, "pages": [2, 3, 8, 16, 17], "pred": "22", "input_tokens": 5180, "image_tokens": 5040}
+{"qid": 223, "pages": [2, 5, 8, 9, 10], "pred": "['42%', '28%', '39%']", "input_tokens": 5209, "image_tokens": 5040}
+{"qid": 223, "pages": [5, 9, 10], "pred": "['42%', '35%', '39%']", "input_tokens": 3181, "image_tokens": 3024}
+{"qid": 225, "pages": [4, 6, 12, 16, 24], "pred": "71", "input_tokens": 5173, "image_tokens": 5040}
+{"qid": 227, "pages": [8, 9, 10, 18, 20], "pred": "24", "input_tokens": 5174, "image_tokens": 5040}
+{"qid": 229, "pages": [2, 3, 4, 7, 8], "pred": "29", "input_tokens": 5177, "image_tokens": 5040}
+{"qid": 229, "pages": [3, 12, 16], "pred": "9", "input_tokens": 3151, "image_tokens": 3024}
+{"qid": 230, "pages": [2], "pred": "Steven M. Wechsler", "input_tokens": 1082, "image_tokens": 1008}
+{"qid": 232, "pages": [1, 8, 12, 14, 16], "pred": "Rear Adm. (Ret.) Tim Ziemer", "input_tokens": 5153, "image_tokens": 5040}
+{"qid": 235, "pages": [2, 4, 5, 14, 15], "pred": "2", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 236, "pages": [1, 4, 8, 12, 15], "pred": "8", "input_tokens": 5152, "image_tokens": 5040}
+{"qid": 236, "pages": [9], "pred": "2", "input_tokens": 1094, "image_tokens": 1008}
+{"qid": 237, "pages": [3], "pred": "2009-07", "input_tokens": 1084, "image_tokens": 1008}
+{"qid": 238, "pages": [1, 2, 3, 8, 13], "pred": "combshj@unk.edu", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 238, "pages": [3, 14, 19], "pred": "combshj@unk.edu", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 239, "pages": [9, 11, 12], "pred": "540", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 240, "pages": [11, 12, 16, 17, 18], "pred": "430", "input_tokens": 5158, "image_tokens": 5040}
+{"qid": 241, "pages": [5, 6, 8], "pred": "['p4']", "input_tokens": 3132, "image_tokens": 3024}
+{"qid": 242, "pages": [4, 8, 9, 13, 17], "pred": "18.4%", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 243, "pages": [8], "pred": "435000000", "input_tokens": 1093, "image_tokens": 1008}
+{"qid": 244, "pages": [15], "pred": "The impact of rezonings", "input_tokens": 1085, "image_tokens": 1008}
+{"qid": 248, "pages": [3, 4, 7, 9, 12], "pred": "0", "input_tokens": 5160, "image_tokens": 5040}
+{"qid": 249, "pages": [3, 6, 14], "pred": "['0', '0', '5']", "input_tokens": 3162, "image_tokens": 3024}
+{"qid": 250, "pages": [6, 8, 10, 11], "pred": "5", "input_tokens": 4120, "image_tokens": 4032}
+{"qid": 251, "pages": [3, 4, 12, 14, 23], "pred": "248", "input_tokens": 5022, "image_tokens": 4860}
+{"qid": 253, "pages": [3, 12, 21], "pred": "26", "input_tokens": 3021, "image_tokens": 2916}
+{"qid": 255, "pages": [4, 33, 37], "pred": "Christians", "input_tokens": 3014, "image_tokens": 2916}
+{"qid": 258, "pages": [7, 8, 9], "pred": "['Esia']", "input_tokens": 3049, "image_tokens": 2916}
+{"qid": 259, "pages": [7, 9, 10, 11, 17], "pred": "['GameQQ.net', 'XL']", "input_tokens": 4998, "image_tokens": 4860}
+{"qid": 259, "pages": [10, 11, 17], "pred": "['GameQQ.net', 'XL']", "input_tokens": 3042, "image_tokens": 2916}
+{"qid": 260, "pages": [31, 34, 37], "pred": "6", "input_tokens": 3016, "image_tokens": 2916}
+{"qid": 262, "pages": [9, 11, 31], "pred": "BlackBerry", "input_tokens": 3019, "image_tokens": 2916}
+{"qid": 265, "pages": [7, 15, 28], "pred": "4", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 267, "pages": [19, 20, 23], "pred": "3", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 269, "pages": [7, 9, 26], "pred": "5", "input_tokens": 3107, "image_tokens": 3024}
+{"qid": 270, "pages": [11], "pred": "2", "input_tokens": 1089, "image_tokens": 1008}
+{"qid": 272, "pages": [12, 60, 66, 98, 132], "pred": "Increased or sustained value", "input_tokens": 4974, "image_tokens": 4860}
+{"qid": 274, "pages": [16, 56, 179], "pred": "Customer Focused", "input_tokens": 3008, "image_tokens": 2916}
+{"qid": 275, "pages": [26, 36, 40, 144, 179], "pred": "['5', 'green', 'purple', 'blue', 'teal']", "input_tokens": 4993, "image_tokens": 4860}
+{"qid": 277, "pages": [11, 36, 57], "pred": "3", "input_tokens": 3016, "image_tokens": 2916}
+{"qid": 278, "pages": [95, 107], "pred": "13", "input_tokens": 2053, "image_tokens": 1944}
+{"qid": 280, "pages": [3, 133, 134, 135, 142], "pred": "['black', 'white']", "input_tokens": 5011, "image_tokens": 4860}
+{"qid": 281, "pages": [1, 2, 5, 6, 8], "pred": "3", "input_tokens": 5041, "image_tokens": 4940}
+{"qid": 283, "pages": [2, 3, 7], "pred": "4", "input_tokens": 3051, "image_tokens": 2964}
+{"qid": 285, "pages": [1, 2, 5, 9, 10], "pred": "Finish", "input_tokens": 5054, "image_tokens": 4940}
+{"qid": 286, "pages": [1, 2, 3, 4, 5], "pred": "Yellow", "input_tokens": 5055, "image_tokens": 4940}
+{"qid": 287, "pages": [2, 3, 6, 8, 10], "pred": "2", "input_tokens": 5049, "image_tokens": 4940}
+{"qid": 287, "pages": [6, 8, 10], "pred": "10", "input_tokens": 3061, "image_tokens": 2964}
+{"qid": 288, "pages": [6], "pred": "0.34", "input_tokens": 1081, "image_tokens": 988}
+{"qid": 289, "pages": [3, 4, 8], "pred": "2760", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 293, "pages": [3, 4, 5, 6, 7], "pred": "Blue", "input_tokens": 5164, "image_tokens": 5040}
+{"qid": 294, "pages": [4, 5, 6, 7, 9], "pred": "['62.28', '63.07', '62.62', '71.02', '75.06', '72.90']", "input_tokens": 5183, "image_tokens": 5040}
+{"qid": 295, "pages": [6, 7, 8], "pred": "0.970", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 296, "pages": [5, 8], "pred": "0.451", "input_tokens": 2117, "image_tokens": 2016}
+{"qid": 297, "pages": [2, 5, 25], "pred": "['4', '3']", "input_tokens": 3082, "image_tokens": 2964}
+{"qid": 299, "pages": [1, 2, 4, 5, 26], "pred": "3", "input_tokens": 5039, "image_tokens": 4940}
+{"qid": 300, "pages": [1, 2, 4], "pred": "109,679", "input_tokens": 3060, "image_tokens": 2964}
+{"qid": 302, "pages": [3, 4, 13], "pred": "408.72", "input_tokens": 3069, "image_tokens": 2964}
+{"qid": 303, "pages": [2, 4, 5], "pred": "1", "input_tokens": 3054, "image_tokens": 2964}
+{"qid": 305, "pages": [21, 22, 23], "pred": "3.80", "input_tokens": 3174, "image_tokens": 3024}
+{"qid": 307, "pages": [1, 25, 32, 33, 38], "pred": "Operate the unit on 100-240V AC only.", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 309, "pages": [2, 3, 5, 24, 26], "pred": "3.6 About the LCD Display Panel", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 309, "pages": [24, 25, 26, 27, 28], "pred": "3.5.4 Precautions for connecting this unit with other healthcare devices", "input_tokens": 5153, "image_tokens": 5040}
+{"qid": 311, "pages": [20, 22, 29], "pred": "3840 x 2160", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 312, "pages": [3, 8, 16], "pred": "3", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 313, "pages": [9, 10, 11, 30, 54], "pred": "2", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 315, "pages": [11, 12, 15, 17, 36], "pred": "0.00", "input_tokens": 5153, "image_tokens": 5040}
+{"qid": 315, "pages": [11, 34, 54], "pred": "0.00", "input_tokens": 3123, "image_tokens": 3024}
+{"qid": 317, "pages": [11, 15, 38], "pred": "2.0", "input_tokens": 3128, "image_tokens": 3024}
+{"qid": 318, "pages": [3, 24, 25], "pred": "600", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 319, "pages": [3, 29, 32, 35, 51], "pred": "7", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 319, "pages": [30, 31, 32], "pred": "14", "input_tokens": 3113, "image_tokens": 3024}
+{"qid": 320, "pages": [4, 24, 55], "pred": "0", "input_tokens": 3054, "image_tokens": 2964}
+{"qid": 322, "pages": [7, 8, 10], "pred": "['Application scenarios', 'Designed availability (multi-AZ)', 'Designed durability', 'Designed durability (multi-AZ)', 'Feature', 'Minimum storage duration', 'Minimum measurement unit']", "input_tokens": 3072, "image_tokens": 2964}
+{"qid": 324, "pages": [4, 12, 32, 36, 37], "pred": "Highly concurrent access for hundreds of billions of objects", "input_tokens": 5049, "image_tokens": 4940}
+{"qid": 324, "pages": [12, 36, 37, 50, 62], "pred": "Highly concurrent access for hundreds of billions of objects", "input_tokens": 5050, "image_tokens": 4940}
+{"qid": 326, "pages": [18, 21, 22], "pred": "3", "input_tokens": 3061, "image_tokens": 2964}
+{"qid": 327, "pages": [40, 41, 44], "pred": "12", "input_tokens": 3061, "image_tokens": 2964}
+{"qid": 328, "pages": [1, 4, 10, 13, 17], "pred": "0", "input_tokens": 4961, "image_tokens": 4862}
+{"qid": 328, "pages": [4, 13, 17], "pred": "0", "input_tokens": 2998, "image_tokens": 2912}
+{"qid": 330, "pages": [2, 11, 13, 14, 16], "pred": "['4', '3']", "input_tokens": 4938, "image_tokens": 4810}
+{"qid": 331, "pages": [2, 9, 10, 11, 17], "pred": "['0']", "input_tokens": 4963, "image_tokens": 4836}
+{"qid": 332, "pages": [2, 11, 12, 13, 16], "pred": "1", "input_tokens": 4920, "image_tokens": 4810}
+{"qid": 333, "pages": [2, 9, 16], "pred": "0", "input_tokens": 2975, "image_tokens": 2886}
+{"qid": 333, "pages": [8, 9, 12, 13, 16], "pred": "0", "input_tokens": 4913, "image_tokens": 4810}
+{"qid": 334, "pages": [2, 11, 12], "pred": "Leaders in Education Programme", "input_tokens": 2973, "image_tokens": 2886}
+{"qid": 335, "pages": [5, 6, 8, 9, 11], "pred": "['Master of Arts (Applied Psychology)', 'Master of Arts (Counselling & Guidance)']", "input_tokens": 4934, "image_tokens": 4810}
+{"qid": 336, "pages": [2, 3, 6, 8, 16], "pred": "10", "input_tokens": 4999, "image_tokens": 4900}
+{"qid": 338, "pages": [10], "pred": "['15', '9']", "input_tokens": 1076, "image_tokens": 980}
+{"qid": 338, "pages": [10, 15, 20], "pred": "['15', '9']", "input_tokens": 3050, "image_tokens": 2940}
+{"qid": 340, "pages": [2, 11, 14], "pred": "6", "input_tokens": 3040, "image_tokens": 2940}
+{"qid": 341, "pages": [17, 18], "pred": "['7', '5', '2']", "input_tokens": 2079, "image_tokens": 1960}
+{"qid": 342, "pages": [4, 19, 20], "pred": "['COMPUTING COMMONS', 'MULTIMEDIA HUB']", "input_tokens": 3048, "image_tokens": 2940}
+{"qid": 343, "pages": [7], "pred": "44", "input_tokens": 1089, "image_tokens": 1008}
+{"qid": 345, "pages": [7], "pred": "16", "input_tokens": 1101, "image_tokens": 1008}
+{"qid": 347, "pages": [6, 8, 9], "pred": "10", "input_tokens": 3119, "image_tokens": 3024}
+{"qid": 348, "pages": [4, 5, 7], "pred": "29", "input_tokens": 3136, "image_tokens": 3024}
+{"qid": 350, "pages": [1, 14, 15], "pred": "21", "input_tokens": 3133, "image_tokens": 3024}
+{"qid": 351, "pages": [4, 6, 7, 16, 17], "pred": "3", "input_tokens": 5177, "image_tokens": 5040}
+{"qid": 352, "pages": [1, 20, 21], "pred": "47", "input_tokens": 3150, "image_tokens": 3024}
+{"qid": 353, "pages": [4, 19, 21], "pred": "19", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 355, "pages": [4, 8, 19, 20, 21], "pred": "Cons/Mod Dem", "input_tokens": 5164, "image_tokens": 5040}
+{"qid": 357, "pages": [4, 9, 14], "pred": "53", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 359, "pages": [5, 7, 8], "pred": "24", "input_tokens": 3139, "image_tokens": 3024}
+{"qid": 360, "pages": [1, 4, 14], "pred": "35", "input_tokens": 3128, "image_tokens": 3024}
+{"qid": 362, "pages": [1, 5, 6, 8, 16], "pred": "3", "input_tokens": 5178, "image_tokens": 5040}
+{"qid": 362, "pages": [5, 14, 16], "pred": "21", "input_tokens": 3151, "image_tokens": 3024}
+{"qid": 363, "pages": [8, 17, 18], "pred": "11", "input_tokens": 3137, "image_tokens": 3024}
+{"qid": 364, "pages": [8, 10, 11], "pred": "['State Bank of India', 'Bank of Baroda', 'Bank of India', 'Citibank N.A.', 'State Bank of Hyderabad', 'State Bank of Travancore', 'The Hongkong and Shanghai Banking Corporation', 'Union Bank of India']", "input_tokens": 3068, "image_tokens": 2964}
+{"qid": 366, "pages": [1, 2, 3, 4, 15], "pred": "2.4", "input_tokens": 5054, "image_tokens": 4940}
+{"qid": 368, "pages": [8, 10, 13, 15, 18], "pred": "['Andheri (Mumbai)', 'Guldhara (Ghaziabad)']", "input_tokens": 5057, "image_tokens": 4940}
+{"qid": 368, "pages": [13, 15, 20], "pred": "['Andheri(Mumbai)', 'Guldharn(Ghaziabad)']", "input_tokens": 3068, "image_tokens": 2964}
+{"qid": 370, "pages": [9, 11, 12], "pred": "Mr. R.A. Shah", "input_tokens": 3051, "image_tokens": 2964}
+{"qid": 371, "pages": [9, 10, 12], "pred": "27", "input_tokens": 3073, "image_tokens": 2964}
+{"qid": 372, "pages": [9], "pred": "['Mr. R.A. Shah', 'Mr. Anup N. Kothari', 'Mr. C.M. Maniar', 'Mr. O.P. Vaish']", "input_tokens": 1089, "image_tokens": 988}
+{"qid": 373, "pages": [4, 13, 18, 19, 20], "pred": "16.7", "input_tokens": 5056, "image_tokens": 4940}
+{"qid": 377, "pages": [2, 4, 6, 11, 13], "pred": "['1981-82', '2001-02']", "input_tokens": 5077, "image_tokens": 4940}
+{"qid": 377, "pages": [11, 12, 13, 19, 20], "pred": "['Apr-02', 'May-02', 'Jun-02', 'Jul-02', 'Aug-02', 'Sep-02', 'Oct-02', 'Nov-02', 'Dec-02', 'Jan-03', 'Feb-03', 'Mar-03']", "input_tokens": 5080, "image_tokens": 4940}
+{"qid": 378, "pages": [5, 16, 20], "pred": "4", "input_tokens": 3048, "image_tokens": 2964}
+{"qid": 379, "pages": [8, 9, 10, 11, 12], "pred": "13", "input_tokens": 5061, "image_tokens": 4940}
+{"qid": 380, "pages": [9, 12, 18, 19, 20], "pred": "764812", "input_tokens": 5057, "image_tokens": 4940}
+{"qid": 381, "pages": [1, 3, 17], "pred": "2", "input_tokens": 3106, "image_tokens": 3024}
+{"qid": 382, "pages": [4, 6, 10, 15, 16], "pred": "2", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 383, "pages": [1, 2, 5, 6, 11], "pred": "Florida Department of Health", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 383, "pages": [2, 5, 11], "pred": "Florida Department of Health", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 385, "pages": [3, 4, 11, 12, 14], "pred": "['Executive', 'Summary']", "input_tokens": 5155, "image_tokens": 5040}
+{"qid": 386, "pages": [5], "pred": "By December 31, 2018, reduce the average time to issue a facility license from 60 days (2015) to 45 days.", "input_tokens": 1084, "image_tokens": 1008}
+{"qid": 387, "pages": [1, 3, 7, 9, 10], "pred": "Rick Scott", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 389, "pages": [1, 3, 5], "pred": "6", "input_tokens": 3107, "image_tokens": 3024}
+{"qid": 389, "pages": [1, 7, 10], "pred": "6", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 390, "pages": [1, 6, 11], "pred": "0", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 391, "pages": [3, 10, 17], "pred": "Appendix B", "input_tokens": 3110, "image_tokens": 3024}
+{"qid": 393, "pages": [1, 2, 15], "pred": "['Division', 'of']", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 396, "pages": [3, 11, 13], "pred": "['20', '14']", "input_tokens": 3130, "image_tokens": 3024}
+{"qid": 398, "pages": [2, 3, 17], "pred": "5", "input_tokens": 3105, "image_tokens": 3024}
+{"qid": 399, "pages": [4, 7, 9, 11, 13], "pred": "6", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 399, "pages": [7, 9, 13, 14, 15], "pred": "10", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 402, "pages": [4, 5, 6, 16, 71], "pred": "['Duplication of chromosome and separation of copies', 'Continued elongation of the cell and movement of copies', 'Division into two daughter cells']", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 403, "pages": [1, 28, 48], "pred": "['Chapter 8', 'Chapter 9', 'Chapter 10']", "input_tokens": 3137, "image_tokens": 3024}
+{"qid": 404, "pages": [1, 28, 48], "pred": "Leopard", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 407, "pages": [1, 38, 48], "pred": "2", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 409, "pages": [17, 27, 55], "pred": "['Anaphase I', 'Telophase II']", "input_tokens": 3127, "image_tokens": 3024}
+{"qid": 412, "pages": [3, 4, 6, 7, 18], "pred": "milk giving black young buffalo", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 413, "pages": [1, 8, 9, 10, 15], "pred": "45%", "input_tokens": 5152, "image_tokens": 5040}
+{"qid": 414, "pages": [1, 8, 15], "pred": "91.77", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 416, "pages": [1, 8, 12, 14, 16], "pred": "4.3", "input_tokens": 5147, "image_tokens": 5040}
+{"qid": 418, "pages": [1, 8, 12, 15, 20], "pred": "399 million", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 420, "pages": [8, 11, 17], "pred": "14.7%", "input_tokens": 3117, "image_tokens": 3024}
+{"qid": 422, "pages": [22, 26, 27], "pred": "9", "input_tokens": 3110, "image_tokens": 3024}
+{"qid": 425, "pages": [10, 11, 14, 17, 19], "pred": "['Hacking Skills', 'Substantive Expertise']", "input_tokens": 4972, "image_tokens": 4860}
+{"qid": 425, "pages": [11, 17, 19, 37, 40], "pred": "['Hacking Skills', 'Math & Statistics Knowledge']", "input_tokens": 4972, "image_tokens": 4860}
+{"qid": 426, "pages": [2, 12, 17], "pred": "['cat', 'dog']", "input_tokens": 3011, "image_tokens": 2916}
+{"qid": 428, "pages": [23, 33, 67], "pred": "['Hinton', 'Bengio', 'LeCun']", "input_tokens": 3014, "image_tokens": 2916}
+{"qid": 429, "pages": [9, 28], "pred": "2", "input_tokens": 2025, "image_tokens": 1944}
+{"qid": 433, "pages": [3, 37, 57, 61, 62], "pred": "Dog", "input_tokens": 4959, "image_tokens": 4860}
+{"qid": 434, "pages": [33, 35, 46, 49, 52], "pred": "Dogs vs. Cats", "input_tokens": 4967, "image_tokens": 4860}
+{"qid": 435, "pages": [4, 42, 49], "pred": "8", "input_tokens": 3003, "image_tokens": 2916}
+{"qid": 436, "pages": [1, 3, 5], "pred": "46,800", "input_tokens": 3052, "image_tokens": 2964}
+{"qid": 438, "pages": [1, 5, 6, 15, 19], "pred": "The Eiffel Tower", "input_tokens": 5047, "image_tokens": 4940}
+{"qid": 438, "pages": [6, 17, 19], "pred": "Abel Tasman National Park", "input_tokens": 3059, "image_tokens": 2964}
+{"qid": 439, "pages": [13], "pred": "2408", "input_tokens": 1072, "image_tokens": 988}
+{"qid": 442, "pages": [1, 5, 14, 17, 19], "pred": "2", "input_tokens": 5042, "image_tokens": 4940}
+{"qid": 442, "pages": [17, 19], "pred": "2", "input_tokens": 2059, "image_tokens": 1976}
+{"qid": 444, "pages": [2, 7, 13, 23, 27], "pred": "flower", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 444, "pages": [13, 21, 23], "pred": "Plant", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 446, "pages": [8, 9, 21], "pred": "Mercedes-Benz E-Class Sedan", "input_tokens": 3113, "image_tokens": 3024}
+{"qid": 448, "pages": [6, 7, 11, 13, 21], "pred": "3", "input_tokens": 5156, "image_tokens": 5040}
+{"qid": 449, "pages": [4, 21, 22, 25, 28], "pred": "2", "input_tokens": 5141, "image_tokens": 5040}
+{"qid": 451, "pages": [2, 24, 27], "pred": "1.8", "input_tokens": 3134, "image_tokens": 3024}
+{"qid": 452, "pages": [7, 8, 9, 13, 14], "pred": "10", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 453, "pages": [1], "pred": "4", "input_tokens": 1077, "image_tokens": 1008}
+{"qid": 453, "pages": [1, 12, 29, 31, 33], "pred": "4", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 454, "pages": [1, 30, 32], "pred": "0.8", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 456, "pages": [4, 7, 13], "pred": "11.8", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 457, "pages": [1, 13, 20, 23, 35], "pred": "0.16", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 459, "pages": [1, 6, 7, 12, 29], "pred": "3", "input_tokens": 5135, "image_tokens": 5040}
+{"qid": 459, "pages": [12, 23, 29], "pred": "2", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 460, "pages": [6, 12], "pred": "65.4", "input_tokens": 2114, "image_tokens": 2016}
+{"qid": 461, "pages": [19, 21, 22, 24, 58], "pred": "6", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 462, "pages": [21, 26, 43], "pred": "7", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 462, "pages": [37, 42, 43], "pred": "8", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 463, "pages": [51, 52], "pred": "Right", "input_tokens": 2097, "image_tokens": 2016}
+{"qid": 464, "pages": [119], "pred": "2", "input_tokens": 1082, "image_tokens": 1008}
+{"qid": 465, "pages": [56, 80, 159], "pred": "SC", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 467, "pages": [72, 73, 112], "pred": "Iron", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 469, "pages": [4, 28, 29, 91, 150], "pred": "4", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 472, "pages": [10, 15, 24, 25, 105], "pred": "16", "input_tokens": 5047, "image_tokens": 4940}
+{"qid": 473, "pages": [3, 16, 29], "pred": "10", "input_tokens": 3047, "image_tokens": 2964}
+{"qid": 474, "pages": [4, 14, 50, 60, 70], "pred": "21:00", "input_tokens": 5045, "image_tokens": 4940}
+{"qid": 474, "pages": [50, 63, 68], "pred": "14:00", "input_tokens": 3056, "image_tokens": 2964}
+{"qid": 477, "pages": [1, 39, 105], "pred": "7", "input_tokens": 3051, "image_tokens": 2964}
+{"qid": 478, "pages": [29, 88, 89, 102, 104], "pred": "['Boiler: over-temperature', 'Heater error']", "input_tokens": 5060, "image_tokens": 4940}
+{"qid": 478, "pages": [88, 89, 102], "pred": "['Boiler: over-temperature', 'Heater error']", "input_tokens": 3069, "image_tokens": 2964}
+{"qid": 480, "pages": [1, 4, 8], "pred": "Red", "input_tokens": 3105, "image_tokens": 3024}
+{"qid": 482, "pages": [3], "pred": "3", "input_tokens": 1075, "image_tokens": 1008}
+{"qid": 483, "pages": [6, 10, 11, 19, 25], "pred": "4G network", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 484, "pages": [4, 14, 15, 16, 25], "pred": "9", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 484, "pages": [14, 21, 24], "pred": "7", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 485, "pages": [3, 4, 11, 25, 26], "pred": "['XSE V6', 'TRD']", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 487, "pages": [3, 4, 5], "pred": "2", "input_tokens": 3105, "image_tokens": 3024}
+{"qid": 487, "pages": [4, 5, 25], "pred": "0", "input_tokens": 3106, "image_tokens": 3024}
+{"qid": 488, "pages": [5, 17, 23, 24, 26], "pred": "37%", "input_tokens": 4944, "image_tokens": 4830}
+{"qid": 490, "pages": [2, 7, 13], "pred": "86", "input_tokens": 2980, "image_tokens": 2898}
+{"qid": 492, "pages": [1, 8, 9, 19, 22], "pred": "3", "input_tokens": 4924, "image_tokens": 4830}
+{"qid": 492, "pages": [8, 19, 22], "pred": "3", "input_tokens": 2980, "image_tokens": 2898}
+{"qid": 493, "pages": [3, 9, 16], "pred": "['cat']", "input_tokens": 2996, "image_tokens": 2898}
+{"qid": 494, "pages": [4, 11, 24], "pred": "5%", "input_tokens": 3007, "image_tokens": 2898}
+{"qid": 495, "pages": [10, 15, 16, 18, 24], "pred": "4", "input_tokens": 4935, "image_tokens": 4830}
+{"qid": 496, "pages": [5, 6, 12], "pred": "3", "input_tokens": 3130, "image_tokens": 3024}
+{"qid": 497, "pages": [5], "pred": "68", "input_tokens": 1102, "image_tokens": 1008}
+{"qid": 497, "pages": [5, 19, 22, 24, 28], "pred": "13", "input_tokens": 5162, "image_tokens": 5040}
+{"qid": 498, "pages": [24, 25, 26, 27, 28], "pred": "Surname", "input_tokens": 5163, "image_tokens": 5040}
+{"qid": 499, "pages": [9, 10, 11, 17, 22], "pred": "65", "input_tokens": 5164, "image_tokens": 5040}
+{"qid": 500, "pages": [7, 9, 16], "pred": "gray", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 501, "pages": [9, 10, 19, 21, 22], "pred": "57", "input_tokens": 5156, "image_tokens": 5040}
+{"qid": 502, "pages": [23, 72, 73, 77, 95], "pred": "Cubans", "input_tokens": 5157, "image_tokens": 5040}
+{"qid": 503, "pages": [14, 17, 56, 57, 65], "pred": "Cuban", "input_tokens": 5171, "image_tokens": 5040}
+{"qid": 503, "pages": [15, 17, 53, 56, 57], "pred": "Cuban", "input_tokens": 5171, "image_tokens": 5040}
+{"qid": 504, "pages": [22, 36, 97], "pred": "51", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 504, "pages": [97], "pred": "46", "input_tokens": 1082, "image_tokens": 1008}
+{"qid": 507, "pages": [4, 6, 8, 10, 11], "pred": "Little Rock", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 507, "pages": [8], "pred": "Little Rock", "input_tokens": 1081, "image_tokens": 1008}
+{"qid": 509, "pages": [3, 8, 9], "pred": "4", "input_tokens": 3105, "image_tokens": 3024}
+{"qid": 511, "pages": [4, 8, 10, 14, 18], "pred": "Previous section", "input_tokens": 5141, "image_tokens": 5040}
+{"qid": 513, "pages": [4, 5, 10], "pred": "12", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 515, "pages": [1, 2], "pred": "5", "input_tokens": 2092, "image_tokens": 2016}
+{"qid": 515, "pages": [1, 2, 15], "pred": "5", "input_tokens": 3107, "image_tokens": 3024}
+{"qid": 516, "pages": [6, 9, 10], "pred": "no", "input_tokens": 3129, "image_tokens": 3024}
+{"qid": 517, "pages": [4, 8, 9, 10, 13], "pred": "CA19", "input_tokens": 5163, "image_tokens": 5040}
+{"qid": 517, "pages": [9, 10, 13, 16, 18], "pred": "CA19", "input_tokens": 5165, "image_tokens": 5040}
+{"qid": 518, "pages": [5, 12, 17], "pred": "right", "input_tokens": 3136, "image_tokens": 3024}
+{"qid": 519, "pages": [11, 13, 16, 18, 23], "pred": "Facebook", "input_tokens": 5008, "image_tokens": 4860}
+{"qid": 522, "pages": [10, 11, 23], "pred": "4257", "input_tokens": 3018, "image_tokens": 2916}
+{"qid": 525, "pages": [1, 6, 11, 15, 18], "pred": "32", "input_tokens": 5032, "image_tokens": 4860}
+{"qid": 525, "pages": [15, 18, 23], "pred": "32", "input_tokens": 3076, "image_tokens": 2916}
+{"qid": 526, "pages": [16], "pred": "Target", "input_tokens": 1043, "image_tokens": 972}
+{"qid": 527, "pages": [19, 20, 24], "pred": "62", "input_tokens": 3017, "image_tokens": 2916}
+{"qid": 529, "pages": [13, 23, 24], "pred": "['Post Reach', 'Video Views']", "input_tokens": 3020, "image_tokens": 2916}
+{"qid": 531, "pages": [12, 13, 14], "pred": "00:04:14", "input_tokens": 3000, "image_tokens": 2916}
+{"qid": 533, "pages": [7, 15, 16, 20, 22], "pred": "Direct", "input_tokens": 4965, "image_tokens": 4860}
+{"qid": 534, "pages": [2, 8], "pred": "AWS", "input_tokens": 2032, "image_tokens": 1944}
+{"qid": 534, "pages": [29, 34, 36], "pred": "Facebook, AWS, Cargo and Manta", "input_tokens": 3013, "image_tokens": 2916}
+{"qid": 535, "pages": [23, 29, 34], "pred": "1", "input_tokens": 3000, "image_tokens": 2916}
+{"qid": 536, "pages": [28], "pred": "Recreation / Travel", "input_tokens": 1042, "image_tokens": 972}
+{"qid": 537, "pages": [25], "pred": "137", "input_tokens": 1047, "image_tokens": 972}
+{"qid": 539, "pages": [17, 65, 84, 153, 161], "pred": "Red", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 539, "pages": [153], "pred": "Red", "input_tokens": 1089, "image_tokens": 1008}
+{"qid": 540, "pages": [133, 141, 142, 143, 144], "pred": "YouTube Music", "input_tokens": 5155, "image_tokens": 5040}
+{"qid": 541, "pages": [121, 135, 136, 137, 141], "pred": "$49.99", "input_tokens": 5152, "image_tokens": 5040}
+{"qid": 542, "pages": [22, 34, 72, 126, 133], "pred": "85", "input_tokens": 5147, "image_tokens": 5040}
+{"qid": 542, "pages": [133, 134, 138], "pred": "85", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 543, "pages": [71, 130, 131], "pred": "Ukraine", "input_tokens": 3126, "image_tokens": 3024}
+{"qid": 544, "pages": [116, 117, 118], "pred": "JooDee", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 545, "pages": [7, 15, 24, 25, 26], "pred": "91", "input_tokens": 5179, "image_tokens": 5070}
+{"qid": 546, "pages": [8, 12, 14, 24, 25], "pred": "person", "input_tokens": 5178, "image_tokens": 5070}
+{"qid": 547, "pages": [9, 10, 12, 13, 23], "pred": "57.3", "input_tokens": 5184, "image_tokens": 5070}
+{"qid": 549, "pages": [2, 11, 22, 23, 24], "pred": "Red", "input_tokens": 5185, "image_tokens": 5070}
+{"qid": 549, "pages": [22], "pred": "Red", "input_tokens": 1102, "image_tokens": 1014}
+{"qid": 551, "pages": [12, 19, 42, 43, 44], "pred": "+65 6778-0808", "input_tokens": 5004, "image_tokens": 4900}
+{"qid": 553, "pages": [5, 12, 18], "pred": "179", "input_tokens": 3028, "image_tokens": 2940}
+{"qid": 554, "pages": [3, 7, 27, 28, 36], "pred": "9", "input_tokens": 5017, "image_tokens": 4900}
+{"qid": 555, "pages": [6, 13, 34, 38, 42], "pred": "Starbucks", "input_tokens": 5001, "image_tokens": 4900}
+{"qid": 555, "pages": [8, 32, 34], "pred": "Starbucks", "input_tokens": 3027, "image_tokens": 2940}
+{"qid": 556, "pages": [13, 24, 34, 35, 37], "pred": "['Development Bank of Singapore (DBS)', 'Overseas-Chinese Banking Corporation (OCBC)', 'POSBank', 'United Overseas Bank Ltd (UOB)']", "input_tokens": 5013, "image_tokens": 4900}
+{"qid": 557, "pages": [46, 117, 118, 141, 388], "pred": "blue", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 558, "pages": [148, 275, 336, 337, 368], "pred": "DecoupledSOLOHead", "input_tokens": 5170, "image_tokens": 5040}
+{"qid": 558, "pages": [336, 337, 368], "pred": "DecoupledSOLOHead", "input_tokens": 3138, "image_tokens": 3024}
+{"qid": 560, "pages": [75, 258, 259, 260, 262], "pred": "7", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 561, "pages": [55, 180, 229], "pred": "YOLACT", "input_tokens": 3110, "image_tokens": 3024}
+{"qid": 562, "pages": [2, 11, 12, 18, 21], "pred": "['46', '64']", "input_tokens": 5192, "image_tokens": 5040}
+{"qid": 564, "pages": [2, 15, 16], "pred": "Iran's nuclear program", "input_tokens": 3139, "image_tokens": 3024}
+{"qid": 566, "pages": [5, 15, 18, 23, 27], "pred": "4", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 567, "pages": [16, 17, 18, 19, 20], "pred": "optimism", "input_tokens": 5177, "image_tokens": 5040}
+{"qid": 568, "pages": [9, 18, 31, 41, 44], "pred": "-16", "input_tokens": 5174, "image_tokens": 5040}
+{"qid": 568, "pages": [44, 48, 61], "pred": "-5", "input_tokens": 3145, "image_tokens": 3024}
+{"qid": 570, "pages": [14, 62, 68, 82, 83], "pred": "25", "input_tokens": 5181, "image_tokens": 5040}
+{"qid": 571, "pages": [6, 8, 59, 65, 70], "pred": "gender discrimination, sexual harassment", "input_tokens": 5170, "image_tokens": 5040}
+{"qid": 571, "pages": [6, 13, 55, 59, 68], "pred": "Earned less than a woman/man doing same job, Were treated as if they were not competent, Experienced repeated, small slights at work, Received less support from senior leaders", "input_tokens": 5171, "image_tokens": 5040}
+{"qid": 575, "pages": [6, 10, 29, 33, 61], "pred": "0.82", "input_tokens": 5164, "image_tokens": 5040}
+{"qid": 575, "pages": [12, 29, 57], "pred": "0.66", "input_tokens": 3135, "image_tokens": 3024}
+{"qid": 576, "pages": [7, 8, 9, 10, 20], "pred": "1954", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 578, "pages": [1, 3, 7, 12, 15], "pred": "2003-10-07", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 579, "pages": [1, 3, 4, 9, 14], "pred": "no", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 579, "pages": [3, 12, 14], "pred": "no", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 581, "pages": [1, 4, 9], "pred": "6", "input_tokens": 3111, "image_tokens": 3024}
+{"qid": 582, "pages": [1, 5, 6, 7, 8], "pred": "0", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 583, "pages": [2, 3, 12, 13, 14], "pred": "2021-02-08", "input_tokens": 5141, "image_tokens": 5040}
+{"qid": 583, "pages": [14], "pred": "2021-02-08", "input_tokens": 1083, "image_tokens": 1008}
+{"qid": 585, "pages": [12, 14, 15], "pred": "514-312-0292", "input_tokens": 3113, "image_tokens": 3024}
+{"qid": 587, "pages": [1, 3, 12], "pred": "Superior Court", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 588, "pages": [2, 7, 12, 14, 15], "pred": "lnahmiash@infavocats.com", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 592, "pages": [1, 2, 9, 10, 12], "pred": "['2', '9']", "input_tokens": 5168, "image_tokens": 5040}
+{"qid": 593, "pages": [1, 8, 9, 14, 16], "pred": "Special Agent Marc Silski", "input_tokens": 5134, "image_tokens": 5040}
+{"qid": 594, "pages": [2, 10, 11, 12, 13], "pred": "['$35,000', '$40,684']", "input_tokens": 5160, "image_tokens": 5040}
+{"qid": 595, "pages": [1, 9, 13, 14, 15], "pred": "239516", "input_tokens": 5138, "image_tokens": 5040}
+{"qid": 597, "pages": [2, 3, 10, 13, 14], "pred": "['13']", "input_tokens": 5163, "image_tokens": 5040}
+{"qid": 597, "pages": [13, 14], "pred": "['13', '14']", "input_tokens": 2120, "image_tokens": 2016}
+{"qid": 598, "pages": [15, 16], "pred": "18", "input_tokens": 2113, "image_tokens": 2016}
+{"qid": 600, "pages": [15, 16], "pred": "2.0", "input_tokens": 2108, "image_tokens": 2016}
+{"qid": 601, "pages": [14, 15, 29], "pred": "85", "input_tokens": 3016, "image_tokens": 2916}
+{"qid": 603, "pages": [22, 24, 41], "pred": "President", "input_tokens": 3011, "image_tokens": 2916}
+{"qid": 605, "pages": [3, 41, 43], "pred": "+1-615-591-2955", "input_tokens": 3016, "image_tokens": 2916}
+{"qid": 607, "pages": [37, 38], "pred": "122", "input_tokens": 2037, "image_tokens": 1944}
+{"qid": 611, "pages": [14, 29, 40], "pred": "69", "input_tokens": 3016, "image_tokens": 2916}
+{"qid": 613, "pages": [19, 55, 64], "pred": "Upper thoracic esophagus", "input_tokens": 3013, "image_tokens": 2916}
+{"qid": 616, "pages": [13, 20, 39, 53, 77], "pred": "bottom", "input_tokens": 4979, "image_tokens": 4860}
+{"qid": 616, "pages": [77], "pred": "bottom", "input_tokens": 1063, "image_tokens": 972}
+{"qid": 618, "pages": [14, 32, 40], "pred": "2", "input_tokens": 3008, "image_tokens": 2916}
+{"qid": 620, "pages": [36, 45, 48], "pred": "1", "input_tokens": 3008, "image_tokens": 2916}
+{"qid": 621, "pages": [4, 5, 22, 44, 46], "pred": "2007", "input_tokens": 4988, "image_tokens": 4860}
+{"qid": 622, "pages": [26, 42, 48], "pred": "2", "input_tokens": 3000, "image_tokens": 2916}
+{"qid": 623, "pages": [4, 5, 6, 42, 48], "pred": "+10", "input_tokens": 4968, "image_tokens": 4860}
+{"qid": 625, "pages": [10, 12, 48], "pred": "2", "input_tokens": 3002, "image_tokens": 2916}
+{"qid": 626, "pages": [5, 6, 8, 18, 19], "pred": "204", "input_tokens": 5049, "image_tokens": 4940}
+{"qid": 628, "pages": [8, 9, 15, 17, 19], "pred": "4", "input_tokens": 5052, "image_tokens": 4940}
+{"qid": 630, "pages": [5, 6, 14], "pred": "2", "input_tokens": 3046, "image_tokens": 2964}
+{"qid": 631, "pages": [2, 7, 8], "pred": "1", "input_tokens": 3068, "image_tokens": 2964}
+{"qid": 632, "pages": [1, 3, 4, 5, 9], "pred": "Pyke", "input_tokens": 5045, "image_tokens": 4940}
+{"qid": 633, "pages": [1, 2, 6], "pred": "AR-LSAT", "input_tokens": 3066, "image_tokens": 2964}
+{"qid": 634, "pages": [1, 2, 3, 4, 7], "pred": "['Fact', 'QA']", "input_tokens": 5080, "image_tokens": 4940}
+{"qid": 634, "pages": [2, 4, 7], "pred": "['Fact', 'QA']", "input_tokens": 3092, "image_tokens": 2964}
+{"qid": 636, "pages": [8, 14, 15, 20, 23], "pred": "4", "input_tokens": 5040, "image_tokens": 4940}
+{"qid": 637, "pages": [4, 5, 15], "pred": "2", "input_tokens": 3067, "image_tokens": 2964}
+{"qid": 639, "pages": [7, 8, 9], "pred": "Token", "input_tokens": 3051, "image_tokens": 2964}
+{"qid": 641, "pages": [5, 6, 7, 8, 15], "pred": "54.2", "input_tokens": 5072, "image_tokens": 4940}
+{"qid": 642, "pages": [5, 6, 7, 8, 16], "pred": "['91.7', '74.1', '70.3', '69.3']", "input_tokens": 5083, "image_tokens": 4940}
+{"qid": 643, "pages": [2, 4, 5, 6, 8], "pred": "Training-time correction", "input_tokens": 5055, "image_tokens": 4940}
+{"qid": 643, "pages": [4, 5, 11], "pred": "Training-time correction", "input_tokens": 3068, "image_tokens": 2964}
+{"qid": 645, "pages": [4, 5, 6, 7, 8], "pred": "['3', '2', '3']", "input_tokens": 5073, "image_tokens": 4940}
+{"qid": 647, "pages": [5, 6, 9], "pred": "0", "input_tokens": 3079, "image_tokens": 2964}
+{"qid": 648, "pages": [4, 5, 8, 9, 10], "pred": "0.0", "input_tokens": 5059, "image_tokens": 4940}
+{"qid": 648, "pages": [6, 10], "pred": "5.0", "input_tokens": 2077, "image_tokens": 1976}
+{"qid": 649, "pages": [5, 6, 16, 19, 20], "pred": "0", "input_tokens": 5055, "image_tokens": 4940}
+{"qid": 653, "pages": [4, 9, 16, 17, 18], "pred": "Department of Economics", "input_tokens": 4925, "image_tokens": 4810}
+{"qid": 653, "pages": [4, 18, 20], "pred": "Department of Economics", "input_tokens": 2988, "image_tokens": 2886}
+{"qid": 655, "pages": [2, 4, 28], "pred": "Sociology", "input_tokens": 2980, "image_tokens": 2886}
+{"qid": 656, "pages": [29], "pred": "1", "input_tokens": 1048, "image_tokens": 962}
+{"qid": 658, "pages": [3, 6, 21], "pred": "3", "input_tokens": 3058, "image_tokens": 2975}
+{"qid": 659, "pages": [4, 8, 11], "pred": "Port 2", "input_tokens": 3075, "image_tokens": 2986}
+{"qid": 661, "pages": [15, 16], "pred": "0", "input_tokens": 2098, "image_tokens": 1998}
+{"qid": 662, "pages": [13, 14, 18], "pred": "['9']", "input_tokens": 3121, "image_tokens": 2997}
+{"qid": 663, "pages": [2, 3, 18], "pred": "2", "input_tokens": 3069, "image_tokens": 2986}
+{"qid": 664, "pages": [2, 5, 6, 9, 26], "pred": "yes", "input_tokens": 5070, "image_tokens": 4950}
+{"qid": 666, "pages": [2, 4, 7], "pred": "after", "input_tokens": 3073, "image_tokens": 2970}
+{"qid": 667, "pages": [2, 10, 13, 14, 20], "pred": "To remove the crisper", "input_tokens": 5058, "image_tokens": 4950}
+{"qid": 668, "pages": [8, 10, 13, 15, 17], "pred": "3.0", "input_tokens": 5054, "image_tokens": 4950}
+{"qid": 668, "pages": [12, 14, 17], "pred": "3.0", "input_tokens": 3061, "image_tokens": 2970}
+{"qid": 669, "pages": [2, 11, 22], "pred": "Express Connect", "input_tokens": 3052, "image_tokens": 2964}
+{"qid": 671, "pages": [13, 21, 23], "pred": "4", "input_tokens": 3059, "image_tokens": 2964}
+{"qid": 673, "pages": [8, 9, 13], "pred": "12.0", "input_tokens": 3060, "image_tokens": 2964}
+{"qid": 675, "pages": [5, 8, 15], "pred": "18", "input_tokens": 3050, "image_tokens": 2964}
+{"qid": 676, "pages": [5, 6, 8, 14, 15], "pred": "['Dubai', 'Hong Kong', 'London', 'New York', 'Paris', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']", "input_tokens": 5060, "image_tokens": 4940}
+{"qid": 677, "pages": [3, 7, 9, 10, 22], "pred": "['Academic Professional Skills and Techniques', 'Research Ethics and Scientific Integrity', 'Interface Sciences and Engineering']", "input_tokens": 5058, "image_tokens": 4940}
+{"qid": 680, "pages": [3, 4, 5], "pred": "3", "input_tokens": 3045, "image_tokens": 2964}
+{"qid": 681, "pages": [9, 10, 11], "pred": "10", "input_tokens": 3058, "image_tokens": 2964}
+{"qid": 682, "pages": [13], "pred": "['Jun', 'Aug']", "input_tokens": 1097, "image_tokens": 988}
+{"qid": 683, "pages": [7, 26, 31, 34, 37], "pred": "['92']", "input_tokens": 5162, "image_tokens": 5040}
+{"qid": 684, "pages": [4, 10, 16, 19, 22], "pred": "men", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 686, "pages": [2, 7, 44], "pred": "1", "input_tokens": 3106, "image_tokens": 3024}
+{"qid": 687, "pages": [4, 7, 28, 29, 30], "pred": "Clinton", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 688, "pages": [2, 7, 9, 12, 34], "pred": "2", "input_tokens": 5136, "image_tokens": 5040}
+{"qid": 688, "pages": [7, 34], "pred": "2", "input_tokens": 2093, "image_tokens": 2016}
+{"qid": 689, "pages": [8, 9, 12], "pred": "['53%', '16%']", "input_tokens": 3129, "image_tokens": 3024}
+{"qid": 691, "pages": [3, 11, 21, 22, 23], "pred": "0", "input_tokens": 5136, "image_tokens": 5040}
+{"qid": 692, "pages": [6, 7, 8, 9, 10], "pred": "49", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 694, "pages": [5, 16, 17, 19, 20], "pred": "50", "input_tokens": 5143, "image_tokens": 5040}
+{"qid": 696, "pages": [6, 7, 10, 13, 15], "pred": "['36', '30']", "input_tokens": 5183, "image_tokens": 5040}
+{"qid": 700, "pages": [1, 3, 5, 11, 15], "pred": "['48897809', '515,2012']", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 702, "pages": [9, 10, 12, 13, 14], "pred": "Wong v. Allison", "input_tokens": 5155, "image_tokens": 5040}
+{"qid": 704, "pages": [1, 2, 5], "pred": "Diane Hanson", "input_tokens": 3104, "image_tokens": 3024}
+{"qid": 708, "pages": [6, 7, 8], "pred": "phenylalanine", "input_tokens": 3008, "image_tokens": 2916}
+{"qid": 709, "pages": [2, 5, 7, 17, 18], "pred": "['Base excision repair (BER)', 'Nucleotide excision repair (NER)', 'Direct reversal repair', 'Mismatch repair (MMR)', 'Recombination repair']", "input_tokens": 4968, "image_tokens": 4860}
+{"qid": 711, "pages": [2, 7, 8, 14, 16], "pred": "['second']", "input_tokens": 4969, "image_tokens": 4860}
+{"qid": 711, "pages": [8, 16, 18], "pred": "['third']", "input_tokens": 3013, "image_tokens": 2916}
+{"qid": 712, "pages": [1, 6, 8, 18, 19], "pred": "http://www.sciencedirect.com", "input_tokens": 4955, "image_tokens": 4860}
+{"qid": 714, "pages": [3, 4, 6, 9, 10], "pred": "2008", "input_tokens": 5039, "image_tokens": 4940}
+{"qid": 718, "pages": [8, 9, 11, 12, 13], "pred": "['Database Connectivity', 'Reporting and Analysis', 'XML for Analysis']", "input_tokens": 5052, "image_tokens": 4940}
+{"qid": 719, "pages": [1, 2, 7, 14, 15], "pred": "N/A", "input_tokens": 5039, "image_tokens": 4940}
+{"qid": 720, "pages": [5, 6, 7, 12, 14], "pred": "25mm", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 721, "pages": [14, 16, 17, 18, 49], "pred": "10", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 722, "pages": [36, 41, 43, 44, 45], "pred": "Stage 5", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 724, "pages": [50, 51, 53], "pred": "['stairs']", "input_tokens": 3123, "image_tokens": 3024}
+{"qid": 725, "pages": [16, 34, 55], "pred": "2", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 727, "pages": [4, 7, 10, 16, 19], "pred": "12", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 727, "pages": [16], "pred": "12", "input_tokens": 1084, "image_tokens": 1008}
+{"qid": 729, "pages": [16], "pred": "41", "input_tokens": 1088, "image_tokens": 1008}
+{"qid": 732, "pages": [7, 11, 14], "pred": "2", "input_tokens": 3105, "image_tokens": 3024}
+{"qid": 733, "pages": [10, 19, 22], "pred": "14:05", "input_tokens": 3136, "image_tokens": 3024}
+{"qid": 735, "pages": [6, 8, 9, 10, 11], "pred": "No", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 736, "pages": [7, 11, 14, 16, 17], "pred": "3", "input_tokens": 5141, "image_tokens": 5040}
+{"qid": 737, "pages": [6, 9, 10, 12, 18], "pred": "18", "input_tokens": 5134, "image_tokens": 5040}
+{"qid": 739, "pages": [7, 8, 11, 13, 16], "pred": "2", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 740, "pages": [1, 2, 14], "pred": "['2015-03-24', '2015-03-25']", "input_tokens": 3133, "image_tokens": 3024}
+{"qid": 740, "pages": [2, 17, 20], "pred": "['2015-03-24']", "input_tokens": 3134, "image_tokens": 3024}
+{"qid": 741, "pages": [16, 18, 19], "pred": "40", "input_tokens": 3111, "image_tokens": 3024}
+{"qid": 744, "pages": [7, 8], "pred": "Multipoint Fuel Injection", "input_tokens": 2023, "image_tokens": 1944}
+{"qid": 748, "pages": [12, 13], "pred": "1", "input_tokens": 2022, "image_tokens": 1944}
+{"qid": 749, "pages": [15, 25, 29], "pred": "['Engine Temperature Sensor']", "input_tokens": 3013, "image_tokens": 2916}
+{"qid": 750, "pages": [9, 14, 15, 20, 32], "pred": "['Fuel filter', 'Fuel pump, high pressure']", "input_tokens": 4966, "image_tokens": 4860}
+{"qid": 751, "pages": [7, 8, 15, 29, 32], "pred": "6", "input_tokens": 4956, "image_tokens": 4860}
+{"qid": 753, "pages": [2], "pred": "Egocentric Video Reasoning", "input_tokens": 1082, "image_tokens": 1008}
+{"qid": 753, "pages": [2, 20, 22], "pred": "Egocentric Video Reasoning", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 755, "pages": [7, 10], "pred": "4", "input_tokens": 2096, "image_tokens": 2016}
+{"qid": 756, "pages": [4, 5, 11, 13, 22], "pred": "System Message + visual annotation", "input_tokens": 5141, "image_tokens": 5040}
+{"qid": 757, "pages": [1, 3, 4, 8, 9], "pred": "Football", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 759, "pages": [2, 5, 10, 15, 16], "pred": "7", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 759, "pages": [16], "pred": "7", "input_tokens": 1086, "image_tokens": 1008}
+{"qid": 762, "pages": [18, 21, 22, 23, 24], "pred": "3", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 763, "pages": [3, 7, 15, 19, 21], "pred": "6", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 765, "pages": [4, 17], "pred": "Random", "input_tokens": 2097, "image_tokens": 2016}
+{"qid": 766, "pages": [7, 8, 16, 17, 20], "pred": "4", "input_tokens": 5135, "image_tokens": 5040}
+{"qid": 766, "pages": [8, 24], "pred": "10", "input_tokens": 2091, "image_tokens": 2016}
+{"qid": 767, "pages": [6, 9, 12, 14, 15], "pred": "SGD", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 769, "pages": [4, 5, 7, 22, 23], "pred": "pseudo-labels", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 771, "pages": [1, 6, 7, 9, 18], "pred": "['Figure 5', 'Figure 6']", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 772, "pages": [1, 2, 4, 10, 11], "pred": "Text tokens", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 774, "pages": [3, 4, 5, 10, 11], "pred": "6", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 774, "pages": [3, 10, 23], "pred": "6", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 775, "pages": [6, 7, 10], "pred": "2", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 776, "pages": [8], "pred": "no", "input_tokens": 1088, "image_tokens": 1008}
+{"qid": 778, "pages": [6, 7, 8, 10, 13], "pred": "200k", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 779, "pages": [3, 26, 33, 42, 43], "pred": "panda", "input_tokens": 5044, "image_tokens": 4940}
+{"qid": 782, "pages": [5, 10, 13, 22, 71], "pred": "Blue", "input_tokens": 5044, "image_tokens": 4940}
+{"qid": 783, "pages": [15, 18, 63, 64, 83], "pred": "1217.02", "input_tokens": 5041, "image_tokens": 4940}
+{"qid": 784, "pages": [26, 27, 28, 29, 30], "pred": "1", "input_tokens": 5042, "image_tokens": 4940}
+{"qid": 785, "pages": [23, 40, 41, 44, 82], "pred": "['Chen Mapo Doufu', 'Yu Zhi Lan']", "input_tokens": 5057, "image_tokens": 4940}
+{"qid": 785, "pages": [40, 41, 44], "pred": "['Chen Mapo Doufu', 'Yu Zhi Lan']", "input_tokens": 3067, "image_tokens": 2964}
+{"qid": 786, "pages": [16, 17], "pred": "3", "input_tokens": 2031, "image_tokens": 1950}
+{"qid": 788, "pages": [2, 3, 7], "pred": "10", "input_tokens": 3017, "image_tokens": 2925}
+{"qid": 795, "pages": [6, 7, 8, 15, 16], "pred": "ILF000808", "input_tokens": 5042, "image_tokens": 4940}
+{"qid": 797, "pages": [5, 7, 8], "pred": "['USD', 'GBP', 'EUR']", "input_tokens": 3057, "image_tokens": 2964}
+{"qid": 798, "pages": [4, 7, 8], "pred": "2", "input_tokens": 3047, "image_tokens": 2964}
+{"qid": 799, "pages": [6, 7, 8, 11, 15], "pred": "Live Balances", "input_tokens": 5040, "image_tokens": 4940}
+{"qid": 800, "pages": [4, 9, 10, 11, 16], "pred": "pie chart", "input_tokens": 5039, "image_tokens": 4940}
+{"qid": 801, "pages": [1, 7, 8, 17, 19], "pred": "['Traceability', 'Data Lake', 'Integration', 'Security', 'Orchestration']", "input_tokens": 5046, "image_tokens": 4940}
+{"qid": 801, "pages": [16, 17, 19], "pred": "['Traceability', 'Data Lake', 'Integration', 'Security', 'Orchestration']", "input_tokens": 3059, "image_tokens": 2964}
+{"qid": 803, "pages": [10], "pred": "ValueEdge insights", "input_tokens": 1061, "image_tokens": 988}
+{"qid": 805, "pages": [1, 3, 6, 8, 17], "pred": "ValueEdge ops", "input_tokens": 5037, "image_tokens": 4940}
+{"qid": 806, "pages": [1, 10, 17], "pred": "['Plan', 'Build', 'Test', 'Deliver', 'Run']", "input_tokens": 3059, "image_tokens": 2964}
+{"qid": 807, "pages": [4, 11, 36, 38, 39], "pred": "31", "input_tokens": 5172, "image_tokens": 5040}
+{"qid": 810, "pages": [11], "pred": "33", "input_tokens": 1097, "image_tokens": 1008}
+{"qid": 811, "pages": [10, 12, 13, 14, 17], "pred": "60", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 813, "pages": [5, 42, 43, 44, 46], "pred": "41%", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 813, "pages": [42, 43, 50], "pred": "41%", "input_tokens": 3115, "image_tokens": 3024}
+{"qid": 816, "pages": [2, 10, 12, 21, 23], "pred": "1", "input_tokens": 5143, "image_tokens": 5040}
+{"qid": 816, "pages": [11, 12, 23], "pred": "1", "input_tokens": 3114, "image_tokens": 3024}
+{"qid": 818, "pages": [10, 12, 13], "pred": "31", "input_tokens": 3130, "image_tokens": 3024}
+{"qid": 819, "pages": [9], "pred": "50", "input_tokens": 1100, "image_tokens": 1008}
+{"qid": 820, "pages": [3, 14, 15], "pred": "42%", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 821, "pages": [4, 7, 9, 21, 23], "pred": "4", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 821, "pages": [21, 29], "pred": "4594", "input_tokens": 2108, "image_tokens": 2016}
+{"qid": 822, "pages": [5, 13, 18, 19], "pred": "['Hamilton', 'York']", "input_tokens": 4133, "image_tokens": 4032}
+{"qid": 823, "pages": [1, 10, 11], "pred": "538", "input_tokens": 3117, "image_tokens": 3024}
+{"qid": 824, "pages": [3, 7, 8], "pred": "1", "input_tokens": 3104, "image_tokens": 3024}
+{"qid": 824, "pages": [7, 8, 17], "pred": "1", "input_tokens": 3105, "image_tokens": 3024}
+{"qid": 825, "pages": [9, 12, 15, 16, 17], "pred": "336", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 826, "pages": [3, 6, 7], "pred": "['Microsoft Office OneNote', 'SOAPware']", "input_tokens": 3009, "image_tokens": 2916}
+{"qid": 827, "pages": [2, 4, 6, 7, 11], "pred": "Electronic Medical Records", "input_tokens": 4965, "image_tokens": 4860}
+{"qid": 827, "pages": [7, 11], "pred": "Electronic Medical Record", "input_tokens": 2031, "image_tokens": 1944}
+{"qid": 828, "pages": [2, 6, 19], "pred": "1", "input_tokens": 3004, "image_tokens": 2916}
+{"qid": 829, "pages": [6, 9, 11, 13, 14], "pred": "0", "input_tokens": 5143, "image_tokens": 5040}
+{"qid": 831, "pages": [7, 9, 16], "pred": "['Interview some friends and classmates to find out what motivates them.', 'Discuss your differences in perspective.', 'Prepare a team activity.']", "input_tokens": 3123, "image_tokens": 3024}
+{"qid": 833, "pages": [3, 4, 6, 7, 15], "pred": "Discrimination in the Workplace Continues", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 834, "pages": [3, 4, 7, 15], "pred": "2", "input_tokens": 4123, "image_tokens": 4032}
+{"qid": 835, "pages": [6, 7], "pred": "5", "input_tokens": 2098, "image_tokens": 2016}
+{"qid": 836, "pages": [10], "pred": "Using Financial Information and Accounting", "input_tokens": 1079, "image_tokens": 1008}
+{"qid": 837, "pages": [4, 6, 10, 16, 21], "pred": "6", "input_tokens": 4971, "image_tokens": 4860}
+{"qid": 838, "pages": [4, 6], "pred": "6", "input_tokens": 2043, "image_tokens": 1944}
+{"qid": 839, "pages": [8, 9, 10, 11, 12], "pred": "101%", "input_tokens": 4965, "image_tokens": 4860}
+{"qid": 840, "pages": [5, 6, 9, 10, 12], "pred": "['Physical Albums']", "input_tokens": 4972, "image_tokens": 4860}
+{"qid": 841, "pages": [14, 15], "pred": "1194", "input_tokens": 2031, "image_tokens": 1944}
+{"qid": 856, "pages": [3, 5, 8], "pred": "['Home', 'Features', 'Get Started']", "input_tokens": 3014, "image_tokens": 2916}
+{"qid": 857, "pages": [5, 8, 26, 45, 51], "pred": "['Oracle']", "input_tokens": 4979, "image_tokens": 4860}
+{"qid": 859, "pages": [6, 10, 11], "pred": "4", "input_tokens": 3004, "image_tokens": 2916}
+{"qid": 861, "pages": [4, 20, 23, 36, 42], "pred": "['Taste', 'Smell', 'Hearing', 'Touch', 'Sight']", "input_tokens": 4977, "image_tokens": 4860}
+{"qid": 862, "pages": [9, 13, 26, 37, 46], "pred": "0", "input_tokens": 4957, "image_tokens": 4860}
+{"qid": 862, "pages": [15, 26, 48], "pred": "0", "input_tokens": 3000, "image_tokens": 2916}
+{"qid": 865, "pages": [2, 4, 13, 110, 112], "pred": "46", "input_tokens": 5143, "image_tokens": 5040}
+{"qid": 867, "pages": [1, 2, 112], "pred": "4", "input_tokens": 3110, "image_tokens": 3024}
+{"qid": 867, "pages": [13, 20, 21, 110, 112], "pred": "4", "input_tokens": 5143, "image_tokens": 5040}
+{"qid": 869, "pages": [2, 5, 8, 29, 110], "pred": "MMMU", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 871, "pages": [8, 42, 71], "pred": "['Perceptual Error', 'Lack of Knowledge', 'Reasoning Error']", "input_tokens": 3133, "image_tokens": 3024}
+{"qid": 872, "pages": [8, 20, 21], "pred": "['Perceptual Error', 'Lack of Knowledge', 'Reasoning Error']", "input_tokens": 3129, "image_tokens": 3024}
+{"qid": 872, "pages": [96, 98, 99, 100], "pred": "['Reasoning Error', 'Perceptual Error', 'Lack of Knowledge', 'Perceptual Error']", "input_tokens": 4146, "image_tokens": 4032}
+{"qid": 873, "pages": [20, 79, 81], "pred": "5", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 874, "pages": [6, 7, 8, 9], "pred": "5", "input_tokens": 4122, "image_tokens": 4032}
+{"qid": 876, "pages": [4, 8, 13, 18, 58], "pred": "['Vicuna 33b-v1.3', 'PaLM Bison', 'ChatGPT 0301']", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 878, "pages": [7, 8, 48, 49, 50], "pred": "LLAMA 2 7B", "input_tokens": 5147, "image_tokens": 5040}
+{"qid": 878, "pages": [47, 48, 50], "pred": "LLAMA 2", "input_tokens": 3119, "image_tokens": 3024}
+{"qid": 879, "pages": [48, 49, 50, 53, 56], "pred": "1", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 880, "pages": [2, 37, 39, 40, 41], "pred": "1", "input_tokens": 5141, "image_tokens": 5040}
+{"qid": 880, "pages": [48, 49], "pred": "10", "input_tokens": 2097, "image_tokens": 2016}
+{"qid": 881, "pages": [16, 55, 57], "pred": "2", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 882, "pages": [2, 32, 33, 44, 45], "pred": "The first subfigure shows a traditional ML setting where humans supervise models that are weaker than humans, while the second subfigure shows an analogy of using weak models to supervise strong models.", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 884, "pages": [19, 20, 23], "pred": "0", "input_tokens": 3115, "image_tokens": 3024}
+{"qid": 884, "pages": [20, 30, 43], "pred": "5", "input_tokens": 3115, "image_tokens": 3024}
+{"qid": 886, "pages": [8, 30, 31, 41, 45], "pred": "6", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 887, "pages": [7, 8, 9, 10, 28], "pred": "['Further experimental details']", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 889, "pages": [3, 11, 34, 43, 45], "pred": "strong g.t. model confidently correct", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 889, "pages": [11, 14, 30, 43, 45], "pred": "finetuning with the confidence loss", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 900, "pages": [1, 9, 16, 31, 106], "pred": "4", "input_tokens": 5036, "image_tokens": 4940}
+{"qid": 901, "pages": [1, 11, 12, 31, 119], "pred": "20", "input_tokens": 5042, "image_tokens": 4940}
+{"qid": 902, "pages": [9, 13, 19, 21, 131], "pred": "The charging time will increase.", "input_tokens": 5049, "image_tokens": 4940}
+{"qid": 903, "pages": [2, 51, 53, 63, 105], "pred": "3", "input_tokens": 5044, "image_tokens": 4940}
+{"qid": 903, "pages": [51, 52, 106], "pred": "4", "input_tokens": 3055, "image_tokens": 2964}
+{"qid": 905, "pages": [11, 18, 117], "pred": "0", "input_tokens": 3053, "image_tokens": 2964}
+{"qid": 907, "pages": [4, 5, 7, 9, 27], "pred": "3", "input_tokens": 5038, "image_tokens": 4940}
+{"qid": 908, "pages": [1, 11, 20, 23, 30], "pred": "726 Broadway, 7th Floor New York, NY 10003", "input_tokens": 5038, "image_tokens": 4940}
+{"qid": 910, "pages": [1, 5, 16, 28, 29], "pred": "4", "input_tokens": 5040, "image_tokens": 4940}
+{"qid": 910, "pages": [5, 14, 27], "pred": "6", "input_tokens": 3051, "image_tokens": 2964}
+{"qid": 912, "pages": [22, 23, 26], "pred": "['Residence Hall Director (RHD)', 'Residence Hall Assistant Director (RHAD)', 'Residence Hall Resource Manager (RHRM)', 'Resident Assistant (RA)']", "input_tokens": 3064, "image_tokens": 2964}
+{"qid": 913, "pages": [5, 6, 15, 17, 19], "pred": "4", "input_tokens": 5044, "image_tokens": 4940}
+{"qid": 914, "pages": [8, 14, 17, 20, 23], "pred": "8300", "input_tokens": 5047, "image_tokens": 4940}
+{"qid": 915, "pages": [8], "pred": "['IA Co-source', 'IA outsource', 'IA Tech Audit', 'IA Advisory']", "input_tokens": 1070, "image_tokens": 988}
+{"qid": 916, "pages": [6, 7, 8, 9, 17], "pred": "1914", "input_tokens": 5033, "image_tokens": 4940}
+{"qid": 918, "pages": [6, 7, 9, 13, 17], "pred": "4028", "input_tokens": 5044, "image_tokens": 4940}
+{"qid": 918, "pages": [7, 9, 11, 12, 13], "pred": "4680", "input_tokens": 5045, "image_tokens": 4940}
+{"qid": 919, "pages": [2, 17, 18], "pred": "Core Assurance", "input_tokens": 3042, "image_tokens": 2964}
+{"qid": 921, "pages": [1, 15, 16, 17, 18], "pred": "4", "input_tokens": 5037, "image_tokens": 4940}
+{"qid": 922, "pages": [1, 4, 6, 9, 10], "pred": "4", "input_tokens": 5159, "image_tokens": 5040}
+{"qid": 924, "pages": [1, 4, 6, 11, 13], "pred": "38", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 924, "pages": [4, 6, 13], "pred": "38", "input_tokens": 3110, "image_tokens": 3024}
+{"qid": 925, "pages": [9, 10, 11, 12, 13], "pred": "65+", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 926, "pages": [5, 7, 11], "pred": "15", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 927, "pages": [1, 4, 8, 9, 10], "pred": "13", "input_tokens": 5155, "image_tokens": 5040}
+{"qid": 927, "pages": [4, 9, 10], "pred": "13", "input_tokens": 3127, "image_tokens": 3024}
+{"qid": 929, "pages": [5, 11, 13, 14, 20], "pred": "54", "input_tokens": 5196, "image_tokens": 5040}
+{"qid": 930, "pages": [7, 10, 14, 17, 19], "pred": "23", "input_tokens": 5187, "image_tokens": 5040}
+{"qid": 931, "pages": [4, 7, 8, 9, 10], "pred": "50 and older", "input_tokens": 5158, "image_tokens": 5040}
+{"qid": 932, "pages": [1, 2, 3, 5, 19], "pred": "Medical Informatics and HIT Systems", "input_tokens": 4953, "image_tokens": 4860}
+{"qid": 933, "pages": [1, 2, 3], "pred": "David Lubliner", "input_tokens": 2996, "image_tokens": 2916}
+{"qid": 935, "pages": [1, 5, 7, 12, 20], "pred": "['2006', '2005']", "input_tokens": 4998, "image_tokens": 4860}
+{"qid": 937, "pages": [1, 3, 4, 6, 11], "pred": "['Patient registration/demographics', 'Insurance validation', 'Billing systems', 'Appointment systems', 'Computerized Physician Order Entry (CPOE)', 'EMR/EHR/CPR', 'Pharmacy systems', 'Lab systems', 'Imaging systems', 'Telemedicine', 'Patient education', 'Decision Support', 'Library resources', 'Sensors']", "input_tokens": 4962, "image_tokens": 4860}
+{"qid": 938, "pages": [1, 3, 5], "pred": "4", "input_tokens": 2999, "image_tokens": 2916}
+{"qid": 939, "pages": [8, 11, 13, 16, 19], "pred": "30216492", "input_tokens": 5058, "image_tokens": 4940}
+{"qid": 943, "pages": [3, 8, 9, 13, 16], "pred": "45.29", "input_tokens": 5051, "image_tokens": 4940}
+{"qid": 945, "pages": [3, 5, 7], "pred": "1", "input_tokens": 3065, "image_tokens": 2964}
+{"qid": 946, "pages": [3, 8, 9, 10, 16], "pred": "473,394,000", "input_tokens": 5054, "image_tokens": 4940}
+{"qid": 947, "pages": [6, 7], "pred": "8", "input_tokens": 2069, "image_tokens": 1976}
+{"qid": 948, "pages": [1, 3, 7], "pred": "Libertarian Party of Georgia, Inc.", "input_tokens": 3102, "image_tokens": 3024}
+{"qid": 949, "pages": [3, 5, 9], "pred": "21-13199", "input_tokens": 3103, "image_tokens": 3024}
+{"qid": 950, "pages": [9, 11, 12, 13, 16], "pred": "2022-01-05", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 951, "pages": [9, 26, 28], "pred": "2", "input_tokens": 3132, "image_tokens": 3024}
+{"qid": 953, "pages": [5, 11, 12, 14, 26], "pred": "7", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 955, "pages": [18, 37, 40, 42, 58], "pred": "['How do they make complex decisions?', 'How do they describe you to someone else?', 'What concerns them most about making a poor financial decision?', 'Why do they think you are their advisor?']", "input_tokens": 5160, "image_tokens": 5040}
+{"qid": 956, "pages": [11, 16, 45], "pred": "16", "input_tokens": 3107, "image_tokens": 3024}
+{"qid": 957, "pages": [9, 13, 26], "pred": "['LinkedIn']", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 958, "pages": [2, 8, 9, 12, 13], "pred": "['shiny object or mirror']", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 959, "pages": [11, 12, 16, 17, 18], "pred": "['microwaves', 'satellites']", "input_tokens": 5153, "image_tokens": 5040}
+{"qid": 960, "pages": [3, 20, 21], "pred": "no", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 961, "pages": [3, 5, 21], "pred": "CFCs", "input_tokens": 3105, "image_tokens": 3024}
+{"qid": 962, "pages": [1, 10, 21, 36, 39], "pred": "2", "input_tokens": 5143, "image_tokens": 5040}
+{"qid": 965, "pages": [1, 5, 9, 28, 39], "pred": "3", "input_tokens": 5135, "image_tokens": 5040}
+{"qid": 967, "pages": [1, 3, 4], "pred": "2", "input_tokens": 3110, "image_tokens": 3024}
+{"qid": 968, "pages": [10, 11, 30, 31, 39], "pred": "['Roadmaps']", "input_tokens": 5152, "image_tokens": 5040}
+{"qid": 969, "pages": [2, 6, 11], "pred": "['Event Relation Extraction', 'Logical Constraints Between Two Events']", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 970, "pages": [3, 11, 15, 20, 21], "pred": "6", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 973, "pages": [6, 7, 8], "pred": "w. all logical constraints", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 974, "pages": [3, 6, 7, 15, 23], "pred": "6", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 976, "pages": [2, 6, 7, 19, 22], "pred": "Semantic Parsing", "input_tokens": 5138, "image_tokens": 5040}
+{"qid": 977, "pages": [3, 4, 23], "pred": "Intervention", "input_tokens": 3110, "image_tokens": 3024}
+{"qid": 979, "pages": [4, 23, 26], "pred": "1", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 980, "pages": [3, 8, 24, 25, 27], "pred": "66.64", "input_tokens": 5135, "image_tokens": 5040}
+{"qid": 981, "pages": [1, 3, 11], "pred": "No", "input_tokens": 3078, "image_tokens": 2964}
+{"qid": 982, "pages": [2, 3, 5], "pred": "No", "input_tokens": 3063, "image_tokens": 2964}
+{"qid": 983, "pages": [4], "pred": "Yes", "input_tokens": 1076, "image_tokens": 988}
+{"qid": 984, "pages": [5, 6, 7], "pred": "17.54", "input_tokens": 3054, "image_tokens": 2964}
+{"qid": 986, "pages": [8, 11, 16], "pred": "Entity", "input_tokens": 3049, "image_tokens": 2964}
+{"qid": 987, "pages": [7, 19, 26], "pred": "Closed", "input_tokens": 3035, "image_tokens": 2940}
+{"qid": 988, "pages": [9, 11, 13], "pred": "has-exch@ntu.edu.sg", "input_tokens": 3025, "image_tokens": 2940}
+{"qid": 990, "pages": [7, 21, 22, 24, 25], "pred": "Campus Security", "input_tokens": 5000, "image_tokens": 4900}
+{"qid": 990, "pages": [21, 22, 25], "pred": "Campus Security", "input_tokens": 3027, "image_tokens": 2940}
+{"qid": 991, "pages": [3, 32, 33], "pred": "4", "input_tokens": 3029, "image_tokens": 2940}
+{"qid": 992, "pages": [1, 3, 5, 70, 76], "pred": "Nottingham Trent University", "input_tokens": 4057, "image_tokens": 3960}
+{"qid": 993, "pages": [3, 33, 43, 51, 75], "pred": "6", "input_tokens": 4057, "image_tokens": 3960}
+{"qid": 995, "pages": [6, 7, 9, 41, 60], "pred": "88%", "input_tokens": 4058, "image_tokens": 3960}
+{"qid": 996, "pages": [3, 16, 32, 33, 40], "pred": "NTIC", "input_tokens": 4063, "image_tokens": 3960}
+{"qid": 996, "pages": [16, 33, 40], "pred": "NTIC", "input_tokens": 2466, "image_tokens": 2376}
+{"qid": 997, "pages": [36, 37, 61], "pred": "15 mins", "input_tokens": 2478, "image_tokens": 2376}
+{"qid": 998, "pages": [2, 3, 10, 11, 18], "pred": "BBA (Hon) - Bachelor of Business Administration (Honours)", "input_tokens": 5104, "image_tokens": 4995}
+{"qid": 1000, "pages": [6, 7, 8, 11, 20], "pred": "['Real Estate']", "input_tokens": 5108, "image_tokens": 4995}
+{"qid": 1001, "pages": [1, 5, 13, 16, 24], "pred": "4", "input_tokens": 5093, "image_tokens": 4995}
+{"qid": 1001, "pages": [24], "pred": "3", "input_tokens": 1071, "image_tokens": 999}
+{"qid": 1002, "pages": [10, 19, 21], "pred": "2", "input_tokens": 3092, "image_tokens": 2997}
+{"qid": 1003, "pages": [5, 7, 11, 16, 22], "pred": "8", "input_tokens": 5098, "image_tokens": 4995}
+{"qid": 1004, "pages": [6, 7, 17, 18, 19], "pred": "2", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 1006, "pages": [19, 21, 22, 23, 24], "pred": "4", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 1006, "pages": [22], "pred": "4", "input_tokens": 1086, "image_tokens": 1008}
+{"qid": 1007, "pages": [25, 26, 28, 29, 50], "pred": "no", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 1008, "pages": [28, 66, 75, 96, 174], "pred": "1.3", "input_tokens": 5046, "image_tokens": 4940}
+{"qid": 1008, "pages": [78, 79, 80, 114, 174], "pred": "1.3", "input_tokens": 5047, "image_tokens": 4940}
+{"qid": 1010, "pages": [47, 69], "pred": "0.05", "input_tokens": 2062, "image_tokens": 1976}
+{"qid": 1011, "pages": [28, 49, 66, 124, 173], "pred": "N/A", "input_tokens": 5047, "image_tokens": 4940}
+{"qid": 1012, "pages": [28, 29, 49, 69, 120], "pred": "1.5", "input_tokens": 5051, "image_tokens": 4940}
+{"qid": 1012, "pages": [29, 94, 95, 98, 120], "pred": "1.5", "input_tokens": 5051, "image_tokens": 4940}
+{"qid": 1013, "pages": [8, 23, 39], "pred": "17564", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 1014, "pages": [3, 37, 38, 41, 60], "pred": "11,964", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1014, "pages": [38, 41, 60], "pred": "13,357", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 1015, "pages": [21, 37, 60], "pred": "Not provided", "input_tokens": 3114, "image_tokens": 3024}
+{"qid": 1016, "pages": [31, 38, 52], "pred": "7,531", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 1017, "pages": [3, 21, 38, 41, 60], "pred": "6,692", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 1018, "pages": [1, 23, 60], "pred": "1.457", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 1018, "pages": [36, 38, 40, 53], "pred": "0.794", "input_tokens": 4140, "image_tokens": 4032}
+{"qid": 1019, "pages": [37, 41, 60], "pred": "Not enough information", "input_tokens": 3117, "image_tokens": 3024}
+{"qid": 1020, "pages": [1, 38, 60], "pred": "0.17", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 1021, "pages": [1, 3, 38], "pred": "0.719", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1021, "pages": [38], "pred": "0.719", "input_tokens": 1093, "image_tokens": 1008}
+{"qid": 1022, "pages": [8, 21, 60], "pred": "Not provided", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 1023, "pages": [6, 23, 38], "pred": "0.70", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 1024, "pages": [23, 29, 60], "pred": "Not enough information", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 1025, "pages": [3, 20, 21, 39, 41], "pred": "318,000", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 1025, "pages": [21, 29, 39], "pred": "1,358,000", "input_tokens": 3113, "image_tokens": 3024}
+{"qid": 1026, "pages": [20, 39, 40], "pred": "1,057", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 1027, "pages": [3, 21, 23, 41, 63], "pred": "Controlling costs", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 1028, "pages": [3, 4, 6, 19, 41], "pred": "815", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 1029, "pages": [16, 33, 34, 39, 41], "pred": "78.0", "input_tokens": 5157, "image_tokens": 5040}
+{"qid": 1029, "pages": [34, 39, 45], "pred": "68.7", "input_tokens": 3127, "image_tokens": 3024}
+{"qid": 1030, "pages": [16, 33, 34, 39, 45], "pred": "1,782", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 1030, "pages": [17, 27, 28], "pred": "1,902,216", "input_tokens": 3114, "image_tokens": 3024}
+{"qid": 1031, "pages": [16, 34, 40], "pred": "1.57", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 1032, "pages": [12, 19, 24, 25, 52], "pred": "133.2", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1032, "pages": [24, 25, 52], "pred": "133.2", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1033, "pages": [20, 40, 41, 43, 47], "pred": "824.092", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 1034, "pages": [16, 20, 39, 41, 47], "pred": "0.581", "input_tokens": 5156, "image_tokens": 5040}
+{"qid": 1034, "pages": [39, 40, 47], "pred": "0.120", "input_tokens": 3126, "image_tokens": 3024}
+{"qid": 1035, "pages": [16, 34, 41, 43, 72], "pred": "1,809,330", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 1036, "pages": [15, 27, 34], "pred": "0.689", "input_tokens": 3127, "image_tokens": 3024}
+{"qid": 1037, "pages": [15, 16, 44], "pred": "stock based compensation expense", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 1037, "pages": [18, 45, 48], "pred": "Stock Split", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 1038, "pages": [19, 34, 53, 54, 67], "pred": "34.7", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 1039, "pages": [18, 19, 21, 22, 23], "pred": "30", "input_tokens": 5159, "image_tokens": 5040}
+{"qid": 1040, "pages": [12, 21, 45], "pred": "1,375,500", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1040, "pages": [21, 23, 60, 61, 62], "pred": "1,375,500", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1041, "pages": [25, 28, 36, 61, 92], "pred": "4.70", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 1042, "pages": [4, 9, 26, 30, 65], "pred": "44.5", "input_tokens": 5147, "image_tokens": 5040}
+{"qid": 1042, "pages": [30, 31, 38], "pred": "44.5", "input_tokens": 3119, "image_tokens": 3024}
+{"qid": 1043, "pages": [30, 37, 38, 45, 61], "pred": "1.90", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1044, "pages": [9, 26, 28, 30, 84], "pred": "0.75", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 1044, "pages": [30, 36, 49], "pred": "0.75", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 1045, "pages": [30, 36, 49, 60, 94], "pred": "18.70", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1045, "pages": [30, 60, 62], "pred": "45.87", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1046, "pages": [28, 30, 55, 60, 100], "pred": "Not enough information", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1047, "pages": [28, 30, 55, 62, 84], "pred": "0.17", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 1047, "pages": [61], "pred": "0.34", "input_tokens": 1090, "image_tokens": 1008}
+{"qid": 1048, "pages": [30, 62, 108], "pred": "1.45", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1049, "pages": [61, 62, 72, 84, 89], "pred": "6,063", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 1050, "pages": [2, 3, 12, 30, 92], "pred": "['Running', 'NIKE Basketball', 'Jordan Brand', 'Football (Soccer)', 'Training and Sportswear']", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 1050, "pages": [3, 5, 65], "pred": "['Running', 'NIKE Basketball', 'The Jordan Brand', 'Football (Soccer)', 'Training and Sportswear']", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 1051, "pages": [9, 20, 21, 36, 46], "pred": "38.50", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1052, "pages": [19, 32, 68], "pred": "24.0%", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 1052, "pages": [38, 71], "pred": "0.024", "input_tokens": 2107, "image_tokens": 2016}
+{"qid": 1053, "pages": [35, 38], "pred": "0.046", "input_tokens": 2103, "image_tokens": 2016}
+{"qid": 1054, "pages": [32, 34, 36, 43, 49], "pred": "0.384", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 1054, "pages": [36, 43, 74], "pred": "0.358", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 1055, "pages": [29, 32, 56, 67, 74], "pred": "28.0%", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 1056, "pages": [29, 33, 40, 57, 79], "pred": "0.368", "input_tokens": 5155, "image_tokens": 5040}
+{"qid": 1056, "pages": [38, 40], "pred": "0.356", "input_tokens": 2110, "image_tokens": 2016}
+{"qid": 1057, "pages": [23, 40, 57], "pred": "0.361", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1057, "pages": [40, 50, 57, 62, 74], "pred": "0.348", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1058, "pages": [38, 56, 71], "pred": "4.944", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1059, "pages": [39, 43, 46, 66, 67], "pred": "-48.4", "input_tokens": 5159, "image_tokens": 5040}
+{"qid": 1060, "pages": [27, 38, 44, 46, 63], "pred": "['Cost of sales', 'Fulfillment', 'Marketing', 'Technology and content']", "input_tokens": 5158, "image_tokens": 5040}
+{"qid": 1061, "pages": [3, 4, 19, 42, 68], "pred": "through low everyday product pricing and shipping offers", "input_tokens": 5134, "image_tokens": 5040}
+{"qid": 1061, "pages": [19, 43, 48, 49, 52], "pred": "lower of cost or net realizable value", "input_tokens": 5136, "image_tokens": 5040}
+{"qid": 1062, "pages": [37, 43, 46, 48, 49], "pred": "3.0", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1063, "pages": [2, 36, 52], "pred": "8.8", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 1064, "pages": [52, 53, 55], "pred": "3362", "input_tokens": 3134, "image_tokens": 3024}
+{"qid": 1065, "pages": [19, 23, 52, 58, 59], "pred": "14811", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 1066, "pages": [3, 10, 96], "pred": "['not', 'available']", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 1066, "pages": [13, 104, 105], "pred": "['not', 'available']", "input_tokens": 3127, "image_tokens": 3024}
+{"qid": 1067, "pages": [4, 33, 64], "pred": "17%", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 1068, "pages": [4, 30, 33, 77, 104], "pred": "0.6", "input_tokens": 5147, "image_tokens": 5040}
+{"qid": 1069, "pages": [3, 4, 13, 33, 36], "pred": "software subscription model", "input_tokens": 5147, "image_tokens": 5040}
+{"qid": 1069, "pages": [13, 33, 50], "pred": "software subscription model", "input_tokens": 3119, "image_tokens": 3024}
+{"qid": 1070, "pages": [23, 26, 27, 32, 51], "pred": "-4.90", "input_tokens": 5165, "image_tokens": 5040}
+{"qid": 1071, "pages": [4, 29, 42, 44, 66], "pred": "Operating Activities", "input_tokens": 5160, "image_tokens": 5040}
+{"qid": 1071, "pages": [29, 42, 44], "pred": "Operating Activities", "input_tokens": 3131, "image_tokens": 3024}
+{"qid": 1072, "pages": [22, 44, 75], "pred": "16.9%", "input_tokens": 3129, "image_tokens": 3024}
+{"qid": 1073, "pages": [22, 40, 41, 59, 62], "pred": "0.174", "input_tokens": 5161, "image_tokens": 5040}
+{"qid": 1073, "pages": [39, 40], "pred": "57.1%", "input_tokens": 2116, "image_tokens": 2016}
+{"qid": 1074, "pages": [31, 54, 55], "pred": "0.769", "input_tokens": 3132, "image_tokens": 3024}
+{"qid": 1075, "pages": [22, 32, 44, 56, 75], "pred": "19.0", "input_tokens": 5163, "image_tokens": 5040}
+{"qid": 1076, "pages": [29, 33, 44], "pred": "1874", "input_tokens": 3127, "image_tokens": 3024}
+{"qid": 1076, "pages": [44, 53, 71], "pred": "1,874", "input_tokens": 3127, "image_tokens": 3024}
+{"qid": 1077, "pages": [32, 39, 69], "pred": "at the lower of cost or net realizable value", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 1078, "pages": [32, 44, 46], "pred": "1333", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1079, "pages": [22, 32, 38, 44, 71], "pred": "0.069", "input_tokens": 5163, "image_tokens": 5040}
+{"qid": 1080, "pages": [7], "pred": "25%", "input_tokens": 1100, "image_tokens": 1008}
+{"qid": 1080, "pages": [7, 32, 71], "pred": "25%", "input_tokens": 3130, "image_tokens": 3024}
+{"qid": 1081, "pages": [19, 20, 26, 49, 66], "pred": "978", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 1082, "pages": [4, 24, 44, 51, 64], "pred": "2253", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 1083, "pages": [3, 6, 22, 38, 69], "pred": "1.47", "input_tokens": 5143, "image_tokens": 5040}
+{"qid": 1083, "pages": [23, 24, 59], "pred": "6.31", "input_tokens": 3115, "image_tokens": 3024}
+{"qid": 1084, "pages": [24, 47, 49, 55, 56], "pred": "1.385", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1085, "pages": [22, 32, 44, 64, 71], "pred": "23.9", "input_tokens": 5164, "image_tokens": 5040}
+{"qid": 1086, "pages": [22, 30, 32, 44, 62], "pred": "930", "input_tokens": 5157, "image_tokens": 5040}
+{"qid": 1086, "pages": [40], "pred": "1,419", "input_tokens": 1097, "image_tokens": 1008}
+{"qid": 1087, "pages": [7, 39, 47], "pred": "1700", "input_tokens": 3123, "image_tokens": 3024}
+{"qid": 1088, "pages": [4, 5], "pred": "['Industrial', 'Safety and Graphics', 'Health Care', 'Electronics and Energy', 'Consumer']", "input_tokens": 2111, "image_tokens": 2016}
+{"qid": 1089, "pages": [31, 67, 95, 105, 107], "pred": "108", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 1089, "pages": [105, 106, 107], "pred": "93", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 1090, "pages": [32, 41, 64], "pred": "-5.79", "input_tokens": 3132, "image_tokens": 3024}
