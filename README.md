@@ -16,4 +16,4 @@ questions and are excluded everywhere (`BAD_DOCS`, see `idea23/idea2_data_analys
 | `idea4/` | Idea 4: drawing the evidence a question expects and retrieving with the drawing | Analysis 3: human and machine proposer, rendered queries, ColQwen2.5 retrieval |
 | `idea5/` | Idea 5: text layer plus a few text-conditioned visual tokens in the reader | Analysis 4: what the page image adds beyond the text layer |
 
-Each folder has its own `README.md` with setup, steps and results, and an `AI_USAGE.md` where AI tools were used.
+Each folder has its own `README.md` with setup, steps and results. Refer there for individual information and guidance.
