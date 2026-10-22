@@ -1,0 +1,126 @@
+# Examples (k = 5)
+
+## evidence completes, top-k does not (30 questions)
+
+- **qid 45** (ddoseattle-150627210357-lva1-app6891_95.pdf, Text): What are the examples the slides show "what does not make you data-driven"
+  - answer: ['Having lots of reports', 'Having lots of dashboards', 'Having lots of alerts', 'Having a hadopt cluster'] | gold pages [7, 8, 9, 16]
+  - needs: ['examples of what does not make you data-driven in the slides']
+  - topk: pages [7, 49, 9, 8, 11] -> ['Having lots of reports does not make you data-driven.', 'Having lots of dashboards does not make you data-driven.', 'Having lots of alerts does not make you data-driven.']
+  - coverage: pages [7, 49, 9, 8, 11] -> ['Having lots of reports does not make you data-driven.', 'Having lots of dashboards does not make you data-driven.', 'Having lots of alerts does not make you data-driven.']
+  - evidence: pages [8, 9, 7, 16, 11] -> ['Having lots of reports does not make you data-driven.', 'Having lots of dashboards does not make you data-driven.', 'Having lots of alerts does not make you data-driven.', 'Not necessarily data-driven !', 'Having a hadoop cluster does not make you data-driven.']
+  - gold: pages [7, 8, 9, 16] -> ['reports', 'dashboards', 'alerts', 'hadoop cluster']
+  - fact (pages [7]): Having lots of reports does not make you data-driven.
+  - fact (pages [8]): Having lots of dashboards does not make you data-driven.
+  - fact (pages [9]): Having lots of alerts does not make you data-driven.
+  - fact (pages [16]): Having a hadoop cluster does not make you data-driven.
+  - fact (pages [11]): Reports, dashboards, alerts are part of reporting, which is not the same as being data-driven.
+- **qid 78** (2312.10997v5.pdf, Table + Text): What is the paper's full title that proposes the method that has a retrieval granularity of phrase?
+  - answer: Copy is all you need.  | gold pages [6, 17]
+  - needs: ['method with retrieval granularity of phrase', 'full title of the paper that proposes the method with retrieval granularity of phrase']
+  - topk: pages [8, 7, 10, 1, 9] -> Retrieval-Augmented Generation for Large Language Models: A Survey
+  - coverage: pages [8, 7, 10, 1, 9] -> Retrieval-Augmented Generation for Large Language Models: A Survey
+  - evidence: pages [17, 6, 8, 7, 10] -> From classification to generation: Insights into crosslingual retrieval augmented icl
+  - gold: pages [6, 17] -> From classification to generation: Insights into crosslingual retrieval augmented icl
+  - fact (pages [6, 8]): DenseX [30] proposed the concept of using propositions as retrieval units, and its retrieval granularity is Phrase.
+  - fact (pages [17]): The paper [30] is titled 'Dense x retrieval: What retrieval granularity should we use?'
+- **qid 81** (2312.10997v5.pdf, Text): Which subsection does the section "AUGMENTATION PROCESS IN RAG" include?
+  - answer: ['Iterative Retrieval ', 'Recursive Retrieval ', 'Adaptive Retrieval '] | gold pages [10, 11]
+  - needs: ['subsection included in the section AUGMENTATION PROCESS IN RAG']
+  - topk: pages [10, 2, 1, 5, 3] -> ['Iterative Retrieval']
+  - coverage: pages [10, 2, 1, 5, 3] -> ['Iterative Retrieval']
+  - evidence: pages [2, 10, 1, 11, 6] -> ['Iterative Retrieval', 'Recursive Retrieval', 'Adaptive Retrieval']
+  - gold: pages [10, 11] -> ['Iterative Retrieval', 'Recursive Retrieval', 'Adaptive Retrieval']
+  - fact (pages [2, 10]): Section V, titled 'AUGMENTATION PROCESS IN RAG', analyzes the three augmentation processes.
+- **qid 83** (honor_watch_gs_pro.pdf, Figure): What is the time on the gallery screenshot when demostrating how to set galley watch faces?
+  - answer: 10:08AM | gold pages [39, 40, 41]
+  - needs: ['time on the gallery screenshot demonstrating how to set galley watch faces']
+  - topk: pages [38, 4, 41, 39, 37] -> 10:08 AM
+  - coverage: pages [38, 4, 41, 39, 37] -> 10:08 AM
+  - evidence: pages [39, 40, 41, 38, 4] -> 10:08 AM
+  - gold: pages [39, 40, 41] -> 10:08 AM
+  - fact (pages [39, 40]): The time displayed on the gallery screenshot is 10:08 AM.
+
+## top-k completes, evidence does not (14 questions)
+
+- **qid 3** (PH_2016.06.08_Economy-Final.pdf, Text): Among all 12 references in this report, how many are from its own research center?
+  - answer: 8 | gold pages [2, 22, 23]
+  - needs: ["references from the report's own research center"]
+  - topk: pages [22, 23, 3, 2, 18] -> 6
+  - coverage: pages [18, 22, 23, 3, 2] -> 6
+  - evidence: pages [2, 6, 19, 7, 23] -> 8
+  - gold: pages [2, 22, 23] -> 7
+  - fact (pages [22]): Kochhar, Rakesh and Richard Fry. 2014. “Wealth inequality has widened along racial, ethnic lines since end of the Great Recession.” Washington, D.C.: Pew Research Center, December.
+  - fact (pages [23]): Steepler, Renee and Anna Brown. 2016. “Statistical Portrait of Hispanics in the United States.” Washington, D.C.: Pew Research Center, April.
+  - fact (pages [2]): Pew Research Center is a nonpartisan fact tank that informs the public about the issues, attitudes and trends shaping America and the world. It does not take policy positions. The Center conducts public opinion polling, demographic research, content analysis and other data-driven social science research. It studies U.S. politics and policy; journalism and media; internet, science and technology; religion and public life; Hispanic trends; global attitudes and trends; and U.S. social and demographic trends. All of the Center’s reports are available at www.pewresearch.org. Pew Research Center is a subsidiary of The Pew Charitable Trusts, its primary funder.
+  - fact (pages [19]): Results for this study are based on telephone interviews conducted by SSRS, an independent research company, for the Pew Research Center among a nationally representative sample of 1,500 Latino respondents ages 18 and older. It was conducted on cellular and landline telephones from Oct. 21 through Nov. 30, 2015.
+  - fact (pages [6]): Source: Pew Research Center tabulations of Bureau of Labor Statistics data.
+  - fact (pages [7]): Source: For real median household income and the poverty rate, U.S. Census Bureau. For median net worth, Pew Research Center tabulations of the Survey of Consumer Finances public-use data.
+- **qid 105** (Bergen-Brochure-en-2022-23.pdf, Layout): In chaper 2.2, how many museums in Bergen does this brochure introduce?
+  - answer: 31 | gold pages [11, 12, 13, 14]
+  - needs: ['museums in Bergen introduced in chapter 2.2']
+  - topk: pages [13, 14, 11, 12, 1] -> 17
+  - coverage: pages [13, 14, 11, 12, 1] -> 17
+  - evidence: pages [44, 1, 7, 12, 13] -> 9
+  - gold: pages [11, 12, 13, 14] -> 45
+  - fact (pages [1]): Chapter 2.2 is titled 'Museums' and starts on page 28.
+  - fact (pages [44]): The brochure lists 40 museums in Bergen in Chapter 2.2, numbered from 1 to 40.
+  - fact (pages [7, 12, 13]): Chapter 2.2 includes descriptions of specific museums such as the Kode Art Museums of Bergen, the Museum of Natural History at the University Museum of Bergen, and the Norwegian Fisheries Museum in Telavåg.
+- **qid 122** (PG_2020.03.09_US-Germany_FINAL.pdf, Chart): List all titles of the charts (for example, Americans and Germans diverge sharply in their views of bilateral relations) in which the results are grouped by political affiliation.
+  - answer: ['Republican support for increased defense spending from Europe has waned since 2017', 'Supporters of CDU/CSU more likely to favor increased defense spending', 'Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel', 'Supporters of different parties take alternate stances on U.S.-German cooperation', 'Ideological differences in views of the UN, EU and Russia'] | gold pages [8, 12, 14, 18]
+  - needs: ['titles of charts grouped by political affiliation']
+  - topk: pages [4, 12, 18, 8, 14] -> ['Republican support for increased defense spending from Europe has waned since 2017', "Supporters of CDU/CSU more likely to favor increased defense spending", 'Supporters of different parties take alternate stances on U.S.-German cooperation']
+  - coverage: pages [18, 4, 12, 8, 14] -> ['Republican support for increased defense spending from Europe has waned since 2017', "Supporters of CDU/CSU more likely to favor increased defense spending", 'Supporters of different parties take alternate stances on U.S.-German cooperation']
+  - evidence: pages [12, 18, 4, 14, 11] -> ['Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel']
+  - gold: pages [8, 12, 14, 18] -> ['Republican support for increased defense spending from Europe has waned since 2017', "Supporters of CDU/CSU more likely to favor increased defense spending", 'Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel', 'Supporters of different parties take alternate stances on U.S.-German cooperation']
+  - fact (pages [12]): Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel
+- **qid 141** (efd88e41c5f2606c57929cac6c1c0605.pdf, Text): How many chapter authors of this report come from Columbia University?
+  - answer: 3 | gold pages [14, 15]
+  - needs: ['chapter authors from Columbia University']
+  - topk: pages [14, 15, 17, 11, 7] -> 2
+  - coverage: pages [14, 15, 17, 11, 7] -> 2
+  - evidence: pages [17, 14, 11, 5, 7] -> 2
+  - gold: pages [14, 15] -> 2
+  - fact (pages [17]): Kim Knowlton, Columbia University Mailman School of Public Health
+  - fact (pages [14]): Patrick Kinney, Columbia University
+
+## top-k complete but wrong, gold also wrong (reader failure) (92 questions)
+
+- **qid 1** (PH_2016.06.08_Economy-Final.pdf, Table): According to the report, which one is greater in population in the survey? Foreign born Latinos, or the Latinos interviewed by cellphone?
+  - answer: Latinos interviewed by cellphone | gold pages [19, 20]
+  - needs: ['population of Foreign born Latinos in the survey', 'population of Latinos interviewed by cellphone in the survey']
+  - topk: pages [19, 20, 5, 21, 10] -> Foreign born Latinos
+  - coverage: pages [19, 20, 5, 21, 10] -> Foreign born Latinos
+  - evidence: pages [19, 20, 5, 21, 10] -> Foreign born Latinos
+  - gold: pages [19, 20] -> Foreign born Latinos
+  - fact (pages [19]): Foreign born Latinos in the survey: 795
+  - fact (pages [20]): Latinos interviewed by cellphone: 1,051
+- **qid 3** (PH_2016.06.08_Economy-Final.pdf, Text): Among all 12 references in this report, how many are from its own research center?
+  - answer: 8 | gold pages [2, 22, 23]
+  - needs: ["references from the report's own research center"]
+  - topk: pages [22, 23, 3, 2, 18] -> 6
+  - coverage: pages [18, 22, 23, 3, 2] -> 6
+  - evidence: pages [2, 6, 19, 7, 23] -> 8
+  - gold: pages [2, 22, 23] -> 7
+  - fact (pages [22]): Kochhar, Rakesh and Richard Fry. 2014. “Wealth inequality has widened along racial, ethnic lines since end of the Great Recession.” Washington, D.C.: Pew Research Center, December.
+  - fact (pages [23]): Steepler, Renee and Anna Brown. 2016. “Statistical Portrait of Hispanics in the United States.” Washington, D.C.: Pew Research Center, April.
+  - fact (pages [2]): Pew Research Center is a nonpartisan fact tank that informs the public about the issues, attitudes and trends shaping America and the world. It does not take policy positions. The Center conducts public opinion polling, demographic research, content analysis and other data-driven social science research. It studies U.S. politics and policy; journalism and media; internet, science and technology; religion and public life; Hispanic trends; global attitudes and trends; and U.S. social and demographic trends. All of the Center’s reports are available at www.pewresearch.org. Pew Research Center is a subsidiary of The Pew Charitable Trusts, its primary funder.
+  - fact (pages [19]): Results for this study are based on telephone interviews conducted by SSRS, an independent research company, for the Pew Research Center among a nationally representative sample of 1,500 Latino respondents ages 18 and older. It was conducted on cellular and landline telephones from Oct. 21 through Nov. 30, 2015.
+  - fact (pages [6]): Source: Pew Research Center tabulations of Bureau of Labor Statistics data.
+  - fact (pages [7]): Source: For real median household income and the poverty rate, U.S. Census Bureau. For median net worth, Pew Research Center tabulations of the Survey of Consumer Finances public-use data.
+- **qid 7** (Independents-Report.pdf, Text): What's the percentage of people who are democrats and voted in the last election compared to the entire population in 2018?
+  - answer: 18.29% | gold pages [3, 5]
+  - needs: ['percentage of democrats who voted in the last election in 2018', 'entire population in 2018']
+  - topk: pages [4, 5, 3, 22, 20] -> 61
+  - coverage: pages [3, 4, 5, 22, 20] -> 61
+  - evidence: pages [5, 3, 4, 22, 16] -> 59
+  - gold: pages [3, 5] -> 31
+  - fact (pages [5]): 59% of Democrats said they voted in the 2018 midterm elections.
+  - fact (pages [3]): 31% of the U.S. adult population identified as Democrats in 2018.
+- **qid 57** (reportq32015-151009093138-lva1-app6891_95.pdf, Figure + Layout): In Q3 2015, what is the approximate range of cost in 1 day (dollar) of a mobile incentive platform in Vietnam for installing? Answer with a list of two number for boundary, for example [3000, 4000]
+  - answer: [1500, 8000] | gold pages [26, 27]
+  - needs: ['cost of mobile incentive platform in Vietnam for installing in Q3 2015', 'range of cost in 1 day (dollar) of mobile incentive platform in Vietnam for installing in Q3 2015']
+  - topk: pages [26, 27, 32, 13, 21] -> ['0.3', '0.4']
+  - coverage: pages [27, 26, 32, 13, 21] -> ['0.3', '0.4']
+  - evidence: pages [27, 16, 1, 26, 14] -> ['0.3', '0.4']
+  - gold: pages [26, 27] -> ['1500', '2000']
+  - fact (pages [27]): Mobile incentive reward platform boom in Vietnam with many names entering the market, each player providing approximately 5 - 20k installs a day.

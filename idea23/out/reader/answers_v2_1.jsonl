@@ -1,0 +1,174 @@
+{"qid": 2, "pages": [4, 6, 9, 13, 14], "pred": "Some college or more", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 11, "pages": [4, 10, 11, 14, 19], "pred": "2", "input_tokens": 5147, "image_tokens": 5040}
+{"qid": 17, "pages": [4, 7, 12, 14, 15], "pred": "With family and friends", "input_tokens": 5152, "image_tokens": 5040}
+{"qid": 28, "pages": [23, 26, 30, 33, 92], "pred": "https://w.wiki/6eq", "input_tokens": 4971, "image_tokens": 4860}
+{"qid": 31, "pages": [8, 102, 103, 107, 108], "pred": "WikidataMapMakingWorkshop.ipynb", "input_tokens": 4969, "image_tokens": 4860}
+{"qid": 32, "pages": [8, 11, 31, 33, 48], "pred": "6", "input_tokens": 4960, "image_tokens": 4860}
+{"qid": 32, "pages": [11, 18, 22], "pred": "4", "input_tokens": 3003, "image_tokens": 2916}
+{"qid": 42, "pages": [11, 12, 13, 14, 62], "pred": "['Standard Reports', 'Ad-Hoc Reports', 'Query Drilldown (OLAP)', 'Alerts']", "input_tokens": 4978, "image_tokens": 4860}
+{"qid": 42, "pages": [12, 14, 36], "pred": "['Standard Reports', 'Ad-Hoc Reports', 'Query Drilldown (OLAP)', 'Alerts']", "input_tokens": 3020, "image_tokens": 2916}
+{"qid": 48, "pages": [17, 25, 51], "pred": "3", "input_tokens": 3005, "image_tokens": 2916}
+{"qid": 52, "pages": [6, 7, 9, 14, 15], "pred": "51", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 57, "pages": [1, 14, 16, 26, 27], "pred": "['0.3', '0.4']", "input_tokens": 5197, "image_tokens": 5040}
+{"qid": 62, "pages": [1, 4, 10, 12, 13], "pred": "['occupation', 'place of birth']", "input_tokens": 5054, "image_tokens": 4940}
+{"qid": 65, "pages": [6, 7, 8, 9, 14], "pred": "0.1", "input_tokens": 5039, "image_tokens": 4940}
+{"qid": 74, "pages": [2, 3, 4, 9, 16], "pred": "['Gaussian Mixture Models (GMMs)']", "input_tokens": 5156, "image_tokens": 5040}
+{"qid": 76, "pages": [1, 2, 17], "pred": "Fine-tuning", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 78, "pages": [6, 7, 8, 10, 17], "pred": "From classification to generation: Insights into crosslingual retrieval augmented icl", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 101, "pages": [3, 9, 12, 14, 22], "pred": "Medicine", "input_tokens": 5043, "image_tokens": 4940}
+{"qid": 103, "pages": [6, 10, 14, 17, 18], "pred": "['College of Engineering', 'College of Science']", "input_tokens": 5061, "image_tokens": 4940}
+{"qid": 109, "pages": [31, 32, 33, 34, 35], "pred": "Bus", "input_tokens": 4925, "image_tokens": 4810}
+{"qid": 111, "pages": [5, 9, 10, 25, 27], "pred": "200", "input_tokens": 5184, "image_tokens": 5040}
+{"qid": 119, "pages": [3, 11, 13, 16, 17], "pred": "['UK', 'China', 'Canada', 'Israel', 'Mexico', 'France', 'Japan', 'Russia']", "input_tokens": 5173, "image_tokens": 5040}
+{"qid": 119, "pages": [11, 13, 16], "pred": "['UK', 'China', 'Canada', 'Israel', 'France', 'Japan', 'Russia']", "input_tokens": 3144, "image_tokens": 3024}
+{"qid": 127, "pages": [2, 3, 8], "pred": "Diagram of Breccia Gashes with top denuded off but bottom shown in cliff", "input_tokens": 3084, "image_tokens": 3000}
+{"qid": 137, "pages": [6, 15, 16], "pred": "Michael Kuperberg", "input_tokens": 3104, "image_tokens": 3024}
+{"qid": 139, "pages": [7, 8, 9, 11, 12], "pred": "9", "input_tokens": 5133, "image_tokens": 5040}
+{"qid": 149, "pages": [3, 12, 13, 20, 27], "pred": "11", "input_tokens": 4976, "image_tokens": 4860}
+{"qid": 151, "pages": [9, 12, 17, 27, 34], "pred": "48", "input_tokens": 4978, "image_tokens": 4860}
+{"qid": 153, "pages": [1, 3, 8, 24, 29], "pred": "I don't know", "input_tokens": 4956, "image_tokens": 4860}
+{"qid": 155, "pages": [4, 7, 22, 23, 33], "pred": "Eric Kelleher", "input_tokens": 4957, "image_tokens": 4860}
+{"qid": 163, "pages": [4, 9, 12], "pred": "102", "input_tokens": 3050, "image_tokens": 2964}
+{"qid": 169, "pages": [4, 29, 31], "pred": "['Internet', 'Television', 'Newspaper', 'Radio']", "input_tokens": 3059, "image_tokens": 2964}
+{"qid": 173, "pages": [10, 11, 15], "pred": "19", "input_tokens": 3023, "image_tokens": 2916}
+{"qid": 177, "pages": [8, 11, 43], "pred": "2", "input_tokens": 3011, "image_tokens": 2916}
+{"qid": 177, "pages": [8, 37, 43], "pred": "1", "input_tokens": 3011, "image_tokens": 2916}
+{"qid": 194, "pages": [4, 19, 23, 32, 36], "pred": "1", "input_tokens": 5104, "image_tokens": 4995}
+{"qid": 194, "pages": [19, 23, 24, 32, 34], "pred": "0", "input_tokens": 5105, "image_tokens": 4995}
+{"qid": 202, "pages": [6, 55, 65, 66, 75], "pred": "['Australia', 'Canada', 'Ireland', 'New Zealand', 'United Kingdom']", "input_tokens": 3257, "image_tokens": 3125}
+{"qid": 203, "pages": [36, 41, 43, 53, 54], "pred": "917-200-200", "input_tokens": 3244, "image_tokens": 3125}
+{"qid": 204, "pages": [2, 27, 58], "pred": "iSight", "input_tokens": 1967, "image_tokens": 1875}
+{"qid": 212, "pages": [9, 10, 11, 12, 14], "pred": "48", "input_tokens": 5189, "image_tokens": 5040}
+{"qid": 219, "pages": [2, 3, 4, 6, 8], "pred": "41%", "input_tokens": 5165, "image_tokens": 5040}
+{"qid": 269, "pages": [7, 9, 20, 21, 26], "pred": "3", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 270, "pages": [8, 9, 11, 14, 16], "pred": "3", "input_tokens": 5147, "image_tokens": 5040}
+{"qid": 272, "pages": [12, 66, 132], "pred": "Increased or sustained value", "input_tokens": 3016, "image_tokens": 2916}
+{"qid": 277, "pages": [3, 36, 57, 58, 195], "pred": "20", "input_tokens": 4974, "image_tokens": 4860}
+{"qid": 277, "pages": [36, 38, 57, 58, 195], "pred": "20", "input_tokens": 4975, "image_tokens": 4860}
+{"qid": 283, "pages": [1, 2, 3, 7, 9], "pred": "4", "input_tokens": 5039, "image_tokens": 4940}
+{"qid": 285, "pages": [3, 5, 10], "pred": "Finish", "input_tokens": 3066, "image_tokens": 2964}
+{"qid": 312, "pages": [3, 15, 16, 29, 37], "pred": "8", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 315, "pages": [11, 12, 15, 34, 36], "pred": "0.00", "input_tokens": 5153, "image_tokens": 5040}
+{"qid": 318, "pages": [22, 24, 25], "pred": "100", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 333, "pages": [3, 9, 12, 15, 16], "pred": "0", "input_tokens": 4913, "image_tokens": 4810}
+{"qid": 336, "pages": [3, 14, 16], "pred": "5", "input_tokens": 3028, "image_tokens": 2940}
+{"qid": 366, "pages": [1, 2, 3, 4, 13], "pred": "2.4", "input_tokens": 5054, "image_tokens": 4940}
+{"qid": 378, "pages": [2, 5, 11, 14, 20], "pred": "6", "input_tokens": 5037, "image_tokens": 4940}
+{"qid": 378, "pages": [11, 14, 20], "pred": "5", "input_tokens": 3049, "image_tokens": 2964}
+{"qid": 381, "pages": [3, 4, 6, 7, 9], "pred": "4", "input_tokens": 5133, "image_tokens": 5040}
+{"qid": 391, "pages": [3, 7, 11, 12, 17], "pred": "Monitoring Summary", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 398, "pages": [3, 11, 13, 16, 17], "pred": "5", "input_tokens": 5136, "image_tokens": 5040}
+{"qid": 403, "pages": [1, 28, 45, 48, 74], "pred": "['Chapter 8', 'Chapter 9', 'Chapter 10']", "input_tokens": 5167, "image_tokens": 5040}
+{"qid": 434, "pages": [33, 34, 46, 49, 53], "pred": "Kaggle's Cat vs Dog dataset", "input_tokens": 4967, "image_tokens": 4860}
+{"qid": 444, "pages": [6, 13, 23], "pred": "Monarch butterfly", "input_tokens": 3119, "image_tokens": 3024}
+{"qid": 446, "pages": [7, 8, 13, 21, 25], "pred": "Mercedes-Benz E-Class Sedan", "input_tokens": 5143, "image_tokens": 5040}
+{"qid": 469, "pages": [4, 28, 47, 120, 150], "pred": "4", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 480, "pages": [1, 2, 3, 4, 5], "pred": "Red", "input_tokens": 5133, "image_tokens": 5040}
+{"qid": 484, "pages": [4, 9, 14, 15, 16], "pred": "7", "input_tokens": 5136, "image_tokens": 5040}
+{"qid": 487, "pages": [2, 3, 4, 5, 15], "pred": "3", "input_tokens": 5134, "image_tokens": 5040}
+{"qid": 493, "pages": [3, 5, 9, 16, 20], "pred": "['cat']", "input_tokens": 4941, "image_tokens": 4830}
+{"qid": 494, "pages": [4, 10, 11, 17, 24], "pred": "6%", "input_tokens": 4953, "image_tokens": 4830}
+{"qid": 501, "pages": [10, 11, 19, 21, 22], "pred": "48", "input_tokens": 5157, "image_tokens": 5040}
+{"qid": 509, "pages": [4, 8, 9], "pred": "6", "input_tokens": 3105, "image_tokens": 3024}
+{"qid": 531, "pages": [12, 13, 14, 39, 40], "pred": "00:04:14", "input_tokens": 4958, "image_tokens": 4860}
+{"qid": 553, "pages": [5, 12, 19, 43, 44], "pred": "179", "input_tokens": 5002, "image_tokens": 4900}
+{"qid": 558, "pages": [23, 275, 336, 337, 453], "pred": "DecoupledSOLOHead", "input_tokens": 5169, "image_tokens": 5040}
+{"qid": 560, "pages": [58, 75, 76, 78, 250], "pred": "7", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 581, "pages": [1, 6, 9, 12, 14], "pred": "7", "input_tokens": 5141, "image_tokens": 5040}
+{"qid": 585, "pages": [1, 2, 4, 14, 15], "pred": "514-312-0292", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 587, "pages": [1, 2, 3, 13, 15], "pred": "Superior Court", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 592, "pages": [2, 3, 4, 10, 12], "pred": "['2', '3', '4', '10', '12']", "input_tokens": 5168, "image_tokens": 5040}
+{"qid": 598, "pages": [4, 5, 15], "pred": "12.0", "input_tokens": 3126, "image_tokens": 3024}
+{"qid": 603, "pages": [19, 20, 21, 31, 41], "pred": "President", "input_tokens": 4969, "image_tokens": 4860}
+{"qid": 611, "pages": [11, 12, 13, 14, 37], "pred": "89", "input_tokens": 4974, "image_tokens": 4860}
+{"qid": 613, "pages": [16, 18, 19, 55, 64], "pred": "Hiatus", "input_tokens": 4971, "image_tokens": 4860}
+{"qid": 618, "pages": [2, 13, 14, 20, 53], "pred": "2", "input_tokens": 4965, "image_tokens": 4860}
+{"qid": 623, "pages": [4, 5, 8, 17, 42], "pred": "+10", "input_tokens": 4968, "image_tokens": 4860}
+{"qid": 641, "pages": [6, 7, 8], "pred": "54.2", "input_tokens": 3083, "image_tokens": 2964}
+{"qid": 643, "pages": [4, 5, 10], "pred": "Training-time correction", "input_tokens": 3068, "image_tokens": 2964}
+{"qid": 647, "pages": [4, 5, 6, 8, 9], "pred": "0", "input_tokens": 5067, "image_tokens": 4940}
+{"qid": 649, "pages": [5, 6, 18], "pred": "4", "input_tokens": 3065, "image_tokens": 2964}
+{"qid": 651, "pages": [2, 6, 11], "pred": "['Fudan University', 'Shanghai Jiao Tong University']", "input_tokens": 2992, "image_tokens": 2886}
+{"qid": 662, "pages": [11, 12, 16, 18, 20], "pred": "['5', '14', '18', '19']", "input_tokens": 5133, "image_tokens": 4995}
+{"qid": 663, "pages": [3, 5, 14, 17, 18], "pred": "4", "input_tokens": 5081, "image_tokens": 4984}
+{"qid": 673, "pages": [4, 5, 9, 13, 22], "pred": "18", "input_tokens": 5049, "image_tokens": 4940}
+{"qid": 686, "pages": [2, 7, 9, 44, 45], "pred": "1", "input_tokens": 5135, "image_tokens": 5040}
+{"qid": 700, "pages": [1, 2, 3, 13, 15], "pred": "['48897809', '515,2012']", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 714, "pages": [3, 4, 5, 6, 12], "pred": "2008", "input_tokens": 5039, "image_tokens": 4940}
+{"qid": 720, "pages": [5, 6, 7, 14, 19], "pred": "25mm", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 721, "pages": [14, 16, 17, 18, 47], "pred": "9", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 729, "pages": [7, 16, 19], "pred": "41", "input_tokens": 3117, "image_tokens": 3024}
+{"qid": 736, "pages": [7, 11, 13, 14, 17], "pred": "4", "input_tokens": 5141, "image_tokens": 5040}
+{"qid": 749, "pages": [15, 24, 25, 27, 29], "pred": "['Engine Temperature Sensor', 'Inlet Air Temperature Sensor']", "input_tokens": 4971, "image_tokens": 4860}
+{"qid": 755, "pages": [4, 7, 8, 9, 10], "pred": "6", "input_tokens": 5138, "image_tokens": 5040}
+{"qid": 755, "pages": [7, 10, 14], "pred": "5", "input_tokens": 3111, "image_tokens": 3024}
+{"qid": 763, "pages": [6, 7, 19, 20, 21], "pred": "6", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 785, "pages": [34, 40, 41], "pred": "['Chen Mapo Doufu', 'Yu Zhi Lan']", "input_tokens": 3067, "image_tokens": 2964}
+{"qid": 786, "pages": [2, 4, 5, 33, 39], "pred": "4", "input_tokens": 4974, "image_tokens": 4875}
+{"qid": 801, "pages": [1, 8, 17], "pred": "['Traceability', 'Data Lake', 'Integration', 'Security', 'Orchestration']", "input_tokens": 3057, "image_tokens": 2964}
+{"qid": 805, "pages": [1, 6, 10], "pred": "Advantage Online", "input_tokens": 3049, "image_tokens": 2964}
+{"qid": 807, "pages": [7, 36, 39], "pred": "31", "input_tokens": 3142, "image_tokens": 3024}
+{"qid": 822, "pages": [1, 3, 9, 10, 11], "pred": "['Hamilton']", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 824, "pages": [2, 7, 12, 15, 17], "pred": "3", "input_tokens": 5135, "image_tokens": 5040}
+{"qid": 827, "pages": [4, 6, 11, 13, 15], "pred": "Electronic Medical Record", "input_tokens": 4967, "image_tokens": 4860}
+{"qid": 857, "pages": [8, 10, 51], "pred": "['Oracle', 'IBM']", "input_tokens": 3022, "image_tokens": 2916}
+{"qid": 874, "pages": [2, 16, 37, 52, 69], "pred": "4", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 880, "pages": [11, 39, 40, 69, 76], "pred": "2", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 881, "pages": [16, 17, 55], "pred": "2", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 882, "pages": [2, 32, 33], "pred": "The first subfigure shows a traditional ML setting where humans supervise models that are weaker than humans, while the second subfigure shows an analogy of using weak models to supervise strong models.", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 886, "pages": [7, 8, 31, 41, 45], "pred": "3", "input_tokens": 5136, "image_tokens": 5040}
+{"qid": 900, "pages": [1, 9, 16], "pred": "4", "input_tokens": 3045, "image_tokens": 2964}
+{"qid": 903, "pages": [2, 51, 52], "pred": "4", "input_tokens": 3053, "image_tokens": 2964}
+{"qid": 903, "pages": [51, 52, 105], "pred": "4", "input_tokens": 3055, "image_tokens": 2964}
+{"qid": 905, "pages": [18, 50, 117], "pred": "0", "input_tokens": 3053, "image_tokens": 2964}
+{"qid": 910, "pages": [1, 27, 29], "pred": "4", "input_tokens": 3051, "image_tokens": 2964}
+{"qid": 914, "pages": [6, 8, 14, 18, 20], "pred": "8300", "input_tokens": 5046, "image_tokens": 4940}
+{"qid": 916, "pages": [7, 8, 9, 11, 15], "pred": "1914", "input_tokens": 5034, "image_tokens": 4940}
+{"qid": 921, "pages": [1, 9, 15, 16, 17], "pred": "5", "input_tokens": 5036, "image_tokens": 4940}
+{"qid": 922, "pages": [4, 5, 6, 10, 11], "pred": "4", "input_tokens": 5160, "image_tokens": 5040}
+{"qid": 927, "pages": [4, 7, 8, 9, 10], "pred": "13", "input_tokens": 5155, "image_tokens": 5040}
+{"qid": 932, "pages": [1, 8, 19], "pred": "Medical Informatics and HIT Systems", "input_tokens": 2997, "image_tokens": 2916}
+{"qid": 939, "pages": [10, 11, 13, 16, 17], "pred": "30216492", "input_tokens": 5059, "image_tokens": 4940}
+{"qid": 949, "pages": [2, 3, 6], "pred": "USCA11 Case: 21-13199", "input_tokens": 3103, "image_tokens": 3024}
+{"qid": 950, "pages": [2, 6, 8, 13, 14], "pred": "2022-01-05", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 956, "pages": [6, 16, 45, 53, 55], "pred": "5", "input_tokens": 5136, "image_tokens": 5040}
+{"qid": 958, "pages": [9, 12, 13], "pred": "['shiny object', 'mirror']", "input_tokens": 3117, "image_tokens": 3024}
+{"qid": 970, "pages": [3, 12, 14, 15, 16], "pred": "6", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 974, "pages": [3, 6, 7], "pred": "6", "input_tokens": 3107, "image_tokens": 3024}
+{"qid": 979, "pages": [4, 6, 19, 22, 23], "pred": "2", "input_tokens": 5147, "image_tokens": 5040}
+{"qid": 982, "pages": [2, 3, 4, 5, 11], "pred": "No", "input_tokens": 5052, "image_tokens": 4940}
+{"qid": 988, "pages": [3, 11, 13], "pred": "has-exch@ntu.edu.sg", "input_tokens": 3025, "image_tokens": 2940}
+{"qid": 990, "pages": [7, 21, 22, 25, 29], "pred": "Campus Security", "input_tokens": 5000, "image_tokens": 4900}
+{"qid": 991, "pages": [3, 14, 22, 32, 33], "pred": "4", "input_tokens": 5003, "image_tokens": 4900}
+{"qid": 993, "pages": [3, 51, 75], "pred": "5", "input_tokens": 2459, "image_tokens": 2376}
+{"qid": 996, "pages": [3, 15, 16, 32, 33], "pred": "NTIC", "input_tokens": 4063, "image_tokens": 3960}
+{"qid": 997, "pages": [37, 55, 59, 61, 70], "pred": "15 mins", "input_tokens": 4076, "image_tokens": 3960}
+{"qid": 1002, "pages": [10, 21, 22], "pred": "2", "input_tokens": 3092, "image_tokens": 2997}
+{"qid": 1004, "pages": [15, 17, 47], "pred": "2", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 1007, "pages": [26, 28, 29], "pred": "no", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 1012, "pages": [28, 29, 69], "pred": "1.5", "input_tokens": 3060, "image_tokens": 2964}
+{"qid": 1012, "pages": [28, 29, 124], "pred": "1", "input_tokens": 3061, "image_tokens": 2964}
+{"qid": 1018, "pages": [3, 21, 60], "pred": "1.457", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 1020, "pages": [21, 23, 38], "pred": "0.16", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 1025, "pages": [21, 39, 55], "pred": "1,358", "input_tokens": 3113, "image_tokens": 3024}
+{"qid": 1026, "pages": [29, 39, 40], "pred": "1,358", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 1027, "pages": [21, 23, 36], "pred": "Controlling costs", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 1040, "pages": [21, 22, 23, 61, 62], "pred": "1,375,500", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1042, "pages": [30, 31, 36, 38, 88], "pred": "44.53", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 1045, "pages": [19, 30, 36, 38, 49], "pred": "47.00", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1049, "pages": [61, 72, 95], "pred": "6063", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 1050, "pages": [3, 30, 65], "pred": "['Running', 'NIKE Basketball', 'The Jordan Brand', 'Football (Soccer)', 'Training and Sportswear']", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 1052, "pages": [32, 52, 59], "pred": "24.0%", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 1057, "pages": [23, 50, 74], "pred": "0.286", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1062, "pages": [14, 37, 48, 49, 56], "pred": "3", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1069, "pages": [4, 13, 30, 33, 42], "pred": "software subscription model", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 1070, "pages": [22, 25, 26], "pred": "-1.84", "input_tokens": 3135, "image_tokens": 3024}
+{"qid": 1072, "pages": [52, 64, 75], "pred": "0.192", "input_tokens": 3129, "image_tokens": 3024}
+{"qid": 1074, "pages": [31, 40, 54], "pred": "0.079", "input_tokens": 3132, "image_tokens": 3024}
+{"qid": 1076, "pages": [29, 36, 44], "pred": "1874", "input_tokens": 3127, "image_tokens": 3024}
+{"qid": 1078, "pages": [32, 37, 46], "pred": "1383", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1080, "pages": [7, 22, 32, 58, 66], "pred": "25%", "input_tokens": 5160, "image_tokens": 5040}
+{"qid": 1082, "pages": [3, 22, 39, 44, 66], "pred": "8802", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 1084, "pages": [49, 55, 68], "pred": "1.500", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1086, "pages": [22, 32, 36, 38, 75], "pred": "139.12", "input_tokens": 5157, "image_tokens": 5040}
+{"qid": 1087, "pages": [7, 39, 49], "pred": "1577", "input_tokens": 3123, "image_tokens": 3024}

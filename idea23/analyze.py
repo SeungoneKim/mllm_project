@@ -1,7 +1,12 @@
 """Step 5 (CPU): reader accuracy for every method, paired comparisons, and the failure analysis.
 
-  python analyze.py     # reads out/selections.jsonl, out/reader/answers_*.jsonl, out/decomp.jsonl, out/scores.pkl
-                        # writes out/analysis/{summary.md, metrics.json, per_question.csv, examples.md}
+  IDEA23_VERSION=v2 python analyze.py
+      reads out/<version>/selections.jsonl, out/reader/answers_*.jsonl, out/decomp.jsonl, out/scores.pkl
+      writes out/<version>/analysis/{summary.md, metrics.json, per_question.csv, examples.md}
+
+The methods and the baselines of the paired tests come from versions.py. v1 and later add the need-form diagnostics,
+the v2 versions the VLM's facts (aggregation diagnostics, the split between questions with and without a fact, where
+the questions without one are), and the v2 controls a paired test against v2's own evidence selections.
 
 Answers are scored with idea5/score.py (the rule-based part of MMLongBench-Doc's scorer); a question counts as correct
 when its score is above 0, as in idea5. Retrieval outcomes per question: complete (every gold page selected), partial
@@ -14,11 +19,13 @@ import math
 import numpy as np
 import pandas as pd
 
-from common import ANNOTATIONS, IDEA23, OUT, load_qa, read_jsonl, test_questions
+from common import ANNOTATIONS, IDEA23, OUT, VERSION, VOUT, load_qa, read_jsonl, test_questions
+from versions import VERSIONS
 
-ANALYSIS = OUT / "analysis"
+ANALYSIS = VOUT / "analysis"
 MAIN_K = 5
-METHODS = ["topk", "hybrid", "mmr", "decomp_rrf", "coverage", "coverage_beam", "gold"]
+METHODS = VERSIONS[VERSION]["reader"]
+MAIN = VERSIONS[VERSION]["main"]  # the version's own method, compared with top-k in the failure analysis
 GROUPS = ["multi", "same_mod", "cross_multi", "control"]
 
 _spec = importlib.util.spec_from_file_location("idea5_score", IDEA23.parent / "idea5" / "score.py")
@@ -52,7 +59,7 @@ def per_question():
                for p in sorted((OUT / "reader").glob("answers_*.jsonl")) for r in read_jsonl(p)}
     n_needs = {r["qid"]: len(r["needs"]) for r in read_jsonl(OUT / "decomp.jsonl")}
     rows = []
-    for r in read_jsonl(OUT / "selections.jsonl"):
+    for r in read_jsonl(VOUT / "selections.jsonl"):
         if r["method"] not in METHODS:
             continue
         q = qs.loc[r["qid"]]
@@ -98,7 +105,7 @@ def main_table(df):
 
 
 def paired(df, k=MAIN_K, base="topk"):
-    """Wins and losses of each method against top-k on the same questions (answers and complete retrieval)."""
+    """Wins and losses of each method against `base` on the same questions (answers and complete retrieval)."""
     out = []
     for group in GROUPS:
         g = by_group(df)
@@ -136,7 +143,43 @@ def failure_table(df, method, k=MAIN_K):
     return t[["n", "correct", "wrong", "wrong_fixed_by_gold"]].astype(int).reindex(["complete", "partial", "none"])
 
 
-def breakdown(df, col, methods=("topk", "coverage", "gold"), k=MAIN_K, min_n=5):
+def paired_vs_v2(df, method="evidence"):
+    """This version's `method` against v2's (the VLM reading element crops), per group and k, on complete retrieval
+    and answers; v2's answers come from the shared reader cache."""
+    answers = {(r["qid"], tuple(r["pages"])): r["pred"]
+               for p in sorted((OUT / "reader").glob("answers_*.jsonl")) for r in read_jsonl(p)}
+    qa = load_qa().set_index("qid")
+    other = {(r["qid"], r["k"]): r["pages"] for r in read_jsonl(OUT / "v2" / "selections.jsonl") if r["method"] == method}
+    rows = []
+    for k in (3, MAIN_K):
+        m = by_group(df[(df.method == method) & (df.k == k)])
+        for group, g in m.groupby("group"):
+            cw = cl = aw = al = 0
+            for r in g.itertuples():
+                o = other.get((r.qid, k))
+                if o is None:
+                    continue
+                gold, q = set(r.gold), qa.loc[r.qid]
+                a, b = gold <= set(r.pages), gold <= set(o)
+                cw, cl = cw + (a and not b), cl + (b and not a)
+                pa, pb = answers.get((r.qid, tuple(sorted(r.pages)))), answers.get((r.qid, tuple(sorted(o))))
+                if pa is not None and pb is not None:
+                    xa = idea5_score.score(q.answer, pa, q.answer_format) > 0
+                    xb = idea5_score.score(q.answer, pb, q.answer_format) > 0
+                    aw, al = aw + (xa and not xb), al + (xb and not xa)
+            rows.append({"group": group, "k": k, "answer_wins": aw, "answer_losses": al, "answer_p": round(mcnemar(aw, al), 4),
+                         "complete_wins": cw, "complete_losses": cl, "complete_p": round(mcnemar(cw, cl), 4)})
+    return pd.DataFrame(rows)
+
+
+def unique(xs):
+    return tuple(dict.fromkeys(xs))
+
+
+BREAKDOWN = unique(("topk", "coverage", MAIN, "gold"))
+
+
+def breakdown(df, col, methods=BREAKDOWN, k=MAIN_K, min_n=5):
     """Complete-evidence recall and accuracy per value of `col`; values with fewer than min_n questions -> other."""
     m = df[(df.set == "multi") & df.method.isin(methods) & ((df.k == k) | (df.method == "gold"))].copy()
     counts = m[m.method == methods[0]][col].value_counts()
@@ -151,7 +194,7 @@ def breakdown(df, col, methods=("topk", "coverage", "gold"), k=MAIN_K, min_n=5):
     return pd.DataFrame(cols).sort_values("n", ascending=False)
 
 
-def missed_by_form(df, methods=("topk", "coverage"), k=MAIN_K):
+def missed_by_form(df, methods=unique(("topk", "coverage", MAIN)), k=MAIN_K):
     """Per gold page of a multi-page question: the form of its evidence (out/page_tags.jsonl), its ColQwen rank, and
     whether each method selected it. Also, for cross-modal questions that a method retrieves only in part, which
     form the found and the missed pages hold."""
@@ -223,14 +266,16 @@ def decomposition_diagnostics(qs):
     return pd.DataFrame(rows)
 
 
-def examples(df, qs, decomp, n=4):
-    """Questions where coverage and top-k differ in retrieval, plus reader failures with complete retrieval."""
+def examples(df, qs, decomp, n=4, main=MAIN):
+    """Questions where the version's method and top-k differ in retrieval, plus reader failures with complete
+    retrieval; in v2 with the VLM's facts."""
+    facts = facts_by_question(qs) if VERSION.startswith("v2") else {}
     sub = df[(df.set == "multi") & ((df.k == MAIN_K) | (df.method == "gold"))]
     w, a, pages, preds = (sub.pivot(index="qid", columns="method", values=c)
                           for c in ["outcome", "correct", "pages", "pred"])
     cases = {
-        "coverage completes, top-k does not": w[(w.coverage == "complete") & (w.topk != "complete")].index,
-        "top-k completes, coverage does not": w[(w.topk == "complete") & (w.coverage != "complete")].index,
+        f"{main} completes, top-k does not": w[(w[main] == "complete") & (w.topk != "complete")].index,
+        f"top-k completes, {main} does not": w[(w.topk == "complete") & (w[main] != "complete")].index,
         "top-k complete but wrong, gold also wrong (reader failure)":
             a[(a.get("topk") == 0) & (a.get("gold") == 0)].index.intersection(w[w.topk == "complete"].index),
     }
@@ -243,11 +288,108 @@ def examples(df, qs, decomp, n=4):
             lines += [f"- **qid {qid}** ({q.doc_id}, {q.combo}): {q.question.strip()}",
                       f"  - answer: {q.answer} | gold pages {q.gold}",
                       f"  - needs: {decomp.get(qid, {}).get('needs')}"]
-            for m in ["topk", "coverage", "gold"]:
+            for m in unique(["topk", "coverage", main, "gold"]):
                 if m in pages.columns:
                     lines.append(f"  - {m}: pages {pages.loc[qid, m]} -> {preds.loc[qid, m] if m in preds.columns else None}")
+            for f in facts.get(qid, []):
+                lines.append(f"  - fact (pages {f['pages']}): {f['fact']}")
         lines.append("")
     return "\n".join(lines)
+
+
+def facts_by_question(qs):
+    """v2: the VLM's facts of each question with the pages of their elements (unit_scores.pkl), else {}."""
+    us = VOUT / "unit_scores.pkl"
+    if not us.exists():
+        return {}
+    from common import load_elements
+    docs = qs.set_index("qid").doc_id
+    out = {}
+    for qid, u in pd.read_pickle(us).items():
+        els = load_elements(docs.loc[qid])
+        out[qid] = [{"fact": f["fact"], "pages": sorted({els[i]["page"] for i in f["evidence"]})} for f in u["facts"]]
+    return out
+
+
+def form_diagnostics(qs):
+    """How the predicted need forms relate to the benchmark's evidence-source labels (never an input), and how often
+    a gold page holds a form its question's needs expect."""
+    from common import load_elements
+    from evidence import page_forms
+    forms = {r["qid"]: r for r in read_jsonl(OUT / "need_forms.jsonl")}
+    multi = qs[qs.set == "multi"]
+    rows = []
+    for r in multi.itertuples():
+        f = forms.get(r.qid)
+        if f is None:
+            continue
+        pred = {x for fj in f["forms"] for x in fj if x != "any"}
+        pf = page_forms(load_elements(r.doc_id), r.doc_pages)
+        typed = [set(fj) for fj in f["forms"] if "any" not in fj]
+        gold_ok = [pf[p - 1] is None or not typed or any(t & pf[p - 1] for t in typed) for p in r.gold]
+        rows.append({"any_only": not pred, "label_hit": bool(pred & set(r.mods)), "label_all": set(r.mods) <= pred,
+                     "gold_page_matches": float(np.mean(gold_ok)), "parsed": f["parsed"]})
+    d = pd.DataFrame(rows)
+    return {"n": len(d), "unparsed": int((~d.parsed).sum()), "all_needs_any_pct": round(100 * d.any_only.mean(), 1),
+            "predicted_forms_include_a_labelled_source_pct": round(100 * d.label_hit.mean(), 1),
+            "predicted_forms_include_every_labelled_source_pct": round(100 * d.label_all.mean(), 1),
+            "gold_pages_holding_an_expected_form_pct": round(100 * d.gold_page_matches.mean(), 1)}
+
+
+def aggregation_diagnostics(qs):
+    """What the VLM made of the candidate elements: facts, jointly necessary and redundant evidence, missing needs,
+    and how often the pages the facts point to hold the gold evidence."""
+    from aggregate import AGG
+    from common import load_elements
+    multi = qs[qs.set == "multi"].set_index("qid")
+    rows = {r["qid"]: r for p in sorted(AGG.glob("facts_*.jsonl")) for r in read_jsonl(p) if r["qid"] in multi.index}
+    if not rows:
+        return None
+    cands = {r["qid"]: r for r in read_jsonl(VOUT / "candidates.jsonl")}
+    stats = []
+    for qid, r in rows.items():
+        q, els = multi.loc[qid], load_elements(multi.loc[qid].doc_id)
+        fact_pages = {els[i]["page"] for f in r["facts"] for i in f["evidence"] + f["same_as"]}
+        stats.append({"parsed": r["parsed"], "facts": len(r["facts"]),
+                      "joint": any(len(f["evidence"]) > 1 for f in r["facts"]),
+                      "cross_page_joint": any(len({els[i]["page"] for i in f["evidence"]}) > 1 for f in r["facts"]),
+                      "redundant": any(f["same_as"] for f in r["facts"]), "missing": bool(r["missing"]),
+                      "cand_complete": set(q.gold) <= set(cands[qid]["pages"]),
+                      "fact_complete": set(q.gold) <= fact_pages,
+                      "fact_gold_recall": len(set(q.gold) & fact_pages) / len(q.gold),
+                      "cand_gold_recall": len(set(q.gold) & set(cands[qid]["pages"])) / len(q.gold)})
+    d = pd.DataFrame(stats)
+    pct = lambda s: round(100 * s.mean(), 1)
+    return {"n": len(d), "model": AGG.name, "unparsed": int((~d.parsed).sum()), "facts_per_question": round(d.facts.mean(), 2),
+            "no_fact_pct": pct(d.facts == 0), "with_joint_fact_pct": pct(d.joint),
+            "with_cross_page_joint_fact_pct": pct(d.cross_page_joint), "with_redundant_copy_pct": pct(d.redundant),
+            "with_missing_need_pct": pct(d.missing),
+            "gold_recall_of_candidate_pages": pct(d.cand_gold_recall), "gold_recall_of_fact_pages": pct(d.fact_gold_recall),
+            "all_gold_in_candidate_pages_pct": pct(d.cand_complete), "all_gold_in_fact_pages_pct": pct(d.fact_complete)}
+
+
+def facts_split(df, k=MAIN_K):
+    """v2: complete-evidence recall and accuracy where the VLM gave facts and where evidence fell back to
+    elem_coverage_mod (no fact), per set."""
+    ch = VOUT / "evidence_choices.jsonl"
+    if not ch.exists():
+        return None
+    fb = {r["qid"]: r["fallback"] for r in read_jsonl(ch) if r["k"] == k}
+    m = df[(df.k == k) & df.method.isin(["evidence", "coverage", "elem_coverage_mod"])].copy()
+    m["facts"] = m.qid.map(lambda q: "fallback (no fact)" if fb.get(q) else "with facts")
+    t = m.groupby(["set", "facts", "method"]).agg(n=("qid", "size"),
+                                                   complete=("outcome", lambda o: 100 * (o == "complete").mean()),
+                                                   acc=("correct", lambda c: 100 * c.mean())).round(1)
+    return t.unstack("method")
+
+
+def no_fact_share(df, col, k=MAIN_K):
+    """v2: share of multi-page questions for which the VLM gave no fact, per value of `col`."""
+    fb = {r["qid"]: r["fallback"] for r in read_jsonl(VOUT / "evidence_choices.jsonl") if r["k"] == k}
+    m = df[(df.set == "multi") & (df.method == "evidence") & (df.k == k)].copy()
+    m["no_fact"] = m.qid.map(fb)
+    return m.groupby(col).agg(n=("qid", "size"), no_fact_pct=("no_fact", lambda x: round(100 * x.mean(), 1))
+                              ).sort_values("n", ascending=False)
 
 
 def md(df):
@@ -272,10 +414,23 @@ def main():
         lines += [f"## {group}", "", md(t), ""]
 
     if have_answers:
-        pt = paired(df)
-        out["paired"] = pt.to_dict("records")
-        lines += ["## Paired against top-k (k = 5): wins / losses, exact McNemar p", "", md(pt.set_index(["group", "method"])), ""]
-        for m in ["topk", "coverage"]:
+        for base in VERSIONS[VERSION]["paired"]:
+            pt = paired(df, base=base)
+            out["paired" if base == "topk" else f"paired_{base}"] = pt.to_dict("records")
+            name = "top-k" if base == "topk" else base
+            lines += [f"## Paired against {name} (k = 5): wins / losses, exact McNemar p", "",
+                      md(pt.set_index(["group", "method"])), ""]
+        if VERSION != "v2" and VERSION.startswith("v2"):  # a control against v2's own evidence selections
+            pt = paired_vs_v2(df)
+            out["paired_vs_v2_evidence"] = pt.to_dict("records")
+            lines += ["## Paired against v2's evidence (element crops), same questions: wins / losses, exact McNemar p",
+                      "", md(pt.set_index(["group", "k"])), ""]
+        if VERSION != "v0":  # the budget of three pages too, against top-k
+            pt = paired(df, k=3)
+            out["paired_k3"] = pt.to_dict("records")
+            lines += ["## Paired against top-k (k = 3): wins / losses, exact McNemar p", "",
+                      md(pt.set_index(["group", "method"])), ""]
+        for m in unique(["topk", MAIN]):
             ft = failure_table(df, m)
             out[f"failure_{m}"] = ft.reset_index().to_dict("records")
             lines += [f"## Failure decomposition, {m}, multi, k = 5", "", md(ft), ""]
@@ -287,7 +442,7 @@ def main():
         t = breakdown(df.merge(ann, on="qid"), "category", min_n=1)
         lines += ["## By Analysis 2 category (annotated questions in multi only)", "", md(t), ""]
 
-    per_method, by_outcome = reasoning_ablation(df) if have_answers else (None, None)
+    per_method, by_outcome = reasoning_ablation(df) if have_answers and VERSION == "v0" else (None, None)
     if per_method is not None:
         out["reasoning"] = per_method.reset_index().to_dict("records")
         out["reasoning_by_outcome"] = by_outcome.reset_index().to_dict("records")
@@ -312,6 +467,25 @@ def main():
             "question_top1_in_gold_pct": round(100 * dd.q_top_in_gold.mean(), 1),
         }
         lines += ["## Decomposition diagnostics (multi)", "", "```", json.dumps(out["decomposition"], indent=1), "```", ""]
+    if VERSION != "v0":
+        fd = form_diagnostics(qs)
+        out["need_forms"] = fd
+        lines += ["## Need forms and page forms (multi)", "", "```", json.dumps(fd, indent=1), "```", ""]
+    if VERSION.startswith("v2"):
+        ad = aggregation_diagnostics(qs)
+        if ad:
+            out["aggregation"] = ad
+            lines += ["## VLM aggregation (aggregate.py) and the evidence selector (multi)", "", "```",
+                      json.dumps(ad, indent=1), "```", ""]
+        fs = facts_split(df)
+        if fs is not None:
+            out["facts_split"] = json.loads(fs.reset_index().to_json(orient="records"))
+            lines += ["## Questions with VLM facts and those that fall back to elem_coverage_mod (k = 5, %)", "",
+                      md(fs), ""]
+            for col in ["doc_type", "qtype", "needs"]:
+                t = no_fact_share(df, col)
+                out[f"no_fact_by_{col}"] = t.reset_index().to_dict("records")
+                lines += [f"## Multi-page questions without a VLM fact, by {col}", "", md(t), ""]
     decomp = {r["qid"]: r for r in read_jsonl(OUT / "decomp.jsonl")}
     (ANALYSIS / "examples.md").write_text(examples(df, qs, decomp))
     (ANALYSIS / "metrics.json").write_text(json.dumps(out, indent=1, default=str))

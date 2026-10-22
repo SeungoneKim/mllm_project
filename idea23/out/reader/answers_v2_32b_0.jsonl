@@ -1,0 +1,28 @@
+{"qid": 64, "pages": [3, 6, 7, 8, 9], "pred": "4", "input_tokens": 5035, "image_tokens": 4940}
+{"qid": 87, "pages": [3, 12, 15, 18, 19], "pred": "6", "input_tokens": 5038, "image_tokens": 4940}
+{"qid": 143, "pages": [7, 9, 12], "pred": "['Temperature-Related Death and Illness', 'Air Quality Impacts', 'Vector-Borne Disease', 'Water-Related Illness']", "input_tokens": 3141, "image_tokens": 3024}
+{"qid": 153, "pages": [3, 8, 24, 27, 29], "pred": "Not all recruiting organizations use LinkedIn job postings or Recruiter job slots. Why are questions about these capabilities included on the exam?", "input_tokens": 4957, "image_tokens": 4860}
+{"qid": 180, "pages": [3, 77, 78, 79, 111], "pred": "0.24", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 183, "pages": [1, 3, 16], "pred": "2.4", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 199, "pages": [41, 47, 72], "pred": "['Page 47']", "input_tokens": 2003, "image_tokens": 1875}
+{"qid": 203, "pages": [41, 43, 53, 54, 55], "pred": "(61) 133-622", "input_tokens": 3244, "image_tokens": 3125}
+{"qid": 309, "pages": [2, 3, 24, 26, 28], "pred": "Flat surface for better maintenance", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 381, "pages": [3, 4, 7], "pred": "2", "input_tokens": 3105, "image_tokens": 3024}
+{"qid": 433, "pages": [3, 56, 57, 60, 62], "pred": "Dog", "input_tokens": 4959, "image_tokens": 4860}
+{"qid": 476, "pages": [4, 46, 47, 56, 82], "pred": "5", "input_tokens": 5038, "image_tokens": 4940}
+{"qid": 494, "pages": [10, 12, 13], "pred": "-2%", "input_tokens": 3008, "image_tokens": 2898}
+{"qid": 503, "pages": [17, 57, 66], "pred": "Cuban", "input_tokens": 3141, "image_tokens": 3024}
+{"qid": 603, "pages": [5, 20, 44], "pred": "Editor-in-Chief", "input_tokens": 3010, "image_tokens": 2916}
+{"qid": 625, "pages": [8, 10, 11, 12, 28], "pred": "2", "input_tokens": 4959, "image_tokens": 4860}
+{"qid": 630, "pages": [5, 14, 15], "pred": "6", "input_tokens": 3047, "image_tokens": 2964}
+{"qid": 648, "pages": [4, 6, 9, 10, 11], "pred": "0.0", "input_tokens": 5060, "image_tokens": 4940}
+{"qid": 711, "pages": [2, 6, 7, 8, 14], "pred": "['Dynamic Mutations Fragile X Mental Retardation']", "input_tokens": 4968, "image_tokens": 4860}
+{"qid": 721, "pages": [14, 16, 18, 45, 47], "pred": "3", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 726, "pages": [14, 18, 45], "pred": "['Column Bracing Formwork']", "input_tokens": 3128, "image_tokens": 3024}
+{"qid": 762, "pages": [4, 7, 16, 18, 20], "pred": "3", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 969, "pages": [1, 2, 5, 6, 8], "pred": "['Event Relation Extraction (ERE)', 'Deductive Reasoning']", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 982, "pages": [1, 3, 5, 11, 14], "pred": "No", "input_tokens": 5053, "image_tokens": 4940}
+{"qid": 1010, "pages": [69, 70, 96], "pred": "0.05", "input_tokens": 3057, "image_tokens": 2964}
+{"qid": 1036, "pages": [17, 43, 67], "pred": "2.984", "input_tokens": 3127, "image_tokens": 3024}
+{"qid": 1066, "pages": [16, 30, 63, 104, 105], "pred": "['1.47']", "input_tokens": 5157, "image_tokens": 5040}
+{"qid": 1088, "pages": [4, 5, 32, 124, 125], "pred": "['Industrial', 'Safety and Graphics', 'Health Care', 'Electronics and Energy', 'Consumer']", "input_tokens": 5158, "image_tokens": 5040}

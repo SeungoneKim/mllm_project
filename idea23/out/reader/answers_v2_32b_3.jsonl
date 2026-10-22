@@ -1,0 +1,26 @@
+{"qid": 21, "pages": [2, 3, 7, 15, 18], "pred": "2015-2016", "input_tokens": 5033, "image_tokens": 4940}
+{"qid": 36, "pages": [14, 19, 37], "pred": "3", "input_tokens": 3002, "image_tokens": 2916}
+{"qid": 45, "pages": [7, 8, 9, 11, 16], "pred": "['Having lots of reports does not make you data-driven.', 'Having lots of dashboards does not make you data-driven.', 'Having lots of alerts does not make you data-driven.', 'Not necessarily data-driven !', 'Having a hadoop cluster does not make you data-driven.']", "input_tokens": 4973, "image_tokens": 4860}
+{"qid": 71, "pages": [2, 4, 18], "pred": "Tree Traversal Algorithm", "input_tokens": 3126, "image_tokens": 3024}
+{"qid": 83, "pages": [4, 38, 39, 40, 41], "pred": "10:08 AM", "input_tokens": 5048, "image_tokens": 4940}
+{"qid": 87, "pages": [12, 15, 18], "pred": "6", "input_tokens": 3049, "image_tokens": 2964}
+{"qid": 167, "pages": [22, 29, 39], "pred": "14", "input_tokens": 3055, "image_tokens": 2964}
+{"qid": 188, "pages": [5, 8, 18], "pred": "Instruction 10", "input_tokens": 3055, "image_tokens": 2964}
+{"qid": 223, "pages": [8, 19, 20], "pred": "['90%', '42%', '39%']", "input_tokens": 3182, "image_tokens": 3024}
+{"qid": 235, "pages": [2, 12, 15], "pred": "1", "input_tokens": 3111, "image_tokens": 3024}
+{"qid": 312, "pages": [15, 29, 31, 37, 38], "pred": "4", "input_tokens": 5152, "image_tokens": 5040}
+{"qid": 641, "pages": [2, 7, 8], "pred": "56.8", "input_tokens": 3083, "image_tokens": 2964}
+{"qid": 648, "pages": [6, 10, 11], "pred": "5.0", "input_tokens": 3072, "image_tokens": 2964}
+{"qid": 662, "pages": [11, 13, 18], "pred": "['5', '9', '16']", "input_tokens": 3121, "image_tokens": 2997}
+{"qid": 687, "pages": [3, 4, 29], "pred": "Clinton", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 757, "pages": [2, 4, 5, 8, 9], "pred": "Baseball", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 765, "pages": [4, 6, 16, 19, 21], "pred": "Random", "input_tokens": 5141, "image_tokens": 5040}
+{"qid": 766, "pages": [8, 16, 20], "pred": "9", "input_tokens": 3106, "image_tokens": 3024}
+{"qid": 774, "pages": [3, 4, 5, 11, 23], "pred": "6", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 827, "pages": [6, 7, 11], "pred": "Electronic Medical Records", "input_tokens": 3009, "image_tokens": 2916}
+{"qid": 918, "pages": [7, 11, 14], "pred": "4500", "input_tokens": 3056, "image_tokens": 2964}
+{"qid": 1008, "pages": [28, 66, 69, 70, 174], "pred": "0.3", "input_tokens": 5046, "image_tokens": 4940}
+{"qid": 1052, "pages": [32, 47, 52], "pred": "23.6%", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 1054, "pages": [18, 36, 38, 74, 79], "pred": "0.021", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 1058, "pages": [34, 40, 56, 77, 79], "pred": "0.681", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1073, "pages": [22, 40, 42], "pred": "15.6%", "input_tokens": 3131, "image_tokens": 3024}

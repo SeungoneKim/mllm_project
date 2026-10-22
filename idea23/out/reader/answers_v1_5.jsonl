@@ -1,0 +1,19 @@
+{"qid": 28, "pages": [23, 30, 33], "pred": "https://w.wiki/6eq", "input_tokens": 3013, "image_tokens": 2916}
+{"qid": 167, "pages": [15, 16, 37, 39, 41], "pred": "14", "input_tokens": 5045, "image_tokens": 4940}
+{"qid": 181, "pages": [35, 37, 38], "pred": "2", "input_tokens": 3115, "image_tokens": 3024}
+{"qid": 219, "pages": [3, 4, 6, 8, 14], "pred": "39%", "input_tokens": 5166, "image_tokens": 5040}
+{"qid": 312, "pages": [3, 15, 29, 37, 38], "pred": "4", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 431, "pages": [30, 32, 44], "pred": "6", "input_tokens": 3007, "image_tokens": 2916}
+{"qid": 444, "pages": [7, 21, 23], "pred": "flower arrangement", "input_tokens": 3119, "image_tokens": 3024}
+{"qid": 457, "pages": [1, 4, 5], "pred": "20.9", "input_tokens": 3117, "image_tokens": 3024}
+{"qid": 539, "pages": [65, 84, 153], "pred": "Red", "input_tokens": 3119, "image_tokens": 3024}
+{"qid": 628, "pages": [9, 14, 19], "pred": "2", "input_tokens": 3063, "image_tokens": 2964}
+{"qid": 824, "pages": [2, 7, 8, 12, 17], "pred": "2", "input_tokens": 5134, "image_tokens": 5040}
+{"qid": 865, "pages": [1, 110, 112], "pred": "18", "input_tokens": 3114, "image_tokens": 3024}
+{"qid": 867, "pages": [13, 21, 112], "pred": "0", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 876, "pages": [4, 8, 34, 57, 58], "pred": "['Vicuna 130v1.1', 'Llama 2-Chat', 'PaLM']", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 884, "pages": [19, 22, 27, 30, 43], "pred": "6", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 889, "pages": [31, 34, 43], "pred": "strong ceiling performance (g.t. supervision)", "input_tokens": 3119, "image_tokens": 3024}
+{"qid": 957, "pages": [9, 14, 15, 26, 53], "pred": "['BPV']", "input_tokens": 5155, "image_tokens": 5040}
+{"qid": 1029, "pages": [19, 33, 34, 39, 41], "pred": "46.8", "input_tokens": 5157, "image_tokens": 5040}
+{"qid": 1030, "pages": [16, 33, 39, 40, 43], "pred": "1,878,176", "input_tokens": 5144, "image_tokens": 5040}

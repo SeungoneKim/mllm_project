@@ -1,0 +1,16 @@
+{"qid": 28, "pages": [19, 23, 25, 30, 33], "pred": "https://w.wiki/6dx", "input_tokens": 4971, "image_tokens": 4860}
+{"qid": 167, "pages": [29, 39, 41], "pred": "14", "input_tokens": 3055, "image_tokens": 2964}
+{"qid": 170, "pages": [11, 16, 17, 18, 20], "pred": "937", "input_tokens": 5045, "image_tokens": 4940}
+{"qid": 179, "pages": [3, 4, 110], "pred": "287", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 225, "pages": [2, 3, 4, 8, 14], "pred": "19", "input_tokens": 5171, "image_tokens": 5040}
+{"qid": 277, "pages": [11, 38, 195], "pred": "3", "input_tokens": 3017, "image_tokens": 2916}
+{"qid": 399, "pages": [7, 9, 11, 13, 15], "pred": "10", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 431, "pages": [29, 30, 31, 32, 44], "pred": "8", "input_tokens": 4965, "image_tokens": 4860}
+{"qid": 534, "pages": [2, 8, 30, 36, 37], "pred": "AWS", "input_tokens": 4969, "image_tokens": 4860}
+{"qid": 568, "pages": [18, 44, 61], "pred": "-5", "input_tokens": 3145, "image_tokens": 3024}
+{"qid": 862, "pages": [9, 13, 26, 28, 50], "pred": "1", "input_tokens": 4957, "image_tokens": 4860}
+{"qid": 1008, "pages": [69, 75, 96], "pred": "0.48", "input_tokens": 3055, "image_tokens": 2964}
+{"qid": 1030, "pages": [16, 40, 43], "pred": "1,789,176", "input_tokens": 3114, "image_tokens": 3024}
+{"qid": 1056, "pages": [38, 56, 57], "pred": "0.049", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 1083, "pages": [6, 27, 44], "pred": "1.58", "input_tokens": 3114, "image_tokens": 3024}
+{"qid": 1090, "pages": [41, 52, 64], "pred": "9.72", "input_tokens": 3132, "image_tokens": 3024}

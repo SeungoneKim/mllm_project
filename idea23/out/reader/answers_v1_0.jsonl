@@ -1,0 +1,16 @@
+{"qid": 84, "pages": [6, 23, 27], "pred": "Yellow", "input_tokens": 3051, "image_tokens": 2964}
+{"qid": 181, "pages": [20, 35, 37, 38, 62], "pred": "2", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 219, "pages": [3, 6, 8], "pred": "41%", "input_tokens": 3137, "image_tokens": 3024}
+{"qid": 259, "pages": [7, 9, 10, 11, 26], "pred": "['Gameloft', 'Telkomsel']", "input_tokens": 4998, "image_tokens": 4860}
+{"qid": 452, "pages": [8, 13, 27], "pred": "10", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 484, "pages": [4, 14, 16], "pred": "9", "input_tokens": 3107, "image_tokens": 3024}
+{"qid": 513, "pages": [6, 9, 10], "pred": "13", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 824, "pages": [2, 7, 17], "pred": "1", "input_tokens": 3105, "image_tokens": 3024}
+{"qid": 884, "pages": [19, 30, 43], "pred": "7", "input_tokens": 3115, "image_tokens": 3024}
+{"qid": 889, "pages": [3, 14, 31, 34, 43], "pred": "finetuning with the confidence loss", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 956, "pages": [11, 16, 23, 45, 55], "pred": "23", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 1044, "pages": [30, 38, 49], "pred": "0.35", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 1047, "pages": [30, 36, 38], "pred": "0.45", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 1048, "pages": [30, 31, 36], "pred": "1.45", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 1057, "pages": [34, 40, 50, 57, 74], "pred": "0.356", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1083, "pages": [6, 22, 27, 38, 44], "pred": "1.09", "input_tokens": 5144, "image_tokens": 5040}

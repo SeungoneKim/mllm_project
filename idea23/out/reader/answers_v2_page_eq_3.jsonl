@@ -1,0 +1,7 @@
+{"qid": 31, "pages": [89, 102, 104, 107, 108], "pred": "WikidataMapMakingWorkshop.ipynb", "input_tokens": 4970, "image_tokens": 4860}
+{"qid": 223, "pages": [3, 19, 20], "pred": "['42%', '39%', '31%']", "input_tokens": 3182, "image_tokens": 3024}
+{"qid": 283, "pages": [1, 2, 3, 4, 5], "pred": "4", "input_tokens": 5039, "image_tokens": 4940}
+{"qid": 566, "pages": [15, 16, 22, 23, 24], "pred": "4", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 874, "pages": [50, 52, 56], "pred": "4", "input_tokens": 3111, "image_tokens": 3024}
+{"qid": 1004, "pages": [6, 7, 15, 47, 48], "pred": "3", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 1024, "pages": [23, 36, 38], "pred": "0.457", "input_tokens": 3125, "image_tokens": 3024}

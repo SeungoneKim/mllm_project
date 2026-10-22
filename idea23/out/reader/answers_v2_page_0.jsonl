@@ -1,0 +1,16 @@
+{"qid": 36, "pages": [14, 16, 19, 20, 34], "pred": "5", "input_tokens": 4960, "image_tokens": 4860}
+{"qid": 147, "pages": [6, 10, 16], "pred": "4", "input_tokens": 3054, "image_tokens": 2964}
+{"qid": 177, "pages": [20, 32, 37, 43, 44], "pred": "0", "input_tokens": 4970, "image_tokens": 4860}
+{"qid": 219, "pages": [3, 4, 6, 8, 24], "pred": "179", "input_tokens": 5166, "image_tokens": 5040}
+{"qid": 223, "pages": [3, 5, 8, 9, 20], "pred": "['42%', '42%', '39%']", "input_tokens": 5209, "image_tokens": 5040}
+{"qid": 236, "pages": [1, 4, 12], "pred": "4", "input_tokens": 3123, "image_tokens": 3024}
+{"qid": 267, "pages": [19, 21, 22], "pred": "3", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 295, "pages": [5, 6, 8], "pred": "0.970", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 409, "pages": [12, 14, 18], "pred": "['interphase', 'prophase', 'prometaphase', 'metaphase', 'anaphase', 'telophase']", "input_tokens": 3127, "image_tokens": 3024}
+{"qid": 566, "pages": [18, 20, 22, 23, 24], "pred": "4", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 622, "pages": [28, 29, 42, 43, 48], "pred": "3", "input_tokens": 4958, "image_tokens": 4860}
+{"qid": 643, "pages": [5, 6, 8], "pred": "Training-time correction", "input_tokens": 3067, "image_tokens": 2964}
+{"qid": 912, "pages": [22, 23, 24], "pred": "['Residence Hall Director (RHD)', 'Residence Hall Assistant Director (RHAD)', 'Residence Hall Resource Manager (RHRM)', 'Resident Assistant (RA)']", "input_tokens": 3064, "image_tokens": 2964}
+{"qid": 922, "pages": [4, 9, 10], "pred": "4", "input_tokens": 3131, "image_tokens": 3024}
+{"qid": 927, "pages": [4, 8, 9], "pred": "13", "input_tokens": 3126, "image_tokens": 3024}
+{"qid": 1088, "pages": [4, 32, 124], "pred": "['Industrial', 'Safety and Graphics', 'Health Care', 'Electronics and Energy', 'Consumer']", "input_tokens": 3128, "image_tokens": 3024}

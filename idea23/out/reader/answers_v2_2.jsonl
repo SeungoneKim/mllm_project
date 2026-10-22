@@ -1,0 +1,190 @@
+{"qid": 5, "pages": [4, 8, 9, 13, 16], "pred": "Only fair financial condition", "input_tokens": 5160, "image_tokens": 5040}
+{"qid": 10, "pages": [3, 10, 16, 19, 22], "pred": "No leans who are male", "input_tokens": 5159, "image_tokens": 5040}
+{"qid": 21, "pages": [3, 9, 10, 18, 19], "pred": "2015-2016", "input_tokens": 5034, "image_tokens": 4940}
+{"qid": 32, "pages": [8, 11, 48], "pred": "5", "input_tokens": 3002, "image_tokens": 2916}
+{"qid": 48, "pages": [25, 41, 51], "pred": "2", "input_tokens": 3005, "image_tokens": 2916}
+{"qid": 57, "pages": [1, 14, 27], "pred": "['5', '20']", "input_tokens": 3167, "image_tokens": 3024}
+{"qid": 59, "pages": [6, 7, 14, 15, 16], "pred": "['higher', '18%']", "input_tokens": 5174, "image_tokens": 5040}
+{"qid": 62, "pages": [1, 4, 13], "pred": "['occupation']", "input_tokens": 3064, "image_tokens": 2964}
+{"qid": 78, "pages": [6, 7, 8, 10, 21], "pred": "CoG", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 82, "pages": [5, 7, 9, 10, 17], "pred": "SLM", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 84, "pages": [3, 18, 23], "pred": "Yellow", "input_tokens": 3051, "image_tokens": 2964}
+{"qid": 85, "pages": [15, 16, 30, 34, 36], "pred": "['gray', 'red']", "input_tokens": 5062, "image_tokens": 4940}
+{"qid": 100, "pages": [2, 3, 6, 17, 21], "pred": "Global Exposure", "input_tokens": 5057, "image_tokens": 4940}
+{"qid": 101, "pages": [3, 12, 22], "pred": "Accountancy and Business", "input_tokens": 3054, "image_tokens": 2964}
+{"qid": 105, "pages": [1, 5, 7, 11, 44], "pred": "6", "input_tokens": 4913, "image_tokens": 4810}
+{"qid": 115, "pages": [4, 9, 15, 17, 18], "pred": "['China', 'Russia', 'North Korea', 'Iran']", "input_tokens": 5166, "image_tokens": 5040}
+{"qid": 116, "pages": [5, 9, 10, 15, 22], "pred": "4", "input_tokens": 5168, "image_tokens": 5040}
+{"qid": 119, "pages": [11, 14, 17], "pred": "['UK', 'China', 'Canada', 'Israel', 'France', 'Russia', 'Austria']", "input_tokens": 3144, "image_tokens": 3024}
+{"qid": 121, "pages": [1, 6, 7, 9, 17], "pred": "['Sharp divides in German and American views of security issues, from use of force to defense budgeting']", "input_tokens": 5186, "image_tokens": 5040}
+{"qid": 122, "pages": [4, 11, 12, 14, 18], "pred": "['Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel']", "input_tokens": 5172, "image_tokens": 5040}
+{"qid": 127, "pages": [2, 3, 8, 14, 17], "pred": "Diagram of Breccia Gashes with top denuded off but bottom shown in cliff", "input_tokens": 5098, "image_tokens": 5000}
+{"qid": 129, "pages": [1, 2, 3, 9, 14], "pred": "1", "input_tokens": 5104, "image_tokens": 5000}
+{"qid": 141, "pages": [11, 14, 17], "pred": "2", "input_tokens": 3110, "image_tokens": 3024}
+{"qid": 146, "pages": [4, 9, 15], "pred": "2014-10-06", "input_tokens": 3053, "image_tokens": 2964}
+{"qid": 155, "pages": [4, 23, 33], "pred": "Amy Deagle", "input_tokens": 3000, "image_tokens": 2916}
+{"qid": 155, "pages": [22, 23, 33], "pred": "Melinda D.", "input_tokens": 3001, "image_tokens": 2916}
+{"qid": 167, "pages": [15, 22, 29, 39, 41], "pred": "14", "input_tokens": 5045, "image_tokens": 4940}
+{"qid": 173, "pages": [10, 11, 15, 19, 38], "pred": "14", "input_tokens": 4981, "image_tokens": 4860}
+{"qid": 179, "pages": [1, 2, 3, 18, 110], "pred": "252", "input_tokens": 5137, "image_tokens": 5040}
+{"qid": 193, "pages": [7, 11, 12, 27, 33], "pred": "Go to the medical department you registered at", "input_tokens": 5108, "image_tokens": 4995}
+{"qid": 194, "pages": [4, 23, 36], "pred": "1", "input_tokens": 3092, "image_tokens": 2997}
+{"qid": 194, "pages": [19, 23, 24, 32, 36], "pred": "0", "input_tokens": 5105, "image_tokens": 4995}
+{"qid": 198, "pages": [16, 18, 19, 32, 34], "pred": "An Kitchen", "input_tokens": 5108, "image_tokens": 4995}
+{"qid": 199, "pages": [6, 47, 49], "pred": "['Page 47', 'Page 49']", "input_tokens": 2002, "image_tokens": 1875}
+{"qid": 203, "pages": [41, 43, 54], "pred": "90", "input_tokens": 1980, "image_tokens": 1875}
+{"qid": 204, "pages": [9, 12, 27, 58, 60], "pred": "microphone", "input_tokens": 3231, "image_tokens": 3125}
+{"qid": 210, "pages": [8, 9, 11, 12, 13], "pred": "18", "input_tokens": 5184, "image_tokens": 5040}
+{"qid": 212, "pages": [11, 12, 14], "pred": "48", "input_tokens": 3160, "image_tokens": 3024}
+{"qid": 221, "pages": [2, 3, 4, 8, 16], "pred": "19", "input_tokens": 5179, "image_tokens": 5040}
+{"qid": 221, "pages": [3, 8, 16], "pred": "10", "input_tokens": 3151, "image_tokens": 3024}
+{"qid": 223, "pages": [9, 12, 16], "pred": "['90%', '42%', '38%']", "input_tokens": 3182, "image_tokens": 3024}
+{"qid": 227, "pages": [5, 20, 24], "pred": "49", "input_tokens": 3145, "image_tokens": 3024}
+{"qid": 229, "pages": [2, 3, 8, 16, 17], "pred": "22", "input_tokens": 5179, "image_tokens": 5040}
+{"qid": 230, "pages": [1, 12, 15], "pred": "Capt. John W. Sanders", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 235, "pages": [2, 4, 7, 13, 15], "pred": "2", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 239, "pages": [9, 10, 11, 12, 14], "pred": "538", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 241, "pages": [6, 8, 12, 15, 17], "pred": "['p4']", "input_tokens": 5163, "image_tokens": 5040}
+{"qid": 257, "pages": [8, 9, 10, 11, 12], "pred": "XL", "input_tokens": 4978, "image_tokens": 4860}
+{"qid": 262, "pages": [3, 4, 11, 14, 31], "pred": "BlackBerry", "input_tokens": 4976, "image_tokens": 4860}
+{"qid": 275, "pages": [3, 28, 145, 156, 179], "pred": "['1', '2']", "input_tokens": 4993, "image_tokens": 4860}
+{"qid": 277, "pages": [3, 36, 195], "pred": "20", "input_tokens": 3016, "image_tokens": 2916}
+{"qid": 293, "pages": [2, 4, 5, 7, 8], "pred": "Blue", "input_tokens": 5164, "image_tokens": 5040}
+{"qid": 295, "pages": [5, 7, 8], "pred": "0.968", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 302, "pages": [4, 6, 13], "pred": "2058.72", "input_tokens": 3069, "image_tokens": 2964}
+{"qid": 305, "pages": [20, 21, 22, 23, 33], "pred": "7.30", "input_tokens": 5204, "image_tokens": 5040}
+{"qid": 311, "pages": [3, 22, 29, 35, 36], "pred": "3840 x 2160", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 315, "pages": [11, 12, 34], "pred": "0.00", "input_tokens": 3123, "image_tokens": 3024}
+{"qid": 320, "pages": [4, 5, 13, 55, 56], "pred": "8", "input_tokens": 5043, "image_tokens": 4940}
+{"qid": 333, "pages": [3, 12, 13, 15, 16], "pred": "0", "input_tokens": 4914, "image_tokens": 4810}
+{"qid": 364, "pages": [8, 10, 15], "pred": "['State Bank of India', 'Bank of Baroda', 'Bank of India', 'Citibank N.A.', 'State Bank of Hyderabad', 'State Bank of Travancore', 'The Hongkong and Shanghai Banking Corporation', 'Union Bank of India']", "input_tokens": 3068, "image_tokens": 2964}
+{"qid": 368, "pages": [15, 16, 17], "pred": "['Andheri(Mumbai)', 'Guldhara(Ghaziabad)']", "input_tokens": 3068, "image_tokens": 2964}
+{"qid": 377, "pages": [2, 3, 4, 13, 19], "pred": "['1981-82', '2001-02']", "input_tokens": 5077, "image_tokens": 4940}
+{"qid": 378, "pages": [2, 14, 20], "pred": "5", "input_tokens": 3048, "image_tokens": 2964}
+{"qid": 381, "pages": [3, 4, 9], "pred": "2", "input_tokens": 3105, "image_tokens": 3024}
+{"qid": 382, "pages": [6, 15, 16], "pred": "2", "input_tokens": 3115, "image_tokens": 3024}
+{"qid": 385, "pages": [1, 2, 3], "pred": "['Version', '1.3']", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 387, "pages": [1, 7, 8, 9, 10], "pred": "Rick Scott", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 391, "pages": [3, 7, 11, 16, 17], "pred": "Planning Summary", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 393, "pages": [1, 2, 3, 5, 6], "pred": "['GOVERNOR', 'State']", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 407, "pages": [17, 28, 38, 39, 48], "pred": "0", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 412, "pages": [4, 6, 7, 18, 21], "pred": "milk giving black young buffalo 20 liter per day", "input_tokens": 5138, "image_tokens": 5040}
+{"qid": 423, "pages": [1, 10, 26], "pred": "7", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 426, "pages": [1, 17, 57], "pred": "['cat', 'dog']", "input_tokens": 3011, "image_tokens": 2916}
+{"qid": 433, "pages": [3, 56, 57, 61, 62], "pred": "Dog", "input_tokens": 4959, "image_tokens": 4860}
+{"qid": 439, "pages": [3, 11, 12, 13, 17], "pred": "408", "input_tokens": 5051, "image_tokens": 4940}
+{"qid": 446, "pages": [7, 8, 21], "pred": "Mercedes-Benz E-Class Sedan", "input_tokens": 3113, "image_tokens": 3024}
+{"qid": 454, "pages": [1, 5, 6], "pred": "73.2%", "input_tokens": 3114, "image_tokens": 3024}
+{"qid": 459, "pages": [6, 7, 12], "pred": "3", "input_tokens": 3106, "image_tokens": 3024}
+{"qid": 461, "pages": [21, 22, 24], "pred": "6", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 464, "pages": [24, 119, 120, 123, 140], "pred": "2", "input_tokens": 5145, "image_tokens": 5040}
+{"qid": 465, "pages": [29, 79, 80], "pred": "SC", "input_tokens": 3117, "image_tokens": 3024}
+{"qid": 467, "pages": [72, 160, 161], "pred": "None", "input_tokens": 3126, "image_tokens": 3024}
+{"qid": 469, "pages": [4, 28, 150], "pred": "4", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 474, "pages": [14, 31, 50, 68, 80], "pred": "21:00", "input_tokens": 5046, "image_tokens": 4940}
+{"qid": 477, "pages": [1, 14, 39], "pred": "7", "input_tokens": 3050, "image_tokens": 2964}
+{"qid": 478, "pages": [87, 88, 89, 90, 104], "pred": "['Boiler: over-temperature', 'Heater error']", "input_tokens": 5059, "image_tokens": 4940}
+{"qid": 484, "pages": [4, 14, 15], "pred": "7", "input_tokens": 3107, "image_tokens": 3024}
+{"qid": 485, "pages": [2, 3, 5, 11, 13], "pred": "['XSE V6', 'TRD']", "input_tokens": 5153, "image_tokens": 5040}
+{"qid": 492, "pages": [8, 9, 19, 20, 22], "pred": "3", "input_tokens": 4925, "image_tokens": 4830}
+{"qid": 497, "pages": [5, 9, 16], "pred": "20", "input_tokens": 3131, "image_tokens": 3024}
+{"qid": 507, "pages": [7, 8, 9], "pred": "Little Rock", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 516, "pages": [6, 7, 8, 9, 10], "pred": "no", "input_tokens": 5157, "image_tokens": 5040}
+{"qid": 526, "pages": [1, 6, 8, 16, 18], "pred": "Target", "input_tokens": 4956, "image_tokens": 4860}
+{"qid": 530, "pages": [15, 20, 24], "pred": "44%", "input_tokens": 3007, "image_tokens": 2916}
+{"qid": 540, "pages": [134, 143, 144], "pred": "YouTube Music", "input_tokens": 3123, "image_tokens": 3024}
+{"qid": 549, "pages": [6, 7, 11, 15, 22], "pred": "Red", "input_tokens": 5184, "image_tokens": 5070}
+{"qid": 551, "pages": [12, 17, 20, 25, 43], "pred": "+65 6778-0808", "input_tokens": 5004, "image_tokens": 4900}
+{"qid": 555, "pages": [6, 10, 32, 34, 37], "pred": "McKellen", "input_tokens": 5001, "image_tokens": 4900}
+{"qid": 555, "pages": [32, 34, 37], "pred": "Starbucks", "input_tokens": 3028, "image_tokens": 2940}
+{"qid": 557, "pages": [46, 97, 100, 117, 118], "pred": "blue", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 558, "pages": [23, 275, 337], "pred": "DecoupledSOLOLightHead", "input_tokens": 3137, "image_tokens": 3024}
+{"qid": 561, "pages": [55, 180, 229, 230, 231], "pred": "YOLACT", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 562, "pages": [11, 12, 14], "pred": "['64', '27']", "input_tokens": 3163, "image_tokens": 3024}
+{"qid": 583, "pages": [2, 3, 10, 13, 14], "pred": "2021-02-08", "input_tokens": 5141, "image_tokens": 5040}
+{"qid": 592, "pages": [1, 2, 3, 4, 10], "pred": "['1', '2', '3', '4', '10']", "input_tokens": 5167, "image_tokens": 5040}
+{"qid": 603, "pages": [19, 20, 21, 31, 44], "pred": "Editor-in-Chief", "input_tokens": 4969, "image_tokens": 4860}
+{"qid": 613, "pages": [18, 19, 55], "pred": "Hiatus", "input_tokens": 3013, "image_tokens": 2916}
+{"qid": 618, "pages": [2, 13, 14, 42, 53], "pred": "6", "input_tokens": 4965, "image_tokens": 4860}
+{"qid": 623, "pages": [4, 5, 17], "pred": "+10", "input_tokens": 3011, "image_tokens": 2916}
+{"qid": 628, "pages": [7, 8, 9, 14, 19], "pred": "3", "input_tokens": 5051, "image_tokens": 4940}
+{"qid": 632, "pages": [1, 2, 3], "pred": "Logic Programming Engine", "input_tokens": 3057, "image_tokens": 2964}
+{"qid": 637, "pages": [4, 5, 6, 14, 15], "pred": "3", "input_tokens": 5056, "image_tokens": 4940}
+{"qid": 639, "pages": [6, 7, 8], "pred": "Token", "input_tokens": 3051, "image_tokens": 2964}
+{"qid": 649, "pages": [5, 16, 18], "pred": "4", "input_tokens": 3066, "image_tokens": 2964}
+{"qid": 656, "pages": [2, 17, 20, 21, 29], "pred": "1", "input_tokens": 4923, "image_tokens": 4810}
+{"qid": 668, "pages": [8, 10, 15, 17, 20], "pred": "3.0", "input_tokens": 5054, "image_tokens": 4950}
+{"qid": 669, "pages": [2, 8, 18, 21, 24], "pred": "Server Load Balancer", "input_tokens": 5041, "image_tokens": 4940}
+{"qid": 671, "pages": [20, 21, 22, 23, 24], "pred": "3", "input_tokens": 5049, "image_tokens": 4940}
+{"qid": 675, "pages": [5, 6, 8, 9, 13], "pred": "18", "input_tokens": 5038, "image_tokens": 4940}
+{"qid": 677, "pages": [2, 3, 9], "pred": "['GS6001 (Research Ethics and Scientific Integrity)', 'GS5002 (Academic Professional Skills and Techniques)', 'GS6883A (Interface Sciences and Engineering)']", "input_tokens": 3068, "image_tokens": 2964}
+{"qid": 683, "pages": [7, 34, 37], "pred": "['92']", "input_tokens": 3132, "image_tokens": 3024}
+{"qid": 687, "pages": [7, 28, 29], "pred": "Clinton", "input_tokens": 3110, "image_tokens": 3024}
+{"qid": 700, "pages": [1, 2, 13], "pred": "['48897809', '515,2012']", "input_tokens": 3119, "image_tokens": 3024}
+{"qid": 712, "pages": [1, 2, 6, 18, 20], "pred": "http://www.sciencedirect.com", "input_tokens": 4955, "image_tokens": 4860}
+{"qid": 720, "pages": [5, 6, 14], "pred": "No", "input_tokens": 3119, "image_tokens": 3024}
+{"qid": 739, "pages": [11, 13, 16], "pred": "2", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 743, "pages": [15, 18, 24, 29, 32], "pred": "['Engine Temp Sensor', 'Intake Air Temp Sensor', 'Mass Air Flow Sensor', 'Throttle Position Sensor', 'Hego Sensor', 'Crankshaft Sensor', 'Camshaft Sensor']", "input_tokens": 4970, "image_tokens": 4860}
+{"qid": 748, "pages": [8, 10, 12, 19, 21], "pred": "3", "input_tokens": 4958, "image_tokens": 4860}
+{"qid": 750, "pages": [9, 14, 20, 21, 32], "pred": "['Fuel filter', 'Fuel pump, high pressure']", "input_tokens": 4966, "image_tokens": 4860}
+{"qid": 755, "pages": [4, 7, 8, 10, 13], "pred": "6", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 766, "pages": [7, 8, 16, 20, 24], "pred": "9", "input_tokens": 5135, "image_tokens": 5040}
+{"qid": 769, "pages": [18, 22, 23], "pred": "pseudo-labels", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 772, "pages": [1, 2, 3], "pred": "Text tokens", "input_tokens": 3107, "image_tokens": 3024}
+{"qid": 774, "pages": [3, 5, 9, 11, 23], "pred": "6", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 805, "pages": [1, 2, 6, 10, 15], "pred": "Advantage Online", "input_tokens": 5038, "image_tokens": 4940}
+{"qid": 805, "pages": [1, 6, 15], "pred": "ValueEdge", "input_tokens": 3049, "image_tokens": 2964}
+{"qid": 806, "pages": [10, 17, 19], "pred": "['Plan', 'Build', 'Test', 'Deliver', 'Run']", "input_tokens": 3060, "image_tokens": 2964}
+{"qid": 816, "pages": [10, 11, 12, 23, 24], "pred": "2", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 824, "pages": [12, 15, 17], "pred": "3", "input_tokens": 3107, "image_tokens": 3024}
+{"qid": 827, "pages": [6, 11, 15], "pred": "Electronic Medical Record", "input_tokens": 3010, "image_tokens": 2916}
+{"qid": 834, "pages": [4, 7, 15], "pred": "2", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 838, "pages": [4, 5, 6, 10, 11], "pred": "6", "input_tokens": 4979, "image_tokens": 4860}
+{"qid": 856, "pages": [4, 5, 28], "pred": "['Home', 'Features', 'Get Started']", "input_tokens": 3015, "image_tokens": 2916}
+{"qid": 861, "pages": [20, 21, 36, 42, 52], "pred": "['Taste', 'Smell', 'Hearing', 'Touch', 'Sight']", "input_tokens": 4978, "image_tokens": 4860}
+{"qid": 862, "pages": [11, 15, 26, 27, 28], "pred": "1", "input_tokens": 4958, "image_tokens": 4860}
+{"qid": 867, "pages": [13, 20, 110], "pred": "0", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 871, "pages": [3, 8, 42, 52, 93], "pred": "['Perceptual Error', 'Reasoning Error', 'Lack of Knowledge']", "input_tokens": 5162, "image_tokens": 5040}
+{"qid": 874, "pages": [2, 16, 69], "pred": "4", "input_tokens": 3110, "image_tokens": 3024}
+{"qid": 889, "pages": [3, 14, 16, 34, 43], "pred": "finetuning with the confidence loss (solid with triangle)", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 903, "pages": [2, 51, 52, 63, 105], "pred": "4", "input_tokens": 5044, "image_tokens": 4940}
+{"qid": 908, "pages": [20, 23, 30], "pred": "726 Broadway, 7th Floor New York, NY 10003", "input_tokens": 3049, "image_tokens": 2964}
+{"qid": 913, "pages": [1, 6, 25, 28, 29], "pred": "10", "input_tokens": 5044, "image_tokens": 4940}
+{"qid": 914, "pages": [6, 8, 20], "pred": "8300", "input_tokens": 3056, "image_tokens": 2964}
+{"qid": 919, "pages": [8, 9, 10, 17, 18], "pred": "Core Assurance", "input_tokens": 5031, "image_tokens": 4940}
+{"qid": 949, "pages": [2, 3, 6, 7, 8], "pred": "USCA11 Case: 21-13199", "input_tokens": 5131, "image_tokens": 5040}
+{"qid": 965, "pages": [5, 9, 25, 28, 39], "pred": "3", "input_tokens": 5136, "image_tokens": 5040}
+{"qid": 992, "pages": [1, 5, 70], "pred": "Nottingham Trent University", "input_tokens": 2460, "image_tokens": 2376}
+{"qid": 995, "pages": [2, 5, 7, 9, 60], "pred": "88%", "input_tokens": 4057, "image_tokens": 3960}
+{"qid": 996, "pages": [3, 15, 33], "pred": "NTIC", "input_tokens": 2465, "image_tokens": 2376}
+{"qid": 1007, "pages": [26, 28, 29, 32, 50], "pred": "no", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 1010, "pages": [28, 66, 69, 95, 96], "pred": "0.17", "input_tokens": 5047, "image_tokens": 4940}
+{"qid": 1012, "pages": [28, 29, 69, 72, 124], "pred": "1.5", "input_tokens": 5051, "image_tokens": 4940}
+{"qid": 1016, "pages": [21, 31, 38, 51, 52], "pred": "7,531", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 1026, "pages": [29, 40, 55], "pred": "495", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 1030, "pages": [16, 17, 34, 39, 43], "pred": "1,902,216", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 1030, "pages": [16, 34, 39, 40, 43], "pred": "1,878,156", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 1031, "pages": [16, 17, 34, 40, 41], "pred": "1.78", "input_tokens": 5155, "image_tokens": 5040}
+{"qid": 1036, "pages": [34, 39, 43], "pred": "1.378", "input_tokens": 3127, "image_tokens": 3024}
+{"qid": 1037, "pages": [16, 39, 43, 44, 48], "pred": "Stock Split", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 1041, "pages": [28, 31, 36, 45, 92], "pred": "2.70", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 1044, "pages": [28, 30, 36, 38, 92], "pred": "0.47", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 1045, "pages": [19, 36, 38], "pred": "45.70", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1047, "pages": [28, 30, 36, 38, 92], "pred": "0.47", "input_tokens": 5150, "image_tokens": 5040}
+{"qid": 1049, "pages": [36, 61, 72, 73, 83], "pred": "6,063", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 1052, "pages": [32, 59, 68], "pred": "24.2%", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 1053, "pages": [36, 49, 69, 74, 77], "pred": "0.181", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 1055, "pages": [12, 21, 29, 67, 74], "pred": "23.8%", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 1056, "pages": [29, 33, 38, 57, 79], "pred": "0.046", "input_tokens": 5155, "image_tokens": 5040}
+{"qid": 1068, "pages": [33, 70, 77, 104, 116], "pred": "1.8", "input_tokens": 5149, "image_tokens": 5040}
+{"qid": 1069, "pages": [4, 13, 30, 33, 64], "pred": "software subscription model", "input_tokens": 5148, "image_tokens": 5040}
+{"qid": 1070, "pages": [22, 25, 26, 27, 32], "pred": "-0.94", "input_tokens": 5165, "image_tokens": 5040}
+{"qid": 1073, "pages": [22, 32, 40], "pred": "15.7%", "input_tokens": 3131, "image_tokens": 3024}
+{"qid": 1074, "pages": [31, 40, 54, 56, 61], "pred": "0.794", "input_tokens": 5162, "image_tokens": 5040}
+{"qid": 1076, "pages": [29, 36, 44, 71, 75], "pred": "1,874", "input_tokens": 5157, "image_tokens": 5040}
+{"qid": 1078, "pages": [32, 46, 71], "pred": "1333", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1079, "pages": [22, 46, 71], "pred": "0.259", "input_tokens": 3133, "image_tokens": 3024}
+{"qid": 1083, "pages": [4, 22, 36, 44, 66], "pred": "1.87", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 1085, "pages": [22, 32, 38, 71, 75], "pred": "24.6", "input_tokens": 5164, "image_tokens": 5040}
+{"qid": 1087, "pages": [7, 39, 49, 59, 126], "pred": "1,577", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 1090, "pages": [41, 58, 64], "pred": "-7.95", "input_tokens": 3132, "image_tokens": 3024}

@@ -1,0 +1,16 @@
+{"qid": 2, "pages": [4, 10, 14], "pred": "Ages 18-29", "input_tokens": 3123, "image_tokens": 3024}
+{"qid": 36, "pages": [14, 16, 19], "pred": "2", "input_tokens": 3002, "image_tokens": 2916}
+{"qid": 403, "pages": [1, 28, 45, 48, 76], "pred": "['Chapter 8', 'Chapter 9', 'Chapter 10']", "input_tokens": 5167, "image_tokens": 5040}
+{"qid": 457, "pages": [1, 5, 13], "pred": "20.7", "input_tokens": 3118, "image_tokens": 3024}
+{"qid": 519, "pages": [10, 11, 13, 18, 23], "pred": "eMarketer", "input_tokens": 5008, "image_tokens": 4860}
+{"qid": 570, "pages": [78, 82, 83], "pred": "14", "input_tokens": 3151, "image_tokens": 3024}
+{"qid": 686, "pages": [2, 7, 35], "pred": "2", "input_tokens": 3106, "image_tokens": 3024}
+{"qid": 691, "pages": [2, 17, 19, 22, 23], "pred": "4", "input_tokens": 5136, "image_tokens": 5040}
+{"qid": 724, "pages": [4, 50, 51, 52, 53], "pred": "['stairs']", "input_tokens": 5152, "image_tokens": 5040}
+{"qid": 774, "pages": [3, 4, 5, 10, 12], "pred": "5", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 1024, "pages": [23, 38, 40], "pred": "0.365", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 1027, "pages": [23, 36, 60], "pred": "Controlling costs", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 1056, "pages": [29, 38, 40, 56, 57], "pred": "0.034", "input_tokens": 5155, "image_tokens": 5040}
+{"qid": 1087, "pages": [7, 49, 126], "pred": "1,577", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 1088, "pages": [4, 15, 32, 124, 125], "pred": "['Industrial', 'Safety and Graphics', 'Health Care', 'Electronics and Energy', 'Consumer']", "input_tokens": 5159, "image_tokens": 5040}
+{"qid": 1089, "pages": [104, 105, 107], "pred": "108", "input_tokens": 3125, "image_tokens": 3024}

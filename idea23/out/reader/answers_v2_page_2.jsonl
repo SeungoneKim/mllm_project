@@ -1,0 +1,13 @@
+{"qid": 115, "pages": [9, 15, 16, 17, 18], "pred": "['China', 'Russia', 'North Korea', 'Iran']", "input_tokens": 5167, "image_tokens": 5040}
+{"qid": 173, "pages": [6, 10, 11, 15, 38], "pred": "29", "input_tokens": 4980, "image_tokens": 4860}
+{"qid": 197, "pages": [2, 23, 25, 26, 37], "pred": "2", "input_tokens": 5104, "image_tokens": 4995}
+{"qid": 223, "pages": [3, 9, 20], "pred": "['42%', '35%', '18%']", "input_tokens": 3181, "image_tokens": 3024}
+{"qid": 275, "pages": [3, 9, 179], "pred": "['2', 'blue', 'green']", "input_tokens": 3032, "image_tokens": 2916}
+{"qid": 312, "pages": [3, 15, 29, 31, 37], "pred": "6", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 582, "pages": [5, 7, 8], "pred": "0", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 689, "pages": [9, 12, 13], "pred": "['53%', '16%']", "input_tokens": 3130, "image_tokens": 3024}
+{"qid": 691, "pages": [17, 19, 23], "pred": "4", "input_tokens": 3107, "image_tokens": 3024}
+{"qid": 918, "pages": [11, 12, 13, 14, 17], "pred": "3086", "input_tokens": 5047, "image_tokens": 4940}
+{"qid": 981, "pages": [3, 4, 11], "pred": "No", "input_tokens": 3078, "image_tokens": 2964}
+{"qid": 1056, "pages": [29, 40, 56], "pred": "0.187", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 1074, "pages": [40, 54, 56], "pred": "1.975", "input_tokens": 3132, "image_tokens": 3024}

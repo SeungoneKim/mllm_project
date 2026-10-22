@@ -1,0 +1,4 @@
+{"qid": 227, "pages": [5, 18, 19], "pred": "57", "input_tokens": 3145, "image_tokens": 3024}
+{"qid": 669, "pages": [2, 18, 20, 21, 24], "pred": "Elastic Compute Service", "input_tokens": 5042, "image_tokens": 4940}
+{"qid": 726, "pages": [14, 17, 18], "pred": "['Circular and octagonal columns', 'Column bracing formwork']", "input_tokens": 3128, "image_tokens": 3024}
+{"qid": 956, "pages": [6, 45, 55], "pred": "6", "input_tokens": 3106, "image_tokens": 3024}

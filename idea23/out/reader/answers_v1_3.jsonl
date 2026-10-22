@@ -1,0 +1,16 @@
+{"qid": 28, "pages": [19, 25, 27, 30, 33], "pred": "https://w.wiki/6dx", "input_tokens": 4971, "image_tokens": 4860}
+{"qid": 42, "pages": [11, 12, 13, 35, 37], "pred": "['Standard Reports', 'Ad-Hoc Reports', 'Query Drilldown (OLAP)', 'Alerts']", "input_tokens": 4978, "image_tokens": 4860}
+{"qid": 57, "pages": [11, 22, 26, 27, 32], "pred": "['0.3', '0.4']", "input_tokens": 5198, "image_tokens": 5040}
+{"qid": 84, "pages": [3, 6, 18, 23, 27], "pred": "Yellow", "input_tokens": 5040, "image_tokens": 4940}
+{"qid": 155, "pages": [23, 31, 33], "pred": "Amy Deagle", "input_tokens": 3001, "image_tokens": 2916}
+{"qid": 170, "pages": [11, 16, 20], "pred": "55.7%", "input_tokens": 3055, "image_tokens": 2964}
+{"qid": 173, "pages": [1, 6, 10, 11, 45], "pred": "30", "input_tokens": 4979, "image_tokens": 4860}
+{"qid": 182, "pages": [21, 104, 111], "pred": "['Thermodynamics', 'Heat Transfer', 'Fluid Mechanics']", "input_tokens": 3127, "image_tokens": 3024}
+{"qid": 259, "pages": [9, 11, 26], "pred": "['Gameloft', 'Telkomsel']", "input_tokens": 3041, "image_tokens": 2916}
+{"qid": 320, "pages": [4, 22, 55], "pred": "10", "input_tokens": 3054, "image_tokens": 2964}
+{"qid": 393, "pages": [1, 2, 5], "pred": "['LONG, HEALTHY LIFE', 'READINESS FOR']", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 452, "pages": [7, 8, 9, 13, 27], "pred": "10", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 566, "pages": [5, 15, 18, 20, 28], "pred": "4", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 823, "pages": [1, 11, 17], "pred": "538", "input_tokens": 3117, "image_tokens": 3024}
+{"qid": 1008, "pages": [28, 66, 69, 75, 96], "pred": "0.43", "input_tokens": 5045, "image_tokens": 4940}
+{"qid": 1011, "pages": [28, 124, 173], "pred": "N/A", "input_tokens": 3057, "image_tokens": 2964}

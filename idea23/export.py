@@ -1,9 +1,11 @@
 """Step 6 (CPU): the result tables as JSON row files, for the results dashboard.
 
-  python export.py      # after selection.py and analyze.py; writes out/dashboard/*.json
+  python export.py      # after selection.py and analyze.py of each version; writes out/dashboard/*.json
 
-Every file is a JSON array of flat row objects computed from the same per-question table as analyze.py, so the
-dashboard shows exactly the numbers in out/analysis/summary.md.
+Every file is a JSON array of flat row objects. The v0 tables are computed from the same per-question table as
+analyze.py, so the dashboard shows exactly the numbers in out/v0/analysis/summary.md; the versions_* tables are read
+from out/<version>/ (retrieval.csv, sensitivity.csv, analysis/metrics.json, analysis/per_question.csv) for every
+version that has been analysed.
 """
 import json
 
@@ -12,11 +14,13 @@ import pandas as pd
 
 from analyze import (MAIN_K, METHODS, decomposition_diagnostics, failure_table, missed_by_form, paired, per_question,
                      main_table, reasoning_ablation)
-from common import OUT, load_qa, read_jsonl, test_questions
+from common import OUT, VERSION, VOUT, load_elements, load_qa, read_jsonl, test_questions
+from versions import VERSIONS
 
 DASH = OUT / "dashboard"
 BREAKDOWNS = ["stratum", "needs", "qtype", "gap", "n_gold", "combo", "answer_format", "doc_type"]
 EXPLORER = ["topk", "coverage", "gold"]
+EXPLORER_CONTROLS = ["v2_page"]  # controls whose picks and facts the question explorer shows too
 
 
 def clean(v):
@@ -36,7 +40,7 @@ def write(name, rows):
 
 
 def retrieval():
-    return pd.read_csv(OUT / "retrieval.csv").rename(columns={"group": "group"}).to_dict("records")
+    return pd.read_csv(VOUT / "retrieval.csv").to_dict("records")
 
 
 def breakdowns(df, k=MAIN_K):
@@ -88,6 +92,83 @@ def questions(df):
     return rows
 
 
+def analysed():
+    return [v for v in VERSIONS if (OUT / v / "analysis" / "metrics.json").exists()]
+
+
+def first_version(rows, key):
+    """Rows of methods shared by several versions are kept once, from the earliest version (same pages)."""
+    seen, out = set(), []
+    for r in rows:
+        k = tuple(r[c] for c in key)
+        if k not in seen:
+            seen.add(k)
+            out.append(r)
+    return out
+
+
+def versions_tables():
+    """Method results of every analysed version, one row per (group, method, k), tagged with the version."""
+    acc, ret, pair, sens = [], [], [], []
+    for v in analysed():
+        m = json.loads((OUT / v / "analysis" / "metrics.json").read_text())
+        ren = VERSIONS[v].get("rename", {})
+        tag = lambda r: {"version": v, **r, **({"method": ren[r["method"]]} if r.get("method") in ren else {})}
+        # a VLM run on multi-page questions only: its control rows are the fallback, not results
+        keep = lambda r: not (r.get("method") in ren and "control" not in VERSIONS[v].get("agg_sets", "control")
+                              and r.get("group") == "control")
+        acc += [tag(r) for r in m["main"] if keep(r)]
+        ret += [tag(r) for r in pd.read_csv(OUT / v / "retrieval.csv").to_dict("records") if keep(r)]
+        for key, rows in m.items():
+            if key == "paired" or (key.startswith("paired_") and key not in ("paired_k3", "paired_vs_v2_evidence")):
+                base = "topk" if key == "paired" else key[len("paired_"):]
+                pair += [{"base": base, **tag(r)} for r in rows if keep(r)]
+            if key == "paired_k3":
+                pair += [{"base": "topk_k3", **tag(r)} for r in rows if keep(r)]
+            if key == "paired_vs_v2_evidence":  # a control's own method against v2's evidence
+                main = ren.get(VERSIONS[v]["main"], VERSIONS[v]["main"])
+                pair += [{"base": "v2_evidence" if r["k"] == 5 else "v2_evidence_k3", "version": v, "method": main, **r}
+                         for r in rows if keep({**r, "method": VERSIONS[v]["main"]})]
+        if v != "v0" and not ren:
+            sens += [{"version": v, **r} for r in pd.read_csv(OUT / v / "sensitivity.csv").to_dict("records")]
+    return (first_version(acc, ["group", "method", "k"]), first_version(ret, ["group", "method", "k"]),
+            first_version(pair, ["group", "base", "method"]), sens)
+
+
+def version_questions(rows):
+    """Adds the picks and answers of the later versions' own methods at k = 5 (and the VLM's facts of v2) to the
+    question rows."""
+    by_q = {r["qid"]: r for r in rows}
+    for v in analysed():
+        if v == "v0" or (VERSIONS[v].get("rename") and v not in EXPLORER_CONTROLS):
+            continue
+        main = VERSIONS[v]["main"]
+        col = VERSIONS[v].get("rename", {}).get(main, main)
+        pq = pd.read_csv(OUT / v / "analysis" / "per_question.csv")
+        pq = pq[(pq.method == main) & (pq.k == MAIN_K)]
+        for r in pq.itertuples():
+            if r.qid in by_q:
+                pages = json.loads(r.pages) if isinstance(r.pages, str) else r.pages
+                by_q[r.qid][f"{col}_pages"] = " ".join(map(str, sorted(pages)))
+                by_q[r.qid][f"{col}_retrieval"] = r.outcome
+                by_q[r.qid][f"{col}_pred"] = None if pd.isna(r.pred) else r.pred
+                by_q[r.qid][f"{col}_correct"] = None if pd.isna(r.correct) else "right" if r.correct > 0 else "wrong"
+    qs = test_questions(load_qa()).set_index("qid")
+    els = {}
+    for v, field in [("v2", "facts"), *[(c, f"facts_{c}") for c in EXPLORER_CONTROLS]]:
+        us = OUT / v / "unit_scores.pkl"
+        if not us.exists():
+            continue
+        for qid, u in pd.read_pickle(us).items():
+            if qid not in by_q:
+                continue
+            d = qs.loc[qid].doc_id
+            els.setdefault(d, load_elements(d))
+            by_q[qid][field] = " | ".join(
+                f"p{'+'.join(str(els[d][i]['page']) for i in f['evidence'])}: {f['fact']}" for f in u["facts"])
+    return rows
+
+
 def main():
     DASH.mkdir(parents=True, exist_ok=True)
     df = per_question()
@@ -100,7 +181,7 @@ def main():
     by_form, pairs = missed_by_form(df)
     write("missed_by_form", by_form.reset_index().rename(columns=lambda c: c.replace(" ", "_").replace("%", "pct"))
           .to_dict("records"))
-    write("sensitivity", pd.read_csv(OUT / "sensitivity.csv").to_dict("records"))
+    write("sensitivity", pd.read_csv(VOUT / "sensitivity.csv").to_dict("records"))
     dd = decomposition_diagnostics(test_questions(load_qa()))
     dd["qtype"] = dd.qid.map(qtypes)
     write("needs_hist", dd.groupby(["m", "qtype"]).size().rename("n").reset_index().to_dict("records"))
@@ -113,7 +194,18 @@ def main():
     rows = questions(df)
     for r in rows:
         r["qtype"] = qtypes.get(r["qid"])
-    write("questions", rows)
+    write("questions", version_questions(rows))
+    acc, ret, pair, sens = versions_tables()
+    write("versions_accuracy", acc)
+    write("versions_retrieval", ret)
+    write("versions_paired", pair)
+    write("versions_sensitivity", sens)
+    metrics = {v: json.loads((OUT / v / "analysis" / "metrics.json").read_text()) for v in analysed()}
+    agg = [{"version": v, **m["aggregation"]} for v, m in metrics.items() if "aggregation" in m]
+    if agg:
+        write("aggregation", agg)
+    if "need_forms" in metrics.get("v1", {}):
+        write("need_forms", [metrics["v1"]["need_forms"]])
 
 
 if __name__ == "__main__":

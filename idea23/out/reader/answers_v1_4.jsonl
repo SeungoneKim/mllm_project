@@ -1,0 +1,12 @@
+{"qid": 7, "pages": [4, 5, 22], "pred": "59", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 57, "pages": [11, 26, 27], "pred": "['0.3', '1']", "input_tokens": 3168, "image_tokens": 3024}
+{"qid": 89, "pages": [2, 8, 10], "pred": "19", "input_tokens": 3050, "image_tokens": 2964}
+{"qid": 119, "pages": [3, 10, 11, 16, 17], "pred": "['UK', 'China', 'Canada', 'Israel', 'Mexico']", "input_tokens": 5173, "image_tokens": 5040}
+{"qid": 177, "pages": [8, 20, 44], "pred": "1", "input_tokens": 3011, "image_tokens": 2916}
+{"qid": 225, "pages": [4, 8, 14], "pred": "71", "input_tokens": 3143, "image_tokens": 3024}
+{"qid": 382, "pages": [12, 15, 16], "pred": "3", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 462, "pages": [38, 42, 43], "pred": "7", "input_tokens": 3108, "image_tokens": 3024}
+{"qid": 614, "pages": [5, 8, 44], "pred": "0", "input_tokens": 3009, "image_tokens": 2916}
+{"qid": 833, "pages": [4, 6, 7, 12, 15], "pred": "Discrimination in the Workplace Continues", "input_tokens": 5141, "image_tokens": 5040}
+{"qid": 865, "pages": [1, 2, 4, 110, 112], "pred": "18", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 1029, "pages": [16, 39, 41], "pred": "78.0", "input_tokens": 3127, "image_tokens": 3024}

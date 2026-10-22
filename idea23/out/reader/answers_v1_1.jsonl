@@ -1,0 +1,13 @@
+{"qid": 119, "pages": [10, 11, 17], "pred": "['UK', 'China', 'Canada', 'Israel', 'Mexico']", "input_tokens": 3144, "image_tokens": 3024}
+{"qid": 173, "pages": [6, 10, 11], "pred": "29", "input_tokens": 3022, "image_tokens": 2916}
+{"qid": 296, "pages": [4, 5, 8], "pred": "NDCG@10", "input_tokens": 3131, "image_tokens": 3024}
+{"qid": 312, "pages": [15, 29, 38], "pred": "4", "input_tokens": 3122, "image_tokens": 3024}
+{"qid": 348, "pages": [4, 13, 14], "pred": "26", "input_tokens": 3138, "image_tokens": 3024}
+{"qid": 382, "pages": [4, 6, 12, 15, 16], "pred": "3", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 823, "pages": [1, 9, 10, 11, 17], "pred": "538", "input_tokens": 5146, "image_tokens": 5040}
+{"qid": 839, "pages": [9, 12, 14], "pred": "23%", "input_tokens": 3008, "image_tokens": 2916}
+{"qid": 862, "pages": [26, 28, 50], "pred": "1", "input_tokens": 3000, "image_tokens": 2916}
+{"qid": 876, "pages": [4, 34, 58], "pred": "['Llama 2-7B-chat', 'Llama 2-13B-chat', 'Llama 2-34B-chat']", "input_tokens": 3120, "image_tokens": 3024}
+{"qid": 957, "pages": [9, 26, 53], "pred": "['BPV']", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 1043, "pages": [38, 45, 61], "pred": "1.79", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 1047, "pages": [30, 36, 38, 60, 61], "pred": "0.27", "input_tokens": 5150, "image_tokens": 5040}

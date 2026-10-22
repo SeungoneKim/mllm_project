@@ -1,0 +1,114 @@
+# Examples (k = 5)
+
+## evidence completes, top-k does not (29 questions)
+
+- **qid 45** (ddoseattle-150627210357-lva1-app6891_95.pdf, Text): What are the examples the slides show "what does not make you data-driven"
+  - answer: ['Having lots of reports', 'Having lots of dashboards', 'Having lots of alerts', 'Having a hadopt cluster'] | gold pages [7, 8, 9, 16]
+  - needs: ['examples of what does not make you data-driven in the slides']
+  - topk: pages [7, 49, 9, 8, 11] -> ['Having lots of reports does not make you data-driven.', 'Having lots of dashboards does not make you data-driven.', 'Having lots of alerts does not make you data-driven.']
+  - coverage: pages [7, 49, 9, 8, 11] -> ['Having lots of reports does not make you data-driven.', 'Having lots of dashboards does not make you data-driven.', 'Having lots of alerts does not make you data-driven.']
+  - evidence: pages [8, 9, 7, 16, 49] -> ['Having lots of reports', 'Having lots of dashboards', 'Having lots of alerts', 'Having a hadoop cluster']
+  - gold: pages [7, 8, 9, 16] -> ['reports', 'dashboards', 'alerts', 'hadoop cluster']
+  - fact (pages [7]): Having lots of reports does not make you data-driven.
+  - fact (pages [8]): Having lots of dashboards does not make you data-driven.
+  - fact (pages [9]): Having lots of alerts does not make you data-driven.
+  - fact (pages [16]): Having a hadoop cluster does not make you data-driven.
+- **qid 67** (2310.05634v2.pdf, Text): According to author's definition on conscious incompetence, when can a sentence map to both [NA] and a list of sub-graph knowledge?
+  - answer: If it can be partially verified by the knowledge graph G | gold pages [2, 3]
+  - needs: ["author's definition of conscious incompetence", "sentence mapping to both [NA] and list of sub-graph knowledge according to author's definition"]
+  - topk: pages [2, 5, 8, 4, 7] -> If it can
+  - coverage: pages [2, 5, 8, 4, 7] -> If it can
+  - evidence: pages [2, 3, 5, 8, 4] -> If it can
+  - gold: pages [2, 3] -> If it includes some knowledge to be verified, but the knowledge is absent in the knowledge graph G.
+  - fact (pages [2, 3]): We extend this task setting to include conscious incompetence. Given the same input, each sentence s in the output text t can map to a Not Applicable Citation (we use [NA] to represent it) if it includes some knowledge to be verified, but the knowledge is absent in the knowledge graph G. A sentence can map to both [NA] and a list of sub-graph knowledge if it can be partially verified by the knowledge graph G.
+- **qid 81** (2312.10997v5.pdf, Text): Which subsection does the section "AUGMENTATION PROCESS IN RAG" include?
+  - answer: ['Iterative Retrieval ', 'Recursive Retrieval ', 'Adaptive Retrieval '] | gold pages [10, 11]
+  - needs: ['subsection included in the section AUGMENTATION PROCESS IN RAG']
+  - topk: pages [10, 2, 1, 5, 3] -> ['Iterative Retrieval']
+  - coverage: pages [10, 2, 1, 5, 3] -> ['Iterative Retrieval']
+  - evidence: pages [10, 2, 1, 11, 6] -> ['Iterative Retrieval', 'Recursive Retrieval', 'Adaptive Retrieval']
+  - gold: pages [10, 11] -> ['Iterative Retrieval', 'Recursive Retrieval', 'Adaptive Retrieval']
+  - fact (pages [10]): The section 'AUGMENTATION PROCESS IN RAG' includes the subsection 'Iterative Retrieval'.
+- **qid 103** (2024.ug.eprospectus.pdf, Figure + Layout): Which colleges/schools/institutes from NTU use year 3 students as cover page student model?
+  - answer: ['College of Engineering', 'Nanyang Business School', 'National Institute of Education'] | gold pages [10, 17, 18]
+  - needs: ['colleges/schools/institutes from NTU that use year 3 students as cover page student model']
+  - topk: pages [10, 17, 6, 14, 12] -> ['College of Engineering', 'College of Humanities, Arts and Social Sciences']
+  - coverage: pages [10, 17, 6, 14, 12] -> ['College of Engineering', 'College of Humanities, Arts and Social Sciences']
+  - evidence: pages [17, 10, 18, 12, 14] -> ['College of Engineering', 'Nanyang Business School']
+  - gold: pages [10, 17, 18] -> ['College of Engineering', 'Nanyang Business School', 'National Institute of Education']
+  - fact (pages [10]): College of Engineering uses a Year 3 student as the cover page student model.
+  - fact (pages [17]): Nanyang Business School uses a Year 3 student as the cover page student model.
+  - fact (pages [14]): College of Science uses a Year 4 student as the cover page student model.
+  - fact (pages [18]): National Institute of Education uses a Year 3 student as the cover page student model.
+  - fact (pages [12]): College of Humanities, Arts and Social Sciences uses a Year 4 student as the cover page student model.
+
+## top-k completes, evidence does not (11 questions)
+
+- **qid 122** (PG_2020.03.09_US-Germany_FINAL.pdf, Chart): List all titles of the charts (for example, Americans and Germans diverge sharply in their views of bilateral relations) in which the results are grouped by political affiliation.
+  - answer: ['Republican support for increased defense spending from Europe has waned since 2017', 'Supporters of CDU/CSU more likely to favor increased defense spending', 'Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel', 'Supporters of different parties take alternate stances on U.S.-German cooperation', 'Ideological differences in views of the UN, EU and Russia'] | gold pages [8, 12, 14, 18]
+  - needs: ['titles of charts grouped by political affiliation']
+  - topk: pages [4, 12, 18, 8, 14] -> ['Republican support for increased defense spending from Europe has waned since 2017', "Supporters of CDU/CSU more likely to favor increased defense spending", 'Supporters of different parties take alternate stances on U.S.-German cooperation']
+  - coverage: pages [18, 4, 12, 8, 14] -> ['Republican support for increased defense spending from Europe has waned since 2017', "Supporters of CDU/CSU more likely to favor increased defense spending", 'Supporters of different parties take alternate stances on U.S.-German cooperation']
+  - evidence: pages [14, 12, 18, 4, 11] -> ['Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel']
+  - gold: pages [8, 12, 14, 18] -> ['Republican support for increased defense spending from Europe has waned since 2017', "Supporters of CDU/CSU more likely to favor increased defense spending", 'Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel', 'Supporters of different parties take alternate stances on U.S.-German cooperation']
+  - fact (pages [12]): Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel
+  - fact (pages [14]): Supporters of different parties take alternate stances on U.S.-German cooperation
+- **qid 141** (efd88e41c5f2606c57929cac6c1c0605.pdf, Text): How many chapter authors of this report come from Columbia University?
+  - answer: 3 | gold pages [14, 15]
+  - needs: ['chapter authors from Columbia University']
+  - topk: pages [14, 15, 17, 11, 7] -> 2
+  - coverage: pages [14, 15, 17, 11, 7] -> 2
+  - evidence: pages [14, 11, 17, 5, 7] -> 2
+  - gold: pages [14, 15] -> 2
+  - fact (pages [14]): Radley Horton is a Chapter Author from Columbia University.
+- **qid 206** (05-03-18-political-release.pdf, Chart + Text): Among the adults conducted the survey on April 25 - May 1 2018, how many adults rated Trump's government ethical standards as poor?
+  - answer: 541 | gold pages [3, 4]
+  - needs: ["number of adults who rated Trump's government ethical standards as poor in the survey conducted April 25 - May 1 2018"]
+  - topk: pages [3, 8, 4, 9, 10] -> 58
+  - coverage: pages [3, 8, 4, 9, 10] -> 58
+  - evidence: pages [3, 8, 11, 9, 10] -> 36
+  - gold: pages [3, 4] -> 58
+  - fact (pages [3]): 39% say the administration’s ethical standards are excellent or good, while 58% rate them as not good or poor.
+- **qid 214** (05-03-18-political-release.pdf, Chart + Text): What is the percentage gap between the youngest age group and the oldest age group that strongly disapproves of the way the president, who started his job in 2018, was handling his job in the survey of U.S. adults conducted April 25-May 1, 2018? Please write the answer in float format
+  - answer: 7.0 | gold pages [8, 10]
+  - needs: ['youngest age group strongly disapproves of the president handling his job in 2018', 'oldest age group strongly disapproves of the president handling his job in 2018', 'survey of U.S. adults conducted April 25-May 1, 2018']
+  - topk: pages [10, 3, 7, 6, 8] -> 19
+  - coverage: pages [10, 3, 7, 6, 8] -> 19
+  - evidence: pages [10, 3, 6, 5, 7] -> 19
+  - gold: pages [8, 10] -> 17
+  - fact (pages [10]): Among U.S. adults, 46% of those aged 18-29 strongly disapprove of the way Donald Trump is handling his job as president.
+  - fact (pages [10]): Among U.S. adults, 49% of those aged 65+ strongly disapprove of the way Donald Trump is handling his job as president.
+
+## top-k complete but wrong, gold also wrong (reader failure) (92 questions)
+
+- **qid 1** (PH_2016.06.08_Economy-Final.pdf, Table): According to the report, which one is greater in population in the survey? Foreign born Latinos, or the Latinos interviewed by cellphone?
+  - answer: Latinos interviewed by cellphone | gold pages [19, 20]
+  - needs: ['population of Foreign born Latinos in the survey', 'population of Latinos interviewed by cellphone in the survey']
+  - topk: pages [19, 20, 5, 21, 10] -> Foreign born Latinos
+  - coverage: pages [19, 20, 5, 21, 10] -> Foreign born Latinos
+  - evidence: pages [19, 20, 5, 21, 10] -> Foreign born Latinos
+  - gold: pages [19, 20] -> Foreign born Latinos
+  - fact (pages [19]): For the full sample, a total of 795 respondents were foreign born (excluding Puerto Rico).
+  - fact (pages [19]): The sample consisted of a landline sampling frame (yielding 449 completed interviews) and a cellphone sampling frame (1,051 interviews).
+- **qid 3** (PH_2016.06.08_Economy-Final.pdf, Text): Among all 12 references in this report, how many are from its own research center?
+  - answer: 8 | gold pages [2, 22, 23]
+  - needs: ["references from the report's own research center"]
+  - topk: pages [22, 23, 3, 2, 18] -> 6
+  - coverage: pages [18, 22, 23, 3, 2] -> 6
+  - evidence: pages [18, 22, 3, 23, 2] -> 6
+  - gold: pages [2, 22, 23] -> 7
+- **qid 7** (Independents-Report.pdf, Text): What's the percentage of people who are democrats and voted in the last election compared to the entire population in 2018?
+  - answer: 18.29% | gold pages [3, 5]
+  - needs: ['percentage of democrats who voted in the last election in 2018', 'entire population in 2018']
+  - topk: pages [4, 5, 3, 22, 20] -> 61
+  - coverage: pages [3, 4, 5, 22, 20] -> 61
+  - evidence: pages [22, 4, 5, 3, 16] -> 59
+  - gold: pages [3, 5] -> 31
+- **qid 57** (reportq32015-151009093138-lva1-app6891_95.pdf, Figure + Layout): In Q3 2015, what is the approximate range of cost in 1 day (dollar) of a mobile incentive platform in Vietnam for installing? Answer with a list of two number for boundary, for example [3000, 4000]
+  - answer: [1500, 8000] | gold pages [26, 27]
+  - needs: ['cost of mobile incentive platform in Vietnam for installing in Q3 2015', 'range of cost in 1 day (dollar) of mobile incentive platform in Vietnam for installing in Q3 2015']
+  - topk: pages [26, 27, 32, 13, 21] -> ['0.3', '0.4']
+  - coverage: pages [27, 26, 32, 13, 21] -> ['0.3', '0.4']
+  - evidence: pages [26, 16, 27, 1, 14] -> ['0.3', '0.4']
+  - gold: pages [26, 27] -> ['1500', '2000']
+  - fact (pages [26]): Cost pr. install for incentive: 0,3 - 0,4 $

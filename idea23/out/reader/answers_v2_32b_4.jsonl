@@ -1,0 +1,22 @@
+{"qid": 3, "pages": [2, 6, 7, 19, 23], "pred": "8", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 21, "pages": [2, 7, 18], "pred": "2015-2016", "input_tokens": 3044, "image_tokens": 2964}
+{"qid": 31, "pages": [3, 102, 103, 107, 108], "pred": "WikidataMapMakingWorkshop.ipynb", "input_tokens": 4969, "image_tokens": 4860}
+{"qid": 78, "pages": [6, 8, 17], "pred": "From classification to generation: Insights into crosslingual retrieval augmented icl", "input_tokens": 3116, "image_tokens": 3024}
+{"qid": 105, "pages": [1, 11, 44], "pred": "6", "input_tokens": 2977, "image_tokens": 2886}
+{"qid": 121, "pages": [1, 4, 6, 11, 17], "pred": "['Sharp divides in German and American views of security issues, from use of force to defense budgeting']", "input_tokens": 5187, "image_tokens": 5040}
+{"qid": 169, "pages": [4, 18, 20, 29, 31], "pred": "['radio', 'television', 'newspaper', 'internet']", "input_tokens": 5049, "image_tokens": 4940}
+{"qid": 173, "pages": [1, 10, 11, 15, 19], "pred": "30", "input_tokens": 4980, "image_tokens": 4860}
+{"qid": 403, "pages": [1, 28, 48, 74, 76], "pred": "['Chapter 8', 'Chapter 9', 'Chapter 10']", "input_tokens": 5167, "image_tokens": 5040}
+{"qid": 463, "pages": [26, 52, 61], "pred": "Left", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 575, "pages": [6, 10, 29, 33, 84], "pred": "82", "input_tokens": 5164, "image_tokens": 5040}
+{"qid": 675, "pages": [5, 8, 9], "pred": "18", "input_tokens": 3049, "image_tokens": 2964}
+{"qid": 711, "pages": [7, 8, 14], "pred": "['first']", "input_tokens": 3012, "image_tokens": 2916}
+{"qid": 739, "pages": [10, 11, 13], "pred": "2", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 757, "pages": [2, 5, 8], "pred": "Baseball", "input_tokens": 3114, "image_tokens": 3024}
+{"qid": 765, "pages": [4, 6, 19], "pred": "Consistency", "input_tokens": 3111, "image_tokens": 3024}
+{"qid": 774, "pages": [3, 4, 23], "pred": "6", "input_tokens": 3111, "image_tokens": 3024}
+{"qid": 813, "pages": [5, 42, 43, 44, 48], "pred": "41%", "input_tokens": 5144, "image_tokens": 5040}
+{"qid": 862, "pages": [15, 17, 26, 27, 28], "pred": "1", "input_tokens": 4958, "image_tokens": 4860}
+{"qid": 873, "pages": [20, 21, 79, 80, 84], "pred": "5", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 938, "pages": [1, 2, 3, 4, 18], "pred": "6", "input_tokens": 4956, "image_tokens": 4860}
+{"qid": 1054, "pages": [18, 38, 79], "pred": "0.164", "input_tokens": 3118, "image_tokens": 3024}

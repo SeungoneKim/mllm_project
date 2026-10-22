@@ -1,0 +1,11 @@
+{"qid": 108, "pages": [10, 17, 43], "pred": "Escape Bryggen", "input_tokens": 2973, "image_tokens": 2886}
+{"qid": 169, "pages": [29, 31, 41], "pred": "['Internet', 'Television', 'Newspaper', 'Radio']", "input_tokens": 3060, "image_tokens": 2964}
+{"qid": 223, "pages": [3, 8, 18, 19, 20], "pred": "['42%', '39%', '39%']", "input_tokens": 5211, "image_tokens": 5040}
+{"qid": 720, "pages": [6, 7, 19], "pred": "25mm", "input_tokens": 3119, "image_tokens": 3024}
+{"qid": 721, "pages": [14, 18, 46], "pred": "5", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 872, "pages": [104, 106, 109], "pred": "['Reasoning Error']", "input_tokens": 3133, "image_tokens": 3024}
+{"qid": 874, "pages": [9, 50, 52, 53, 56], "pred": "4", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 910, "pages": [1, 25, 27, 28, 29], "pred": "12", "input_tokens": 5041, "image_tokens": 4940}
+{"qid": 982, "pages": [3, 4, 12], "pred": "No", "input_tokens": 3064, "image_tokens": 2964}
+{"qid": 983, "pages": [11, 12, 14], "pred": "No", "input_tokens": 3067, "image_tokens": 2964}
+{"qid": 1004, "pages": [6, 15, 48], "pred": "2", "input_tokens": 3108, "image_tokens": 3024}

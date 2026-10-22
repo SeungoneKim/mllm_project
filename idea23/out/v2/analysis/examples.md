@@ -1,0 +1,134 @@
+# Examples (k = 5)
+
+## evidence completes, top-k does not (22 questions)
+
+- **qid 45** (ddoseattle-150627210357-lva1-app6891_95.pdf, Text): What are the examples the slides show "what does not make you data-driven"
+  - answer: ['Having lots of reports', 'Having lots of dashboards', 'Having lots of alerts', 'Having a hadopt cluster'] | gold pages [7, 8, 9, 16]
+  - needs: ['examples of what does not make you data-driven in the slides']
+  - topk: pages [7, 49, 9, 8, 11] -> ['Having lots of reports does not make you data-driven.', 'Having lots of dashboards does not make you data-driven.', 'Having lots of alerts does not make you data-driven.']
+  - coverage: pages [7, 49, 9, 8, 11] -> ['Having lots of reports does not make you data-driven.', 'Having lots of dashboards does not make you data-driven.', 'Having lots of alerts does not make you data-driven.']
+  - evidence: pages [8, 9, 7, 16, 49] -> ['Having lots of reports', 'Having lots of dashboards', 'Having lots of alerts', 'Having a hadoop cluster']
+  - gold: pages [7, 8, 9, 16] -> ['reports', 'dashboards', 'alerts', 'hadoop cluster']
+  - fact (pages [7]): Having lots of reports does not make you data-driven.
+  - fact (pages [8]): Having lots of dashboards does not make you data-driven.
+  - fact (pages [9]): Having lots of alerts does not make you data-driven.
+  - fact (pages [16]): Having a hadoop cluster does not make you data-driven.
+- **qid 78** (2312.10997v5.pdf, Table + Text): What is the paper's full title that proposes the method that has a retrieval granularity of phrase?
+  - answer: Copy is all you need.  | gold pages [6, 17]
+  - needs: ['method with retrieval granularity of phrase', 'full title of the paper that proposes the method with retrieval granularity of phrase']
+  - topk: pages [8, 7, 10, 1, 9] -> Retrieval-Augmented Generation for Large Language Models: A Survey
+  - coverage: pages [8, 7, 10, 1, 9] -> Retrieval-Augmented Generation for Large Language Models: A Survey
+  - evidence: pages [17, 8, 7, 6, 10] -> From classification to generation: Insights into crosslingual retrieval augmented icl
+  - gold: pages [6, 17] -> From classification to generation: Insights into crosslingual retrieval augmented icl
+  - fact (pages [8]): DenseX [30] proposed the concept of using propositions as retrieval units.
+  - fact (pages [8]): The retrieval granularity for DenseX is Proposition.
+  - fact (pages [17]): The full title of the paper that proposes DenseX is "Dense x retrieval: What retrieval granularity should we use?".
+- **qid 81** (2312.10997v5.pdf, Text): Which subsection does the section "AUGMENTATION PROCESS IN RAG" include?
+  - answer: ['Iterative Retrieval ', 'Recursive Retrieval ', 'Adaptive Retrieval '] | gold pages [10, 11]
+  - needs: ['subsection included in the section AUGMENTATION PROCESS IN RAG']
+  - topk: pages [10, 2, 1, 5, 3] -> ['Iterative Retrieval']
+  - coverage: pages [10, 2, 1, 5, 3] -> ['Iterative Retrieval']
+  - evidence: pages [10, 2, 1, 11, 6] -> ['Iterative Retrieval', 'Recursive Retrieval', 'Adaptive Retrieval']
+  - gold: pages [10, 11] -> ['Iterative Retrieval', 'Recursive Retrieval', 'Adaptive Retrieval']
+  - fact (pages [10]): Section V focuses on the augmentation process in RAG.
+- **qid 103** (2024.ug.eprospectus.pdf, Figure + Layout): Which colleges/schools/institutes from NTU use year 3 students as cover page student model?
+  - answer: ['College of Engineering', 'Nanyang Business School', 'National Institute of Education'] | gold pages [10, 17, 18]
+  - needs: ['colleges/schools/institutes from NTU that use year 3 students as cover page student model']
+  - topk: pages [10, 17, 6, 14, 12] -> ['College of Engineering', 'College of Humanities, Arts and Social Sciences']
+  - coverage: pages [10, 17, 6, 14, 12] -> ['College of Engineering', 'College of Humanities, Arts and Social Sciences']
+  - evidence: pages [17, 10, 18, 6, 14] -> ['College of Engineering', 'College of Science']
+  - gold: pages [10, 17, 18] -> ['College of Engineering', 'Nanyang Business School', 'National Institute of Education']
+  - fact (pages [10]): STELLA CHUA ZHI YUN, Mechanical Engineering, Year 3.
+  - fact (pages [17]): WANG SHI LIN NICOLE, Business, Year 3.
+  - fact (pages [18]): RUTH KOH, Sport Science & Management, Year 3.
+
+## top-k completes, evidence does not (14 questions)
+
+- **qid 3** (PH_2016.06.08_Economy-Final.pdf, Text): Among all 12 references in this report, how many are from its own research center?
+  - answer: 8 | gold pages [2, 22, 23]
+  - needs: ["references from the report's own research center"]
+  - topk: pages [22, 23, 3, 2, 18] -> 6
+  - coverage: pages [18, 22, 23, 3, 2] -> 6
+  - evidence: pages [19, 6, 7, 20, 23] -> 8
+  - gold: pages [2, 22, 23] -> 7
+  - fact (pages [23]): R5: Stepler, Renee and Anna Brown. 2016. "Statistical Portrait of Hispanics in the United States." Washington, D.C.: Pew Research Center, April.
+  - fact (pages [22]): R3: Kochhar, Rakesh and Richard Fry. 2014. "Wealth inequality has widened along racial, ethnic lines since end of the Great Recession." Washington, D.C.: Pew Research Center, December.
+  - fact (pages [19]): R14: 2015 National Survey of Latinos details
+  - fact (pages [20]): R17: Table showing breakdown of interviews by landline and cellphone, with note that the estimated population breakdown is based on counts from the 2013 American Community Survey.
+  - fact (pages [6]): R16: Chart showing Hispanic and Non-Hispanic unemployment rates from 2000 to 2015, with note that the source is "Pew Research Center tabulations of Bureau of Labor Statistics data."
+  - fact (pages [7]): R18: Chart showing real median household income, poverty rate, and median net worth, with note that for median net worth, the source is "Pew Research Center tabulations of the Survey of Consumer Finances public-use data."
+- **qid 105** (Bergen-Brochure-en-2022-23.pdf, Layout): In chaper 2.2, how many museums in Bergen does this brochure introduce?
+  - answer: 31 | gold pages [11, 12, 13, 14]
+  - needs: ['museums in Bergen introduced in chapter 2.2']
+  - topk: pages [13, 14, 11, 12, 1] -> 17
+  - coverage: pages [13, 14, 11, 12, 1] -> 17
+  - evidence: pages [44, 5, 7, 11, 1] -> 6
+  - gold: pages [11, 12, 13, 14] -> 45
+  - fact (pages [7]): The Museum of Natural History at the University Museum of Bergen has also finally reopened following six years of renovation.
+  - fact (pages [7]): There are more than 60 different attractions, museums and galleries in Bergen.
+  - fact (pages [5]): Bergen has many museums, some with unique art collections and others that show the breadth of the city's historical heritage.
+  - fact (pages [44]): The list of museums in Bergen includes: Arven Gold and Silver Ware Factory and Shop, Bergenhus Fortress Museum, Bergen Kunsthall, Bergen Maritime Museum, Bjørn West Museum, Bryggen Museum, Dale of Norway, Damsøgård Country Mansion, The Hanseatic Museum and Schøtstuene, Edvard Grieg Museum Toldhaugen, Fjell Fortress, Old Bergen Museum, Harald Sæverud – Museum Sjølåst, Herdla Museum, Haakon's Hall, Kode Art Museums of Bergen, Kunsthall 3:14, Coastal Museum in Øygarden, Leprosy Museum St. George's Hospital, The Heathland Centre at Lygra, The old Voss steam Railway Museum, North Sea Traffic Museum in Telavåg, Ole Bull Museum Lyseø, Olea Economous, Osterøy Museum, Rosenkrantz Tower.
+- **qid 122** (PG_2020.03.09_US-Germany_FINAL.pdf, Chart): List all titles of the charts (for example, Americans and Germans diverge sharply in their views of bilateral relations) in which the results are grouped by political affiliation.
+  - answer: ['Republican support for increased defense spending from Europe has waned since 2017', 'Supporters of CDU/CSU more likely to favor increased defense spending', 'Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel', 'Supporters of different parties take alternate stances on U.S.-German cooperation', 'Ideological differences in views of the UN, EU and Russia'] | gold pages [8, 12, 14, 18]
+  - needs: ['titles of charts grouped by political affiliation']
+  - topk: pages [4, 12, 18, 8, 14] -> ['Republican support for increased defense spending from Europe has waned since 2017', "Supporters of CDU/CSU more likely to favor increased defense spending", 'Supporters of different parties take alternate stances on U.S.-German cooperation']
+  - coverage: pages [18, 4, 12, 8, 14] -> ['Republican support for increased defense spending from Europe has waned since 2017', "Supporters of CDU/CSU more likely to favor increased defense spending", 'Supporters of different parties take alternate stances on U.S.-German cooperation']
+  - evidence: pages [12, 18, 4, 14, 11] -> ['Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel']
+  - gold: pages [8, 12, 14, 18] -> ['Republican support for increased defense spending from Europe has waned since 2017', "Supporters of CDU/CSU more likely to favor increased defense spending", 'Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel', 'Supporters of different parties take alternate stances on U.S.-German cooperation']
+  - fact (pages [12]): Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel
+  - fact (pages [12]): Democrats and Republicans are about as likely to name Germany as a top foreign policy partner, but Republicans are keener on Israel
+  - fact (pages [12]): In the U.S., political affiliation dictates who people think is the most important foreign policy partner.
+  - fact (pages [12]): While both Republicans and Democrats agree that the UK is their most important partner, Republicans and Republican-leaning independents are keener on Israel as a partner (26%) than Democrats and Democratic-leaning independents (9%).
+  - fact (pages [12]): Democrats also place more emphasis on Canada and Mexico for their top foreign policy affiliate.
+  - fact (pages [12]): However, views of Germany are similar among partisans in the U.S., with both sides ranking Germany fifth on the list of most or second-most important foreign policy partners.
+- **qid 141** (efd88e41c5f2606c57929cac6c1c0605.pdf, Text): How many chapter authors of this report come from Columbia University?
+  - answer: 3 | gold pages [14, 15]
+  - needs: ['chapter authors from Columbia University']
+  - topk: pages [14, 15, 17, 11, 7] -> 2
+  - coverage: pages [14, 15, 17, 11, 7] -> 2
+  - evidence: pages [17, 14, 11, 5, 7] -> 2
+  - gold: pages [14, 15] -> 2
+  - fact (pages [17]): Paul English is from Columbia University Mailman School of Public Health.
+  - fact (pages [14]): Patrick Kinney is from Columbia University.
+
+## top-k complete but wrong, gold also wrong (reader failure) (92 questions)
+
+- **qid 1** (PH_2016.06.08_Economy-Final.pdf, Table): According to the report, which one is greater in population in the survey? Foreign born Latinos, or the Latinos interviewed by cellphone?
+  - answer: Latinos interviewed by cellphone | gold pages [19, 20]
+  - needs: ['population of Foreign born Latinos in the survey', 'population of Latinos interviewed by cellphone in the survey']
+  - topk: pages [19, 20, 5, 21, 10] -> Foreign born Latinos
+  - coverage: pages [19, 20, 5, 21, 10] -> Foreign born Latinos
+  - evidence: pages [19, 20, 5, 21, 10] -> Foreign born Latinos
+  - gold: pages [19, 20] -> Foreign born Latinos
+  - fact (pages [19]): Foreign born (excl. PR) sample size: 795
+  - fact (pages [20]): Cellphone Total Interviews: 1,051
+- **qid 3** (PH_2016.06.08_Economy-Final.pdf, Text): Among all 12 references in this report, how many are from its own research center?
+  - answer: 8 | gold pages [2, 22, 23]
+  - needs: ["references from the report's own research center"]
+  - topk: pages [22, 23, 3, 2, 18] -> 6
+  - coverage: pages [18, 22, 23, 3, 2] -> 6
+  - evidence: pages [19, 6, 7, 20, 23] -> 8
+  - gold: pages [2, 22, 23] -> 7
+  - fact (pages [23]): R5: Stepler, Renee and Anna Brown. 2016. "Statistical Portrait of Hispanics in the United States." Washington, D.C.: Pew Research Center, April.
+  - fact (pages [22]): R3: Kochhar, Rakesh and Richard Fry. 2014. "Wealth inequality has widened along racial, ethnic lines since end of the Great Recession." Washington, D.C.: Pew Research Center, December.
+  - fact (pages [19]): R14: 2015 National Survey of Latinos details
+  - fact (pages [20]): R17: Table showing breakdown of interviews by landline and cellphone, with note that the estimated population breakdown is based on counts from the 2013 American Community Survey.
+  - fact (pages [6]): R16: Chart showing Hispanic and Non-Hispanic unemployment rates from 2000 to 2015, with note that the source is "Pew Research Center tabulations of Bureau of Labor Statistics data."
+  - fact (pages [7]): R18: Chart showing real median household income, poverty rate, and median net worth, with note that for median net worth, the source is "Pew Research Center tabulations of the Survey of Consumer Finances public-use data."
+- **qid 7** (Independents-Report.pdf, Text): What's the percentage of people who are democrats and voted in the last election compared to the entire population in 2018?
+  - answer: 18.29% | gold pages [3, 5]
+  - needs: ['percentage of democrats who voted in the last election in 2018', 'entire population in 2018']
+  - topk: pages [4, 5, 3, 22, 20] -> 61
+  - coverage: pages [3, 4, 5, 22, 20] -> 61
+  - evidence: pages [3, 5, 4, 22, 16] -> 59
+  - gold: pages [3, 5] -> 31
+  - fact (pages [3]): Among the public overall, 31% are Democrats, according to Pew Research Center surveys conducted in 2018.
+  - fact (pages [5]): About half of Democratic-leaning independents (48%) said they voted, compared with 59% of Democrats.
+- **qid 57** (reportq32015-151009093138-lva1-app6891_95.pdf, Figure + Layout): In Q3 2015, what is the approximate range of cost in 1 day (dollar) of a mobile incentive platform in Vietnam for installing? Answer with a list of two number for boundary, for example [3000, 4000]
+  - answer: [1500, 8000] | gold pages [26, 27]
+  - needs: ['cost of mobile incentive platform in Vietnam for installing in Q3 2015', 'range of cost in 1 day (dollar) of mobile incentive platform in Vietnam for installing in Q3 2015']
+  - topk: pages [26, 27, 32, 13, 21] -> ['0.3', '0.4']
+  - coverage: pages [27, 26, 32, 13, 21] -> ['0.3', '0.4']
+  - evidence: pages [27, 16, 1, 26, 14] -> ['0.3', '0.4']
+  - gold: pages [26, 27] -> ['1500', '2000']
+  - fact (pages [27]): each player providing approximately 5 - 20k installs a day.

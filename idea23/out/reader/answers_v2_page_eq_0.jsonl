@@ -1,0 +1,14 @@
+{"qid": 93, "pages": [11, 12, 24], "pred": "['Vision', 'Bluetooth device']", "input_tokens": 3062, "image_tokens": 2964}
+{"qid": 179, "pages": [2, 3, 4, 5, 110], "pred": "287", "input_tokens": 5136, "image_tokens": 5040}
+{"qid": 183, "pages": [1, 14, 16], "pred": "2.5", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 206, "pages": [3, 4, 8, 9, 11], "pred": "58", "input_tokens": 5157, "image_tokens": 5040}
+{"qid": 328, "pages": [4, 5, 13], "pred": "0", "input_tokens": 2971, "image_tokens": 2886}
+{"qid": 333, "pages": [3, 11, 12, 15, 16], "pred": "0", "input_tokens": 4914, "image_tokens": 4810}
+{"qid": 360, "pages": [8, 12, 14], "pred": "35", "input_tokens": 3129, "image_tokens": 3024}
+{"qid": 566, "pages": [16, 22, 24], "pred": "3", "input_tokens": 3115, "image_tokens": 3024}
+{"qid": 603, "pages": [20, 21, 41], "pred": "President", "input_tokens": 3011, "image_tokens": 2916}
+{"qid": 766, "pages": [8, 20, 24], "pred": "15", "input_tokens": 3106, "image_tokens": 3024}
+{"qid": 816, "pages": [11, 21, 24], "pred": "1", "input_tokens": 3114, "image_tokens": 3024}
+{"qid": 910, "pages": [27, 28, 29], "pred": "10", "input_tokens": 3052, "image_tokens": 2964}
+{"qid": 1024, "pages": [3, 23, 36, 38, 47], "pred": "0.229", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 1036, "pages": [17, 34, 39, 43, 67], "pred": "2.894", "input_tokens": 5157, "image_tokens": 5040}

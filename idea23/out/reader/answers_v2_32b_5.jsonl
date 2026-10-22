@@ -1,0 +1,22 @@
+{"qid": 3, "pages": [2, 6, 19], "pred": "8", "input_tokens": 3115, "image_tokens": 3024}
+{"qid": 31, "pages": [3, 102, 108], "pred": "module3stuff/WikidataMapMakingWorkshop.ipynb", "input_tokens": 3009, "image_tokens": 2916}
+{"qid": 61, "pages": [13, 30, 31, 32, 33], "pred": "Bluebird award", "input_tokens": 5142, "image_tokens": 5040}
+{"qid": 121, "pages": [1, 6, 17], "pred": "['Sharp divides in German and American views of security issues, from use of force to defense budgeting']", "input_tokens": 3158, "image_tokens": 3024}
+{"qid": 169, "pages": [20, 29, 31], "pred": "['radio', 'internet', 'television', 'newspaper']", "input_tokens": 3060, "image_tokens": 2964}
+{"qid": 202, "pages": [6, 55, 66, 67, 68], "pred": "['Australia', 'Canada', 'Ireland', 'New Zealand', 'United Kingdom']", "input_tokens": 3257, "image_tokens": 3125}
+{"qid": 267, "pages": [20, 21, 23], "pred": "3", "input_tokens": 3109, "image_tokens": 3024}
+{"qid": 342, "pages": [2, 4, 12, 19, 20], "pred": "['Central Library', 'Chinese Library', 'C J Koh Law Library', 'Hon Sui Sen Memorial Library']", "input_tokens": 5021, "image_tokens": 4900}
+{"qid": 398, "pages": [13, 16, 17], "pred": "3", "input_tokens": 3107, "image_tokens": 3024}
+{"qid": 603, "pages": [5, 20, 21, 31, 44], "pred": "Editor-in-Chief", "input_tokens": 4968, "image_tokens": 4860}
+{"qid": 632, "pages": [2, 3, 5], "pred": "Pyke", "input_tokens": 3057, "image_tokens": 2964}
+{"qid": 645, "pages": [7, 8, 9], "pred": "['2', '2', '3']", "input_tokens": 3085, "image_tokens": 2964}
+{"qid": 726, "pages": [14, 18, 19, 21, 45], "pred": "['Column Bracing Formwork']", "input_tokens": 5158, "image_tokens": 5040}
+{"qid": 813, "pages": [5, 44, 48], "pred": "7", "input_tokens": 3114, "image_tokens": 3024}
+{"qid": 862, "pages": [15, 17, 28], "pred": "1", "input_tokens": 3000, "image_tokens": 2916}
+{"qid": 873, "pages": [20, 80, 84], "pred": "6", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 910, "pages": [25, 27, 28], "pred": "10", "input_tokens": 3052, "image_tokens": 2964}
+{"qid": 956, "pages": [6, 45, 53], "pred": "6", "input_tokens": 3106, "image_tokens": 3024}
+{"qid": 1008, "pages": [69, 70, 174], "pred": "0.85", "input_tokens": 3056, "image_tokens": 2964}
+{"qid": 1018, "pages": [23, 38, 60], "pred": "0.754", "input_tokens": 3125, "image_tokens": 3024}
+{"qid": 1052, "pages": [18, 26, 32, 52, 69], "pred": "0.024", "input_tokens": 5152, "image_tokens": 5040}
+{"qid": 1073, "pages": [22, 32, 40, 42, 64], "pred": "17.9%", "input_tokens": 5161, "image_tokens": 5040}

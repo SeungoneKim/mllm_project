@@ -1,0 +1,23 @@
+{"qid": 61, "pages": [13, 32, 33], "pred": "None", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 71, "pages": [2, 4, 5, 7, 18], "pred": "Tree Traversal Algorithm", "input_tokens": 5154, "image_tokens": 5040}
+{"qid": 153, "pages": [3, 24, 27], "pred": "Not all recruiting organizations use LinkedIn job postings or Recruiter job slots. Why are questions about these capabilities included on the exam?", "input_tokens": 3000, "image_tokens": 2916}
+{"qid": 170, "pages": [9, 10, 16, 18, 20], "pred": "35.7%", "input_tokens": 5044, "image_tokens": 4940}
+{"qid": 199, "pages": [6, 41, 45, 47, 72], "pred": "['Page 45']", "input_tokens": 3266, "image_tokens": 3125}
+{"qid": 203, "pages": [43, 54, 55], "pred": "(61) 133-622", "input_tokens": 1980, "image_tokens": 1875}
+{"qid": 206, "pages": [3, 8, 9], "pred": "36", "input_tokens": 3128, "image_tokens": 3024}
+{"qid": 287, "pages": [3, 4, 5, 6, 10], "pred": "2", "input_tokens": 5049, "image_tokens": 4940}
+{"qid": 426, "pages": [1, 2, 34, 35, 61], "pred": "['cat', 'dog']", "input_tokens": 4968, "image_tokens": 4860}
+{"qid": 433, "pages": [56, 60, 62], "pred": "Dog", "input_tokens": 3002, "image_tokens": 2916}
+{"qid": 494, "pages": [4, 10, 11, 12, 13], "pred": "13%", "input_tokens": 4953, "image_tokens": 4830}
+{"qid": 625, "pages": [8, 12, 28], "pred": "1", "input_tokens": 3001, "image_tokens": 2916}
+{"qid": 663, "pages": [2, 3, 5, 14, 18], "pred": "2", "input_tokens": 5080, "image_tokens": 4984}
+{"qid": 675, "pages": [5, 6, 8, 9, 15], "pred": "18", "input_tokens": 5038, "image_tokens": 4940}
+{"qid": 687, "pages": [3, 4, 28, 29, 30], "pred": "Clinton", "input_tokens": 5139, "image_tokens": 5040}
+{"qid": 721, "pages": [14, 45, 47], "pred": "3", "input_tokens": 3121, "image_tokens": 3024}
+{"qid": 732, "pages": [2, 7, 11, 16, 17], "pred": "2", "input_tokens": 5134, "image_tokens": 5040}
+{"qid": 739, "pages": [8, 9, 10, 11, 13], "pred": "2", "input_tokens": 5140, "image_tokens": 5040}
+{"qid": 918, "pages": [7, 11, 12, 14, 17], "pred": "3180", "input_tokens": 5046, "image_tokens": 4940}
+{"qid": 938, "pages": [2, 4, 18], "pred": "1", "input_tokens": 3000, "image_tokens": 2916}
+{"qid": 1010, "pages": [28, 66, 69, 70, 96], "pred": "0.03", "input_tokens": 5047, "image_tokens": 4940}
+{"qid": 1057, "pages": [37, 40, 50, 74, 77], "pred": "0.368", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 1066, "pages": [16, 63, 104], "pred": "['1.47']", "input_tokens": 3126, "image_tokens": 3024}

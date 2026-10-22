@@ -69,11 +69,21 @@
       Coverage selection raises complete-evidence recall at five pages from
       <b data-source="accuracy" data-field="complete" data-where="group=multi&amp;method=topk&amp;k=5" class="dash-skeleton">—</b> to
       <b data-source="accuracy" data-field="complete" data-where="group=multi&amp;method=coverage&amp;k=5" class="dash-skeleton">—</b> without hurting single-page questions, but
-      <b data-source="needshare" data-field="share" data-row="0" class="dash-skeleton">—</b> of multi-page questions decompose into a single need, where it behaves almost exactly like top-k.</p>
+      <b data-source="needshare" data-field="share" data-row="0" class="dash-skeleton">—</b> of multi-page questions decompose into a single need, where it behaves almost exactly like top-k.
+      Adding modality at page level (v1) leaves it at
+      <b data-source="versions_accuracy" data-field="complete" data-where="group=multi&amp;method=coverage_mod&amp;k=5" class="dash-skeleton">—</b>.
+      What helps is a VLM reading the candidates and stating facts that coverage then selects from. The 8B VLM does better on whole pages
+      (<b data-source="versions_accuracy" data-field="complete" data-where="group=multi&amp;method=evidence_pagevlm&amp;k=5" class="dash-skeleton">—</b>;
+      <b data-source="versions_accuracy" data-field="complete" data-where="group=multi&amp;method=evidence_pagevlm_eq&amp;k=5" class="dash-skeleton">—</b> at the crops' token budget)
+      than on element crops (<b data-source="versions_accuracy" data-field="complete" data-where="group=multi&amp;method=evidence&amp;k=5" class="dash-skeleton">—</b>);
+      the 32B VLM on crops reaches
+      <b data-source="versions_accuracy" data-field="complete" data-where="group=multi&amp;method=evidence_32b&amp;k=5" class="dash-skeleton">—</b>.
+      Reader accuracy moves much less than retrieval.</p>
   </header>
 
   <div class="ev-tabs" role="tablist" aria-label="Pages">
     <button class="ev-tab" role="tab" id="tab-overview" data-tab="overview" aria-selected="true">Overview</button>
+    <button class="ev-tab" role="tab" id="tab-versions" data-tab="versions" aria-selected="false">Versions</button>
     <button class="ev-tab" role="tab" id="tab-failures" data-tab="failures" aria-selected="false">Failure analysis</button>
     <button class="ev-tab" role="tab" id="tab-questions" data-tab="questions" aria-selected="false">Questions</button>
     <button class="ev-tab" role="tab" id="tab-setup" data-tab="setup" aria-selected="false">Setup</button>
@@ -142,6 +152,107 @@
             <tbody></tbody>
           </table>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ev-page" id="versions" role="tabpanel" aria-labelledby="tab-versions" hidden>
+    <div class="ev-card">
+      <h3>Three versions of the pipeline</h3>
+      <p class="ev-note">One flag (<code>pipeline.py --version</code>) chooses what the selector knows; the reader, its prompt and the page budget stay fixed, so every method hands the reader exactly k pages.</p>
+      <dl class="ev-defs">
+        <dt>v0 page</dt><dd>pages are the units; coverage over the needs the decomposer finds (Idea 2).</dd>
+        <dt>v1 page_mod</dt><dd>v0 plus modality at page level: each need gets the evidence forms it expects (Qwen3-8B, from the question only), each page the forms a layout detector finds on it; a page of another form covers a need at half credit (Idea 3 at page level).</dd>
+        <dt>v2 evidence</dt><dd>pages are split into elements (text blocks, tables, charts, figures, headings) and elements are retrieved per form; a VLM (Qwen3-VL-8B) merges the retrieved elements into atomic facts, keeping one copy of redundant evidence and marking facts that need several elements together; coverage runs over the facts, and the pages that hold them go to the reader, the rest of the budget filled by element coverage (Ideas 2 and 3 at evidence level).</dd>
+        <dt>v2_page</dt><dd>control: the same VLM reads the candidates' whole pages (1,024 visual tokens each, about 2.7 times the crops' budget) instead of the element crops, so that what the evidence level adds can be told apart from what a VLM reading the candidates adds.</dd>
+        <dt>v2_page_eq</dt><dd>the same page control at the crops' total visual-token budget (384 tokens a page), to tell page context apart from a larger budget.</dd>
+        <dt>v2_32b</dt><dd>v2 with Qwen3-VL-32B as the VLM, on the multi-page questions only (its single-page rows fall back to element coverage).</dd>
+      </dl>
+    </div>
+
+    <div class="ev-kpis" id="kpis-versions">
+      <div class="ev-kpi"><span class="lab">Top-k, all evidence in 5 pages</span>
+        <span class="val dash-skeleton" data-source="versions_accuracy" data-field="complete" data-where="group=multi&amp;method=topk&amp;k=5">—</span>
+        <span class="sub">acc <span data-source="versions_accuracy" data-field="acc" data-where="group=multi&amp;method=topk&amp;k=5" class="dash-skeleton">—</span></span></div>
+      <div class="ev-kpi"><span class="lab">v0 coverage</span>
+        <span class="val dash-skeleton" data-source="versions_accuracy" data-field="complete" data-where="group=multi&amp;method=coverage&amp;k=5">—</span>
+        <span class="sub">acc <span data-source="versions_accuracy" data-field="acc" data-where="group=multi&amp;method=coverage&amp;k=5" class="dash-skeleton">—</span></span></div>
+      <div class="ev-kpi"><span class="lab">v1 coverage + forms</span>
+        <span class="val dash-skeleton" data-source="versions_accuracy" data-field="complete" data-where="group=multi&amp;method=coverage_mod&amp;k=5">—</span>
+        <span class="sub">acc <span data-source="versions_accuracy" data-field="acc" data-where="group=multi&amp;method=coverage_mod&amp;k=5" class="dash-skeleton">—</span></span></div>
+      <div class="ev-kpi"><span class="lab">v2 evidence facts (crops)</span>
+        <span class="val dash-skeleton" data-source="versions_accuracy" data-field="complete" data-where="group=multi&amp;method=evidence&amp;k=5">—</span>
+        <span class="sub">acc <span data-source="versions_accuracy" data-field="acc" data-where="group=multi&amp;method=evidence&amp;k=5" class="dash-skeleton">—</span></span></div>
+      <div class="ev-kpi"><span class="lab">v2_page facts (whole pages)</span>
+        <span class="val dash-skeleton" data-source="versions_accuracy" data-field="complete" data-where="group=multi&amp;method=evidence_pagevlm&amp;k=5">—</span>
+        <span class="sub">acc <span data-source="versions_accuracy" data-field="acc" data-where="group=multi&amp;method=evidence_pagevlm&amp;k=5" class="dash-skeleton">—</span></span></div>
+      <div class="ev-kpi"><span class="lab">Gold pages, reader accuracy</span>
+        <span class="val dash-skeleton" data-source="versions_accuracy" data-field="acc" data-where="group=multi&amp;method=gold&amp;k=0">—</span>
+        <span class="sub">upper bound for any selector</span></div>
+    </div>
+    <p class="ev-note">Tiles: multi-page questions, five pages; the large number is complete-evidence recall, acc the reader's accuracy.</p>
+
+    <div class="ev-bar">
+      <span class="ev-note">Question group</span>
+      <div class="ev-seg" id="vgroup-seg" role="group" aria-label="Question group">
+        <button data-group="multi" aria-pressed="true">Multi-page (310)</button>
+        <button data-group="same_mod" aria-pressed="false">Same modality (201)</button>
+        <button data-group="cross_multi" aria-pressed="false">Cross-modal (109)</button>
+        <button data-group="control" aria-pressed="false">Single-page control (453)</button>
+      </div>
+    </div>
+
+    <div class="ev-grid">
+      <div class="ev-card" id="card-v-complete">
+        <h3>All evidence selected, by method and version</h3>
+        <p class="ev-note">Complete-evidence recall at 3 and 5 pages. Inside v2, element top-k and element coverage change only the granularity of the scores, "+ forms" adds the modality discount, and evidence facts adds the VLM.</p>
+        <div class="ev-legend" id="legend-v-complete"></div>
+        <div class="ev-chart dash-skeleton" id="chart-v-complete" data-source="versions_accuracy"></div>
+      </div>
+      <div class="ev-card" id="card-v-acc">
+        <h3>Reader accuracy at five pages</h3>
+        <p class="ev-note">The same Qwen2.5-VL-7B reader reads the five pages each method selects; gold reads the labelled evidence pages.</p>
+        <div class="ev-chart dash-skeleton" id="chart-v-acc" data-source="versions_accuracy"></div>
+      </div>
+    </div>
+
+    <div class="ev-grid">
+      <div class="ev-card" id="card-v-paired">
+        <h3>Paired comparisons</h3>
+        <div class="ev-bar">
+          <label class="ev-note" for="v-base">Against</label>
+          <select class="ev-ctl" id="v-base">
+            <option value="topk">top-k</option>
+            <option value="topk_k3">top-k, at three pages</option>
+            <option value="coverage">v0 coverage</option>
+            <option value="elem_coverage_mod">v2 element coverage + forms (no VLM)</option>
+            <option value="v2_evidence">v2 evidence, VLM reads crops</option>
+            <option value="v2_evidence_k3">v2 evidence, VLM reads crops, at three pages</option>
+          </select>
+        </div>
+        <p class="ev-note">At five pages unless chosen otherwise. Questions a method gets right that the baseline gets wrong (wins) and the reverse (losses), exact McNemar p; the same for complete retrieval. About twenty such tests are shown across versions, so a single p near 0.02 is weak evidence.</p>
+        <div class="ev-tablebox">
+          <table class="ev-table" id="table-v-paired" data-source="versions_paired" data-row-key="group,base,method">
+            <thead><tr><th data-field="version">version</th><th data-field="method">method</th><th data-field="answer_wins" class="num">answer wins</th><th data-field="answer_losses" class="num">losses</th><th data-field="answer_p" class="num">p</th><th data-field="complete_wins" class="num">complete wins</th><th data-field="complete_losses" class="num">losses</th><th data-field="complete_p" class="num">p</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="ev-card" id="card-v-diag">
+        <h3>What the modality signals and the VLM do</h3>
+        <p class="ev-note">Multi-page questions. Need forms are predicted from the question only and compared here with the benchmark's evidence-source labels; the VLM reads up to 28 candidate elements (the best elements of the first 8 coverage pages, then per-form retrieval for each need).</p>
+        <dl class="ev-defs" id="v-diag"></dl>
+      </div>
+    </div>
+
+    <div class="ev-card" id="card-v-sens">
+      <h3>Sensitivity of the new constants</h3>
+      <p class="ev-note">Complete-evidence recall on multi-page questions as the form discount gamma (v1, v2) and the element weight beta (v2) change. Defaults (gamma = 0.5, beta = 0.5) were fixed before running; for discussion, not tuning.</p>
+      <div class="ev-tablebox">
+        <table class="ev-table" id="table-v-sens" data-source="versions_sensitivity" data-row-key="version,group,method,param,k">
+          <thead><tr><th data-field="version">version</th><th data-field="method">method</th><th data-field="param">setting</th><th data-field="k" class="num">k</th><th data-field="complete" class="num">complete %</th><th data-field="recall" class="num">recall %</th></tr></thead>
+          <tbody></tbody>
+        </table>
       </div>
     </div>
   </section>
@@ -219,7 +330,7 @@
   <section class="ev-page" id="questions" role="tabpanel" aria-labelledby="tab-questions" hidden>
     <div class="ev-card" id="card-questions">
       <h3>Every test question</h3>
-      <p class="ev-note">What top-k and coverage selected at five pages, what the reader answered from them and from the gold pages. Pages are 1-indexed PDF pages.</p>
+      <p class="ev-note">What top-k, v0 coverage, v1 (coverage + forms), v2 (the VLM reads element crops) and v2_page (the VLM reads whole candidate pages) selected at five pages, what the reader answered from them and from the gold pages, and the facts each VLM stated. Pages are 1-indexed PDF pages.</p>
       <div class="ev-bar">
         <label class="ev-note" for="q-set">Set</label>
         <select class="ev-ctl" id="q-set">
@@ -240,6 +351,7 @@
           <option value="topk-wrong-gold-right">top-k wrong, gold right</option>
           <option value="gold-wrong">wrong even with gold pages</option>
           <option value="differ">top-k and coverage differ</option>
+          <option value="differ-v2">top-k and v2 differ</option>
         </select>
         <input class="ev-ctl" id="q-search" type="search" placeholder="Search questions, answers, documents" aria-label="Search questions">
         <span class="ev-note" id="q-count"></span>
@@ -251,6 +363,11 @@
             <th data-field="gold">gold pages</th><th data-field="needs">needs</th>
             <th data-field="topk_pages">top-k pages</th><th data-field="topk_pred">top-k answer</th><th data-field="topk_correct">top-k</th>
             <th data-field="coverage_pages">coverage pages</th><th data-field="coverage_pred">coverage answer</th><th data-field="coverage_correct">coverage</th>
+            <th data-field="coverage_mod_pages">v1 pages</th><th data-field="coverage_mod_pred">v1 answer</th><th data-field="coverage_mod_correct">v1</th>
+            <th data-field="evidence_pages">v2 pages</th><th data-field="evidence_pred">v2 answer</th><th data-field="evidence_correct">v2</th>
+            <th data-field="facts">v2 facts (page: fact)</th>
+            <th data-field="evidence_pagevlm_pages">v2_page pages</th><th data-field="evidence_pagevlm_pred">v2_page answer</th><th data-field="evidence_pagevlm_correct">v2_page</th>
+            <th data-field="facts_v2_page">v2_page facts (page: fact)</th>
             <th data-field="gold_pred">gold-page answer</th><th data-field="gold_correct">gold</th>
             <th data-field="combo">modalities</th><th data-field="qtype">type</th><th data-field="doc_id">document</th>
           </tr></thead>
@@ -272,6 +389,7 @@
           <dt>scoring</dt><dd>idea5/score.py, the rule-based part of the benchmark's scorer; correct when the score is above 0.</dd>
           <dt>page tags</dt><dd>for cross-modal questions, Qwen2.5-VL-7B picks which of the question's labelled modalities each gold page holds; single-modality questions take their label.</dd>
         </dl>
+        <p class="ev-note">Nothing is trained. One design choice was revised after looking at test questions: v2's candidate set, after a diagnostic showed that per-form retrieval alone held all gold pages less often than ColQwen's top pages at the same page count; the candidates now also hold the best elements of the first eight coverage pages. All other constants were fixed before running.</p>
         <p class="ev-note">Caveats: a few benchmark answer-format labels are wrong (for example a ratio question labelled List), which the scorer follows; the question types are a keyword heuristic; and the partition / composition categories of Analysis 2 cover only 17 of these questions, so they are reported in out/analysis/summary.md and not here.</p>
       </div>
       <div class="ev-card">
@@ -295,7 +413,11 @@
 
 <script>
 const NAMES = { topk: 'Top-k', bm25: 'BM25', hybrid: 'Hybrid', mmr: 'MMR', decomp_rrf: 'Decompose + RRF',
-  coverage: 'Coverage (v0)', coverage_beam: 'Coverage + beam', coverage_full: 'Coverage, full doc', gold: 'Gold pages' };
+  coverage: 'Coverage (v0)', coverage_beam: 'Coverage + beam', coverage_full: 'Coverage, full doc', gold: 'Gold pages',
+  coverage_mod: 'Coverage + forms (v1)', coverage_mod_beam: 'Coverage + forms + beam (v1)', elem_topk: 'Element top-k (v2)',
+  elem_coverage: 'Element coverage (v2)', elem_coverage_mod: 'Element coverage + forms (v2)', evidence: 'Evidence facts (v2)',
+  evidence_32b: 'Evidence facts, 32B VLM', evidence_pagevlm: 'Page facts (VLM reads whole pages)',
+  evidence_pagevlm_eq: 'Page facts, crops\' token budget' };
 window.EV = { NAMES };
 
 dash.calc('headline', {
@@ -340,7 +462,8 @@ dash.calc('failsum', {
   const pct = (v) => (v == null || Number.isNaN(+v) ? '—' : f1(+v) + '%');
   const signed = (v) => (v == null || Number.isNaN(+v) ? '—' : (v > 0 ? '+' : v < 0 ? '−' : '±') + f1(Math.abs(v)) + ' pts');
   const color = (m) => ({ coverage: dash.colors[0], topk: dash.colors[1], decomp_rrf: dash.colors[2], mmr: dash.colors[3],
-    hybrid: dash.colors[4], bm25: dash.colors[5], coverage_beam: dash.colors[6], gold: dash.colors[7] }[m] || 'var(--cds-chart-muted)');
+    hybrid: dash.colors[4], bm25: dash.colors[5], coverage_beam: dash.colors[6], gold: dash.colors[7],
+    coverage_mod: dash.colors[2], evidence: dash.colors[3] }[m] || 'var(--cds-chart-muted)');
   const ok = (id) => dash.data(id).status === 'ok';
   const rows = (id) => (ok(id) ? dash.data(id).data : []);
   const ready = (el) => el.classList.remove('dash-skeleton');
@@ -423,6 +546,13 @@ dash.calc('failsum', {
   let searchTimer;
   qSearch.addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(draw, 150); });
   const param = (name, fallback) => dash.params()[name] ?? fallback;
+  const vGroupSeg = document.getElementById('vgroup-seg');
+  vGroupSeg.addEventListener('click', (e) => {
+    const b = e.target.closest('button[data-group]');
+    if (b) dash.setParams({ group: b.dataset.group });
+  });
+  const vBase = document.getElementById('v-base');
+  vBase.addEventListener('change', () => dash.setParams({ vbase: vBase.value }));
 
   // ---------- header ----------
   // Single values marked in the text and the tiles: find the row by data-where (or data-row), show its field.
@@ -441,10 +571,7 @@ dash.calc('failsum', {
       const v = r ? r[el.dataset.field] : null;
       const kind = el.dataset.fmt || 'pct';
       el.textContent = v == null ? '—' : kind === 'delta' ? signed(v) : kind === 'int' ? d3.format(',')(v) : pct(v);
-      if (kind === 'delta') {
-        el.classList.toggle('ev-up', v > 0);
-        el.classList.toggle('ev-down', v < 0);
-      }
+      // deltas stay uncoloured: most are within noise (see the paired tables)
       ready(el);
     }
   }
@@ -583,6 +710,69 @@ dash.calc('failsum', {
       .sort((a, b) => order.indexOf(a.method) - order.indexOf(b.method));
     fillTable('table-paired', pr, ['method', 'answer_wins', 'answer_losses', 'answer_p', 'complete_wins', 'complete_losses', 'complete_p'],
       (r) => `${r.group},${r.method}`, { fmt: { answer_p: f3, complete_p: f3 } });
+  }
+
+  // ---------- versions ----------
+  const LADDER = [['topk', 'v0'], ['coverage', 'v0'], ['coverage_mod', 'v1'], ['elem_topk', 'v2'], ['elem_coverage', 'v2'],
+    ['elem_coverage_mod', 'v2'], ['evidence', 'v2'], ['evidence_pagevlm', 'v2_page'], ['evidence_pagevlm_eq', 'v2_page_eq'], ['evidence_32b', 'v2_32b']];
+  const vColor = (m) => (['topk', 'coverage', 'coverage_mod', 'evidence', 'gold'].includes(m) ? color(m)
+    : m === 'evidence_32b' ? dash.colors[4] : m === 'evidence_pagevlm' ? dash.colors[5] : 'var(--cds-chart-muted)');
+
+  function drawVersions() {
+    const group = param('group', 'multi');
+    for (const b of vGroupSeg.querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.group === group));
+    const acc = rows('versions_accuracy').filter((r) => r.group === group);
+    const get = (m, k) => acc.find((r) => r.method === m && Number(r.k) === k);
+    const present = LADDER.filter(([m]) => get(m, 5));
+    const boxC = document.getElementById('chart-v-complete');
+    if (!failed(boxC, 'versions_accuracy') && ok('versions_accuracy')) {
+      legend(document.getElementById('legend-v-complete'), [['3 pages', 'var(--cds-chart-muted)'], ['5 pages', dash.colors[0]]]);
+      hbars(boxC, present.map(([m, v]) => ({ label: NAMES[m] || m, sub: v,
+        bars: [{ v: (get(m, 3) || {}).complete, c: 'var(--cds-chart-muted)' }, { v: (get(m, 5) || {}).complete, c: dash.colors[0] }] })), {});
+    }
+    const boxA = document.getElementById('chart-v-acc');
+    if (!failed(boxA, 'versions_accuracy') && ok('versions_accuracy')) {
+      const items = [...present, ['gold', '']].map(([m, v]) => {
+        const r = get(m, m === 'gold' ? 0 : 5);
+        return r ? { label: NAMES[m] || m, sub: v, bars: [{ v: r.acc, c: vColor(m) }] } : null;
+      }).filter(Boolean);
+      hbars(boxA, items, { barH: 18 });
+    }
+    const base = param('vbase', 'topk');
+    vBase.value = base;
+    const order = LADDER.map(([m]) => m).concat(['coverage_beam', 'coverage_mod_beam', 'gold']);
+    const pr = rows('versions_paired').filter((r) => r.group === group && r.base === base && r.method !== base)
+      .sort((a, b) => order.indexOf(a.method) - order.indexOf(b.method));
+    fillTable('table-v-paired', pr, ['version', 'method', 'answer_wins', 'answer_losses', 'answer_p', 'complete_wins', 'complete_losses', 'complete_p'],
+      (r) => `${r.group},${r.base},${r.method}`, { fmt: { answer_p: f3, complete_p: f3 } });
+    const sens = rows('versions_sensitivity').filter((r) => r.group === 'multi')
+      .sort((a, b) => a.version.localeCompare(b.version) || a.method.localeCompare(b.method) || a.k - b.k || a.param.localeCompare(b.param));
+    fillTable('table-v-sens', sens, ['version', 'method', 'param', 'k', 'complete', 'recall'],
+      (r) => `${r.version},${r.group},${r.method},${encodeURIComponent(r.param)},${r.k}`);
+    for (const tr of document.querySelectorAll('#table-v-sens tbody tr')) {
+      const p = tr.children[2].textContent;
+      tr.classList.toggle('hl', p === 'gamma=0.5' || p === 'beta=0.5');
+    }
+    const dl = document.getElementById('v-diag');
+    const items = [];
+    const nf = rows('need_forms')[0];
+    if (nf) {
+      items.push(['need forms', `${pct(nf.predicted_forms_include_a_labelled_source_pct)} of questions: the predicted forms include one of the labelled evidence sources (all of them: ${pct(nf.predicted_forms_include_every_labelled_source_pct)}); every need "any": ${pct(nf.all_needs_any_pct)}`]);
+      items.push(['gold pages', `${pct(nf.gold_pages_holding_an_expected_form_pct)} hold a form their question's needs expect (detector forms), so the discount rarely hits them`]);
+    }
+    for (const ag of rows('aggregation')) {
+      const v = ag.version === 'v2' ? '' : ` (${ag.version})`;
+      items.push([`VLM${v}`, `${ag.model}, ${ag.n} questions, ${ag.unparsed} replies unparsed; ${f1(ag.facts_per_question)} facts per question, none for ${pct(ag.no_fact_pct)}`]);
+      items.push([`joint facts${v}`, `${pct(ag.with_joint_fact_pct)} of questions have a fact read from several elements together (across pages: ${pct(ag.with_cross_page_joint_fact_pct)})`]);
+      items.push([`redundancy${v}`, `${pct(ag.with_redundant_copy_pct)} have a fact the VLM found repeated in another element`]);
+      items.push([`missing${v}`, `${pct(ag.with_missing_need_pct)} have a need the VLM found in no element`]);
+      items.push([`candidates${v}`, `the candidate elements cover ${pct(ag.gold_recall_of_candidate_pages)} of gold pages (all of them for ${pct(ag.all_gold_in_candidate_pages_pct)} of questions); the facts' pages ${pct(ag.gold_recall_of_fact_pages)} (${pct(ag.all_gold_in_fact_pages_pct)})`]);
+    }
+    dl.replaceChildren(...items.flatMap(([k, v]) => {
+      const dt = document.createElement('dt'); dt.textContent = k;
+      const dd = document.createElement('dd'); dd.textContent = v;
+      return [dt, dd];
+    }));
   }
 
   // ---------- failures ----------
@@ -735,14 +925,20 @@ dash.calc('failsum', {
       && (ans === 'all'
         || (ans === 'topk-wrong-gold-right' && r.topk_correct === 'wrong' && r.gold_correct === 'right')
         || (ans === 'gold-wrong' && r.gold_correct === 'wrong')
-        || (ans === 'differ' && r.topk_correct && r.coverage_correct && r.topk_correct !== r.coverage_correct))
-      && (!q || [r.question, r.answer, r.doc_id, r.needs, r.topk_pred, r.coverage_pred].some((s) => String(s ?? '').toLowerCase().includes(q))));
+        || (ans === 'differ' && r.topk_correct && r.coverage_correct && r.topk_correct !== r.coverage_correct)
+        || (ans === 'differ-v2' && r.topk_correct && r.evidence_correct && r.topk_correct !== r.evidence_correct))
+      && (!q || [r.question, r.answer, r.doc_id, r.needs, r.topk_pred, r.coverage_pred, r.evidence_pred, r.facts, r.evidence_pagevlm_pred, r.facts_v2_page].some((s) => String(s ?? '').toLowerCase().includes(q))));
     const cols = ['qid', 'question', 'answer', 'gold', 'needs', 'topk_pages', 'topk_pred', 'topk_correct', 'coverage_pages',
-      'coverage_pred', 'coverage_correct', 'gold_pred', 'gold_correct', 'combo', 'qtype', 'doc_id'];
+      'coverage_pred', 'coverage_correct', 'coverage_mod_pages', 'coverage_mod_pred', 'coverage_mod_correct',
+      'evidence_pages', 'evidence_pred', 'evidence_correct', 'facts', 'evidence_pagevlm_pages', 'evidence_pagevlm_pred',
+      'evidence_pagevlm_correct', 'facts_v2_page', 'gold_pred', 'gold_correct', 'combo', 'qtype', 'doc_id'];
     const verdict = (c) => (r) => (r[c] === 'right' ? 'right' : r[c] === 'wrong' ? 'wrong' : '');
     fillTable('table-questions', list, cols, (r) => String(r.qid), { cls: {
       question: () => 'long', needs: () => 'mid', topk_pred: () => 'mid', coverage_pred: () => 'mid', gold_pred: () => 'mid',
+      coverage_mod_pred: () => 'mid', evidence_pred: () => 'mid', facts: () => 'long',
+      evidence_pagevlm_pred: () => 'mid', facts_v2_page: () => 'long', evidence_pagevlm_correct: verdict('evidence_pagevlm_correct'),
       topk_correct: verdict('topk_correct'), coverage_correct: verdict('coverage_correct'), gold_correct: verdict('gold_correct'),
+      coverage_mod_correct: verdict('coverage_mod_correct'), evidence_correct: verdict('evidence_correct'),
       qid: () => 'num',
     } });
     const all = rows('questions').filter((r) => r.set === set).length;
@@ -752,6 +948,7 @@ dash.calc('failsum', {
   function draw() {
     drawHeader();
     if (current === 'overview') drawOverview();
+    if (current === 'versions') drawVersions();
     if (current === 'failures') drawFailures();
     if (current === 'questions') drawQuestions();
   }

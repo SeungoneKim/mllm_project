@@ -1,0 +1,1666 @@
+{
+ "main": [
+  {
+   "group": "control",
+   "method": "coverage",
+   "k": 3,
+   "n": 453,
+   "answered": 453,
+   "complete": 83.4,
+   "recall": 83.4,
+   "acc": 52.3,
+   "score": 51.2
+  },
+  {
+   "group": "control",
+   "method": "coverage",
+   "k": 5,
+   "n": 453,
+   "answered": 453,
+   "complete": 86.5,
+   "recall": 86.5,
+   "acc": 53.9,
+   "score": 53.0
+  },
+  {
+   "group": "control",
+   "method": "coverage_mod",
+   "k": 3,
+   "n": 453,
+   "answered": 453,
+   "complete": 83.7,
+   "recall": 83.7,
+   "acc": 52.5,
+   "score": 51.4
+  },
+  {
+   "group": "control",
+   "method": "coverage_mod",
+   "k": 5,
+   "n": 453,
+   "answered": 453,
+   "complete": 86.8,
+   "recall": 86.8,
+   "acc": 53.9,
+   "score": 53.0
+  },
+  {
+   "group": "control",
+   "method": "coverage_mod_beam",
+   "k": 3,
+   "n": 453,
+   "answered": 453,
+   "complete": 83.7,
+   "recall": 83.7,
+   "acc": 52.5,
+   "score": 51.4
+  },
+  {
+   "group": "control",
+   "method": "coverage_mod_beam",
+   "k": 5,
+   "n": 453,
+   "answered": 453,
+   "complete": 86.8,
+   "recall": 86.8,
+   "acc": 53.9,
+   "score": 53.0
+  },
+  {
+   "group": "control",
+   "method": "gold",
+   "k": 0,
+   "n": 453,
+   "answered": 453,
+   "complete": 100.0,
+   "recall": 100.0,
+   "acc": 59.8,
+   "score": 59.0
+  },
+  {
+   "group": "control",
+   "method": "topk",
+   "k": 3,
+   "n": 453,
+   "answered": 453,
+   "complete": 82.3,
+   "recall": 82.3,
+   "acc": 52.3,
+   "score": 51.2
+  },
+  {
+   "group": "control",
+   "method": "topk",
+   "k": 5,
+   "n": 453,
+   "answered": 453,
+   "complete": 86.3,
+   "recall": 86.3,
+   "acc": 53.4,
+   "score": 52.7
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage",
+   "k": 3,
+   "n": 109,
+   "answered": 109,
+   "complete": 49.5,
+   "recall": 69.2,
+   "acc": 29.4,
+   "score": 29.2
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage",
+   "k": 5,
+   "n": 109,
+   "answered": 109,
+   "complete": 62.4,
+   "recall": 77.9,
+   "acc": 27.5,
+   "score": 27.5
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage_mod",
+   "k": 3,
+   "n": 109,
+   "answered": 109,
+   "complete": 47.7,
+   "recall": 69.0,
+   "acc": 29.4,
+   "score": 29.2
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage_mod",
+   "k": 5,
+   "n": 109,
+   "answered": 109,
+   "complete": 61.5,
+   "recall": 78.2,
+   "acc": 27.5,
+   "score": 27.5
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage_mod_beam",
+   "k": 3,
+   "n": 109,
+   "answered": 109,
+   "complete": 47.7,
+   "recall": 69.0,
+   "acc": 29.4,
+   "score": 29.2
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage_mod_beam",
+   "k": 5,
+   "n": 109,
+   "answered": 109,
+   "complete": 61.5,
+   "recall": 78.7,
+   "acc": 27.5,
+   "score": 27.5
+  },
+  {
+   "group": "cross_multi",
+   "method": "gold",
+   "k": 0,
+   "n": 109,
+   "answered": 109,
+   "complete": 100.0,
+   "recall": 100.0,
+   "acc": 36.7,
+   "score": 36.6
+  },
+  {
+   "group": "cross_multi",
+   "method": "topk",
+   "k": 3,
+   "n": 109,
+   "answered": 109,
+   "complete": 46.8,
+   "recall": 67.2,
+   "acc": 27.5,
+   "score": 27.4
+  },
+  {
+   "group": "cross_multi",
+   "method": "topk",
+   "k": 5,
+   "n": 109,
+   "answered": 109,
+   "complete": 61.5,
+   "recall": 77.9,
+   "acc": 26.6,
+   "score": 26.6
+  },
+  {
+   "group": "multi",
+   "method": "coverage",
+   "k": 3,
+   "n": 310,
+   "answered": 310,
+   "complete": 42.6,
+   "recall": 61.0,
+   "acc": 25.8,
+   "score": 25.4
+  },
+  {
+   "group": "multi",
+   "method": "coverage",
+   "k": 5,
+   "n": 310,
+   "answered": 310,
+   "complete": 52.9,
+   "recall": 69.9,
+   "acc": 24.5,
+   "score": 24.1
+  },
+  {
+   "group": "multi",
+   "method": "coverage_mod",
+   "k": 3,
+   "n": 310,
+   "answered": 310,
+   "complete": 41.9,
+   "recall": 61.0,
+   "acc": 24.8,
+   "score": 24.4
+  },
+  {
+   "group": "multi",
+   "method": "coverage_mod",
+   "k": 5,
+   "n": 310,
+   "answered": 310,
+   "complete": 52.9,
+   "recall": 70.2,
+   "acc": 24.2,
+   "score": 23.8
+  },
+  {
+   "group": "multi",
+   "method": "coverage_mod_beam",
+   "k": 3,
+   "n": 310,
+   "answered": 310,
+   "complete": 41.6,
+   "recall": 60.8,
+   "acc": 24.8,
+   "score": 24.4
+  },
+  {
+   "group": "multi",
+   "method": "coverage_mod_beam",
+   "k": 5,
+   "n": 310,
+   "answered": 310,
+   "complete": 52.9,
+   "recall": 70.4,
+   "acc": 24.2,
+   "score": 23.8
+  },
+  {
+   "group": "multi",
+   "method": "gold",
+   "k": 0,
+   "n": 310,
+   "answered": 310,
+   "complete": 100.0,
+   "recall": 100.0,
+   "acc": 32.9,
+   "score": 32.3
+  },
+  {
+   "group": "multi",
+   "method": "topk",
+   "k": 3,
+   "n": 310,
+   "answered": 310,
+   "complete": 40.0,
+   "recall": 59.0,
+   "acc": 24.2,
+   "score": 23.7
+  },
+  {
+   "group": "multi",
+   "method": "topk",
+   "k": 5,
+   "n": 310,
+   "answered": 310,
+   "complete": 51.3,
+   "recall": 69.1,
+   "acc": 24.2,
+   "score": 23.8
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage",
+   "k": 3,
+   "n": 201,
+   "answered": 201,
+   "complete": 38.8,
+   "recall": 56.6,
+   "acc": 23.9,
+   "score": 23.3
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage",
+   "k": 5,
+   "n": 201,
+   "answered": 201,
+   "complete": 47.8,
+   "recall": 65.5,
+   "acc": 22.9,
+   "score": 22.3
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage_mod",
+   "k": 3,
+   "n": 201,
+   "answered": 201,
+   "complete": 38.8,
+   "recall": 56.6,
+   "acc": 22.4,
+   "score": 21.8
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage_mod",
+   "k": 5,
+   "n": 201,
+   "answered": 201,
+   "complete": 48.3,
+   "recall": 65.8,
+   "acc": 22.4,
+   "score": 21.8
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage_mod_beam",
+   "k": 3,
+   "n": 201,
+   "answered": 201,
+   "complete": 38.3,
+   "recall": 56.4,
+   "acc": 22.4,
+   "score": 21.8
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage_mod_beam",
+   "k": 5,
+   "n": 201,
+   "answered": 201,
+   "complete": 48.3,
+   "recall": 65.8,
+   "acc": 22.4,
+   "score": 21.8
+  },
+  {
+   "group": "same_mod",
+   "method": "gold",
+   "k": 0,
+   "n": 201,
+   "answered": 201,
+   "complete": 100.0,
+   "recall": 100.0,
+   "acc": 30.8,
+   "score": 30.0
+  },
+  {
+   "group": "same_mod",
+   "method": "topk",
+   "k": 3,
+   "n": 201,
+   "answered": 201,
+   "complete": 36.3,
+   "recall": 54.7,
+   "acc": 22.4,
+   "score": 21.8
+  },
+  {
+   "group": "same_mod",
+   "method": "topk",
+   "k": 5,
+   "n": 201,
+   "answered": 201,
+   "complete": 45.8,
+   "recall": 64.3,
+   "acc": 22.9,
+   "score": 22.3
+  }
+ ],
+ "paired": [
+  {
+   "group": "multi",
+   "method": "coverage",
+   "k": 5,
+   "answer_wins": 2,
+   "answer_losses": 1,
+   "answer_p": 1.0,
+   "complete_wins": 6,
+   "complete_losses": 1,
+   "complete_p": 0.125
+  },
+  {
+   "group": "multi",
+   "method": "coverage_mod",
+   "k": 5,
+   "answer_wins": 2,
+   "answer_losses": 2,
+   "answer_p": 1.0,
+   "complete_wins": 6,
+   "complete_losses": 1,
+   "complete_p": 0.125
+  },
+  {
+   "group": "multi",
+   "method": "coverage_mod_beam",
+   "k": 5,
+   "answer_wins": 2,
+   "answer_losses": 2,
+   "answer_p": 1.0,
+   "complete_wins": 6,
+   "complete_losses": 1,
+   "complete_p": 0.125
+  },
+  {
+   "group": "multi",
+   "method": "gold",
+   "k": 5,
+   "answer_wins": 36,
+   "answer_losses": 9,
+   "answer_p": 0.0001,
+   "complete_wins": 151,
+   "complete_losses": 0,
+   "complete_p": 0.0
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage",
+   "k": 5,
+   "answer_wins": 1,
+   "answer_losses": 1,
+   "answer_p": 1.0,
+   "complete_wins": 4,
+   "complete_losses": 0,
+   "complete_p": 0.125
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage_mod",
+   "k": 5,
+   "answer_wins": 1,
+   "answer_losses": 2,
+   "answer_p": 1.0,
+   "complete_wins": 5,
+   "complete_losses": 0,
+   "complete_p": 0.0625
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage_mod_beam",
+   "k": 5,
+   "answer_wins": 1,
+   "answer_losses": 2,
+   "answer_p": 1.0,
+   "complete_wins": 5,
+   "complete_losses": 0,
+   "complete_p": 0.0625
+  },
+  {
+   "group": "same_mod",
+   "method": "gold",
+   "k": 5,
+   "answer_wins": 24,
+   "answer_losses": 8,
+   "answer_p": 0.007,
+   "complete_wins": 109,
+   "complete_losses": 0,
+   "complete_p": 0.0
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage",
+   "k": 5,
+   "answer_wins": 1,
+   "answer_losses": 0,
+   "answer_p": 1.0,
+   "complete_wins": 2,
+   "complete_losses": 1,
+   "complete_p": 1.0
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage_mod",
+   "k": 5,
+   "answer_wins": 1,
+   "answer_losses": 0,
+   "answer_p": 1.0,
+   "complete_wins": 1,
+   "complete_losses": 1,
+   "complete_p": 1.0
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage_mod_beam",
+   "k": 5,
+   "answer_wins": 1,
+   "answer_losses": 0,
+   "answer_p": 1.0,
+   "complete_wins": 1,
+   "complete_losses": 1,
+   "complete_p": 1.0
+  },
+  {
+   "group": "cross_multi",
+   "method": "gold",
+   "k": 5,
+   "answer_wins": 12,
+   "answer_losses": 1,
+   "answer_p": 0.0034,
+   "complete_wins": 42,
+   "complete_losses": 0,
+   "complete_p": 0.0
+  },
+  {
+   "group": "control",
+   "method": "coverage",
+   "k": 5,
+   "answer_wins": 2,
+   "answer_losses": 0,
+   "answer_p": 0.5,
+   "complete_wins": 2,
+   "complete_losses": 1,
+   "complete_p": 1.0
+  },
+  {
+   "group": "control",
+   "method": "coverage_mod",
+   "k": 5,
+   "answer_wins": 3,
+   "answer_losses": 1,
+   "answer_p": 0.625,
+   "complete_wins": 3,
+   "complete_losses": 1,
+   "complete_p": 0.625
+  },
+  {
+   "group": "control",
+   "method": "coverage_mod_beam",
+   "k": 5,
+   "answer_wins": 3,
+   "answer_losses": 1,
+   "answer_p": 0.625,
+   "complete_wins": 3,
+   "complete_losses": 1,
+   "complete_p": 0.625
+  },
+  {
+   "group": "control",
+   "method": "gold",
+   "k": 5,
+   "answer_wins": 50,
+   "answer_losses": 21,
+   "answer_p": 0.0008,
+   "complete_wins": 62,
+   "complete_losses": 0,
+   "complete_p": 0.0
+  }
+ ],
+ "paired_coverage": [
+  {
+   "group": "multi",
+   "method": "topk",
+   "k": 5,
+   "answer_wins": 1,
+   "answer_losses": 2,
+   "answer_p": 1.0,
+   "complete_wins": 1,
+   "complete_losses": 6,
+   "complete_p": 0.125
+  },
+  {
+   "group": "multi",
+   "method": "coverage_mod",
+   "k": 5,
+   "answer_wins": 0,
+   "answer_losses": 1,
+   "answer_p": 1.0,
+   "complete_wins": 1,
+   "complete_losses": 1,
+   "complete_p": 1.0
+  },
+  {
+   "group": "multi",
+   "method": "coverage_mod_beam",
+   "k": 5,
+   "answer_wins": 0,
+   "answer_losses": 1,
+   "answer_p": 1.0,
+   "complete_wins": 1,
+   "complete_losses": 1,
+   "complete_p": 1.0
+  },
+  {
+   "group": "multi",
+   "method": "gold",
+   "k": 5,
+   "answer_wins": 34,
+   "answer_losses": 8,
+   "answer_p": 0.0001,
+   "complete_wins": 146,
+   "complete_losses": 0,
+   "complete_p": 0.0
+  },
+  {
+   "group": "same_mod",
+   "method": "topk",
+   "k": 5,
+   "answer_wins": 1,
+   "answer_losses": 1,
+   "answer_p": 1.0,
+   "complete_wins": 0,
+   "complete_losses": 4,
+   "complete_p": 0.125
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage_mod",
+   "k": 5,
+   "answer_wins": 0,
+   "answer_losses": 1,
+   "answer_p": 1.0,
+   "complete_wins": 1,
+   "complete_losses": 0,
+   "complete_p": 1.0
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage_mod_beam",
+   "k": 5,
+   "answer_wins": 0,
+   "answer_losses": 1,
+   "answer_p": 1.0,
+   "complete_wins": 1,
+   "complete_losses": 0,
+   "complete_p": 1.0
+  },
+  {
+   "group": "same_mod",
+   "method": "gold",
+   "k": 5,
+   "answer_wins": 23,
+   "answer_losses": 7,
+   "answer_p": 0.0052,
+   "complete_wins": 105,
+   "complete_losses": 0,
+   "complete_p": 0.0
+  },
+  {
+   "group": "cross_multi",
+   "method": "topk",
+   "k": 5,
+   "answer_wins": 0,
+   "answer_losses": 1,
+   "answer_p": 1.0,
+   "complete_wins": 1,
+   "complete_losses": 2,
+   "complete_p": 1.0
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage_mod",
+   "k": 5,
+   "answer_wins": 0,
+   "answer_losses": 0,
+   "answer_p": 1.0,
+   "complete_wins": 0,
+   "complete_losses": 1,
+   "complete_p": 1.0
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage_mod_beam",
+   "k": 5,
+   "answer_wins": 0,
+   "answer_losses": 0,
+   "answer_p": 1.0,
+   "complete_wins": 0,
+   "complete_losses": 1,
+   "complete_p": 1.0
+  },
+  {
+   "group": "cross_multi",
+   "method": "gold",
+   "k": 5,
+   "answer_wins": 11,
+   "answer_losses": 1,
+   "answer_p": 0.0063,
+   "complete_wins": 41,
+   "complete_losses": 0,
+   "complete_p": 0.0
+  },
+  {
+   "group": "control",
+   "method": "topk",
+   "k": 5,
+   "answer_wins": 0,
+   "answer_losses": 2,
+   "answer_p": 0.5,
+   "complete_wins": 1,
+   "complete_losses": 2,
+   "complete_p": 1.0
+  },
+  {
+   "group": "control",
+   "method": "coverage_mod",
+   "k": 5,
+   "answer_wins": 1,
+   "answer_losses": 1,
+   "answer_p": 1.0,
+   "complete_wins": 1,
+   "complete_losses": 0,
+   "complete_p": 1.0
+  },
+  {
+   "group": "control",
+   "method": "coverage_mod_beam",
+   "k": 5,
+   "answer_wins": 1,
+   "answer_losses": 1,
+   "answer_p": 1.0,
+   "complete_wins": 1,
+   "complete_losses": 0,
+   "complete_p": 1.0
+  },
+  {
+   "group": "control",
+   "method": "gold",
+   "k": 5,
+   "answer_wins": 49,
+   "answer_losses": 22,
+   "answer_p": 0.0018,
+   "complete_wins": 61,
+   "complete_losses": 0,
+   "complete_p": 0.0
+  }
+ ],
+ "paired_k3": [
+  {
+   "group": "multi",
+   "method": "coverage",
+   "k": 3,
+   "answer_wins": 5,
+   "answer_losses": 0,
+   "answer_p": 0.0625,
+   "complete_wins": 9,
+   "complete_losses": 1,
+   "complete_p": 0.0215
+  },
+  {
+   "group": "multi",
+   "method": "coverage_mod",
+   "k": 3,
+   "answer_wins": 4,
+   "answer_losses": 2,
+   "answer_p": 0.6875,
+   "complete_wins": 10,
+   "complete_losses": 4,
+   "complete_p": 0.1796
+  },
+  {
+   "group": "multi",
+   "method": "coverage_mod_beam",
+   "k": 3,
+   "answer_wins": 4,
+   "answer_losses": 2,
+   "answer_p": 0.6875,
+   "complete_wins": 10,
+   "complete_losses": 5,
+   "complete_p": 0.3018
+  },
+  {
+   "group": "multi",
+   "method": "gold",
+   "k": 3,
+   "answer_wins": 39,
+   "answer_losses": 12,
+   "answer_p": 0.0002,
+   "complete_wins": 186,
+   "complete_losses": 0,
+   "complete_p": 0.0
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage",
+   "k": 3,
+   "answer_wins": 3,
+   "answer_losses": 0,
+   "answer_p": 0.25,
+   "complete_wins": 5,
+   "complete_losses": 0,
+   "complete_p": 0.0625
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage_mod",
+   "k": 3,
+   "answer_wins": 2,
+   "answer_losses": 2,
+   "answer_p": 1.0,
+   "complete_wins": 7,
+   "complete_losses": 2,
+   "complete_p": 0.1797
+  },
+  {
+   "group": "same_mod",
+   "method": "coverage_mod_beam",
+   "k": 3,
+   "answer_wins": 2,
+   "answer_losses": 2,
+   "answer_p": 1.0,
+   "complete_wins": 7,
+   "complete_losses": 3,
+   "complete_p": 0.3438
+  },
+  {
+   "group": "same_mod",
+   "method": "gold",
+   "k": 3,
+   "answer_wins": 25,
+   "answer_losses": 8,
+   "answer_p": 0.0046,
+   "complete_wins": 128,
+   "complete_losses": 0,
+   "complete_p": 0.0
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage",
+   "k": 3,
+   "answer_wins": 2,
+   "answer_losses": 0,
+   "answer_p": 0.5,
+   "complete_wins": 4,
+   "complete_losses": 1,
+   "complete_p": 0.375
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage_mod",
+   "k": 3,
+   "answer_wins": 2,
+   "answer_losses": 0,
+   "answer_p": 0.5,
+   "complete_wins": 3,
+   "complete_losses": 2,
+   "complete_p": 1.0
+  },
+  {
+   "group": "cross_multi",
+   "method": "coverage_mod_beam",
+   "k": 3,
+   "answer_wins": 2,
+   "answer_losses": 0,
+   "answer_p": 0.5,
+   "complete_wins": 3,
+   "complete_losses": 2,
+   "complete_p": 1.0
+  },
+  {
+   "group": "cross_multi",
+   "method": "gold",
+   "k": 3,
+   "answer_wins": 14,
+   "answer_losses": 4,
+   "answer_p": 0.0309,
+   "complete_wins": 58,
+   "complete_losses": 0,
+   "complete_p": 0.0
+  },
+  {
+   "group": "control",
+   "method": "coverage",
+   "k": 3,
+   "answer_wins": 2,
+   "answer_losses": 2,
+   "answer_p": 1.0,
+   "complete_wins": 5,
+   "complete_losses": 0,
+   "complete_p": 0.0625
+  },
+  {
+   "group": "control",
+   "method": "coverage_mod",
+   "k": 3,
+   "answer_wins": 3,
+   "answer_losses": 2,
+   "answer_p": 1.0,
+   "complete_wins": 6,
+   "complete_losses": 0,
+   "complete_p": 0.0312
+  },
+  {
+   "group": "control",
+   "method": "coverage_mod_beam",
+   "k": 3,
+   "answer_wins": 3,
+   "answer_losses": 2,
+   "answer_p": 1.0,
+   "complete_wins": 6,
+   "complete_losses": 0,
+   "complete_p": 0.0312
+  },
+  {
+   "group": "control",
+   "method": "gold",
+   "k": 3,
+   "answer_wins": 54,
+   "answer_losses": 20,
+   "answer_p": 0.0001,
+   "complete_wins": 80,
+   "complete_losses": 0,
+   "complete_p": 0.0
+  }
+ ],
+ "failure_topk": [
+  {
+   "outcome": "complete",
+   "n": 159,
+   "correct": 56,
+   "wrong": 103,
+   "wrong_fixed_by_gold": 11
+  },
+  {
+   "outcome": "partial",
+   "n": 108,
+   "correct": 15,
+   "wrong": 93,
+   "wrong_fixed_by_gold": 18
+  },
+  {
+   "outcome": "none",
+   "n": 43,
+   "correct": 4,
+   "wrong": 39,
+   "wrong_fixed_by_gold": 7
+  }
+ ],
+ "failure_coverage_mod": [
+  {
+   "outcome": "complete",
+   "n": 164,
+   "correct": 58,
+   "wrong": 106,
+   "wrong_fixed_by_gold": 11
+  },
+  {
+   "outcome": "partial",
+   "n": 104,
+   "correct": 13,
+   "wrong": 91,
+   "wrong_fixed_by_gold": 18
+  },
+  {
+   "outcome": "none",
+   "n": 42,
+   "correct": 4,
+   "wrong": 38,
+   "wrong_fixed_by_gold": 6
+  }
+ ],
+ "by_stratum": {
+  "n": {
+   "same_mod": 201,
+   "cross_multi": 109
+  },
+  "topk complete": {
+   "same_mod": 45.8,
+   "cross_multi": 61.5
+  },
+  "topk acc": {
+   "same_mod": 22.9,
+   "cross_multi": 26.6
+  },
+  "coverage complete": {
+   "same_mod": 47.8,
+   "cross_multi": 62.4
+  },
+  "coverage acc": {
+   "same_mod": 22.9,
+   "cross_multi": 27.5
+  },
+  "coverage_mod complete": {
+   "same_mod": 48.3,
+   "cross_multi": 61.5
+  },
+  "coverage_mod acc": {
+   "same_mod": 22.4,
+   "cross_multi": 27.5
+  },
+  "gold acc": {
+   "same_mod": 30.8,
+   "cross_multi": 36.7
+  }
+ },
+ "by_needs": {
+  "n": {
+   "1": 173,
+   "2": 117,
+   "3": 20
+  },
+  "topk complete": {
+   "1": 39.9,
+   "2": 66.7,
+   "3": 60.0
+  },
+  "topk acc": {
+   "1": 22.5,
+   "2": 23.9,
+   "3": 40.0
+  },
+  "coverage complete": {
+   "1": 39.9,
+   "2": 70.9,
+   "3": 60.0
+  },
+  "coverage acc": {
+   "1": 22.5,
+   "2": 24.8,
+   "3": 40.0
+  },
+  "coverage_mod complete": {
+   "1": 39.9,
+   "2": 70.1,
+   "3": 65.0
+  },
+  "coverage_mod acc": {
+   "1": 22.5,
+   "2": 24.8,
+   "3": 35.0
+  },
+  "gold acc": {
+   "1": 34.7,
+   "2": 29.9,
+   "3": 35.0
+  }
+ },
+ "by_qtype": {
+  "n": {
+   "count": 125,
+   "lookup": 86,
+   "list": 53,
+   "compare/compute": 46
+  },
+  "topk complete": {
+   "count": 48.8,
+   "lookup": 52.3,
+   "list": 56.6,
+   "compare/compute": 50.0
+  },
+  "topk acc": {
+   "count": 24.0,
+   "lookup": 32.6,
+   "list": 17.0,
+   "compare/compute": 17.4
+  },
+  "coverage complete": {
+   "count": 50.4,
+   "lookup": 52.3,
+   "list": 60.4,
+   "compare/compute": 52.2
+  },
+  "coverage acc": {
+   "count": 23.2,
+   "lookup": 33.7,
+   "list": 18.9,
+   "compare/compute": 17.4
+  },
+  "coverage_mod complete": {
+   "count": 51.2,
+   "lookup": 52.3,
+   "list": 58.5,
+   "compare/compute": 52.2
+  },
+  "coverage_mod acc": {
+   "count": 22.4,
+   "lookup": 33.7,
+   "list": 18.9,
+   "compare/compute": 17.4
+  },
+  "gold acc": {
+   "count": 28.8,
+   "lookup": 39.5,
+   "list": 41.5,
+   "compare/compute": 21.7
+  }
+ },
+ "by_gap": {
+  "n": {
+   "adjacent": 143,
+   "gap >=5": 88,
+   "gap 2-4": 79
+  },
+  "topk complete": {
+   "adjacent": 62.2,
+   "gap >=5": 37.5,
+   "gap 2-4": 46.8
+  },
+  "topk acc": {
+   "adjacent": 26.6,
+   "gap >=5": 17.0,
+   "gap 2-4": 27.8
+  },
+  "coverage complete": {
+   "adjacent": 64.3,
+   "gap >=5": 38.6,
+   "gap 2-4": 48.1
+  },
+  "coverage acc": {
+   "adjacent": 27.3,
+   "gap >=5": 15.9,
+   "gap 2-4": 29.1
+  },
+  "coverage_mod complete": {
+   "adjacent": 64.3,
+   "gap >=5": 37.5,
+   "gap 2-4": 49.4
+  },
+  "coverage_mod acc": {
+   "adjacent": 26.6,
+   "gap >=5": 15.9,
+   "gap 2-4": 29.1
+  },
+  "gold acc": {
+   "adjacent": 35.7,
+   "gap >=5": 23.9,
+   "gap 2-4": 38.0
+  }
+ },
+ "by_n_gold": {
+  "n": {
+   "2": 235,
+   "3": 40,
+   "4": 21,
+   "5": 14
+  },
+  "topk complete": {
+   "2": 60.0,
+   "3": 35.0,
+   "4": 14.3,
+   "5": 7.1
+  },
+  "topk acc": {
+   "2": 25.1,
+   "3": 32.5,
+   "4": 4.8,
+   "5": 14.3
+  },
+  "coverage complete": {
+   "2": 62.1,
+   "3": 35.0,
+   "4": 14.3,
+   "5": 7.1
+  },
+  "coverage acc": {
+   "2": 25.5,
+   "3": 32.5,
+   "4": 4.8,
+   "5": 14.3
+  },
+  "coverage_mod complete": {
+   "2": 62.1,
+   "3": 35.0,
+   "4": 14.3,
+   "5": 7.1
+  },
+  "coverage_mod acc": {
+   "2": 25.5,
+   "3": 30.0,
+   "4": 4.8,
+   "5": 14.3
+  },
+  "gold acc": {
+   "2": 31.1,
+   "3": 47.5,
+   "4": 28.6,
+   "5": 28.6
+  }
+ },
+ "by_combo": {
+  "n": {
+   "Table": 64,
+   "Figure": 59,
+   "Text": 41,
+   "Chart": 27,
+   "other": 25,
+   "Chart + Text": 21,
+   "Table + Text": 17,
+   "Figure + Layout": 15,
+   "Figure + Text": 11,
+   "Layout": 10,
+   "Layout + Text": 9,
+   "Chart + Table + Text": 6,
+   "Figure + Table": 5
+  },
+  "topk complete": {
+   "Table": 28.1,
+   "Figure": 47.5,
+   "Text": 56.1,
+   "Chart": 63.0,
+   "other": 44.0,
+   "Chart + Text": 52.4,
+   "Table + Text": 64.7,
+   "Figure + Layout": 80.0,
+   "Figure + Text": 81.8,
+   "Layout": 60.0,
+   "Layout + Text": 66.7,
+   "Chart + Table + Text": 33.3,
+   "Figure + Table": 100.0
+  },
+  "topk acc": {
+   "Table": 9.4,
+   "Figure": 28.8,
+   "Text": 29.3,
+   "Chart": 25.9,
+   "other": 16.0,
+   "Chart + Text": 14.3,
+   "Table + Text": 23.5,
+   "Figure + Layout": 40.0,
+   "Figure + Text": 72.7,
+   "Layout": 40.0,
+   "Layout + Text": 22.2,
+   "Chart + Table + Text": 16.7,
+   "Figure + Table": 20.0
+  },
+  "coverage complete": {
+   "Table": 29.7,
+   "Figure": 49.2,
+   "Text": 58.5,
+   "Chart": 66.7,
+   "other": 44.0,
+   "Chart + Text": 52.4,
+   "Table + Text": 64.7,
+   "Figure + Layout": 80.0,
+   "Figure + Text": 81.8,
+   "Layout": 60.0,
+   "Layout + Text": 66.7,
+   "Chart + Table + Text": 50.0,
+   "Figure + Table": 100.0
+  },
+  "coverage acc": {
+   "Table": 9.4,
+   "Figure": 27.1,
+   "Text": 31.7,
+   "Chart": 25.9,
+   "other": 16.0,
+   "Chart + Text": 14.3,
+   "Table + Text": 23.5,
+   "Figure + Layout": 40.0,
+   "Figure + Text": 72.7,
+   "Layout": 40.0,
+   "Layout + Text": 22.2,
+   "Chart + Table + Text": 33.3,
+   "Figure + Table": 20.0
+  },
+  "coverage_mod complete": {
+   "Table": 29.7,
+   "Figure": 49.2,
+   "Text": 58.5,
+   "Chart": 70.4,
+   "other": 40.0,
+   "Chart + Text": 52.4,
+   "Table + Text": 64.7,
+   "Figure + Layout": 80.0,
+   "Figure + Text": 81.8,
+   "Layout": 60.0,
+   "Layout + Text": 66.7,
+   "Chart + Table + Text": 50.0,
+   "Figure + Table": 100.0
+  },
+  "coverage_mod acc": {
+   "Table": 9.4,
+   "Figure": 27.1,
+   "Text": 29.3,
+   "Chart": 25.9,
+   "other": 16.0,
+   "Chart + Text": 14.3,
+   "Table + Text": 23.5,
+   "Figure + Layout": 40.0,
+   "Figure + Text": 72.7,
+   "Layout": 40.0,
+   "Layout + Text": 22.2,
+   "Chart + Table + Text": 33.3,
+   "Figure + Table": 20.0
+  },
+  "gold acc": {
+   "Table": 17.2,
+   "Figure": 33.9,
+   "Text": 41.5,
+   "Chart": 25.9,
+   "other": 28.0,
+   "Chart + Text": 14.3,
+   "Table + Text": 35.3,
+   "Figure + Layout": 53.3,
+   "Figure + Text": 81.8,
+   "Layout": 70.0,
+   "Layout + Text": 44.4,
+   "Chart + Table + Text": 16.7,
+   "Figure + Table": 40.0
+  }
+ },
+ "by_answer_format": {
+  "n": {
+   "Int": 128,
+   "Float": 63,
+   "List": 62,
+   "Str": 57
+  },
+  "topk complete": {
+   "Int": 52.3,
+   "Float": 31.7,
+   "List": 56.5,
+   "Str": 64.9
+  },
+  "topk acc": {
+   "Int": 26.6,
+   "Float": 6.3,
+   "List": 17.7,
+   "Str": 45.6
+  },
+  "coverage complete": {
+   "Int": 53.1,
+   "Float": 36.5,
+   "List": 59.7,
+   "Str": 63.2
+  },
+  "coverage acc": {
+   "Int": 25.8,
+   "Float": 7.9,
+   "List": 19.4,
+   "Str": 45.6
+  },
+  "coverage_mod complete": {
+   "Int": 53.1,
+   "Float": 38.1,
+   "List": 58.1,
+   "Str": 63.2
+  },
+  "coverage_mod acc": {
+   "Int": 25.0,
+   "Float": 7.9,
+   "List": 19.4,
+   "Str": 45.6
+  },
+  "gold acc": {
+   "Int": 29.7,
+   "Float": 12.7,
+   "List": 41.9,
+   "Str": 52.6
+  }
+ },
+ "by_doc_type": {
+  "n": {
+   "Research report / Introduction": 85,
+   "Academic paper": 62,
+   "Financial report": 43,
+   "Tutorial/Workshop": 40,
+   "Guidebook": 38,
+   "Brochure": 26,
+   "Administration/Industry file": 16
+  },
+  "topk complete": {
+   "Research report / Introduction": 55.3,
+   "Academic paper": 54.8,
+   "Financial report": 20.9,
+   "Tutorial/Workshop": 60.0,
+   "Guidebook": 63.2,
+   "Brochure": 50.0,
+   "Administration/Industry file": 50.0
+  },
+  "topk acc": {
+   "Research report / Introduction": 17.6,
+   "Academic paper": 27.4,
+   "Financial report": 0.0,
+   "Tutorial/Workshop": 52.5,
+   "Guidebook": 39.5,
+   "Brochure": 11.5,
+   "Administration/Industry file": 25.0
+  },
+  "coverage complete": {
+   "Research report / Introduction": 58.8,
+   "Academic paper": 58.1,
+   "Financial report": 20.9,
+   "Tutorial/Workshop": 60.0,
+   "Guidebook": 63.2,
+   "Brochure": 50.0,
+   "Administration/Industry file": 50.0
+  },
+  "coverage acc": {
+   "Research report / Introduction": 20.0,
+   "Academic paper": 25.8,
+   "Financial report": 0.0,
+   "Tutorial/Workshop": 52.5,
+   "Guidebook": 39.5,
+   "Brochure": 11.5,
+   "Administration/Industry file": 25.0
+  },
+  "coverage_mod complete": {
+   "Research report / Introduction": 58.8,
+   "Academic paper": 58.1,
+   "Financial report": 20.9,
+   "Tutorial/Workshop": 60.0,
+   "Guidebook": 63.2,
+   "Brochure": 50.0,
+   "Administration/Industry file": 50.0
+  },
+  "coverage_mod acc": {
+   "Research report / Introduction": 20.0,
+   "Academic paper": 25.8,
+   "Financial report": 0.0,
+   "Tutorial/Workshop": 52.5,
+   "Guidebook": 39.5,
+   "Brochure": 11.5,
+   "Administration/Industry file": 18.8
+  },
+  "gold acc": {
+   "Research report / Introduction": 27.1,
+   "Academic paper": 29.0,
+   "Financial report": 7.0,
+   "Tutorial/Workshop": 62.5,
+   "Guidebook": 47.4,
+   "Brochure": 34.6,
+   "Administration/Industry file": 37.5
+  }
+ },
+ "missed_by_form": [
+  {
+   "stratum": "cross_multi",
+   "form": "Chart",
+   "pages": 37,
+   "median ColQwen rank": 2.0,
+   "topk missed %": 18.9,
+   "coverage missed %": 21.6,
+   "coverage_mod missed %": 21.6
+  },
+  {
+   "stratum": "cross_multi",
+   "form": "Figure",
+   "pages": 47,
+   "median ColQwen rank": 2.0,
+   "topk missed %": 17.0,
+   "coverage missed %": 17.0,
+   "coverage_mod missed %": 17.0
+  },
+  {
+   "stratum": "cross_multi",
+   "form": "Layout",
+   "pages": 20,
+   "median ColQwen rank": 2.0,
+   "topk missed %": 20.0,
+   "coverage missed %": 20.0,
+   "coverage_mod missed %": 20.0
+  },
+  {
+   "stratum": "cross_multi",
+   "form": "Table",
+   "pages": 59,
+   "median ColQwen rank": 3.0,
+   "topk missed %": 30.5,
+   "coverage missed %": 27.1,
+   "coverage_mod missed %": 25.4
+  },
+  {
+   "stratum": "cross_multi",
+   "form": "Text",
+   "pages": 82,
+   "median ColQwen rank": 3.0,
+   "topk missed %": 30.5,
+   "coverage missed %": 31.7,
+   "coverage_mod missed %": 31.7
+  },
+  {
+   "stratum": "cross_multi",
+   "form": "untagged",
+   "pages": 3,
+   "median ColQwen rank": 1.0,
+   "topk missed %": 0.0,
+   "coverage missed %": 0.0,
+   "coverage_mod missed %": 0.0
+  },
+  {
+   "stratum": "same_mod",
+   "form": "Chart",
+   "pages": 66,
+   "median ColQwen rank": 3.0,
+   "topk missed %": 34.8,
+   "coverage missed %": 33.3,
+   "coverage_mod missed %": 31.8
+  },
+  {
+   "stratum": "same_mod",
+   "form": "Figure",
+   "pages": 161,
+   "median ColQwen rank": 3.0,
+   "topk missed %": 36.0,
+   "coverage missed %": 35.4,
+   "coverage_mod missed %": 35.4
+  },
+  {
+   "stratum": "same_mod",
+   "form": "Layout",
+   "pages": 29,
+   "median ColQwen rank": 3.0,
+   "topk missed %": 27.6,
+   "coverage missed %": 27.6,
+   "coverage_mod missed %": 27.6
+  },
+  {
+   "stratum": "same_mod",
+   "form": "Table",
+   "pages": 136,
+   "median ColQwen rank": 6.0,
+   "topk missed %": 52.9,
+   "coverage missed %": 51.5,
+   "coverage_mod missed %": 50.7
+  },
+  {
+   "stratum": "same_mod",
+   "form": "Text",
+   "pages": 104,
+   "median ColQwen rank": 3.0,
+   "topk missed %": 29.8,
+   "coverage missed %": 28.8,
+   "coverage_mod missed %": 29.8
+  }
+ ],
+ "cross_partial_pairs": [
+  {
+   "found -> missed": [
+    "Text",
+    "Text"
+   ],
+   "pairs": 19
+  },
+  {
+   "found -> missed": [
+    "Table",
+    "Table"
+   ],
+   "pairs": 11
+  },
+  {
+   "found -> missed": [
+    "Chart",
+    "Chart"
+   ],
+   "pairs": 6
+  },
+  {
+   "found -> missed": [
+    "Figure",
+    "Layout"
+   ],
+   "pairs": 5
+  },
+  {
+   "found -> missed": [
+    "Layout",
+    "Layout"
+   ],
+   "pairs": 4
+  },
+  {
+   "found -> missed": [
+    "Chart",
+    "Text"
+   ],
+   "pairs": 4
+  },
+  {
+   "found -> missed": [
+    "Chart",
+    "Table"
+   ],
+   "pairs": 2
+  },
+  {
+   "found -> missed": [
+    "Text",
+    "Table"
+   ],
+   "pairs": 2
+  },
+  {
+   "found -> missed": [
+    "Table",
+    "Text"
+   ],
+   "pairs": 2
+  },
+  {
+   "found -> missed": [
+    "Text",
+    "Figure"
+   ],
+   "pairs": 2
+  },
+  {
+   "found -> missed": [
+    "Figure",
+    "Text"
+   ],
+   "pairs": 1
+  },
+  {
+   "found -> missed": [
+    "Text",
+    "Chart"
+   ],
+   "pairs": 1
+  },
+  {
+   "found -> missed": [
+    "Layout",
+    "Figure"
+   ],
+   "pairs": 1
+  },
+  {
+   "found -> missed": [
+    "Layout",
+    "Table"
+   ],
+   "pairs": 1
+  }
+ ],
+ "decomposition": {
+  "n": 310,
+  "unparsed": 0,
+  "needs_hist": {
+   "1": 173,
+   "2": 117,
+   "3": 17,
+   "4": 3
+  },
+  "gold_pages_ranked_first_by_some_need_pct": 39.0,
+  "all_gold_ranked_first_by_needs_pct": 14.5,
+  "question_top1_in_gold_pct": 63.5
+ },
+ "need_forms": {
+  "n": 310,
+  "unparsed": 4,
+  "all_needs_any_pct": 1.9,
+  "predicted_forms_include_a_labelled_source_pct": 72.3,
+  "predicted_forms_include_every_labelled_source_pct": 48.1,
+  "gold_pages_holding_an_expected_form_pct": 79.1
+ }
+}

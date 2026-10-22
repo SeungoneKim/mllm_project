@@ -1,0 +1,7 @@
+{"qid": 2, "pages": [10, 14, 15], "pred": "Latinos who had completed some college", "input_tokens": 3124, "image_tokens": 3024}
+{"qid": 169, "pages": [4, 18, 29, 31, 41], "pred": "['radio', 'television', 'newspaper', 'internet']", "input_tokens": 5049, "image_tokens": 4940}
+{"qid": 333, "pages": [3, 11, 16], "pred": "2", "input_tokens": 2976, "image_tokens": 2886}
+{"qid": 570, "pages": [14, 78, 82], "pred": "25", "input_tokens": 3151, "image_tokens": 3024}
+{"qid": 721, "pages": [14, 17, 18, 46, 47], "pred": "3", "input_tokens": 5151, "image_tokens": 5040}
+{"qid": 982, "pages": [3, 4, 5, 11, 12], "pred": "No", "input_tokens": 5053, "image_tokens": 4940}
+{"qid": 1036, "pages": [17, 34, 43], "pred": "2.896", "input_tokens": 3127, "image_tokens": 3024}

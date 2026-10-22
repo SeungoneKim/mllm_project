@@ -1,0 +1,16 @@
+{"qid": 2, "pages": [4, 10, 13, 14, 15], "pred": "Latinos ages 18-29", "input_tokens": 5153, "image_tokens": 5040}
+{"qid": 30, "pages": [81, 82, 83], "pred": "#4682B4", "input_tokens": 3015, "image_tokens": 2916}
+{"qid": 45, "pages": [8, 9, 49], "pred": "['Having lots of dashboards does not make you data-driven.', 'Having lots of alerts does not make you data-driven.']", "input_tokens": 3016, "image_tokens": 2916}
+{"qid": 61, "pages": [13, 31, 33], "pred": "Bluebird award", "input_tokens": 3112, "image_tokens": 3024}
+{"qid": 227, "pages": [5, 18, 19, 20, 24], "pred": "17", "input_tokens": 5175, "image_tokens": 5040}
+{"qid": 283, "pages": [1, 2, 4], "pred": "2", "input_tokens": 3051, "image_tokens": 2964}
+{"qid": 320, "pages": [4, 6, 13, 55, 56], "pred": "4", "input_tokens": 5043, "image_tokens": 4940}
+{"qid": 320, "pages": [6, 13, 55], "pred": "4", "input_tokens": 3054, "image_tokens": 2964}
+{"qid": 328, "pages": [4, 5, 9, 10, 13], "pred": "0", "input_tokens": 4908, "image_tokens": 4810}
+{"qid": 603, "pages": [20, 21, 31, 41, 44], "pred": "Editor-in-Chief", "input_tokens": 4969, "image_tokens": 4860}
+{"qid": 669, "pages": [2, 20, 24], "pred": "Elastic Compute Service", "input_tokens": 3052, "image_tokens": 2964}
+{"qid": 686, "pages": [7, 9, 30, 31, 35], "pred": "2", "input_tokens": 5136, "image_tokens": 5040}
+{"qid": 755, "pages": [4, 7, 10], "pred": "6", "input_tokens": 3110, "image_tokens": 3024}
+{"qid": 774, "pages": [3, 4, 10], "pred": "5", "input_tokens": 3111, "image_tokens": 3024}
+{"qid": 872, "pages": [20, 104, 106, 109, 117], "pred": "['Reasoning Error', 'Lack of Knowledge']", "input_tokens": 5164, "image_tokens": 5040}
+{"qid": 983, "pages": [2, 11, 12, 13, 14], "pred": "Yes", "input_tokens": 5056, "image_tokens": 4940}
