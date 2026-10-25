@@ -1,0 +1,53 @@
+#!/bin/bash
+# Idea 5 midterm: one job per reservation node (8 x H200), 8 reader shards per node. Submit from a login node:
+#   cd $B/mllm_project/idea5/midterm
+#   for n in 0 1 2 3 4 5; do /opt/pbs/bin/qsub -v RTYPE=rt_HF,NODE=$n,NNODES=6 jobs/reader.pbs; done
+#   /opt/pbs/bin/qsub -v RTYPE=rt_HF,MODE=smoke -l walltime=00:30:00 jobs/reader.pbs     # 2 questions, one GPU
+# Shards NODE*8 .. NODE*8+7 of NNODES*8 (questions are dealt out by gold-page count, longest first). The job that
+# finds every row written runs evaluate.py (once, guarded by a lock directory). Resumable: resubmit after a failure.
+#PBS -q R9920261300
+#PBS -P gai51740
+#PBS -r n
+#PBS -l select=1:mpiprocs=1
+#PBS -l place=scatter:excl
+#PBS -l walltime=02:00:00
+#PBS -j oe
+#PBS -k oe
+#PBS -N idea5_mt
+set -u
+B=/groups/gai51740/aci18915qy
+W=$B/mllm_project
+D=$W/idea5/midterm
+JOB=${PBS_JOBID%%.*}
+mkdir -p $D/out/logs
+exec >>"$D/out/logs/job_$JOB.log" 2>&1     # PBS writes its own .o file only when the job ends
+echo "start $(date) on $(hostname) MODE=${MODE:-full} NODE=${NODE:-0}/${NNODES:-1}"
+source /etc/profile.d/modules.sh
+export SCRATCH=$PBS_LOCALDIR/scratch; mkdir -p $SCRATCH/tmp $SCRATCH/cache
+export TMPDIR=$SCRATCH/tmp XDG_CACHE_HOME=$SCRATCH/cache PIP_CACHE_DIR=$SCRATCH/pip
+export HF_HOME=$W/hf HF_HUB_OFFLINE=1 MMLB_DIR=$W/data/mmlongbench
+unset CUDA_VISIBLE_DEVICES                # PBS may set it to one GPU; this job owns the whole node
+nvidia-smi -L
+cd $D
+PY=$W/venv/bin/python
+[ -f out/test/items.jsonl ] || { echo "out/test missing: run build_test.py first"; exit 1; }
+if [ "${MODE:-full}" = "smoke" ]; then
+  CUDA_VISIBLE_DEVICES=0 IDEA5_MT_READER=out/reader_smoke $PY -u reader.py --shard 0 --nshards 48 --limit 2 \
+    > out/logs/smoke_$JOB.txt 2>&1
+  echo "smoke rc=$?"
+else
+  NS=$(( ${NNODES:-1} * 8 ))
+  for g in 0 1 2 3 4 5 6 7; do
+    s=$(( ${NODE:-0} * 8 + g ))
+    CUDA_VISIBLE_DEVICES=$g $PY -u reader.py --shard $s --nshards $NS > out/logs/shard_${s}_$JOB.txt 2>&1 &
+  done
+  wait
+  rows=$(cat out/reader/answers_*.jsonl | wc -l)
+  expected=$($PY -c "from conds import conditions; print(sum(1 for _ in open('out/test/items.jsonl')) * len(conditions()))")
+  echo "rows $rows of $expected"
+  if [ "$rows" -ge "$expected" ] && mkdir out/eval_lock 2>/dev/null; then
+    $PY evaluate.py > out/logs/evaluate_$JOB.txt 2>&1
+    echo "evaluate rc=$?"
+  fi
+fi
+echo "end $(date)"

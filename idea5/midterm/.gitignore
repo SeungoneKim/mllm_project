@@ -1,0 +1,12 @@
+# Page images (regenerate with build_test.py)
+cache/
+
+# Smoke-test outputs and job logs
+out/reader_smoke/
+out/logs/
+
+# Synthetic test outputs (random values, not results)
+tests/out_SYNTHETIC*/
+
+__pycache__/
+*.pyc
